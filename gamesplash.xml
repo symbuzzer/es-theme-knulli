@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+	<view name="splash">
+	
+		<splash name="splash"
+		
+			backgroundColor="000000"
+			
+		/>
+		
+		<image name="background"
+		
+			visible="false"
+			
+		/>
+		
+		<text name="label"
+		
+			forceUppercase="true"    
+			origin="0.5 0.5"
+			pos="0.5 0.5"
+			size="1 1"
+			alignment="center"
+			color="efefef"
+			fontPath="./_inc/fonts/bariol_bold-webfont.ttf"
+			fontSize="0.028"
+			glowColor="0000004d"
+			glowSize="1"
+			glowOffset="1"
+			
+		/>
+
+		<image name="colorTop,colorBottom"
+		
+			extra="true"
+			zIndex="2"
+			path="./_inc/parts/white.png"
+			size="1 0.5"
+			origin="1 0"
+			x="1"
+			gradientType="vertical"
+		
+		/>
+
+		<image name="colorTop"
+		
+			extra="true"
+			y="0"
+			color="30303000"
+			colorEnd="303030"
+		
+		/>
+
+		<image name="colorBottom"
+		
+			extra="true"
+			y="0.5"
+			color="303030"
+			colorEnd="30303000"
+		
+		/>
+
+	</view>
+	
+</theme>

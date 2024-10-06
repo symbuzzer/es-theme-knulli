@@ -1,0 +1,273 @@
+<!--
+theme name:     es-theme-knulli
+version:        1.0.0
+author:         symbuzzer
+email:		alipolatbeyaz@gmail.com
+website:	avalibeyaz.com/github
+license:        unknown but open source
+based on:       "es-theme-basic" by lehcimcramtrebor
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+<formatVersion>7</formatVersion>
+
+	<include>./_inc/variables/lang-default.xml</include>
+	<include>./_inc/variables/lang-${lang}.xml</include>
+
+    <variables>
+
+		<custom.name>${global.cheevos.username}</custom.name>
+		
+		<v.allViews>system,grid,basic,detailed</v.allViews>
+		<v.allGamelists>grid,basic,detailed</v.allGamelists>
+		<v.textGamelists>grid,basic,detailed</v.textGamelists>
+
+		<v.line.hc>1 / ${screen.height}</v.line.hc>
+		<v.line.h>2 / ${screen.height}</v.line.h>
+		<v.line.w>2 / ${screen.width}</v.line.w>
+		<v.line4.w>4 / ${screen.width}</v.line4.w>
+
+		<v.lineScroll>1 / ${screen.width}</v.lineScroll>
+
+		<v.frame.x>0.5</v.frame.x>
+		<v.frameLeft.x>0.22</v.frameLeft.x>
+		<v.frameRight.x>0.705</v.frameRight.x>
+
+		<v.frame.y>0.565</v.frame.y>
+
+		<v.frame.w>0.95</v.frame.w>
+		<v.frameLeft.w>0.39</v.frameLeft.w>
+		<v.frameRight.w>0.54</v.frameRight.w>
+
+		<v.frame.h>0.72</v.frame.h>
+
+		<v.frameBorders.w>0.95 + (${v.line.w})</v.frameBorders.w>
+		<v.frameLeftBorders.w>0.39 + (${v.line.w})</v.frameLeftBorders.w>
+		<v.frameRightBorders.w>0.54 + (${v.line.w})</v.frameRightBorders.w>
+
+		<v.frameBorders.h>0.72 + (${v.line.h})</v.frameBorders.h>
+
+		<v.frame.size>${v.frame.w} ${v.frame.h}</v.frame.size>
+		<v.frameLeft.size>${v.frameLeft.w} ${v.frame.h}</v.frameLeft.size>
+		<v.frameRight.size>${v.frameRight.w} ${v.frame.h}</v.frameRight.size>
+
+		<v.frame.pos>${v.frame.x} ${v.frame.y}</v.frame.pos>
+		<v.frameLeft.pos>${v.frameLeft.x} ${v.frame.y}</v.frameLeft.pos>
+		<v.frameRight.pos>${v.frameRight.x} ${v.frame.y}</v.frameRight.pos>
+
+		<v.frameBorders.size>${v.frameBorders.w} ${v.frameBorders.h}</v.frameBorders.size>
+		<v.frameLeftBorders.size>${v.frameLeftBorders.w} ${v.frameBorders.h}</v.frameLeftBorders.size>
+		<v.frameRightBorders.size>${v.frameRightBorders.w} ${v.frameBorders.h}</v.frameRightBorders.size>
+
+		<v.gamelist.fontSize>0.024</v.gamelist.fontSize>
+		
+		<v.py if="${system.releaseYear} &gt; '1958'">•</v.py>
+		<v.py if="${system.releaseYearOrNull} &gt; '1958'">•</v.py>
+		
+		<s.notWide>${screen.height} &gt; ${screen.width}/1.6</s.notWide>
+		<s.ultraWide>${screen.width} &gt; ${screen.height}*1.8</s.ultraWide>
+
+		<c.text>ffffff</c.text>
+		<c.selected>000000</c.selected>
+		<c.glowColor>0000004d</c.glowColor>
+		
+		<f.mb>font.ttf</f.mb>
+		<f.mbi>font.ttf</f.mbi>
+		<f.mr>font.ttf</f.mr>
+		<f.mri>font.ttf</f.mri>
+		<f.ml>font.ttf</f.ml>
+		<f.mli>font.ttf</f.mli>
+
+		
+    </variables>
+
+	<!--menu views order -->
+	<view name="grid"></view>
+	<view name="basic,detailed"></view>
+
+	<subset name="shaders"
+	
+		displayName="${subset.shaders}"
+		
+	>
+	
+		<include			name="off"					displayName="${subset.shaders.off}"					tinyScreen="true"		/>
+		<include			name="on"					displayName="${subset.shaders.on}"											/>
+		<include			name="off"					displayName="${subset.shaders.off}"					tinyScreen="false"		/>
+	
+	</subset>
+
+    <subset name="controller"
+	
+		tinyScreen="false"
+		displayName="${subset.controller}"
+		
+	>
+	
+        <include			name="stick"					displayName="${subset.controller.stick}"					>./_inc/variables/controller-stick.xml</include>
+        <include			name="player" 					displayName="${subset.controller.player}"					>./_inc/variables/controller-player.xml</include>
+        <include 			name="gamepad" 					displayName="${subset.controller.gamepad}"					>./_inc/variables/controller-gamepad.xml</include>
+        <include 			name="nes" 						displayName="${subset.controller.nes}"						>./_inc/variables/controller-nes.xml</include>
+        <include 			name="snes" 					displayName="${subset.controller.snes}"						>./_inc/variables/controller-snes.xml</include>
+        <include 			name="n64" 						displayName="${subset.controller.n64}"						>./_inc/variables/controller-n64.xml</include>
+        <include 			name="cube" 					displayName="${subset.controller.cube}"						>./_inc/variables/controller-cube.xml</include>
+        <include 			name="megadrive" 				displayName="${subset.controller.megadrive}"				>./_inc/variables/controller-megadrive.xml</include>
+        <include 			name="megadrive6" 				displayName="${subset.controller.megadrive6}"				>./_inc/variables/controller-megadrive6.xml</include>
+        <include 			name="xbox" 					displayName="${subset.controller.xbox}"						>./_inc/variables/controller-xbox.xml</include>
+        <include 			name="psx" 						displayName="${subset.controller.psx}"						>./_inc/variables/controller-psx.xml</include>
+        <include 			name="ps4" 						displayName="${subset.controller.ps4}"						>./_inc/variables/controller-ps4.xml</include>
+        <include 			name="ps5" 						displayName="${subset.controller.ps5}"						>./_inc/variables/controller-ps5.xml</include>
+		
+    </subset>
+	
+	<subset name="helpIcons"
+	
+		displayName="${subset.helpIcons}"
+		
+	>
+	
+		<include			name="default"					displayName="${subset.helpIcons.default}"					/>
+		<include			name="psx"						displayName="${subset.helpIcons.psxIcons}"					>./_inc/variables/helpIcons-psx.xml</include>
+		<include			name="snes"						displayName="${subset.helpIcons.snes}"						>./_inc/variables/helpIcons-snes.xml</include>
+		<include			name="snesAlt"					displayName="${subset.helpIcons.snesAlt}"					>./_inc/variables/helpIcons-snesAlt.xml</include>
+		<include			name="xbox"						displayName="${subset.helpIcons.xbox}"						>./_inc/variables/helpIcons-xbox.xml</include>
+		<include			name="xboxOne"					displayName="${subset.helpIcons.xboxOne}"					>./_inc/variables/helpIcons-xboxOne.xml</include>
+	
+	</subset>
+
+	<subset name="themeColors"
+	
+		displayName="${subset.themeColors}"
+		
+	>
+
+		<include			name="knulli"				displayName="${subset.themeColors.knulli}"				>./_inc/variables/themeColors-knulli.xml</include>	
+		<include			name="heinsenberg"				displayName="${subset.themeColors.heinsenberg}"				>./_inc/variables/themeColors-heinsenberg.xml</include>
+	
+	</subset>
+	
+	<subset name="neogeo"
+	
+		displayName="${subset.neogeo}"
+		
+	>
+	
+		<include			name="mvs"						displayName="${subset.neogeo.mvs}"							/>
+		<include			name="aes"						displayName="${subset.neogeo.aes}"							>./_inc/variables/neogeo-aes.xml</include>
+	
+	</subset>
+ 
+
+	<view name="system,grid,basic,detailed">
+	
+		<image name="hide"
+		
+			extra="true"
+			zIndex="100"
+			path="./_inc/parts/white.png"
+			size="1 1"
+			color="${c.base}"
+		
+		/>
+		
+		<image name="colorMask"
+		
+			extra="true"
+			linearSmooth="true"
+			zIndex="500"
+			path="./_inc/parts/white.png"
+			origin="0.5 0.5"
+			pos="0.5 0.5"
+			minSize="1 1"
+			color="${c.base}"
+			colorEnd="${c.main}00"
+			gradientType="vertical"
+			opacity="0.5"
+			
+		/>
+
+		<image name="colorTop,colorBottom"
+		
+			extra="true"
+			zIndex="200"
+			path="./_inc/parts/white.png"
+			size="1 0.5"
+			origin="1 0"
+			x="1"
+			opacity="0.15"
+			gradientType="vertical"
+		
+		/>
+
+		<image name="colorTop"
+		
+			extra="true"
+			y="0"
+			color="${c.main}00"
+			colorEnd="${c.main}80"
+		
+		/>
+
+		<image name="colorBottom"
+		
+			extra="true"
+			y="0.5"
+			color="${c.main}80"
+			colorEnd="${c.main}00"
+		
+		/>
+	
+		<image name="barUp,barDown"
+		
+			extra="true"
+			zIndex="2000"
+			path="./_inc/parts/white.png"
+			size="1.2 0.04"
+			color="${c.menubg}"
+		
+		>
+		
+			<h tinyScreen="true">0.05</h>
+		
+		</image>
+	
+		<image name="barUp"
+		
+			extra="true"
+			origin="0.5 0"
+			pos="0.5 0"
+	
+		>
+		
+			<shader ifSubset="shaders:on">./_inc/shaders/shadowBarUp.glsl</shader>
+		
+		</image>
+		
+		<image name="barDown"
+		
+			extra="true"
+			origin="0.5 1"
+			pos="0.5 1"
+		
+		>
+		
+			<shader ifSubset="shaders:on">./_inc/shaders/shadowBarDown.glsl</shader>
+		
+		</image>
+	
+	</view>
+
+	<include>./_inc/xml/menu.xml</include>
+	<include>./_inc/xml/help.xml</include>
+	<include>./_inc/xml/batteryIndicator.xml</include>
+	<include>./_inc/xml/controllerActivity.xml</include>
+	<include>./_inc/xml/logo.xml</include>
+	<include>./_inc/xml/system.xml</include>
+	<include>./_inc/xml/basic.xml</include>
+	<include>./_inc/xml/detailed.xml</include>
+	<include>./_inc/xml/grid.xml</include>
+	
+</theme>

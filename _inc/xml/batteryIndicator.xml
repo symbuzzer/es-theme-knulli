@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<view name="screen">
+
+		<text name="clock"
+			
+			fontPath="./../fonts/${f.mb}"
+			color="${c.text}"
+			fontSize="0.02"
+			offsetY="0.025"
+				
+		>
+		
+			<size tinyScreen="true">0.1 0.04</size>
+			<offsetX tinyScreen="true">-0.05</offsetX>
+			<offsetY tinyScreen="true">0.040</offsetY>
+			<origin tinyScreen="true">0 0.5</origin>
+			<fontSize tinyScreen="true">0.026</fontSize>
+		
+		</text>
+	
+		<batteryIndicator name="batteryIndicator"
+
+			visible="false"
+			
+		/>
+		
+		<stackpanel name="batteryIndicatorExtra" extra="true"
+		
+			pos="0.7165 0.006"
+			size="0.28 0.0275"
+			orientation="horizontal"
+			separator="2"
+			reverse="true"
+		>
+			
+			<size tinyScreen="true">0.58 0.045</size>
+			<pos tinyScreen="true">0.4165 0</pos>
+			
+			<batteryText name="ss.batterytext"
+			
+				fontSize="0.018"
+				fontPath="./../fonts/${f.mb}"
+				color="${c.text}"
+				padding="12 0"
+				
+			>
+			
+			<fontSize tinyScreen="true">0.026</fontSize>
+			
+			</batteryText>
+	
+			<batteryIcon name="ss.battery"
+			
+				incharge="./../parts/batteryIndicator/incharge.svg"
+				full="./../parts/batteryIndicator/full.svg"
+				at75="./../parts/batteryIndicator/75.svg"
+				at50="./../parts/batteryIndicator/50.svg"
+				at25="./../parts/batteryIndicator/25.svg"
+				empty="./../parts/batteryIndicator/empty.svg"
+				planemodeIcon="./../parts/batteryIndicator/planemode.png"
+				maxSize="1 1"
+				linearSmooth="true"
+				padding="0 0"
+				color="${c.text}"
+				
+			/>
+		  
+			<text name="ss.separator1"
+			
+				text="   "
+				fontPath="./../fonts/${f.mb}"
+				fontSize="0.017"
+				color="${c.text}"
+				
+			/>
+		  
+			<networkIcon name="ss.network"
+			
+				networkIcon="./../parts/icons/Network.png"
+				planemodeIcon="./../parts/icons/Planemode.png"
+				maxSize="1 1"
+				linearSmooth="true"
+				padding="0 0"
+				color="${c.text}"
+				
+			/>
+		  
+			<text name="ss.separator2"
+			
+				text="  "
+				fontPath="./../fonts/${f.mb}"
+				fontSize="0.017"
+				color="${c.text}"
+				
+			/>
+	  
+		</stackpanel>
+
+	</view>
+	
+</theme>

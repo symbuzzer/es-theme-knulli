@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+	
+		<v.controllerActivity.imagePath>ps4</v.controllerActivity.imagePath>
+		<v.controllerActivity.itemSpacing>0.006</v.controllerActivity.itemSpacing>
+		<v.controllerActivity.x>0.012</v.controllerActivity.x>
+	
+	</variables>
+
+</theme>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="basic">
+
+	<formatVersion>7</formatVersion>
+
+    <include>./../theme.xml</include>
+
+	<variables><region.priority region="eu"/>
+
+		<system.manufacturer>Emulators</system.manufacturer>
+		<system.manufacturer lang="fr">Emulateurs</system.manufacturer>
+
+		<!--<system.fullName>name</system.fullName>-->
+
+		<!--<system.releaseYearOrNull>2023</system.releaseYearOrNull>-->
+
+		<!--<desc>description</desc>-->
+		
+		<!--<desc lang="fr">description</desc>-->
+
+	</variables>
+
+</theme>

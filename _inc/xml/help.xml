@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<view name="menu,system,basic,detailed,grid">
+	
+		<helpsystem name="help"
+		
+			textColor="${c.text}"
+			fontSize="0.02"
+			origin="0 0.5"
+			pos="0.0104 0.982"
+			fontPath="./../fonts/${f.mb}"
+			iconColor="${c.text}"
+            glowColor="${c.glowColor}"
+			glowOffset="2"
+			glowSize="1"
+			iconUpDown="./../parts/help/icon_${v.helpIcons}_updown.png"
+			iconLeftRight="./../parts/help/icon_${v.helpIcons}_leftright.png"
+			iconUpDownLeftRight="./../parts/help/icon_${v.helpIcons}_all.png"
+			iconA="./../parts/help/icon_${v.helpIcons}_a.png"
+			iconB="./../parts/help/icon_${v.helpIcons}_b.png"
+			iconX="./../parts/help/icon_${v.helpIcons}_x.png"
+			iconY="./../parts/help/icon_${v.helpIcons}_y.png"
+			iconL="./../parts/help/icon_${v.helpIcons}_l.png"
+			iconR="./../parts/help/icon_${v.helpIcons}_r.png"
+			iconStart="./../parts/help/icon_${v.helpIcons}_start.png"
+			iconSelect="./../parts/help/icon_${v.helpIcons}_select.png"
+			
+		>
+			<fontSize tinyScreen="true">0.030</fontSize>
+			<pos tinyScreen="true">0.0104 0.975</pos>
+		
+			<iconColor ifSubset="helpIcons:default">${c.textHeader}</iconColor>
+		
+		</helpsystem>
+	
+	</view>
+
+</theme>

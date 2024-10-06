@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<view name="basic">
+
+		<image name="frame"
+		
+			extra="true"
+			zIndex="600"
+			path="./../parts/white.png"
+			origin="0.5 0.5"
+			size="${v.frame.size}"
+			pos="${v.frame.pos}"
+			color="${c.frame}80"
+			
+		>
+		
+			<shader ifSubset="shaders:on">./../shaders/scanlines.glsl</shader>
+		
+		
+		</image>
+
+		<image name="frameBorders"
+		
+			extra="true"
+			zIndex="599"
+			path="./../parts/white.png"
+			origin="0.5 0.5"
+			size="${v.frameBorders.size}"
+			pos="${v.frame.pos}"
+			color="${c.main}33"
+			
+		/>
+			
+		<image name="frameShadow"
+		
+			extra="true"
+			linearSmooth="true"
+			zIndex="598"
+			path="./../parts/frameShadow.png"
+			origin="0.5 0.5"
+			pos="0.5 0.5"
+			size="1 1"
+			color="${c.glowColor}"
+			opacity="0.5"
+			
+		/>
+			
+		<textlist name="gamelist"
+		
+			zIndex="1000"
+			origin="0.5 0.5"
+			size="${v.frame.size}"
+			pos="${v.frame.pos}"
+			selectedColor="${c.selected}"
+			primaryColor="${c.text}"
+			secondaryColor="${c.text}"
+			extraTextColor="${c.textHeader}"
+			extraTextSelectedColor="${c.selected}"
+			selectorColor="${c.menuSelector}"	  		
+			selectorColorEnd="${ce.menuSelector}"	  		
+			selectorImagePath="./../parts/selectorBasic.png"	  		
+			fontPath="./../fonts/${f.mb}"
+			fontSize="${v.gamelist.fontSize}"
+			alignment="center"
+                        horizontalMargin="0.01"
+			forceUppercase="false"
+			scrollSound="./../parts/scroll.wav"
+			lines="15"
+			
+		>
+		
+			<fontSize tinyScreen="true">0.040</fontSize>
+			<lines tinyScreen="true">11</lines>
+		
+		</textlist>
+
+	</view>
+
+</theme>

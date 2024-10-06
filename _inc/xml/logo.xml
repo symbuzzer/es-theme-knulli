@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<view name="system,basic,detailed,grid">
+	
+		<image name="logo"
+		
+			linearSmooth="true"
+			zIndex="1000"
+			saturation="1.2"
+			
+		>
+		
+			<shader ifSubset="shaders:on">./../shaders/shadowLogo.glsl</shader>
+		
+		</image>
+		
+		<image name="logo"
+		
+			
+			ifSubset="forceRegion:no"
+			region="eu"
+			
+		>
+		
+			<path>./../../${system.theme}/logo.png</path>
+			<path>./../../${system.theme}/logo-${lang}.png</path>
+            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
+			
+		</image>
+		
+		<image name="logo"
+		
+			
+			ifSubset="forceRegion:no"
+			region="us"
+
+		>
+		
+			<path>./../../${system.theme}/logo.png</path>
+			<path>./../../${system.theme}/logo-${lang}.png</path>
+            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
+			<path>./../../${system.theme}/us/logo.png</path>
+			
+		>
+		
+		
+		</image>
+		
+		<image name="logo"
+		
+			
+			ifSubset="forceRegion:no"
+			region="jp"
+			
+		>
+		
+			<path>./../../${system.theme}/logo.png</path>
+			<path>./../../${system.theme}/logo-${lang}.png</path>
+            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
+			<path>./../../${system.theme}/jp/logo.png</path>
+		
+		</image>
+		
+		<image name="logo"
+		
+			ifSubset="forceRegion:eu"
+			
+		>
+		
+			<path>./../../${system.theme}/logo.png</path>
+			<path>./../../${system.theme}/logo-${lang}.png</path>
+            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
+		
+		</image>
+		
+		<image name="logo"
+		
+			ifSubset="forceRegion:us"
+			
+		>
+		
+			<path>./../../${system.theme}/logo.png</path>
+			<path>./../../${system.theme}/logo-${lang}.png</path>
+            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
+			<path>./../../${system.theme}/us/logo.png</path>
+
+			
+		</image>
+		
+		<image name="logo"
+		
+			ifSubset="forceRegion:jp"
+			
+		>
+		
+			<path>./../../${system.theme}/logo.png</path>
+			<path>./../../${system.theme}/logo-${lang}.png</path>
+            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
+			<path>./../../${system.theme}/jp/logo.png</path>
+			
+		</image>
+		
+		<image name="logo"
+		
+		>
+		
+			<path>./../../${p.custom}/${system.theme}/logo.png</path>
+			<path>./../../${p.custom}/${system.theme}/logo.svg</path>
+			
+		</image>
+
+	</view>
+	
+	<view name="system">
+	
+		<image name="logo"
+		
+			reflexion="0.05 0"
+			
+		/>
+		
+		<text name="logoText"
+		
+			fontPath="./../fonts/${f.mb}"
+			fontSize="0.06"
+			color="${c.text}"
+            glowColor="${c.glowColor}"
+			glowOffset="2"
+			glowSize="1"
+			forceUppercase="true"
+			reflexion="0.05 0"
+			
+		/>
+			
+		<control name="logo,logoText"
+		
+			scale="0.40"
+			
+		>
+			
+			<storyboard
+				
+				event="activate"
+				repeatAt="100"
+				
+			>
+			
+				<animation		property="scale"			from="0.40"			to="1"				duration="100"			mode="linear"												/>
+
+				<animation		property="offsetX"			from="-0.005"		to="-0.005"			duration="100"			mode="linear"												/>
+
+				<animation		property="offsetX"			from="-0.005"		to="0"				duration="350"			mode="easeIn"		begin="100"								/>
+				<animation		property="offsetX"			from="0"			to="0.005"			duration="350"			mode="easeOut"		begin="450"								/>
+				<animation		property="offsetX"			from="0.005"		to="0"				duration="350"			mode="easeIn"		begin="800"								/>
+				<animation		property="offsetX"			from="0"			to="-0.005"			duration="350"			mode="easeOut"		begin="1150"							/>
+				<animation		property="offsetX"			from="-0.005"		to="0"				duration="350"			mode="easeIn"		begin="1500"							/>
+				<animation		property="offsetX"			from="0"			to="0.005"			duration="350"			mode="easeOut"		begin="1850"							/>
+				<animation		property="offsetX"			from="0.005"		to="0"				duration="350"			mode="easeIn"		begin="2200"							/>
+				<animation		property="offsetX"			from="0"			to="-0.005"			duration="350"			mode="easeOut"		begin="2550"							/>
+				<animation		property="offsetX"			from="-0.005"		to="0"				duration="350"			mode="easeIn"		begin="2900"							/>
+				<animation		property="offsetX"			from="0"			to="0.005"			duration="350"			mode="easeOut"		begin="3250"							/>
+				<animation		property="offsetX"			from="0.005"		to="0"				duration="350"			mode="easeIn"		begin="3600"							/>
+				<animation		property="offsetX"			from="0"			to="-0.005"			duration="350"			mode="easeOut"		begin="3950"							/>
+				<animation		property="offsetX"			from="-0.005"		to="0"				duration="350"			mode="easeIn"		begin="4300"							/>
+				<animation		property="offsetX"			from="0"			to="0.005"			duration="350"			mode="easeOut"		begin="4650"							/>
+				<animation		property="offsetX"			from="0.005"		to="0"				duration="350"			mode="easeIn"		begin="5000"							/>
+				<animation		property="offsetX"			from="0"			to="-0.005"			duration="350"			mode="easeOut"		begin="5350"							/>
+				<animation		property="offsetX"			from="-0.005"		to="0"				duration="350"			mode="easeIn"		begin="5700"							/>
+				<animation		property="offsetX"			from="0"			to="0.005"			duration="350"			mode="easeOut"		begin="6050"							/>
+				<animation		property="offsetX"			from="0.005"		to="0"				duration="350"			mode="easeIn"		begin="6400"							/>
+				<animation		property="offsetX"			from="0"			to="-0.005"			duration="350"			mode="easeOut"		begin="6750"							/>
+				<animation		property="offsetX"			from="-0.005"		to="0"				duration="350"			mode="easeIn"		begin="7100"							/>
+				<animation		property="offsetX"			from="0"			to="0.005"			duration="350"			mode="easeOut"		begin="7450"							/>
+				<animation		property="offsetX"			from="0.005"		to="0"				duration="350"			mode="easeIn"		begin="7800"							/>
+				<animation		property="offsetX"			from="0"			to="-0.005"			duration="350"			mode="easeOut"		begin="8150"							/>
+				<animation		property="offsetX"			from="-0.005"		to="0"				duration="350"			mode="easeIn"		begin="8500"							/>
+				<animation		property="offsetX"			from="0"			to="0.005"			duration="350"			mode="easeOut"		begin="8850"							/>
+				<animation		property="offsetX"			from="0.005"		to="0"				duration="350"			mode="easeIn"		begin="9200"							/>
+				<animation		property="offsetX"			from="0"			to="-0.005"			duration="350"			mode="easeOut"		begin="9550"							/>
+
+				<animation		property="scale"			from="1"			to="1.1"			duration="100"			mode="easeOut"		begin="5150"	autoreverse="true"		/>
+				<animation		property="scale"			from="1"			to="1.1"			duration="100"			mode="easeOut"		begin="5350"	autoreverse="true"		/>
+
+				<animation		property="rotation"			from="0"			to="360"			duration="350"			mode="easeInOut"	begin="9550"							/>
+				
+			</storyboard>
+			
+			<storyboard
+			
+				event="scroll"
+				
+			>
+			
+				<animation		property="scale"			from="0.40"			to="0.40"			duration="1"			mode="linear"												/>
+				<animation		property="offsetX"			from="0"			to="0"				duration="1"			mode="linear"												/>
+				<animation		property="rotation"			from="0"			to="0"				duration="1"			mode="linear"												/>
+				
+			</storyboard>
+			
+			<storyboard
+			
+				event="deactivate"
+				
+			>
+			
+				<animation		property="scale"			from="1"			to="0.40"			duration="100"			mode="linear"												/>
+				<animation		property="offsetX"			from="0"			to="0"				duration="1"			mode="linear"												/>
+				<animation		property="rotation"			from="0"			to="0"				duration="1"			mode="linear"												/>
+				
+			</storyboard>
+			
+		</control>
+	
+	</view>
+
+	<view name="basic,detailed,grid">
+	
+		<image name="logo"
+		
+			maxSize="0.28 0.1203703703703704"
+			origin="0.5 0.5"
+			pos="0.5 0.12"
+			
+		>
+		
+			<maxSize tinyScreen="true">0.39 0.14</maxSize>
+			<y tinyScreen="true">0.12625</y>
+		
+		</image>
+		
+	</view>
+	
+</theme>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+	
+		<v.controllerActivity.imagePath>gamepad</v.controllerActivity.imagePath>
+		<v.controllerActivity.itemSpacing>0.003</v.controllerActivity.itemSpacing>
+		<v.controllerActivity.x>0.0105</v.controllerActivity.x>
+	
+	</variables>
+
+</theme>

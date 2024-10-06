@@ -1,0 +1,4 @@
+shaders = 3
+shader0 = kawase/kawase0.glsl
+shader1 = kawase/kawase1.glsl
+shader2 = kawase/kawase2.glsl

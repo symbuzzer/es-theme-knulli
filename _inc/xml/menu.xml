@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+	<view name="menu">
+
+		<menuText name="menutitle"
+		
+			fontPath="./../fonts/${f.mb}"
+			fontSize="0.040"
+			color="${c.text}"
+			
+		/>
+
+		<menuText name="menufooter"
+		
+			fontPath="./../fonts/${f.mr}"
+			fontSize="0.018"
+			color="${c.text}"
+			
+		/>
+
+		<menuText name="menutext"
+		
+			fontPath="./../fonts/${f.mr}"
+			fontSize="0.025"
+			color="${c.text}"
+			separatorColor="00000000"
+			selectorColor="${c.menuSelector}"
+			selectorColorEnd="${ce.menuSelector}"
+			selectedColor="${c.selected}"
+			selectorGradientType="horizontal"
+			
+		>
+		
+			<fontSize tinyScreen="true">0.038</fontSize>
+		
+		</menuText>
+
+		<menuTextSmall name="menutextsmall"
+		
+			fontPath="./../fonts/${f.mr}"
+			fontSize="0.021"
+			
+		>
+		
+			<fontSize tinyScreen="true">0.028</fontSize>
+		
+		</menuTextSmall>
+
+		<menuGroup name="menugroup"
+		
+			fontPath="./../fonts/${f.mb}"
+			fontSize="0.035"
+			color="${c.textHeader}"
+			separatorColor="00000000"
+			backgroundColor="00000033"
+			lineSpacing="1.75"
+			
+		/>
+
+		<menuBackground name="menubg"
+		
+			color="${c.menubg}ff"
+			cornerSize="34 34"
+			scrollbarColor="${c.scroll}"
+			scrollbarCorner="0.5"
+			scrollbarSize="${v.lineScroll}"
+			scrollbarAlignment="innerright"
+			roundCorners="0.018"
+			path="./../parts/menu/frame.png"
+			
+		/>
+
+		<menuIcons name="menuicons"
+		
+			iconKodi="./../parts/icons/Kodi.png"
+			iconSystem="./../parts/icons/System.png"
+			iconUpdates="./../parts/icons/Updates.png"
+			iconGames="./../parts/icons/Games.png"
+			iconControllers="./../parts/icons/Controllers.png"
+			iconUI="./../parts/icons/UI.png"
+			iconSound="./../parts/icons/Sound.png"
+			iconNetwork="./../parts/icons/Network.png"
+			iconScraper="./../parts/icons/Scraper.png"
+			iconAdvanced="./../parts/icons/Advanced.png"
+			iconQuit="./../parts/icons/Quit.png"
+			iconRestart="./../parts/icons/Restart.png"
+			iconShutdown="./../parts/icons/Shutdown.png"
+			iconFastShutdown="./../parts/icons/Fastshutdown.png"
+			iconManual="./../parts/icons/Manual.png"
+			iconPlanemode="./../parts/icons/Planemode.png"
+			
+		>
+			<iconRetroachievements>./../parts/icons/Contest.png</iconRetroachievements>
+
+		</menuIcons>
+		
+		<menuTextEdit name="menutextedit"
+		
+			inactive="./../parts/menu/textinput_ninepatch.png"
+			active="./../parts/menu/textinput_ninepatch_active.png"
+			
+		/>
+
+		<menuButton name="menubutton"
+		
+			path="./../parts/menu/button.png"
+			filledPath="./../parts/menu/button_filled.png"
+			cornerSize="8 8"
+			
+		/>
+
+	</view>
+
+</theme>
