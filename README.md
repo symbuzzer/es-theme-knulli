@@ -7,6 +7,6 @@
 - [Video preview](https://www.reddit.com/r/RG35XX_H/comments/1fxlyri/esthemeknulli_knullispecific_emulationstation/)
 - How to install:
   - Download [latest es-theme-knulli.zip](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip) file
-  - Extract it into share/themes (or userdata/themes) folder and restart device
+  - Extract it into share/themes/es-theme-knulli (or userdata/themes/es-theme-knulli) folder and restart device
   - Select es-theme-knulli from USER INTERFACE SETTINGS > THEME SET menu
   - Go back and wait to refreshing system
