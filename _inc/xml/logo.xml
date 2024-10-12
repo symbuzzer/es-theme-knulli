@@ -4,107 +4,13 @@
 
 	<formatVersion>7</formatVersion>
 	
-	<view name="system,basic,detailed,grid">
+	<view name="system,grid,basic,detailed">
 	
 		<image name="logo"
 		
 			linearSmooth="true"
 			zIndex="1000"
 			saturation="1.2"
-			
-		>
-		
-			<shader ifSubset="shaders:on">./../shaders/shadowLogo.glsl</shader>
-		
-		</image>
-		
-		<image name="logo"
-		
-			
-			ifSubset="forceRegion:no"
-			region="eu"
-			
-		>
-		
-			<path>./../../${system.theme}/logo.png</path>
-			<path>./../../${system.theme}/logo-${lang}.png</path>
-            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
-			
-		</image>
-		
-		<image name="logo"
-		
-			
-			ifSubset="forceRegion:no"
-			region="us"
-
-		>
-		
-			<path>./../../${system.theme}/logo.png</path>
-			<path>./../../${system.theme}/logo-${lang}.png</path>
-            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
-			<path>./../../${system.theme}/us/logo.png</path>
-			
-		>
-		
-		
-		</image>
-		
-		<image name="logo"
-		
-			
-			ifSubset="forceRegion:no"
-			region="jp"
-			
-		>
-		
-			<path>./../../${system.theme}/logo.png</path>
-			<path>./../../${system.theme}/logo-${lang}.png</path>
-            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
-			<path>./../../${system.theme}/jp/logo.png</path>
-		
-		</image>
-		
-		<image name="logo"
-		
-			ifSubset="forceRegion:eu"
-			
-		>
-		
-			<path>./../../${system.theme}/logo.png</path>
-			<path>./../../${system.theme}/logo-${lang}.png</path>
-            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
-		
-		</image>
-		
-		<image name="logo"
-		
-			ifSubset="forceRegion:us"
-			
-		>
-		
-			<path>./../../${system.theme}/logo.png</path>
-			<path>./../../${system.theme}/logo-${lang}.png</path>
-            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
-			<path>./../../${system.theme}/us/logo.png</path>
-
-			
-		</image>
-		
-		<image name="logo"
-		
-			ifSubset="forceRegion:jp"
-			
-		>
-		
-			<path>./../../${system.theme}/logo.png</path>
-			<path>./../../${system.theme}/logo-${lang}.png</path>
-            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./../../${system.theme}${v.neogeo}/logo.png</path>
-			<path>./../../${system.theme}/jp/logo.png</path>
-			
-		</image>
-		
-		<image name="logo"
 		
 		>
 		
@@ -128,7 +34,7 @@
 			fontPath="./../fonts/${f.mb}"
 			fontSize="0.06"
 			color="${c.text}"
-            glowColor="${c.glowColor}"
+                        glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
 			forceUppercase="true"
@@ -182,10 +88,6 @@
 				<animation		property="offsetX"			from="0.005"		to="0"				duration="350"			mode="easeIn"		begin="9200"							/>
 				<animation		property="offsetX"			from="0"			to="-0.005"			duration="350"			mode="easeOut"		begin="9550"							/>
 
-				<animation		property="scale"			from="1"			to="1.1"			duration="100"			mode="easeOut"		begin="5150"	autoreverse="true"		/>
-				<animation		property="scale"			from="1"			to="1.1"			duration="100"			mode="easeOut"		begin="5350"	autoreverse="true"		/>
-
-				<animation		property="rotation"			from="0"			to="360"			duration="350"			mode="easeInOut"	begin="9550"							/>
 				
 			</storyboard>
 			
@@ -217,7 +119,7 @@
 	
 	</view>
 
-	<view name="basic,detailed,grid">
+	<view name="grid,basic,detailed">
 	
 		<image name="logo"
 		

@@ -15,7 +15,7 @@
 			hotkeyColor="ff3030"
 			gunPath="./../parts/controllerActivity/gun.svg"
 			wheelPath="./../parts/controllerActivity/wheel.svg"
-			imagePath="./../parts/controllerActivity/${v.controllerActivity.imagePath}.svg"
+			imagePath="./../parts/controllerActivity/gamepad.svg"
 			itemSpacing="${v.controllerActivity.itemSpacing}"
 			
 		>

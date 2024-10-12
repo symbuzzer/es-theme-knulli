@@ -6,86 +6,9 @@
 	
 	<variables>
 
-		<subset.controller>controller activity icons</subset.controller>
-		<subset.controller.stick>arcade stick</subset.controller.stick>
-		<subset.controller.player>player icon</subset.controller.player>
-		<subset.controller.gamepad>generic gamepad</subset.controller.gamepad>
-		<subset.controller.nes>nes / famicom controller</subset.controller.nes>
-		<subset.controller.snes>snes / super famicom controller</subset.controller.snes>
-		<subset.controller.n64>nintendo 64 controller</subset.controller.n64>
-		<subset.controller.cube>nintendo gamecube controller</subset.controller.cube>
-		<subset.controller.megadrive>megadrive controller</subset.controller.megadrive>
-		<subset.controller.megadrive6>megadrive controller ( 6 buttons )</subset.controller.megadrive6>
-		<subset.controller.xbox>xbox controller</subset.controller.xbox>
-		<subset.controller.psx>sony dualshock</subset.controller.psx>
-		<subset.controller.ps4>sony dualshock 4</subset.controller.ps4>
-		<subset.controller.ps5>sony dualshock 5</subset.controller.ps5>
-
-		<subset.shaders>visual improvements ( glsl shaders )</subset.shaders>
-		<subset.shaders.on>on</subset.shaders.on>
-		<subset.shaders.off>off</subset.shaders.off>
-
-		<subset.arts>system arts</subset.arts>
-		<subset.arts.yes>yes</subset.arts.yes>
-		<subset.arts.no>no</subset.arts.no>
-	
-		<subset.helpIcons>help buttons</subset.helpIcons>
-		<subset.helpIcons.default>generic</subset.helpIcons.default>
-		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
-		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
-		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
-		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
-		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
-
 		<subset.themeColors>colorset</subset.themeColors>
+		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
 		<subset.themeColors.heinsenberg>heinsenberg</subset.themeColors.heinsenberg>
-		<subset.themeColors.redAstaire>red astaire</subset.themeColors.redAstaire>
-		<subset.themeColors.pinkman>pink man</subset.themeColors.pinkman>
-		<subset.themeColors.tribeca>tribeca</subset.themeColors.tribeca>
-		<subset.themeColors.reactorPluid>reactor pluid</subset.themeColors.reactorPluid>
-		<subset.themeColors.smoke>smoke</subset.themeColors.smoke>
-		<subset.themeColors.smokeBlue>smoke / blue</subset.themeColors.smokeBlue>
-		<subset.themeColors.smokeRed>smoke / red</subset.themeColors.smokeRed>
-		<subset.themeColors.smokePink>smoke / pink</subset.themeColors.smokePink>
-		<subset.themeColors.smokeOrange>smoke / orange</subset.themeColors.smokeOrange>
-		<subset.themeColors.smokeGreen>smoke / green</subset.themeColors.smokeGreen>
-
-		<subset.neogeo>neogeo type</subset.neogeo>
-		<subset.neogeo.mvs>multi video system</subset.neogeo.mvs>
-		<subset.neogeo.aes>advanced entertainment system</subset.neogeo.aes>
-
-		<subset.forceRegion>theme • force one region (need refresh gamelist or f5)</subset.forceRegion>
-		<subset.forceRegion.no>no</subset.forceRegion.no>
-		<subset.forceRegion.eu>eu</subset.forceRegion.eu>
-		<subset.forceRegion.us>us</subset.forceRegion.us>
-		<subset.forceRegion.jp>jp</subset.forceRegion.jp>
-
-		<subset.atmosphere>atmosphere</subset.atmosphere>
-		<subset.atmosphere.Recalbox>recalbox musics</subset.atmosphere.Recalbox>
-		<subset.atmosphere.MrBoom>mr boom musics</subset.atmosphere.MrBoom>
-		<subset.atmosphere.OldBatocera>waterflame musics</subset.atmosphere.OldBatocera>
-		<subset.atmosphere.ComixZone>comix zone album</subset.atmosphere.ComixZone>
-		<subset.atmosphere.retrobat>retrobat selection</subset.atmosphere.retrobat>
-		<subset.atmosphere.randomAudio>random audio from games</subset.atmosphere.randomAudio>
-		<subset.atmosphere.allowGeneral>general parameters</subset.atmosphere.allowGeneral>
-		<subset.atmosphere.notAllowMusic>play silence</subset.atmosphere.notAllowMusic>
-
-		<subset.randomVideo>system view • random videos</subset.randomVideo>
-		<subset.randomVideo.no>no</subset.randomVideo.no>
-		<subset.randomVideo.yes>yes</subset.randomVideo.yes>
-		<subset.randomVideo.justVideo>yes, but without audio</subset.randomVideo.justVideo>
-
-		<subset.systemBackgrounds>system view • backgrounds</subset.systemBackgrounds>
-		<subset.systemBackgrounds.no>no</subset.systemBackgrounds.no>
-		<subset.systemBackgrounds.yes>yes</subset.systemBackgrounds.yes>
-
-		<subset.fanarts>gamelist • faded fanarts</subset.fanarts>
-		<subset.fanarts.no>no</subset.fanarts.no>
-		<subset.fanarts.yes>yes</subset.fanarts.yes>
-
-		<subset.loops>text gamelist • looping videos</subset.loops>
-		<subset.loops.no>no</subset.loops.no>
-		<subset.loops.yes>yes</subset.loops.yes>
 
 		<lang.library>library</lang.library>
 		<lang.detailed_unified>detailed (unified)</lang.detailed_unified>
