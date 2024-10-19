@@ -1,3 +1,13 @@
+# v1.2.0
+- Added new detailed game list
+- Added Batocera colorset
+- Moved clock position from bottom to top
+- Fixed language file
+- Re-added looping game text & video preview feature
+- Modified bottom and top bars for enlarging help buttons and status icons
+- Fixed detailed and grid xml's coding structure
+- Removed unused options actions
+
 # v1.1.0  
 - Removed all unnecessary options from theme settings
 - Removed unnecessary files and reduces theme size
