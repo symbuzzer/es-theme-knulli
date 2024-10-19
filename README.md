@@ -9,8 +9,8 @@
   - Method 1:
     - Download [latest es-theme-knulli.zip](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip) file
     - Extract it into share/themes/es-theme-knulli (or userdata/themes/es-theme-knulli) folder and restart device
-  - Method 2:
-    - Install and run Zarquon's [Patch Installer](https://github.com/zarquon-42/knulli-patch-installer) and select the theme from Patch Installer's menu.
+  - Method 2 (More easy):
+    - Install and run [Zarquon](https://github.com/zarquon-42)'s [Patch Installer](https://github.com/zarquon-42/knulli-patch-installer) and select the theme from Patch Installer's menu.
 - Select the Theme: 
   - Select es-theme-knulli from USER INTERFACE SETTINGS > THEME SET menu
   - Go back and wait to refreshing system
