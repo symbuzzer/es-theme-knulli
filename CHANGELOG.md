@@ -1,3 +1,6 @@
+# v1.2.1
+- Fixed some buttons cant seen on bottom bar when help enabled
+
 # v1.2.0
 - Added new detailed game list
 - Added Batocera colorset
