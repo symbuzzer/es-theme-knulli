@@ -4,7 +4,7 @@
 
 	<formatVersion>7</formatVersion>
 	
-	<view name="menu,system,basic,detailed,grid">
+	<view name="menu,system,grid,basic,detailed">
 	
 		<helpsystem name="help"
 		
@@ -19,10 +19,8 @@
 			glowSize="1"
 
 		>
-			<fontSize tinyScreen="true">0.030</fontSize>
+			<fontSize tinyScreen="true">0.035</fontSize>
 			<pos tinyScreen="true">0.0104 0.975</pos>
-		
-			<iconColor ifSubset="helpIcons:default">${c.textHeader}</iconColor>
 		
 		</helpsystem>
 	

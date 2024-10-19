@@ -5,23 +5,6 @@
 	<formatVersion>7</formatVersion>
 	
 	<view name="screen">
-
-		<text name="clock"
-			
-			fontPath="./../fonts/${f.mb}"
-			color="${c.text}"
-			fontSize="0.02"
-			offsetY="0.025"
-				
-		>
-		
-			<size tinyScreen="true">0.1 0.04</size>
-			<offsetX tinyScreen="true">-0.05</offsetX>
-			<offsetY tinyScreen="true">0.040</offsetY>
-			<origin tinyScreen="true">0 0.5</origin>
-			<fontSize tinyScreen="true">0.026</fontSize>
-		
-		</text>
 	
 		<batteryIndicator name="batteryIndicator"
 
@@ -31,8 +14,6 @@
 		
 		<stackpanel name="batteryIndicatorExtra" extra="true"
 		
-			pos="0.7165 0.006"
-			size="0.28 0.0275"
 			orientation="horizontal"
 			separator="2"
 			reverse="true"
@@ -40,17 +21,16 @@
 			
 			<size tinyScreen="true">0.58 0.045</size>
 			<pos tinyScreen="true">0.4165 0</pos>
-			
+
 			<batteryText name="ss.batterytext"
 			
-				fontSize="0.018"
 				fontPath="./../fonts/${f.mb}"
 				color="${c.text}"
 				padding="12 0"
 				
 			>
 			
-			<fontSize tinyScreen="true">0.026</fontSize>
+				<fontSize tinyScreen="true">0.035</fontSize>
 			
 			</batteryText>
 	
@@ -98,6 +78,16 @@
 				color="${c.text}"
 				
 			/>
+
+
+			<clock name="system-clock"
+				fontPath="./../fonts/${f.mb}"
+				color="${c.text}"
+			>
+			
+				<fontSize tinyScreen="true">0.035</fontSize>
+
+			</clock>
 	  
 		</stackpanel>
 

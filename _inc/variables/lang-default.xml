@@ -7,8 +7,13 @@
 	<variables>
 
 		<subset.themeColors>colorset</subset.themeColors>
-		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
 		<subset.themeColors.heinsenberg>heinsenberg</subset.themeColors.heinsenberg>
+		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
+		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
+
+		<subset.loops>text gamelist • looping videos</subset.loops>
+		<subset.loops.no>no</subset.loops.no>
+		<subset.loops.yes>yes</subset.loops.yes>
 
 		<lang.library>library</lang.library>
 		<lang.detailed_unified>detailed (unified)</lang.detailed_unified>

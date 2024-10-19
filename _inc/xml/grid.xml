@@ -16,12 +16,7 @@
 			pos="${v.frame.pos}"
 			color="${c.frame}80"
 			
-		>
-		
-			<shader ifSubset="shaders:on">./../shaders/scanlines.glsl</shader>
-		
-		
-		</image>
+		/>
 
 		<image name="frameBorders"
 		
@@ -66,7 +61,6 @@
 			
 		>
 		
-			<shader ifSubset="shaders:on">./../shaders/scanlines.glsl</shader>
 			<visible tinyScreen="true">false</visible>
 
 
@@ -157,11 +151,11 @@
 		
 			color="${c.selected}"
 			
-	   >
+		>
 	   
 			<visible tinyScreen="true">false</visible>
 	   
-	   </text>
+		</text>
 
 		<image name="gridtile.favorite"
 		
@@ -258,11 +252,11 @@
 			verticalAlignment="top"
 			fontPath="./../fonts/${f.mri}"
 			origin="0.5 0"
-            pos="0.8799479166666667 0.6648148148148148"
-            size="0.1546875 0.2351851851851852"
-            fontSize="0.022"
+                        pos="0.8799479166666667 0.6648148148148148"
+                        size="0.1546875 0.2351851851851852"
+                        fontSize="0.022"
 			color="${c.selected}"
-            glowColor="${c.glowColor}"
+                        glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
 			autoScrollSpeed="50"
@@ -278,11 +272,11 @@
 			alignment="left"
 			verticalAlignment="top"
 			fontPath="./../fonts/${f.mri}"
-            pos="0.8799479166666667 0.6648148148148148"
-            size="0.1546875 0.2351851851851852"
-            fontSize="0.022"
+                        pos="0.8799479166666667 0.6648148148148148"
+                        size="0.1546875 0.2351851851851852"
+                        fontSize="0.022"
 			color="${c.selected}"
-            glowColor="${c.glowColor}"
+                        glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
 			text=" "
@@ -334,7 +328,7 @@
 					gameInfoExt_Dev_Pub,gameInfoExt_Dev_Pub_SameDevPub
 					gameInfoExt_Dev_Genre,
 					gameInfoExt_Pub_Genre
-					"
+				"
 		
 			extra="true"
 			zIndex="1001"
@@ -342,11 +336,11 @@
 			alignment="center"
 			verticalAlignment="top"
 			fontPath="./../fonts/${f.mb}"
-            pos="0.8114583333333333 0.362962962962963"
-            size="0.1369791666666667 0.212037037037037"
-            fontSize="0.016"
+                        pos="0.8114583333333333 0.362962962962963"
+                        size="0.1369791666666667 0.212037037037037"
+                        fontSize="0.016"
 			color="${c.text}"
-            glowColor="${c.glowColor}"
+                        glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
 			opacity="0"
@@ -377,13 +371,12 @@
 			visible="({game:playcount}) &gt; 0 ? 1 : 0"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-${lang.gamePlayers}: {game:players}
-${lang.timesPlayed}: {game:playcount}
-${lang.lastPlayed} ${lang.at} {game:lastplayed}</text>
+			${lang.gamePlayers}: {game:players}
+			${lang.timesPlayed}: {game:playcount}
+			${lang.lastPlayed} ${lang.at} {game:lastplayed}</text>
 
 		</text>
 		
@@ -393,12 +386,11 @@ ${lang.lastPlayed} ${lang.at} {game:lastplayed}</text>
 			visible="({game:playcount}) == 0 ? 1 : 0"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-${lang.gamePlayers}: {game:players}
-( ${lang.neverPlayed} )</text>
+			${lang.gamePlayers}: {game:players}
+			( ${lang.neverPlayed} )</text>
 
 		</text>
 		
@@ -410,18 +402,13 @@ ${lang.gamePlayers}: {game:players}
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
 						&amp;&amp;	{game:developer} != {game:publisher}
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-{game:genre}, ${lang.developedBy} {game:developer} ${lang.and} ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
+			{game:genre}, ${lang.developedBy} {game:developer} ${lang.and} ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
 
 		</text>
 		
@@ -433,18 +420,13 @@ ${lang.gamePlayers}: {game:players}
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
 						&amp;&amp;	{game:developer} == {game:publisher}
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-{game:genre}, ${lang.developedAndPubliedIn} {game:releaseyear} ${lang.by} {game:developer}</text>
+			{game:genre}, ${lang.developedAndPubliedIn} {game:releaseyear} ${lang.by} {game:developer}</text>
 
 		</text>
 		
@@ -456,18 +438,13 @@ ${lang.gamePlayers}: {game:players}
 						&amp;&amp;	empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
 						&amp;&amp;	{game:developer} != {game:publisher}
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text>
 
-
-
-
-
-
-{game:genre}, ${lang.developedBy} {game:developer} ${lang.and} ${lang.publied} ${lang.by} {game:publisher}</text>
+			{game:genre}, ${lang.developedBy} {game:developer} ${lang.and} ${lang.publied} ${lang.by} {game:publisher}</text>
 
 		</text>
 		
@@ -479,18 +456,13 @@ ${lang.gamePlayers}: {game:players}
 						&amp;&amp;	empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
 						&amp;&amp;	{game:developer} == {game:publisher}
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-{game:genre}, ${lang.developedAndPubliedBy} {game:developer}</text>
+			{game:genre}, ${lang.developedAndPubliedBy} {game:developer}</text>
 
 		</text>
 		
@@ -501,18 +473,13 @@ ${lang.gamePlayers}: {game:players}
 						&amp;&amp;	empty({game:genre})
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-${lang.releasedIn} {game:releaseyear}</text>
+			${lang.releasedIn} {game:releaseyear}</text>
 
 		</text>
 		
@@ -524,18 +491,13 @@ ${lang.releasedIn} {game:releaseyear}</text>
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
 						&amp;&amp;	{game:developer} != {game:publisher}
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-${lang.developedBy} {game:developer} ${lang.and} ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
+			${lang.developedBy} {game:developer} ${lang.and} ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
 
 		</text>
 		
@@ -547,18 +509,13 @@ ${lang.developedBy} {game:developer} ${lang.and} ${lang.publiedIn} {game:release
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
 						&amp;&amp;	{game:developer} == {game:publisher}
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-${lang.developedAndPubliedIn} {game:releaseyear} ${lang.by} {game:developer}</text>
+			${lang.developedAndPubliedIn} {game:releaseyear} ${lang.by} {game:developer}</text>
 
 		</text>
 		
@@ -569,18 +526,13 @@ ${lang.developedAndPubliedIn} {game:releaseyear} ${lang.by} {game:developer}</te
 						&amp;&amp;	!empty({game:genre})
 						&amp;&amp;	empty({game:releaseyear})
 						&amp;&amp;	empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-{game:genre}</text>
+			{game:genre}</text>
 
 		</text>
 		
@@ -591,18 +543,13 @@ ${lang.developedAndPubliedIn} {game:releaseyear} ${lang.by} {game:developer}</te
 						&amp;&amp;	!empty({game:genre})
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-{game:genre}, ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
+			{game:genre}, ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
 
 		</text>
 		
@@ -613,18 +560,13 @@ ${lang.developedAndPubliedIn} {game:releaseyear} ${lang.by} {game:developer}</te
 						&amp;&amp;	empty({game:genre})
 						&amp;&amp;	empty({game:releaseyear})
 						&amp;&amp;	empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-${lang.developedBy} {game:developer}</text>
+			${lang.developedBy} {game:developer}</text>
 
 		</text>
 		
@@ -635,18 +577,13 @@ ${lang.developedBy} {game:developer}</text>
 						&amp;&amp;	!empty({game:genre})
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-{game:genre}, ${lang.developedBy} {game:developer} ${lang.and} ${lang.releasedIn} {game:releaseyear}</text>
+			{game:genre}, ${lang.developedBy} {game:developer} ${lang.and} ${lang.releasedIn} {game:releaseyear}</text>
 
 		</text>
 		
@@ -660,15 +597,10 @@ ${lang.developedBy} {game:developer}</text>
 					"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-${lang.released} ${lang.by} {game:publisher}</text>
+			${lang.released} ${lang.by} {game:publisher}</text>
 
 		</text>
 		
@@ -679,18 +611,13 @@ ${lang.released} ${lang.by} {game:publisher}</text>
 						&amp;&amp;	empty({game:genre})
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-${lang.developedBy} {game:developer} ${lang.and} ${lang.releasedIn} {game:releaseyear}</text>
+			${lang.developedBy} {game:developer} ${lang.and} ${lang.releasedIn} {game:releaseyear}</text>
 
 		</text>
 		
@@ -701,18 +628,13 @@ ${lang.developedBy} {game:developer} ${lang.and} ${lang.releasedIn} {game:releas
 						&amp;&amp;	empty({game:genre})
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
+			${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
 
 		</text>
 		
@@ -723,18 +645,13 @@ ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
 						&amp;&amp;	!empty({game:genre})
 						&amp;&amp;	!empty({game:releaseyear})
 						&amp;&amp;	empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-{game:genre}, ${lang.releasedIn} {game:releaseyear}</text>
+			{game:genre}, ${lang.releasedIn} {game:releaseyear}</text>
 
 		</text>
 		
@@ -746,18 +663,13 @@ ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
 						&amp;&amp;	empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
 						&amp;&amp;	{game:developer} != {game:publisher}
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-${lang.developedBy} {game:developer} ${lang.and} ${lang.publied} ${lang.by} {game:publisher}</text>
+			${lang.developedBy} {game:developer} ${lang.and} ${lang.publied} ${lang.by} {game:publisher}</text>
 
 		</text>
 		
@@ -769,18 +681,13 @@ ${lang.developedBy} {game:developer} ${lang.and} ${lang.publied} ${lang.by} {gam
 						&amp;&amp;	empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
 						&amp;&amp;	{game:developer} == {game:publisher}
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-${lang.developedAndPubliedBy} {game:developer}</text>
+			${lang.developedAndPubliedBy} {game:developer}</text>
 
 		</text>
 		
@@ -791,18 +698,13 @@ ${lang.developedAndPubliedBy} {game:developer}</text>
 						&amp;&amp;	!empty({game:genre})
 						&amp;&amp;	empty({game:releaseyear})
 						&amp;&amp;	empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-{game:genre}, ${lang.developedBy} {game:developer}</text>
+			{game:genre}, ${lang.developedBy} {game:developer}</text>
 
 		</text>
 		
@@ -813,18 +715,13 @@ ${lang.developedAndPubliedBy} {game:developer}</text>
 						&amp;&amp;	!empty({game:genre})
 						&amp;&amp;	empty({game:releaseyear})
 						&amp;&amp;	!empty({game:publisher})
-					"
+				"
 			
 		>
-			<!-- text must begin by alt+0160 space -->
-			<text> 
+		<!-- text must begin by alt+0160 space -->
+		<text> 
 
-
-
-
-
-
-{game:genre}, ${lang.publied} ${lang.by} {game:publisher}</text>
+			{game:genre}, ${lang.publied} ${lang.by} {game:publisher}</text>
 
 		</text>
 
@@ -842,7 +739,7 @@ ${lang.developedAndPubliedBy} {game:developer}</text>
 					gameInfoExt_Dev_Pub,gameInfoExt_Dev_Pub_SameDevPub
 					gameInfoExt_Dev_Genre,
 					gameInfoExt_Pub_Genre
-					"
+				"
 
 			extra="true"
 			
@@ -897,7 +794,7 @@ ${lang.developedAndPubliedBy} {game:developer}</text>
 			
                 <animation		property="opacity"			from="0.1"			to="0.9"				duration="250"			mode="easeInOut"		autoreverse="true"		/>
 				
-            </storyboard>		
+			</storyboard>		
 
 		</image>
 		

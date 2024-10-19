@@ -6,6 +6,13 @@
 	
 	<view name="basic">
 
+		<image name="logo"
+		
+			origin="0 0.5"
+			x="0.025"
+		
+		/>
+
 		<image name="frame"
 		
 			extra="true"
@@ -16,12 +23,7 @@
 			pos="${v.frame.pos}"
 			color="${c.frame}80"
 			
-		>
-		
-			<shader ifSubset="shaders:on">./../shaders/scanlines.glsl</shader>
-		
-		
-		</image>
+		/>
 
 		<image name="frameBorders"
 		
@@ -58,7 +60,7 @@
 			selectedColor="${c.selected}"
 			primaryColor="${c.text}"
 			secondaryColor="${c.text}"
-			extraTextColor="${c.textHeader}"
+			extraTextColor="${c.text}"
 			extraTextSelectedColor="${c.selected}"
 			selectorColor="${c.menuSelector}"	  		
 			selectorColorEnd="${ce.menuSelector}"	  		
