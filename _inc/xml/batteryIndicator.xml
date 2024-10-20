@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<view name="screen">
+
+		<text name="clock">
+			<pos>1 1</pos>
+		</text>
+	
+		<batteryIndicator name="batteryIndicator"
+
+			visible="false"
+			
+		/>
+		
+		<stackpanel name="batteryIndicatorExtra" extra="true"
+		
+			orientation="horizontal"
+			separator="3"
+			reverse="true"
+		>
+			
+			<size tinyScreen="true">0.58 0.045</size>
+			<pos tinyScreen="true">0.4165 0</pos>
+
+			<batteryText name="ss.batterytext"
+			
+				fontPath="./../fonts/${f.mb}"
+				color="${c.text}"
+				
+			>
+			
+				<fontSize tinyScreen="true">0.035</fontSize>
+			
+			</batteryText>
+
+			<text name="ss.separator3"
+			
+				text="  "
+				fontPath="./../fonts/${f.mb}"
+				fontSize="0.017"
+				color="${c.text}"
+				
+			/>
+	
+			<batteryIcon name="ss.battery"
+			
+				ifSubset="batterybar:yes"
+				incharge="./../parts/batteryIndicator/incharge.svg"
+				full="./../parts/batteryIndicator/full.svg"
+				at75="./../parts/batteryIndicator/75.svg"
+				at50="./../parts/batteryIndicator/50.svg"
+				at25="./../parts/batteryIndicator/25.svg"
+				empty="./../parts/batteryIndicator/empty.svg"
+				planemodeIcon="./../parts/batteryIndicator/planemode.png"
+				maxSize="1 1"
+				linearSmooth="true"
+				color="${c.text}"
+				
+			/>
+		  
+			<text name="ss.separator1"
+			
+				ifSubset="batterybar:yes"
+				text="  "
+				fontPath="./../fonts/${f.mb}"
+				fontSize="0.017"
+				color="${c.text}"
+				
+			/>
+		  
+			<networkIcon name="ss.network"
+			
+				networkIcon="./../parts/icons/Network.png"
+				planemodeIcon="./../parts/icons/Planemode.png"
+				maxSize="1 1"
+				linearSmooth="true"
+				color="${c.text}"
+				
+			/>
+		  
+			<text name="ss.separator2"
+			
+				text="  "
+				fontPath="./../fonts/${f.mb}"
+				fontSize="0.017"
+				color="${c.text}"
+				
+			/>
+
+
+			<clock name="system-clock"
+				fontPath="./../fonts/${f.mb}"
+				color="${c.text}"
+			>
+			
+				<fontSize tinyScreen="true">0.035</fontSize>
+
+			</clock>
+	  
+		</stackpanel>
+
+	</view>
+	
+</theme>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<view name="menu,system,grid,basic,detailed">
+	
+		<helpsystem name="help"
+		
+			textColor="${c.text}"
+			origin="0 0.5"
+
+			iconColor="${c.textHeader}"
+                        glowColor="${c.glowColor}"
+			glowOffset="2"
+			glowSize="1"
+
+		>
+			<fontSize tinyScreen="true">0.030</fontSize>
+			<pos tinyScreen="true">0.0104 0.975</pos>
+		
+		</helpsystem>
+	
+	</view>
+
+</theme>

@@ -1,3 +1,6 @@
+# v1.3.1
+- Fixed bugs
+
 # v1.3.0
 - Added set and disable user-level splash screen (not bootlogo) from settings feature
 - Added show/hide battery bar option

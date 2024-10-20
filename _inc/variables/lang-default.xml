@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<subset.themeColors>colorset</subset.themeColors>
+		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
+		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
+
+		<subset.loops>text gamelist • looping videos</subset.loops>
+		<subset.loops.no>no</subset.loops.no>
+		<subset.loops.yes>yes</subset.loops.yes>
+
+		<subset.batterybar>show batterybar</subset.batterybar>
+		<subset.batterybar.yes>yes</subset.batterybar.yes>
+		<subset.batterybar.no>no</subset.batterybar.no>
+
+		<subset.splashscreen>splashscreen</subset.splashscreen>
+		<subset.splashscreen.colorset>auto (from colorset)</subset.splashscreen.colorset>
+		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
+		<subset.splashscreen.default>default (knulli)</subset.splashscreen.default>
+		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
+
+		<lang.elements>items</lang.elements>
+		<lang.favorites>favorites</lang.favorites>
+		<lang.favoritesReplacement>find all your favorites here</lang.favoritesReplacement>
+		<lang.played>launched</lang.played>
+		<lang.mostPlayed>most launched</lang.mostPlayed>
+		<lang.lastPlayedDate>last launch</lang.lastPlayedDate>
+		<lang.at>at</lang.at>
+
+		<lang.developedBy>developed by</lang.developedBy>
+		<lang.publiedIn>published in</lang.publiedIn>
+		<lang.developedAndPubliedIn>developed and publied in</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>developed and publied by</lang.developedAndPubliedBy>
+		<lang.publied>published</lang.publied>
+		<lang.by>by</lang.by>
+		<lang.and>and</lang.and>
+		<lang.noRating>no rating</lang.noRating>
+		<lang.neverPlayed>never launched</lang.neverPlayed>
+		<lang.gamePlayers>number of players</lang.gamePlayers>
+		<lang.timesPlayed>times played</lang.timesPlayed>
+		<lang.lastPlayed>last time</lang.lastPlayed>
+		<lang.releasedIn>released in</lang.releasedIn>
+		<lang.released>released</lang.released>
+
+<!-- Use upper and lower case ponctuation -->
+
+		<lang.noDesc>Sorry, no description for this file was found. You can try to scrape it or manually edit the gamelist.xml file.</lang.noDesc>
+	
+	</variables>
+
+</theme>
