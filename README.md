@@ -6,7 +6,9 @@
 - Based on "[es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic)" by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)
 - [Video preview](https://www.reddit.com/r/RG35XX_H/comments/1g7fhux/esthemeknulli_v120_released/)
 - How to install:
-  - Method 1:
+  - Method 1 (Recommended, most easy)
+    - Use [etk_tool](https://github.com/symbuzzer/etk_tool)
+  - Method 2 (Manual method):
     - Download [latest es-theme-knulli.zip](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip) file
     - Extract it into share/themes/es-theme-knulli (or userdata/themes/es-theme-knulli) folder and restart device
   - Method 2 (More easy):
