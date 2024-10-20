@@ -1,3 +1,9 @@
+# v1.3.0
+- Added set and disable user-level splash screen (not bootlogo) from settings feature
+- Added show/hide battery bar option
+- Removed Heisenberg colorset
+- Fixed clock issue when hdmi is connected
+
 # v1.2.1
 - Fixed some buttons cant seen on bottom bar when help enabled
 
