@@ -7,7 +7,6 @@
 	<variables>
 
 		<subset.themeColors>colorset</subset.themeColors>
-		<subset.themeColors.heinsenberg>heinsenberg</subset.themeColors.heinsenberg>
 		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
 		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
 
@@ -15,8 +14,15 @@
 		<subset.loops.no>no</subset.loops.no>
 		<subset.loops.yes>yes</subset.loops.yes>
 
-		<lang.library>library</lang.library>
-		<lang.detailed_unified>detailed (unified)</lang.detailed_unified>
+		<subset.batterybar>show batterybar</subset.batterybar>
+		<subset.batterybar.yes>yes</subset.batterybar.yes>
+		<subset.batterybar.no>no</subset.batterybar.no>
+
+		<subset.splashscreen>splashscreen</subset.splashscreen>
+		<subset.splashscreen.colorset>auto (from colorset)</subset.splashscreen.colorset>
+		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
+		<subset.splashscreen.default>default (knulli)</subset.splashscreen.default>
+		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
 
 		<lang.elements>items</lang.elements>
 		<lang.favorites>favorites</lang.favorites>

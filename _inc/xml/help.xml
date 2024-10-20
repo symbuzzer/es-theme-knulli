@@ -9,9 +9,7 @@
 		<helpsystem name="help"
 		
 			textColor="${c.text}"
-			fontSize="0.02"
 			origin="0 0.5"
-			pos="0.0104 0.982"
 
 			iconColor="${c.textHeader}"
                         glowColor="${c.glowColor}"

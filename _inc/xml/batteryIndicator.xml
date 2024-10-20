@@ -5,6 +5,10 @@
 	<formatVersion>7</formatVersion>
 	
 	<view name="screen">
+
+		<text name="clock">
+			<pos>1 1</pos>
+		</text>
 	
 		<batteryIndicator name="batteryIndicator"
 
@@ -15,7 +19,7 @@
 		<stackpanel name="batteryIndicatorExtra" extra="true"
 		
 			orientation="horizontal"
-			separator="2"
+			separator="3"
 			reverse="true"
 		>
 			
@@ -26,16 +30,25 @@
 			
 				fontPath="./../fonts/${f.mb}"
 				color="${c.text}"
-				padding="12 0"
 				
 			>
 			
 				<fontSize tinyScreen="true">0.035</fontSize>
 			
 			</batteryText>
+
+			<text name="ss.separator3"
+			
+				text="  "
+				fontPath="./../fonts/${f.mb}"
+				fontSize="0.017"
+				color="${c.text}"
+				
+			/>
 	
 			<batteryIcon name="ss.battery"
 			
+				ifSubset="batterybar:yes"
 				incharge="./../parts/batteryIndicator/incharge.svg"
 				full="./../parts/batteryIndicator/full.svg"
 				at75="./../parts/batteryIndicator/75.svg"
@@ -45,14 +58,14 @@
 				planemodeIcon="./../parts/batteryIndicator/planemode.png"
 				maxSize="1 1"
 				linearSmooth="true"
-				padding="0 0"
 				color="${c.text}"
 				
 			/>
 		  
 			<text name="ss.separator1"
 			
-				text="   "
+				ifSubset="batterybar:yes"
+				text="  "
 				fontPath="./../fonts/${f.mb}"
 				fontSize="0.017"
 				color="${c.text}"
@@ -65,14 +78,13 @@
 				planemodeIcon="./../parts/icons/Planemode.png"
 				maxSize="1 1"
 				linearSmooth="true"
-				padding="0 0"
 				color="${c.text}"
 				
 			/>
 		  
 			<text name="ss.separator2"
 			
-				text="  "
+				text="  "
 				fontPath="./../fonts/${f.mb}"
 				fontSize="0.017"
 				color="${c.text}"

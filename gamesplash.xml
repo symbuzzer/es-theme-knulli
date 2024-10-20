@@ -4,17 +4,19 @@
 
 <formatVersion>7</formatVersion>
 
+		<include>./theme.xml</include>
+
 	<view name="splash">
 	
 		<splash name="splash"
 		
-			backgroundColor="000000"
+			backgroundColor="4e97d1"
 			
 		/>
 		
 		<image name="background"
 		
-			visible="true"
+			visible="false"
 			
 		/>
 		
