@@ -19,7 +19,7 @@
 			glowSize="1"
 
 		>
-			<fontSize tinyScreen="true">0.035</fontSize>
+			<fontSize tinyScreen="true">0.030</fontSize>
 			<pos tinyScreen="true">0.0104 0.975</pos>
 		
 		</helpsystem>
