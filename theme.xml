@@ -1,6 +1,6 @@
 <!--
 theme name:     es-theme-knulli
-version:        1.3.1
+version:        1.3.2
 author:         symbuzzer
 email:		alipolatbeyaz@gmail.com
 website:	avalibeyaz.com/github
@@ -18,6 +18,9 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 
     <variables>
 		
+
+		<v.themeVersion>1.3.2</v.themeVersion>
+
 		<v.allViews>system,grid,basic,detailed</v.allViews>
 		<v.allGamelists>grid,basic,detailed</v.allGamelists>
 		<v.textGamelists>grid,basic,detailed</v.textGamelists>
@@ -119,15 +122,13 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 	
 	</subset>
 
-	<subset name="loops"
+	<subset name="version"
 	
-		displayName="${subset.loops}"
-		appliesTo="${v.textGamelists}"
+		displayName="${subset.themeVersionString}"
 		
 	>
 	
-		<include name="yes" displayName="${subset.loops.yes}" />
-		<include name="no" displayName="${subset.loops.no}" />
+		<include name="${v.themeVersion}" />
 	
 	</subset>
 
@@ -219,28 +220,6 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 			pos="0.5 1"
 		
 		/>
-
-		<sound name="systembrowse">
-			<path>./_inc/parts/scroll.wav</path>
-		</sound>
-		<sound name="quicksysselect">
-			<path>./_inc/parts/scroll.wav</path>
-		</sound>
-		<sound name="select">
-			<path>./_inc/parts/scroll.wav</path>
-		</sound>
-		<sound name="back">
-			<path>./_inc/parts/scroll.wav</path>
-		</sound>
-		<sound name="scroll">
-			<path>./_inc/parts/scroll.wav</path>
-		</sound>
-		<sound name="favorite">
-			<path>./_inc/parts/scroll.wav</path>
-		</sound>
-		<sound name="launch">
-			<path>./_inc/parts/scroll.wav</path>
-		</sound>
 	
 	</view>
 

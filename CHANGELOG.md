@@ -1,3 +1,9 @@
+# v1.3.2
+- Removed loop video option from settings
+- Removed referances for unused sound files
+- Added version string to theme settings
+- Fixed bugs
+
 # v1.3.1
 - Fixed bugs
 

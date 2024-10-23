@@ -150,9 +150,7 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			origin="0 0"
 			pos="0.4526041666666667 0.2296296296296296"
-			maxSize="0.3322916666666667 0.3453703703703704"
 			showSnapshotNoVideo="true"	
 			showSnapshotDelay="true"
 			effect="none"
@@ -160,8 +158,7 @@
 			roundCorners="0.018"
 			
 		>
-		
-			<loops ifSubset="loops:no">1</loops>		
+			
 			<origin tinyScreen="true">0.5 1</origin>
 			<maxSize tinyScreen="true">0.45 0.4</maxSize>
 			<x tinyScreen="true">0.705</x>

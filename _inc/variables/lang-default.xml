@@ -10,9 +10,7 @@
 		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
 		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
 
-		<subset.loops>text gamelist • looping videos</subset.loops>
-		<subset.loops.no>no</subset.loops.no>
-		<subset.loops.yes>yes</subset.loops.yes>
+		<subset.themeVersionString>theme version</subset.themeVersionString>
 
 		<subset.batterybar>show batterybar</subset.batterybar>
 		<subset.batterybar.yes>yes</subset.batterybar.yes>
