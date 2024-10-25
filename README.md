@@ -10,7 +10,7 @@
     - Use [etk_tool](https://github.com/symbuzzer/etk_tool)
   - Method 2 (Manual method):
     - Download [latest es-theme-knulli.zip](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip) file
-    - Extract it into share/themes/es-theme-knulli (or userdata/themes/es-theme-knulli) folder and restart device
+    - Extract it into share/themes (or userdata/themes) folder and restart device
   - Method 2 (More easy):
     - Install and run [Zarquon](https://github.com/zarquon-42)'s [Patch Installer](https://github.com/zarquon-42/knulli-patch-installer) and select the theme from Patch Installer's menu.
 - Select the Theme: 
