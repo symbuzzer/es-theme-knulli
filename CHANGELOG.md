@@ -1,3 +1,9 @@
+# v1.4.0
+- Added show play time on detailed view
+- Added background images on both detailed and grid view
+- Detailed view completely re-written
+- Removed unused elements, parameters, codes etc. except then tiny screen
+
 # v1.3.2
 - Removed loop video option from settings
 - Removed referances for unused sound files
