@@ -21,21 +21,19 @@
 			orientation="horizontal"
 			separator="3"
 			reverse="true"
+			size="0.58 0.045"
+			pos="0.4165 0"
 		>
-			
-			<size tinyScreen="true">0.58 0.045</size>
-			<pos tinyScreen="true">0.4165 0</pos>
+
 
 			<batteryText name="ss.batterytext"
 			
 				fontPath="./../fonts/${f.mb}"
 				color="${c.text}"
+				fontSize="0.035"
 				
-			>
-			
-				<fontSize tinyScreen="true">0.035</fontSize>
-			
-			</batteryText>
+			/>
+
 
 			<text name="ss.separator3"
 			
@@ -95,11 +93,8 @@
 			<clock name="system-clock"
 				fontPath="./../fonts/${f.mb}"
 				color="${c.text}"
-			>
-			
-				<fontSize tinyScreen="true">0.035</fontSize>
-
-			</clock>
+				fontSize="0.035"
+			/>
 	  
 		</stackpanel>
 

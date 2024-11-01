@@ -14,21 +14,15 @@
 			origin="0.5 0.5"
 			pos="0.5 0.5"
 			size="1.1 0.8"
-			logoSize="0.33 0.18"
+			logoSize="0.60 0.36"
+			maxLogoCount="2"
 			
-		>
+		/>
 			
-			<maxLogoCount if="${s.notWide}">2</maxLogoCount>
-			<maxLogoCount if="${s.ultraWide}">4</maxLogoCount>
-		
-			<logoSize if="${s.notWide}">0.60 0.36</logoSize>
-			<logoSize if="${s.ultraWide}">0.25 0.18</logoSize>
-		
-		</carousel>
+
 
 		<screenshader name="blurCarousel"
 		
-			ifSubset="shaders:on"
 			extra="true"
 			zIndex="900"
 			pos="0 0.35"

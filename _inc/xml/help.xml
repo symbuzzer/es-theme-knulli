@@ -15,12 +15,10 @@
                         glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
+			fontSize="0.030"
+			pos="0.0104 0.975"
 
-		>
-			<fontSize tinyScreen="true">0.030</fontSize>
-			<pos tinyScreen="true">0.0104 0.975</pos>
-		
-		</helpsystem>
+		/>
 	
 	</view>
 

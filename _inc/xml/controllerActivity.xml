@@ -10,21 +10,15 @@
 		
 			pos="${v.controllerActivity.x} 0.009"
 			size="0.185 0.023"
-			color="${c.text}"
-			activityColor="${c.textHeader}"
-			hotkeyColor="ff3030"
+			color="00000000"
+			activityColor="00000000"
+			hotkeyColor="00000000"
 			gunPath="./../parts/controllerActivity/gun.svg"
 			wheelPath="./../parts/controllerActivity/wheel.svg"
 			imagePath="./../parts/controllerActivity/gamepad.svg"
 			itemSpacing="${v.controllerActivity.itemSpacing}"
 			
-		>
-		
-			<color tinyScreen="true">00000000</color>
-			<activityColor tinyScreen="true">00000000</activityColor>
-			<hotkeyColor tinyScreen="true">00000000</hotkeyColor>
-		
-		</controllerActivity>
+		/>
 		
 	</view>
 	

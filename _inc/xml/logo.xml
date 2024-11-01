@@ -123,16 +123,11 @@
 	
 		<image name="logo"
 		
-			maxSize="0.28 0.1203703703703704"
+			maxSize="0.39 0.14"
 			origin="0.5 0.5"
-			pos="0.5 0.12"
+			pos="0.5 0.12625"
 			
-		>
-		
-			<maxSize tinyScreen="true">0.39 0.14</maxSize>
-			<y tinyScreen="true">0.12625</y>
-		
-		</image>
+		/>
 		
 	</view>
 	

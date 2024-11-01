@@ -13,23 +13,6 @@
 		
 		/>
 
-		<image name="md_marquee"
-			zIndex="1001"
-			linearSmooth="true"
-			saturation="1.1"
-			maxSize="0.1546875 0.1083333333333333"
-			origin="0.5 0.5"
-			pos="0.8799479166666667 0.2837962962962963"
-
-		>
-			
-			<maxSize tinyScreen="true">0.28 0.1203703703703704</maxSize>
-			<origin tinyScreen="true">1 0.5</origin>
-			<x tinyScreen="true">0.975</x>
-			<y tinyScreen="true">0.12</y>
-		
-		</image>
-
 		<image name="frameLeft"
 		
 			extra="true"
@@ -66,27 +49,19 @@
 			
 		/>
 
-		<image name="md_fanart"
+		<image name="md_thumbnail"
 		
 			zIndex="601"
-			ifSubset="fanarts:yes"
-			linearSmooth="false"
+			linearSmooth="true"
 			origin="0.5 0.5"
-			minSize="${v.frameRight.size}"
+			maxSize="${v.frameRight.size}"
 			pos="${v.frameRight.pos}"
-			saturation="0.35"
-			color="${c.textHeader}06"
+			color="${c.textHeader}15"
 			colorEnd="80808080"
 			gradientType="horizontal"
-			opacity="0.7"
-			autoFade="true"
+			visible="true"
 			
-		>
-		
-			<visible tinyScreen="true">false</visible>
-
-
-		</image>
+		/>
 
 		<image name="frameRightBorders"
 		
@@ -130,19 +105,15 @@
 			selectorColorEnd="${ce.menuSelector}"	  		
 			selectorImagePath="./../parts/selector.png"	  		
 			fontPath="./../fonts/${f.mb}"
-			fontSize="${v.gamelist.fontSize}"
 			alignment="left"
                         horizontalMargin="0.01"
 			forceUppercase="false"
 			scrollSound="./../parts/scroll.wav"
-			lines="15"
+			fontSize="0.032"
+			lines="11"
 			
-		>
-		
-			<fontSize tinyScreen="true">0.032</fontSize>
-			<lines tinyScreen="true">11</lines>
-		
-		</textlist>
+		/>
+
 
 		<video name="md_video"
 		
@@ -150,42 +121,56 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			pos="0.4526041666666667 0.2296296296296296"
+			pos="0.705 0.62"
 			showSnapshotNoVideo="true"	
 			showSnapshotDelay="true"
 			effect="none"
 			delay="1"
 			roundCorners="0.018"
+			origin="0.5 1"
+			maxSize="0.45 0.4"
 			
-		>
-			
-			<origin tinyScreen="true">0.5 1</origin>
-			<maxSize tinyScreen="true">0.45 0.4</maxSize>
-			<x tinyScreen="true">0.705</x>
-			<y tinyScreen="true">0.62</y>
-		
-		</video>
+		/>
 
-		<image name="md_thumbnail"
-		
+		<image name="md_marquee"
 			zIndex="1001"
 			linearSmooth="true"
 			saturation="1.1"
-			origin="0.5 0"
-			pos="0.8799479166666667 0.6740740740740741"
-			maxSize="0.1369791666666667 0.2259259259259259"
-			roundCorners="0.018"
+			pos="0.45 0.73"
+			maxSize="0.28 0.10"
+			origin="0 1"
+			alignment="left"
+		/>
 
-		>
-		
-			<y tinyScreen="true">0.72</y>
-			<x tinyScreen="true">0.45</x>
-			<origin tinyScreen="true">0 1</origin>
-			<maxSize tinyScreen="true">0.18 0.26</maxSize>
-		
-		</image>
 
-		<text name="md_description"
+		<text name="
+    		        md_gametime
+     		       "
+
+			zIndex="1001"
+			forceUppercase="false"
+			alignment="right"
+			verticalAlignment="top"
+			fontPath="./../fonts/${f.mb}"
+                        pos="0.95 0.65"
+                        size="0.3322916666666667 0.2851851851851852"
+                        glowColor="${c.glowColor}"
+			glowOffset="2"
+			glowSize="1"
+			origin="1 0.5"
+			fontSize="0.028"
+			w="0.5"
+			h="0.18"
+			offsetY="0.113"
+			color="${c.text}ef"
+			backgroundColor="${c.textHeader}05"
+			lineSpacing="1.58"
+
+		/>
+
+		<text name="
+     		        md_description
+     		       "
 		
 			zIndex="1001"
 			forceUppercase="false"
@@ -200,9 +185,11 @@
 			glowOffset="2"
 			glowSize="1"
 
-			/>
+		/>
 			
-		<text name="noDescription"
+		<text name="
+    		        noDescription
+    		       "
 		
 			zIndex="1001"
 			extra="true"
@@ -220,465 +207,23 @@
 			text="${lang.noDesc}"
 			visible="empty({game:desc})"
 
-			/>
+		/>
 
 		<text name="md_description,noDescription"
 		
 			extra="true"
-			
-		>
-		
-			<fontSize tinyScreen="true">0.028</fontSize>
-			<w tinyScreen="true">0.5</w>
-			<h tinyScreen="true">0.18</h>
-			<offsetY tinyScreen="true">0.113</offsetY>
-			<forceUppercase tinyScreen="false">true</forceUppercase>
-			<fontPath tinyScreen="true">./../fonts/${f.mb}</fontPath>
-			<color tinyScreen="true">${c.text}ef</color>
-			<backgroundColor tinyScreen="true">${c.textHeader}05</backgroundColor>
-			<y tinyScreen="true">0.62</y>
-			<lineSpacing tinyScreen="true">1.58</lineSpacing>
-		
-		</text>
-
-		<text name=	"
-				gameRating,gameNorating,
-				gameCounts,gameCounts_NoPlay,
-				gameInfoExt_Complete,
-				gameInfoExt_Complete_SameDevPub,
-				gameInfoExt_NoYear,gameInfoExt_NoYear_SameDevPub,gameInfoExt_JustYear,
-				gameInfoExt_NoGenre,gameInfoExt_NoGenre_SameDevPub,gameInfoExt_JustGenre,
-				gameInfoExt_NoDev,gameInfoExt_JustDev,
-				gameInfoExt_NoPub,gameInfoExt_JustPub,
-				gameInfoExt_Year_Dev,
-				gameInfoExt_Year_Pub,
-				gameInfoExt_Year_Genre,
-				gameInfoExt_Dev_Pub,gameInfoExt_Dev_Pub_SameDevPub
-				gameInfoExt_Dev_Genre,
-				gameInfoExt_Pub_Genre
-				"
-		
-			extra="true"
-			zIndex="1001"
-			forceUppercase="true"
-			alignment="center"
-			verticalAlignment="top"
+			fontSize="0.028"
+			w="0.5"
+			h="0.18"
+			offsetY="0.113"
+			forceUppercase="false"
 			fontPath="./../fonts/${f.mb}"
-                        pos="0.8114583333333333 0.362962962962963"
-                        size="0.1369791666666667 0.212037037037037"
-                        fontSize="0.016"
-			color="${c.text}"
-                        glowColor="${c.glowColor}"
-			glowOffset="2"
-			glowSize="1"
-			opacity="0"
+			color="${c.text}ef"
+			backgroundColor="${c.textHeader}05"
+			y="0.62"
+			lineSpacing="1.58"
 			
-		>
-		
-			<fontSize tinyScreen="true">0.033</fontSize>
-			<alignment tinyScreen="true">left</alignment>
-
-			<storyboard event="open">
-				<animation property="opacity" from="0" to="1" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="activateNext">
-				<animation property="opacity" from="0" to="1" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-				<animation property="opacity" from="0" to="1" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
-		
-		</text>
-		
-		<text name="gameCounts"
-		
-			extra="true"
-			visible="({game:playcount}) &gt; 0 ? 1 : 0"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.gamePlayers}: {game:players}
-			${lang.timesPlayed}: {game:playcount}
-			${lang.lastPlayed} ${lang.at} {game:lastplayed}</text>
-
-		</text>
-		
-		<text name="gameCounts_NoPlay"
-		
-			extra="true"
-			visible="({game:playcount}) == 0 ? 1 : 0"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.gamePlayers}: {game:players}
-			( ${lang.neverPlayed} )</text>
-
-		</text>
-		
-		<text name="gameInfoExt_Complete"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-						&amp;&amp;	{game:developer} != {game:publisher}
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}, ${lang.developedBy} {game:developer} ${lang.and} ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_Complete_SameDevPub"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-						&amp;&amp;	{game:developer} == {game:publisher}
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}, ${lang.developedAndPubliedIn} {game:releaseyear} ${lang.by} {game:developer}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_NoYear"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-						&amp;&amp;	{game:developer} != {game:publisher}
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}, ${lang.developedBy} {game:developer} ${lang.and} ${lang.publied} ${lang.by} {game:publisher}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_NoYear_SameDevPub"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-						&amp;&amp;	{game:developer} == {game:publisher}
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}, ${lang.developedAndPubliedBy} {game:developer}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_JustYear"
-		
-			extra="true"
-			visible="				empty({game:developer})
-						&amp;&amp;	empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.releasedIn} {game:releaseyear}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_NoGenre"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-						&amp;&amp;	{game:developer} != {game:publisher}
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.developedBy} {game:developer} ${lang.and} ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_NoGenre_SameDevPub"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-						&amp;&amp;	{game:developer} == {game:publisher}
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.developedAndPubliedIn} {game:releaseyear} ${lang.by} {game:developer}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_JustGenre"
-		
-			extra="true"
-			visible="				empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	empty({game:releaseyear})
-						&amp;&amp;	empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_NoDev"
-		
-			extra="true"
-			visible="				empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}, ${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_JustDev"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	empty({game:genre})
-						&amp;&amp;	empty({game:releaseyear})
-						&amp;&amp;	empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.developedBy} {game:developer}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_NoPub"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}, ${lang.developedBy} {game:developer} ${lang.and} ${lang.releasedIn} {game:releaseyear}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_JustPub"
-		
-			extra="true"
-			visible="				empty({game:developer})
-						&amp;&amp;	empty({game:genre})
-						&amp;&amp;	empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.released} ${lang.by} {game:publisher}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_Year_Dev"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.developedBy} {game:developer} ${lang.and} ${lang.releasedIn} {game:releaseyear}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_Year_Pub"
-		
-			extra="true"
-			visible="				empty({game:developer})
-						&amp;&amp;	empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.publiedIn} {game:releaseyear} ${lang.by} {game:publisher}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_Year_Genre"
-		
-			extra="true"
-			visible="				empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	!empty({game:releaseyear})
-						&amp;&amp;	empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}, ${lang.releasedIn} {game:releaseyear}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_Dev_Pub"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	empty({game:genre})
-						&amp;&amp;	empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-						&amp;&amp;	{game:developer} != {game:publisher}
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.developedBy} {game:developer} ${lang.and} ${lang.publied} ${lang.by} {game:publisher}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_Dev_Pub_SameDevPub"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	empty({game:genre})
-						&amp;&amp;	empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-						&amp;&amp;	{game:developer} == {game:publisher}
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			${lang.developedAndPubliedBy} {game:developer}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_Dev_Genre"
-		
-			extra="true"
-			visible="				!empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	empty({game:releaseyear})
-						&amp;&amp;	empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}, ${lang.developedBy} {game:developer}</text>
-
-		</text>
-		
-		<text name="gameInfoExt_Pub_Genre"
-		
-			extra="true"
-			visible="				empty({game:developer})
-						&amp;&amp;	!empty({game:genre})
-						&amp;&amp;	empty({game:releaseyear})
-						&amp;&amp;	!empty({game:publisher})
-				"
-			
-		>
-		<!-- text must begin by alt+0160 space -->
-		<text> 
-
-			{game:genre}, ${lang.publied} ${lang.by} {game:publisher}</text>
-
-		</text>
-
-		<text name=	"
-					gameCounts,gameCounts_NoPlay,
-					gameInfoExt_Complete,
-					gameInfoExt_Complete_SameDevPub,
-					gameInfoExt_NoYear,gameInfoExt_NoYear_SameDevPub,gameInfoExt_JustYear,
-					gameInfoExt_NoGenre,gameInfoExt_NoGenre_SameDevPub,gameInfoExt_JustGenre,
-					gameInfoExt_NoDev,gameInfoExt_JustDev,
-					gameInfoExt_NoPub,gameInfoExt_JustPub,
-					gameInfoExt_Year_Dev,
-					gameInfoExt_Year_Pub,
-					gameInfoExt_Year_Genre,
-					gameInfoExt_Dev_Pub,gameInfoExt_Dev_Pub_SameDevPub
-					gameInfoExt_Dev_Genre,
-					gameInfoExt_Pub_Genre
-				"
-
-			extra="true"
-			
-		>
-		
-			<visible tinyScreen="true">false</visible>
-		
-		</text>
+		/>
 			
 		<image name="md_kidgame,md_notkidgame"
 		
@@ -690,12 +235,9 @@
 			maxSize="0.12 0.28"
 			color="${c.text}4d"
 			opacity="1"
+			visible="true"
 			
-		>
-
-			<visible tinyScreen="true">false</visible>
-
-		</image>
+		/>
 			
 		<image name="md_notkidgame"
 		
@@ -713,10 +255,9 @@
 			maxSize="0.02 0.02"
 			color="${c.yellow}"
 			opacity="0.9"
+			visible="true"
 					
 		>
-
-			<visible tinyScreen="true">false</visible>
 		
 			<storyboard
 			

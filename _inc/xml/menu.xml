@@ -25,7 +25,7 @@
 		<menuText name="menutext"
 		
 			fontPath="./../fonts/${f.mr}"
-			fontSize="0.025"
+			fontSize="0.038"
 			color="${c.text}"
 			separatorColor="00000000"
 			selectorColor="${c.menuSelector}"
@@ -33,22 +33,14 @@
 			selectedColor="${c.selected}"
 			selectorGradientType="horizontal"
 			
-		>
-		
-			<fontSize tinyScreen="true">0.038</fontSize>
-		
-		</menuText>
+		/>
 
 		<menuTextSmall name="menutextsmall"
 		
 			fontPath="./../fonts/${f.mr}"
-			fontSize="0.021"
+			fontSize="0.028"
 			
-		>
-		
-			<fontSize tinyScreen="true">0.028</fontSize>
-		
-		</menuTextSmall>
+		/>
 
 		<menuGroup name="menugroup"
 		

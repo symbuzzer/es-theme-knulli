@@ -66,19 +66,14 @@
 			selectorColorEnd="${ce.menuSelector}"	  		
 			selectorImagePath="./../parts/selectorBasic.png"	  		
 			fontPath="./../fonts/${f.mb}"
-			fontSize="${v.gamelist.fontSize}"
+			fontSize="0.040"
 			alignment="center"
                         horizontalMargin="0.01"
 			forceUppercase="false"
 			scrollSound="./../parts/scroll.wav"
-			lines="15"
+			lines="11"
 			
-		>
-		
-			<fontSize tinyScreen="true">0.040</fontSize>
-			<lines tinyScreen="true">11</lines>
-		
-		</textlist>
+		/>
 
 	</view>
 
