@@ -1,3 +1,11 @@
+# v1.4.2
+- Added "Emulators" logo for new Knulli update   
+- Removed language-specific logos  (2nd attempt)
+
+# v1.4.1
+- Added "Emulators" logo for new Knulli update   
+- Removed language-specific logos  
+
 # v1.4.0
 - Added show play time on detailed view
 - Added background images on both detailed and grid view
