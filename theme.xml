@@ -1,6 +1,6 @@
 <!--
 theme name:     es-theme-knulli
-version:        1.4.2
+version:        1.5.0
 author:         symbuzzer
 email:		alipolatbeyaz@gmail.com
 website:	avalibeyaz.com/github
@@ -19,7 +19,7 @@ based on:       "es-theme-basic" by lehcimcramtrebor
     <variables>
 		
 
-		<v.themeVersion>1.4.2</v.themeVersion>
+		<v.themeVersion>1.5.0</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed</v.allViews>
 		<v.allGamelists>grid,basic,detailed</v.allGamelists>
@@ -36,19 +36,19 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		<v.frameLeft.x>0.22</v.frameLeft.x>
 		<v.frameRight.x>0.705</v.frameRight.x>
 
-		<v.frame.y>0.565</v.frame.y>
+		<v.frame.y>0.50</v.frame.y>
 
 		<v.frame.w>0.95</v.frame.w>
 		<v.frameLeft.w>0.39</v.frameLeft.w>
 		<v.frameRight.w>0.54</v.frameRight.w>
 
-		<v.frame.h>0.72</v.frame.h>
+		<v.frame.h>0.85</v.frame.h>
 
 		<v.frameBorders.w>0.95 + (${v.line.w})</v.frameBorders.w>
 		<v.frameLeftBorders.w>0.39 + (${v.line.w})</v.frameLeftBorders.w>
 		<v.frameRightBorders.w>0.54 + (${v.line.w})</v.frameRightBorders.w>
 
-		<v.frameBorders.h>0.72 + (${v.line.h})</v.frameBorders.h>
+		<v.frameBorders.h>0.85 + (${v.line.h})</v.frameBorders.h>
 
 		<v.frame.size>${v.frame.w} ${v.frame.h}</v.frame.size>
 		<v.frameLeft.size>${v.frameLeft.w} ${v.frame.h}</v.frameLeft.size>

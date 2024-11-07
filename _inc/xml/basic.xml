@@ -8,10 +8,18 @@
 
 		<image name="logo"
 		
-			origin="0 0.5"
-			x="0.025"
-		
+			zIndex="601"
+			linearSmooth="false"
+			origin="0.5 0.5"
+			maxSize="${v.frame.size}"
+			pos="${v.frame.pos}"
+			saturation="0.55"
+			color="${c.textHeader}15"
+			colorEnd="80808080"
+			visible="true"
+
 		/>
+
 
 		<image name="frame"
 		
@@ -54,9 +62,8 @@
 		<textlist name="gamelist"
 		
 			zIndex="1000"
-			origin="0.5 0.5"
-			size="${v.frame.size}"
-			pos="${v.frame.pos}"
+			size="0.95 0.85"
+			pos="0.025 0.075"
 			selectedColor="${c.selected}"
 			primaryColor="${c.text}"
 			secondaryColor="${c.text}"
@@ -67,11 +74,14 @@
 			selectorImagePath="./../parts/selectorBasic.png"	  		
 			fontPath="./../fonts/${f.mb}"
 			fontSize="0.040"
-			alignment="center"
                         horizontalMargin="0.01"
 			forceUppercase="false"
 			scrollSound="./../parts/scroll.wav"
 			lines="11"
+			scrollbarColor="${c.textHeader}"
+			scrollbarCorner="0.9"
+			scrollbarSize="${v.line.hc}"
+			scrollbarAlignment="innerright"
 			
 		/>
 

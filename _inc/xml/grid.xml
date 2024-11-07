@@ -6,6 +6,20 @@
 	
 	<view name="grid">
 
+		<image name="logo"
+		
+			zIndex="601"
+			linearSmooth="false"
+			origin="0.5 0.5"
+			maxSize="${v.frame.size}"
+			pos="${v.frame.pos}"
+			saturation="0.75"
+			color="${c.textHeader}15"
+			colorEnd="80808080"
+			visible="true"
+
+		/>
+
 		<image name="frame"
 		
 			extra="true"
@@ -44,42 +58,20 @@
 			
 		/>
 
-		<image name="md_thumbnail"
-		
-			zIndex="601"
-			linearSmooth="false"
-			origin="0.5 0.5"
-			maxSize="${v.frame.size}"
-			pos="${v.frame.pos}"
-			saturation="0.35"
-			color="${c.textHeader}15"
-			colorEnd="80808080"
-			gradientType="horizontal"
-			visible="true"
-
-		/>
-
-		<image name="logo"
-		
-			origin="0 0.5"
-			x="0.025"
-		
-		/>
-
 		<imagegrid name="gamegrid"
 		
 			zIndex="1001"
-			pos="0.025 0.205"
+			pos="0.025 0.075"
 			size="${v.frame.size}"
-			margin="0.02 0.03"
-			padding="0.025 0.04 0.025 0.03"
+			margin="0.02 0.02"
+			padding="0.025 0.025 0.025 0.025"
 			autoLayout="3 2"
 			animateSelection="false"
 			centerSelection="false"
 			scrollbarColor="${c.textHeader}"
 			scrollbarCorner="0.9"
 			scrollbarSize="${v.line.hc}"
-			autoLayoutSelectedZoom="1.1"
+			autoLayoutSelectedZoom="1.15"
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
 			showVideoAtDelay="3"
@@ -130,16 +122,7 @@
 			animateColor="${c.menuSelector}"
 			animateColorTime="160"
 		/>
-
-		<image name="md_marquee"
-			zIndex="1001"
-			linearSmooth="true"
-			saturation="1.1"
-			maxSize="0.28 0.1203703703703704"
-			origin="1 0.5"
-			pos="0.975 0.12"
-
-		/>			
+			
 			
 		<image name="md_kidgame,md_notkidgame"
 		
