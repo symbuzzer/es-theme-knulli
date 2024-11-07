@@ -1,3 +1,8 @@
+# v1.5.0
+- Added scrollbar to basic and detailed views
+- Re-designed basic, detailed and grid views
+- Removed unnecassary assets
+
 # v1.4.2
 - Added "Emulators" logo for new Knulli update   
 - Removed language-specific logos  (2nd attempt)
