@@ -4,7 +4,7 @@
 - [Download](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip)
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
 - Based on "[es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic)" by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)
-- [Video preview](https://www.reddit.com/r/RG35XX_H/comments/1g7fhux/esthemeknulli_v120_released/)
+- [Video preview](https://www.reddit.com/r/RG35XX_H/comments/1gnj63h/esthemeknulli_is_updated_to_v160/)
 - How to install:
   - Method 1 (Recommended, most easy)
     - Use [etk_tool](https://github.com/symbuzzer/etk_tool)
