@@ -1,3 +1,12 @@
+# v1.6.0
+- Clock moved from right to left for fixing overlapping issue in settings
+- Fixed an issue where console images in the main menu were not fully reflected
+- Splashscreen default setting has been changed from Default to Auto
+- Default and automatic game list was set to grid instead of detailed.
+- Fixed an issue where the bottom bar would appear when the help tips were hidden
+- All game lists now appear larger when help tips are hidden
+- Removed unused assets & codes
+
 # v1.5.0
 - Added scrollbar to basic and detailed views
 - Re-designed basic, detailed and grid views
