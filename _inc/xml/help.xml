@@ -10,13 +10,12 @@
 		
 			textColor="${c.text}"
 			origin="0 0.5"
-
+			pos="0.0104 0.975"
 			iconColor="${c.textHeader}"
                         glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
-			fontSize="0.030"
-			pos="0.0104 0.975"
+			fontSize="0.034"
 
 		/>
 	

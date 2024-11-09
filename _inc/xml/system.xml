@@ -10,16 +10,15 @@
 		
 			zIndex="1000"
 			color="00000000"
+			cdefaultTransition="fade &amp; slide"
 			scrollSound="./../parts/scroll.wav"
 			origin="0.5 0.5"
 			pos="0.5 0.5"
-			size="1.1 0.8"
+			size="1.1 1"
 			logoSize="0.60 0.36"
 			maxLogoCount="2"
 			
 		/>
-			
-
 
 		<screenshader name="blurCarousel"
 		
@@ -47,7 +46,6 @@
 			opacity="0.075"
 
 		/>
-
 		
 	</view>
 

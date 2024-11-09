@@ -74,7 +74,7 @@
 			autoLayoutSelectedZoom="1.15"
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
-			showVideoAtDelay="3"
+			showVideoAtDelay="500"
 			scrollSound="./../parts/scroll.wav"
 
 		/>
@@ -121,8 +121,7 @@
 		
 			animateColor="${c.menuSelector}"
 			animateColorTime="160"
-		/>
-			
+		/>			
 			
 		<image name="md_kidgame,md_notkidgame"
 		

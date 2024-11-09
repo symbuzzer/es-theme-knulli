@@ -62,7 +62,7 @@
 		<textlist name="gamelist"
 		
 			zIndex="1000"
-			size="0.95 0.85"
+			size="${v.gamelistBasic.size}"
 			pos="0.025 0.075"
 			selectedColor="${c.selected}"
 			primaryColor="${c.text}"
@@ -77,7 +77,7 @@
                         horizontalMargin="0.01"
 			forceUppercase="false"
 			scrollSound="./../parts/scroll.wav"
-			lines="11"
+			lines="${l.lines}"
 			scrollbarColor="${c.textHeader}"
 			scrollbarCorner="0.9"
 			scrollbarSize="${v.line.hc}"

@@ -3,23 +3,23 @@
 <theme>
 
 	<formatVersion>7</formatVersion>
-	
+
 	<view name="screen">
 
 		<text name="clock">
+
 			<pos>1 1</pos>
 		</text>
 	
 		<batteryIndicator name="batteryIndicator"
 
 			visible="false"
-			
 		/>
 		
 		<stackpanel name="batteryIndicatorExtra" extra="true"
 		
 			orientation="horizontal"
-			separator="3"
+			separator="2"
 			reverse="true"
 			size="0.58 0.045"
 			pos="0.4165 0"
@@ -35,9 +35,10 @@
 			/>
 
 
-			<text name="ss.separator3"
+			<text name="ss.separator1"
 			
 				text="  "
+				ifSubset="batterybar:yes"
 				fontPath="./../fonts/${f.mb}"
 				fontSize="0.017"
 				color="${c.text}"
@@ -60,9 +61,8 @@
 				
 			/>
 		  
-			<text name="ss.separator1"
+			<text name="ss.separator2"
 			
-				ifSubset="batterybar:yes"
 				text="  "
 				fontPath="./../fonts/${f.mb}"
 				fontSize="0.017"
@@ -79,15 +79,10 @@
 				color="${c.text}"
 				
 			/>
-		  
-			<text name="ss.separator2"
-			
-				text="  "
-				fontPath="./../fonts/${f.mb}"
-				fontSize="0.017"
-				color="${c.text}"
-				
-			/>
+	  
+		</stackpanel>
+
+		<stackpanel name="systemClockPanel" orientation="horizontal" separator="4" size="0.58 0.045" pos="0 0">
 
 
 			<clock name="system-clock"
@@ -95,7 +90,7 @@
 				color="${c.text}"
 				fontSize="0.035"
 			/>
-	  
+
 		</stackpanel>
 
 	</view>

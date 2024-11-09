@@ -1,6 +1,6 @@
 <!--
 theme name:     es-theme-knulli
-version:        1.5.0
+version:        1.6.0
 author:         symbuzzer
 email:		alipolatbeyaz@gmail.com
 website:	avalibeyaz.com/github
@@ -10,7 +10,7 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme>
+<theme defaultView="grid">
 
 <formatVersion>7</formatVersion>
 
@@ -19,7 +19,7 @@ based on:       "es-theme-basic" by lehcimcramtrebor
     <variables>
 		
 
-		<v.themeVersion>1.5.0</v.themeVersion>
+		<v.themeVersion>1.6.0</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed</v.allViews>
 		<v.allGamelists>grid,basic,detailed</v.allGamelists>
@@ -36,19 +36,22 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		<v.frameLeft.x>0.22</v.frameLeft.x>
 		<v.frameRight.x>0.705</v.frameRight.x>
 
-		<v.frame.y>0.50</v.frame.y>
+		<v.frame.y ifHelpPrompts="true">0.50</v.frame.y>
+		<v.frame.y ifHelpPrompts="false">0.53</v.frame.y>
 
 		<v.frame.w>0.95</v.frame.w>
 		<v.frameLeft.w>0.39</v.frameLeft.w>
 		<v.frameRight.w>0.54</v.frameRight.w>
 
-		<v.frame.h>0.85</v.frame.h>
+		<v.frame.h ifHelpPrompts="true">0.85</v.frame.h>
+		<v.frame.h ifHelpPrompts="false">0.90</v.frame.h>
 
 		<v.frameBorders.w>0.95 + (${v.line.w})</v.frameBorders.w>
 		<v.frameLeftBorders.w>0.39 + (${v.line.w})</v.frameLeftBorders.w>
 		<v.frameRightBorders.w>0.54 + (${v.line.w})</v.frameRightBorders.w>
 
-		<v.frameBorders.h>0.85 + (${v.line.h})</v.frameBorders.h>
+		<v.frameBorders.h ifHelpPrompts="true">0.85 + (${v.line.h})</v.frameBorders.h>
+		<v.frameBorders.h ifHelpPrompts="false">0.90 + (${v.line.h})</v.frameBorders.h>
 
 		<v.frame.size>${v.frame.w} ${v.frame.h}</v.frame.size>
 		<v.frameLeft.size>${v.frameLeft.w} ${v.frame.h}</v.frameLeft.size>
@@ -63,16 +66,20 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		<v.frameRightBorders.size>${v.frameRightBorders.w} ${v.frameBorders.h}</v.frameRightBorders.size>
 
 		<v.gamelist.fontSize>0.024</v.gamelist.fontSize>
-		
-		<v.py if="${system.releaseYear} &gt; '1958'">•</v.py>
-		<v.py if="${system.releaseYearOrNull} &gt; '1958'">•</v.py>
-		
-		<s.notWide>${screen.height} &gt; ${screen.width}/1.6</s.notWide>
-		<s.ultraWide>${screen.width} &gt; ${screen.height}*1.8</s.ultraWide>
+		<v.gamelistDetailed.size ifHelpPrompts="true">0.39 0.85</v.gamelistDetailed.size>
+		<v.gamelistDetailed.size ifHelpPrompts="false">0.39 0.90</v.gamelistDetailed.size>
+		<v.gamelistBasic.size ifHelpPrompts="true">0.95 0.85</v.gamelistBasic.size>
+		<v.gamelistBasic.size ifHelpPrompts="false">0.95 0.90</v.gamelistBasic.size>
+
+		<v.gameDescription.size ifHelpPrompts="true">0.113</v.gameDescription.size>
+		<v.gameDescription.size ifHelpPrompts="false">0.160</v.gameDescription.size>
 
 		<c.text>ffffff</c.text>
 		<c.selected>000000</c.selected>
 		<c.glowColor>0000004d</c.glowColor>
+
+		<l.lines ifHelpPrompts="true">11</l.lines>
+		<l.lines ifHelpPrompts="false">12</l.lines>
 		
 		<f.mb>font.ttf</f.mb>
 		<f.mbi>font.ttf</f.mbi>
@@ -98,6 +105,19 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 	
 	</subset>
 
+	<subset name="splashscreen"
+	
+		displayName="${subset.splashscreen}"
+		
+	>
+	
+		<include name="colorset" displayName="${subset.splashscreen.colorset}" />
+		<include name="default" displayName="${subset.splashscreen.default}" />
+		<include name="batocera" displayName="${subset.splashscreen.batocera}" />
+		<include name="disabled" displayName="${subset.splashscreen.disabled}" />
+	
+	</subset>
+
 	<subset name="batterybar"
 	
 		displayName="${subset.batterybar}"
@@ -106,19 +126,6 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 
 		<include			name="yes"						displayName="${subset.batterybar.yes}"						/>	
 		<include			name="no"						displayName="${subset.batterybar.no}"						/>
-	
-	</subset>
-
-	<subset name="splashscreen"
-	
-		displayName="${subset.splashscreen}"
-		
-	>
-	
-		<include name="default" displayName="${subset.splashscreen.default}" />
-		<include name="batocera" displayName="${subset.splashscreen.batocera}" />
-		<include name="colorset" displayName="${subset.splashscreen.colorset}" />
-		<include name="disabled" displayName="${subset.splashscreen.disabled}" />
 	
 	</subset>
 
@@ -132,7 +139,7 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 	
 	</subset>
 
-	<view name="system,grid,basic,detailed">
+	<view name="system,menu,grid,basic,detailed">
 	
 		<image name="hide"
 		
@@ -191,22 +198,13 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		
 		/>
 	
-		<image name="barUp,barDown"
+		<image name="barUp"
 		
-			extra="true"
 			zIndex="2000"
 			path="./_inc/parts/white.png"
 			size="1.2 0.04"
 			color="${c.menubg}"
-		
-		>
-		
-			<h tinyScreen="true">0.05</h>
-		
-		</image>
-	
-		<image name="barUp"
-		
+			h="0.05"
 			extra="true"
 			origin="0.5 0"
 			pos="0.5 0"
@@ -214,7 +212,12 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		/>
 		
 		<image name="barDown"
-		
+			ifHelpPrompts="true"
+			zIndex="2000"
+			path="./_inc/parts/white.png"
+			size="1.2 0.04"
+			color="${c.menubg}"
+			h="0.05"
 			extra="true"
 			origin="0.5 1"
 			pos="0.5 1"

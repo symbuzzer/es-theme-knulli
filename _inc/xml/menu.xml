@@ -9,7 +9,7 @@
 		<menuText name="menutitle"
 		
 			fontPath="./../fonts/${f.mb}"
-			fontSize="0.040"
+			fontSize="0.035"
 			color="${c.text}"
 			
 		/>

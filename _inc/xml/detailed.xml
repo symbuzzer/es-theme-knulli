@@ -85,8 +85,7 @@
 		<textlist name="gamelist"
 		
 			zIndex="1000"
-
-			size="0.39 0.85"
+			size="${v.gamelistDetailed.size}"
 			pos="0.025 0.075"
 			selectedColor="${c.selected}"
 			primaryColor="${c.text}"
@@ -99,10 +98,9 @@
 			fontPath="./../fonts/${f.mb}"
 			alignment="left"
                         horizontalMargin="0.01"
-			forceUppercase="false"
 			scrollSound="./../parts/scroll.wav"
 			fontSize="0.032"
-			lines="11"
+			lines ="${l.lines}"
 			scrollbarColor="${c.textHeader}"
 			scrollbarCorner="0.9"
 			scrollbarSize="${v.line.hc}"
@@ -119,9 +117,9 @@
 			color="efefef"
 			pos="0.705 0.55"
 			showSnapshotNoVideo="true"	
-			showSnapshotDelay="false"
+			showSnapshotDelay="true"
 			effect="none"
-			delay="0"
+			delay="1"
 			roundCorners="0.018"
 			origin="0.5 1"
 			maxSize="0.46 0.436"
@@ -139,12 +137,10 @@
 		/>
 
 
-		<text name="
-    		        md_gametime
-     		       "
+		<text name="md_gametime"
 
+			extra="true"
 			zIndex="1001"
-			forceUppercase="false"
 			alignment="right"
 			verticalAlignment="top"
 			fontPath="./../fonts/${f.mb}"
@@ -159,47 +155,13 @@
 			h="0.18"
 			offsetY="0.113"
 			color="${c.text}ef"
-			backgroundColor="${c.textHeader}05"
 			lineSpacing="1.58"
 
 		/>
-
-		<text name="
-     		        md_description
-     		       "
-		
-			zIndex="1001"
-			forceUppercase="false"
-			alignment="left"
-			verticalAlignment="top"
-			fontPath="./../fonts/${f.mri}"
-                        pos="0.4526041666666667 0.6148148148148148"
-                        size="0.3322916666666667 0.2851851851851852"
-                        fontSize="0.024"
-			color="${c.selected}"
-                        glowColor="${c.glowColor}"
-			glowOffset="2"
-			glowSize="1"
-
-		/>
 			
-		<text name="
-    		        noDescription
-    		       "
-		
-			zIndex="1001"
-			extra="true"
-			forceUppercase="false"
-			alignment="left"
-			verticalAlignment="top"
-			fontPath="./../fonts/${f.mri}"
-                        pos="0.4526041666666667 0.6148148148148148"
-                        size="0.3322916666666667 0.2851851851851852"
-                        fontSize="0.024"
-			color="${c.selected}"
-                        glowColor="${c.glowColor}"
-			glowOffset="2"
-			glowSize="1"
+		<text name="noDescription"
+			
+			extra="true"		
 			text="${lang.noDesc}"
 			visible="empty({game:desc})"
 
@@ -208,15 +170,22 @@
 		<text name="md_description,noDescription"
 		
 			extra="true"
-			fontSize="0.028"
+			zIndex="1001"
+			alignment="left"
+			verticalAlignment="top"
+                        pos="0.4526041666666667 0.6148148148148148"
+                        size="0.3322916666666667 0.2851851851851852"
+                        glowColor="${c.glowColor}"
+			glowOffset="2"
+			glowSize="1"
+			fontSize="0.030"
 			w="0.5"
 			h="0.18"
-			offsetY="0.113"
-			forceUppercase="false"
+			offsetY="${v.gameDescription.size}"
+			y="0.62"
 			fontPath="./../fonts/${f.mb}"
 			color="${c.text}ef"
 			backgroundColor="${c.textHeader}05"
-			y="0.62"
 			lineSpacing="1.58"
 			
 		/>
