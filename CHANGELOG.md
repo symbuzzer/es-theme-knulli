@@ -1,3 +1,8 @@
+# v1.6.1
+- Re-added controllerActivity.xml for fixing left corner dot problem
+- Fixed system default transition
+- Removed Grid from text based game lists
+
 # v1.6.0
 - Clock moved from right to left for fixing overlapping issue in settings
 - Fixed an issue where console images in the main menu were not fully reflected
