@@ -1,6 +1,6 @@
 <!--
 theme name:     es-theme-knulli
-version:        1.6.1
+version:        1.7.0
 author:         symbuzzer
 email:		alipolatbeyaz@gmail.com
 website:	avalibeyaz.com/github
@@ -19,7 +19,7 @@ based on:       "es-theme-basic" by lehcimcramtrebor
     <variables>
 		
 
-		<v.themeVersion>1.6.1</v.themeVersion>
+		<v.themeVersion>1.7.0</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed</v.allViews>
 		<v.allGamelists>grid,basic,detailed</v.allGamelists>
@@ -78,8 +78,12 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		<c.selected>000000</c.selected>
 		<c.glowColor>0000004d</c.glowColor>
 
-		<l.lines ifHelpPrompts="true">11</l.lines>
-		<l.lines ifHelpPrompts="false">12</l.lines>
+		<v.lines ifHelpPrompts="true">11</v.lines>
+		<v.lines ifHelpPrompts="false">12</v.lines>
+
+		<v.gridAutoLayout if="${screen.width} &lt;= '641'">3 2</v.gridAutoLayout>
+		<v.gridAutoLayout if="${screen.width} &gt; '641' &amp;&amp; ${screen.width} &lt;= '1281'">4 2</v.gridAutoLayout>
+		<v.gridAutoLayout if="${screen.width} &gt; '1281'">5 3</v.gridAutoLayout>
 		
 		<f.mb>font.ttf</f.mb>
 		<f.mbi>font.ttf</f.mbi>

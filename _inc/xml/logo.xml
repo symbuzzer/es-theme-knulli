@@ -14,8 +14,8 @@
 		
 		>
 		
-			<path>./../../${p.custom}/${system.theme}/logo.png</path>
-			<path>./../../${p.custom}/${system.theme}/logo.svg</path>
+			<path>./../../_inc/logos/${p.custom}/${system.theme}/logo.png</path>
+			<path>./../../_inc/logos/${p.custom}/${system.theme}/logo.svg</path>
 			
 		</image>
 
