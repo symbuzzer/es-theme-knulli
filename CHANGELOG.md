@@ -1,3 +1,7 @@
+# v1.7.0
+- Added dynamic (auto) grid size for 480p, 720p 1080p screen resolutions (idea from "dopaz")
+- Theme file structure simplified
+
 # v1.6.1
 - Re-added controllerActivity.xml for fixing left corner dot problem
 - Fixed system default transition
