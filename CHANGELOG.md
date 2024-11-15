@@ -1,3 +1,6 @@
+# v1.7.1
+- Fixed auto grid size
+
 # v1.7.0
 - Added dynamic (auto) grid size for 480p, 720p 1080p screen resolutions (idea from "dopaz")
 - Theme file structure simplified
