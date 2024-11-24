@@ -12,6 +12,7 @@
 - There is a feature to change and disable splashscreen. You can manually select any of the Knulli or Batocera images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
 - Added feature to automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
 - Added some Knulli specific assets and features, such as the Emulators folder and its system image
+- Added ability to hide help bar completely from ES settings
 - The theme file structure has been made easier and more understandable for other users and developers
 - You can view the theme version information in the theme settings
 ## LINKS
