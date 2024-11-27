@@ -21,13 +21,9 @@
 - [Video preview](https://www.reddit.com/r/RG35XX_H/comments/1gnj63h/esthemeknulli_is_updated_to_v160/)
 ## HOW TO INSTALL
   *Note: This theme comes pre-installed on latest Knulli Alpha releases. It will also come pre-installed when public update released. If you are on version 07/21 and want to use this theme, you should install it by following the steps below.*
-  - Method 1 (Recommended, most easy)
-    - Use [etk_tool](https://github.com/symbuzzer/etk_tool)
-  - Method 2 (Manual method):
-    - Download [latest es-theme-knulli.zip](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip) file
-    - Extract it into share/themes (or userdata/themes) folder and restart device
-  - Method 3 (More easy):
-    - Install and run [Zarquon](https://github.com/zarquon-42)'s [Patch Installer](https://github.com/zarquon-42/knulli-patch-installer) and select the theme from Patch Installer's menu.
+- On your console, open Main Menu > Updates & Downloads > Themes
+- Find "Knulli" and install from there
+
 ## HOW TO SELECT THE THEME
   - Select es-theme-knulli from USER INTERFACE SETTINGS > THEME SET menu
   - Go back and wait to refreshing system
