@@ -1,3 +1,6 @@
+# v1.8.0
+- Added Rocknix colorset and splash screen
+
 # v1.7.1
 - Fixed auto grid size
 
