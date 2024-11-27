@@ -1,5 +1,6 @@
 # v1.8.0
 - Added Rocknix colorset and splash screen
+- Removed unused videos
 
 # v1.7.1
 - Fixed auto grid size
