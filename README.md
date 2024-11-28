@@ -8,7 +8,7 @@
 - Unlike many ES themes, the problem of text overlapping in the menus has been minimized
 - Menu and navigation sounds available
 - Added the ability to display only the battery percentage and hide the battery bar, which is not available in ES Settings
-- Knulli and Batocera colorsets are available. This makes the interface look more integrated with the system used
+- Knulli, Batocera and Rocknix colorsets are available. This makes the interface look more integrated with the system used
 - There is a feature to change and disable splashscreen. You can manually select any of the Knulli or Batocera images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
 - Added feature to automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
 - Added some Knulli specific assets and features, such as the Emulators folder and its system image
