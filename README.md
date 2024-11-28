@@ -21,7 +21,7 @@
 - [Video preview](https://www.reddit.com/r/RG35XX_H/comments/1gnj63h/esthemeknulli_is_updated_to_v160/)
 ## HOW TO INSTALL
   *Note: This theme comes pre-installed on latest Knulli Alpha releases. It will also come pre-installed when public update released. If you are on version 07/21 and want to use this theme, you should install it by following the steps below.*
-- On your console, open Main Menu > Updates & Downloads > Themes
+- On your console, open MAIN MENU > UPDATES & DOWNLOADS > THEMES
 - Find "Knulli" and install from there
 
 ## HOW TO SELECT THE THEME
