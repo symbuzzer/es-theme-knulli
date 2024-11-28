@@ -1,3 +1,6 @@
+# v1.8.1
+- Fixed default splash screen issue on non-knulli devices
+
 # v1.8.0
 - Added Rocknix colorset and splash screen
 - Removed unused videos
