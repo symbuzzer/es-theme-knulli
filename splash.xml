@@ -16,6 +16,14 @@
     			visible="false"
 		/>
 
+		<image ifSubset="splashscreen:colorset,themeColors:knulli" name="background"
+    			path="./_inc/parts/splash/batocera.png"
+		/>
+
+		<image ifSubset="splashscreen:knulli" name="background"
+    			path="./_inc/parts/splash/knulli.png"
+		/>
+
 		<image ifSubset="splashscreen:colorset,themeColors:batocera" name="background"
     			path="./_inc/parts/splash/batocera.png"
 		/>
