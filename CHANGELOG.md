@@ -1,3 +1,6 @@
+# v1.8.2
+- Fixed splash screen issue when Knulli colorset selected
+
 # v1.8.1
 - Fixed default splash screen issue on non-knulli devices
 
