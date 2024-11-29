@@ -1,3 +1,6 @@
+# v1.9.0
+- Added Knulli Firefly splash screen
+
 # v1.8.2
 - Fixed splash screen issue when Knulli colorset selected
 
