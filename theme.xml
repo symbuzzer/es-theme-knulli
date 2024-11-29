@@ -1,6 +1,6 @@
 <!--
 theme name:     es-theme-knulli
-version:        1.8.2
+version:        1.9.0
 author:         symbuzzer
 email:		alipolatbeyaz@gmail.com
 website:	avalibeyaz.com/github
@@ -19,7 +19,7 @@ based on:       "es-theme-basic" by lehcimcramtrebor
     <variables>
 		
 
-		<v.themeVersion>1.8.2</v.themeVersion>
+		<v.themeVersion>1.9.0</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed</v.allViews>
 		<v.allGamelists>grid,basic,detailed</v.allGamelists>
@@ -119,6 +119,7 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		<include name="colorset" displayName="${subset.splashscreen.colorset}" />
 		<include name="default" displayName="${subset.splashscreen.default}" />
 		<include name="knulli" displayName="${subset.splashscreen.knulli}" />
+		<include name="knulli_firefly" displayName="${subset.splashscreen.knulli_firefly}" />
 		<include name="batocera" displayName="${subset.splashscreen.batocera}" />
 		<include name="rocknix" displayName="${subset.splashscreen.rocknix}" />
 		<include name="disabled" displayName="${subset.splashscreen.disabled}" />

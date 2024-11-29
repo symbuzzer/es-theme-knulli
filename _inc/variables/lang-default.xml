@@ -15,6 +15,7 @@
 		<subset.splashscreen.colorset>auto (from colorset)</subset.splashscreen.colorset>
 		<subset.splashscreen.default>default</subset.splashscreen.default>
 		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
+		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
 		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
 		<subset.splashscreen.rocknix>rocknix</subset.splashscreen.rocknix>
 		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
