@@ -19,33 +19,6 @@
 			maxLogoCount="2"
 			
 		/>
-
-		<screenshader name="blurCarousel"
-		
-			extra="true"
-			zIndex="900"
-			pos="0 0.35"
-			size="1 1"
-	
-		>
-		
-			<path>./../shaders/scanlines.glsl</path>
-
-		</screenshader>
-
-		<image name="glare"
-		
-			extra="true"
-			linearSmooth="true"
-			zIndex="899"
-			path="./../parts/glare.png"
-			maxSize="1 1"
-			origin="0 0"
-			pos="0 0"
-			color="${c.main}"
-			opacity="0.075"
-
-		/>
 		
 	</view>
 
