@@ -1,6 +1,6 @@
 # es-theme-knulli
 ## FEATURES
-- Designed entirely for Knulli
+- Designed entirely for Knulli and Rocknix (only H700 devices)
 - Unlike other ES themes, texts are made more readable and images are more visible on small screens
 - Aimed to be as simple and fast as possible. For this reason, it has been simplified considerably from the es-theme-basic on which it is based. The size of the theme has been reduced by 2/3
 - Instead of specifying separate parameters for high and low resolutions, fixed parameters were used directly, making the theme both faster and less resource consuming
