@@ -1,3 +1,8 @@
+# v1.9.1
+- Grid size is setted 3x3 when auto selected on rg cubexx devices (Thanks to Raincityblues)
+- Added new system logos: Vircon32
+- Added new auto game collection logos: Spinner and Trackball
+
 # v1.9.0
 - Added Knulli Firefly splash screen
 
