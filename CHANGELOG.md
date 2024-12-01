@@ -1,3 +1,7 @@
+# v1.9.2
+- Added missing Music logo espacally for Rocknix H700
+- Removed unnecassary m3u files
+
 # v1.9.1
 - Grid size is setted 3x3 when auto selected on rg cubexx devices (Thanks to Raincityblues)
 - Added new system logos: Vircon32
