@@ -25,9 +25,20 @@
 - Find "Knulli" and install from there
 
 ## HOW TO SELECT THE THEME
-  - Select es-theme-knulli from USER INTERFACE SETTINGS > THEME SET menu
-  - Go back and wait to refreshing system
- 
+- Select es-theme-knulli from USER INTERFACE SETTINGS > THEME SET menu
+- Go back and wait to refreshing system
+
+## HOW TO UPDATE
+### A) If pre-installed
+*Note: Due Batocera's theme folder prioty preferences, you should use a 3rd party tool named "[ETK Tool](https://github.com/symbuzzer/etk_tool)" also developed by me*
+- Download [latest etk-tool](https://github.com/symbuzzer/etk_tool/releases/latest/download/etk_tool.pygame)
+- Copy etk_tool.pygame to ROMS/PYGAME folder as a game rom
+- From Knulli, refresh gamelist and run etk-tool from PYGAME collection
+- It will update itself if needed
+### B) If installed from official store
+- On your console, open MAIN MENU > UPDATES & DOWNLOADS > THEMES
+- Go Installed tab and select Knulli > Update
+
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
 - Based on "[es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic)" by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)
