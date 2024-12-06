@@ -19,6 +19,7 @@
 - You can view the theme version information in the theme settings
 ## LINKS
 - [Changelog](https://github.com/symbuzzer/es-theme-knulli/blob/main/CHANGELOG.md)
+- [What is next features](https://github.com/symbuzzer/es-theme-knulli/blob/main/ROADMAP.md)
 - [Download](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip)
 - [Video preview](https://www.reddit.com/r/RG35XX_H/comments/1gnj63h/esthemeknulli_is_updated_to_v160/)
 ## HOW TO INSTALL
