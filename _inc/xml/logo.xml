@@ -31,7 +31,7 @@
 		
 		<text name="logoText"
 		
-			fontPath="./../fonts/${f.mb}"
+			fontPath="./../fonts/${f.def}"
 			fontSize="0.06"
 			color="${c.text}"
                         glowColor="${c.glowColor}"

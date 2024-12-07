@@ -44,6 +44,14 @@
     			path="./_inc/parts/splash/rocknix.png"
 		/>
 
+		<image ifSubset="splashscreen:colorset,themeColors:anbernic" name="background"
+    			path="./_inc/parts/splash/anbernic.png"
+		/>
+
+		<image ifSubset="splashscreen:anbernic" name="background"
+    			path="./_inc/parts/splash/anbernic.png"
+		/>
+
 		<image name="progressbar:active"
 
 			color="FFFFFF"

@@ -1,13 +1,3 @@
-<!--
-theme name:     es-theme-knulli
-version:        1.9.2
-author:         symbuzzer
-email:		alipolatbeyaz@gmail.com
-website:	avalibeyaz.com/github
-license:        GPLv3
-based on:       "es-theme-basic" by lehcimcramtrebor
--->
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <theme defaultView="grid">
@@ -19,7 +9,7 @@ based on:       "es-theme-basic" by lehcimcramtrebor
     <variables>
 		
 
-		<v.themeVersion>1.9.2</v.themeVersion>
+		<v.themeVersion>2.0.0</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed</v.allViews>
 		<v.allGamelists>grid,basic,detailed</v.allGamelists>
@@ -74,6 +64,15 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		<v.gameDescription.size ifHelpPrompts="true">0.113</v.gameDescription.size>
 		<v.gameDescription.size ifHelpPrompts="false">0.160</v.gameDescription.size>
 
+		<v.gameTime.size ifHelpPrompts="true">0.053</v.gameTime.size>
+		<v.gameTime.size ifHelpPrompts="false">0.100</v.gameTime.size>
+
+		<v.videoMax.size ifHelpPrompts="true">0.705 0.65</v.videoMax.size>
+		<v.videoMax.size ifHelpPrompts="false">0.705 0.70</v.videoMax.size>
+
+		<v.marqueeMax.size ifHelpPrompts="true">0.50 0.08</v.marqueeMax.size>
+		<v.marqueeMax.size ifHelpPrompts="false">0.50 0.12</v.marqueeMax.size>
+
 		<c.text>ffffff</c.text>
 		<c.selected>000000</c.selected>
 		<c.glowColor>0000004d</c.glowColor>
@@ -81,22 +80,18 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		<v.lines ifHelpPrompts="true">11</v.lines>
 		<v.lines ifHelpPrompts="false">12</v.lines>
 
+		<p.gamecounttext ifHelpPrompts="true">0 0.85</p.gamecounttext>
+		<p.gamecounttext ifHelpPrompts="false">0 0.90</p.gamecounttext>
+
 		<v.gridAutoLayout if="${screen.width} &lt;= '641'">3 2</v.gridAutoLayout>
 		<v.gridAutoLayout if="${screen.width} &gt; '641' &amp;&amp; ${screen.width} &lt;= '721'">3 3</v.gridAutoLayout>
 		<v.gridAutoLayout if="${screen.width} &gt; '721' &amp;&amp; ${screen.width} &lt;= '1281'">4 2</v.gridAutoLayout>
 		<v.gridAutoLayout if="${screen.width} &gt; '1281'">5 3</v.gridAutoLayout>
 		
-		<f.mb>font.ttf</f.mb>
-		<f.mbi>font.ttf</f.mbi>
-		<f.mr>font.ttf</f.mr>
-		<f.mri>font.ttf</f.mri>
-		<f.ml>font.ttf</f.ml>
-		<f.mli>font.ttf</f.mli>
+		<f.def>ubuntu.ttf</f.def>
 
-		
     </variables>
 
-	<!--menu views order -->
 	<view name="grid,basic,detailed"></view>
 
 	<subset name="themeColors"
@@ -107,7 +102,8 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 
 		<include name="knulli" displayName="${subset.themeColors.knulli}" >./_inc/variables/themeColors-knulli.xml</include>	
 		<include name="batocera" displayName="${subset.themeColors.batocera}" >./_inc/variables/themeColors-batocera.xml</include>	
-		<include name="rocknix" displayName="${subset.themeColors.rocknix}" >./_inc/variables/themeColors-rocknix.xml</include>
+		<include name="rocknix" displayName="${subset.themeColors.rocknix}" >./_inc/variables/themeColors-rocknix.xml</include>	
+		<include name="anbernic" displayName="${subset.themeColors.anbernic}" >./_inc/variables/themeColors-anbernic.xml</include>
 	
 	</subset>
 
@@ -123,7 +119,19 @@ based on:       "es-theme-basic" by lehcimcramtrebor
 		<include name="knulli_firefly" displayName="${subset.splashscreen.knulli_firefly}" />
 		<include name="batocera" displayName="${subset.splashscreen.batocera}" />
 		<include name="rocknix" displayName="${subset.splashscreen.rocknix}" />
+		<include name="anbernic" displayName="${subset.splashscreen.anbernic}" />
 		<include name="disabled" displayName="${subset.splashscreen.disabled}" />
+	
+	</subset>
+
+	<subset name="gamecount"
+	
+		displayName="${subset.gamecount}"
+		
+	>
+
+		<include			name="no"						displayName="${subset.gamecount.no}"						/>
+		<include			name="yes"						displayName="${subset.gamecount.yes}"						/>	
 	
 	</subset>
 

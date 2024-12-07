@@ -8,7 +8,7 @@
 
 		<menuText name="menutitle"
 		
-			fontPath="./../fonts/${f.mb}"
+			fontPath="./../fonts/${f.def}"
 			fontSize="0.035"
 			color="${c.text}"
 			
@@ -16,7 +16,7 @@
 
 		<menuText name="menufooter"
 		
-			fontPath="./../fonts/${f.mr}"
+			fontPath="./../fonts/${f.def}"
 			fontSize="0.018"
 			color="${c.text}"
 			
@@ -24,7 +24,7 @@
 
 		<menuText name="menutext"
 		
-			fontPath="./../fonts/${f.mr}"
+			fontPath="./../fonts/${f.def}"
 			fontSize="0.038"
 			color="${c.text}"
 			separatorColor="00000000"
@@ -37,14 +37,14 @@
 
 		<menuTextSmall name="menutextsmall"
 		
-			fontPath="./../fonts/${f.mr}"
+			fontPath="./../fonts/${f.def}"
 			fontSize="0.028"
 			
 		/>
 
 		<menuGroup name="menugroup"
 		
-			fontPath="./../fonts/${f.mb}"
+			fontPath="./../fonts/${f.def}"
 			fontSize="0.035"
 			color="${c.textHeader}"
 			separatorColor="00000000"

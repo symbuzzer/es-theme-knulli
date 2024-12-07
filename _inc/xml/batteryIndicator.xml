@@ -28,7 +28,7 @@
 
 			<batteryText name="ss.batterytext"
 			
-				fontPath="./../fonts/${f.mb}"
+				fontPath="./../fonts/${f.def}"
 				color="${c.text}"
 				fontSize="0.035"
 				
@@ -39,7 +39,7 @@
 			
 				text="  "
 				ifSubset="batterybar:yes"
-				fontPath="./../fonts/${f.mb}"
+				fontPath="./../fonts/${f.def}"
 				fontSize="0.017"
 				color="${c.text}"
 				
@@ -64,7 +64,7 @@
 			<text name="ss.separator2"
 			
 				text="  "
-				fontPath="./../fonts/${f.mb}"
+				fontPath="./../fonts/${f.def}"
 				fontSize="0.017"
 				color="${c.text}"
 				
@@ -86,7 +86,7 @@
 
 
 			<clock name="system-clock"
-				fontPath="./../fonts/${f.mb}"
+				fontPath="./../fonts/${f.def}"
 				color="${c.text}"
 				fontSize="0.035"
 			/>

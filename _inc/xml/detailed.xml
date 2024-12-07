@@ -95,11 +95,11 @@
 			selectorColor="${c.menuSelector}"	  		
 			selectorColorEnd="${ce.menuSelector}"	  		
 			selectorImagePath="./../parts/selector.png"	  		
-			fontPath="./../fonts/${f.mb}"
+			fontPath="./../fonts/${f.def}"
 			alignment="left"
                         horizontalMargin="0.01"
 			scrollSound="./../parts/scroll.wav"
-			fontSize="0.032"
+			fontSize="0.036"
 			lines ="${l.lines}"
 			scrollbarColor="${c.textHeader}"
 			scrollbarCorner="0.9"
@@ -115,25 +115,25 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			pos="0.705 0.55"
+			pos="${v.videoMax.size}"
 			showSnapshotNoVideo="true"	
 			showSnapshotDelay="true"
 			effect="none"
 			delay="1"
 			roundCorners="0.018"
 			origin="0.5 1"
-			maxSize="0.46 0.436"
+			maxSize="0.50 0.450"
 			
 		/>
 
 		<image name="md_marquee"
+
 			zIndex="1001"
 			linearSmooth="true"
 			saturation="1.1"
-			pos="0.45 0.73"
-			maxSize="0.28 0.10"
-			origin="0 1"
-			alignment="left"
+			pos="0.70 0.10"
+			maxSize="${v.marqueeMax.size}"
+			origin="0.5 0"
 		/>
 
 
@@ -141,21 +141,21 @@
 
 			extra="true"
 			zIndex="1001"
-			alignment="right"
+			alignment="center"
 			verticalAlignment="top"
-			fontPath="./../fonts/${f.mb}"
-                        pos="0.95 0.65"
-                        size="0.3322916666666667 0.2851851851851852"
+			fontPath="./../fonts/${f.def}"
+                        pos="0.953 0.65"
                         glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
 			origin="1 0.5"
 			fontSize="0.028"
-			w="0.5"
-			h="0.18"
-			offsetY="0.113"
+			size="0.3 0.06"
+			offsetY="${v.gameTime.size}"
 			color="${c.text}ef"
+			backgroundColor="${c.textHeader}10"
 			lineSpacing="1.58"
+			roundCorners="0.018"
 
 		/>
 			
@@ -179,14 +179,14 @@
 			glowOffset="2"
 			glowSize="1"
 			fontSize="0.030"
-			w="0.5"
-			h="0.18"
+			size="0.5 0.18"
 			offsetY="${v.gameDescription.size}"
 			y="0.62"
-			fontPath="./../fonts/${f.mb}"
+			fontPath="./../fonts/${f.def}"
 			color="${c.text}ef"
-			backgroundColor="${c.textHeader}05"
+			backgroundColor="${c.textHeader}10"
 			lineSpacing="1.58"
+			roundCorners="0.018"
 			
 		/>
 			
