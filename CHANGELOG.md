@@ -1,3 +1,10 @@
+## v2.0.0
+- Added game count on console selection screen. (Can be enabled and disabled from theme setting, default disabled)
+- Added new Anbernic colorscheme and splashscreen (Can be selected from theme setting)
+- Detailed view redesigned
+- Simplified font variables
+- Removed unnecessary strings
+
 # v1.9.2
 - Added missing Music logo espacally for Rocknix H700
 - Removed unnecassary m3u files
