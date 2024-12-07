@@ -2,6 +2,7 @@
 - Added game count on console selection screen. (Can be enabled and disabled from theme setting, default disabled)
 - Added new Anbernic colorscheme and splashscreen (Can be selected from theme setting)
 - Detailed view redesigned
+- Synced gamelist font size for all views
 - Simplified font variables
 - Removed unnecessary strings
 
