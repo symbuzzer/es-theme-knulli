@@ -19,7 +19,7 @@ based on:       "es-theme-basic" by lehcimcramtrebor
     <variables>
 		
 
-		<v.themeVersion>1.9.2</v.themeVersion>
+		<v.themeVersion>1.9.3</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed</v.allViews>
 		<v.allGamelists>grid,basic,detailed</v.allGamelists>
