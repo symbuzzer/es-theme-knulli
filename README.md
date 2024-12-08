@@ -19,7 +19,7 @@
 - The theme file structure has been made easier and more understandable for other users and developers
 - You can view the theme version information in the theme settings
 ## LINKS
-- [Preview iamges](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/README.md)
+- [Preview images](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/README.md)
 - [Changelog](https://github.com/symbuzzer/es-theme-knulli/blob/main/CHANGELOG.md)
 - [What is next features](https://github.com/symbuzzer/es-theme-knulli/blob/main/ROADMAP.md)
 - [Download](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip)
