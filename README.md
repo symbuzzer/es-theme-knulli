@@ -24,7 +24,7 @@
 - [What is next?](https://github.com/symbuzzer/es-theme-knulli/blob/main/ROADMAP.md)
 - [Download](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip)
 ## HOW TO INSTALL
-  *Note: This theme comes pre-installed on latest Knulli Alpha releases. It will also come pre-installed when public update released. If you are on version 07/21 and want to use this theme, you should install it by following the steps below.*
+  *Note: This theme comes pre-installed on latest Knulli public release (20241204) and some Rocknix for H700 builds. Please check USER INTERFACE SETTINGS > THEME SET menu for checkinf if pre-installed or not.*
 - On your console, open MAIN MENU > UPDATES & DOWNLOADS > THEMES
 - Find "Knulli" and install from there
 
