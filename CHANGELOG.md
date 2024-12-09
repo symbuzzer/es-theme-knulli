@@ -1,5 +1,5 @@
 # v2.1.0
-- Adding show or hide system logo on game lists
+- Added show or hide system logo on game lists
 
 # v2.0.0
 - Added game count on console selection screen. (Can be enabled and disabled from theme setting, default disabled)
