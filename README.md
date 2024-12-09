@@ -34,7 +34,7 @@
 - Go back and wait to refreshing system
 
 ## HOW TO UPDATE
-### A) If pre-installed with Knulli or Rocknix
+### A) If pre-installed with Knulli
 *Note: Due Batocera's theme folder prioty preferences, you should use a 3rd party tool named "[ETK Tool](https://github.com/symbuzzer/etk_tool)" also developed by me*
 - Download [latest etk-tool](https://github.com/symbuzzer/etk_tool/releases/latest/download/etk_tool.pygame)
 - Copy etk_tool.pygame to ROMS/PYGAME folder as a game rom
