@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.0.0</v.themeVersion>
+		<v.themeVersion>2.1.0</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed</v.allViews>
 		<v.allGamelists>grid,basic,detailed</v.allGamelists>
@@ -121,6 +121,17 @@
 		<include name="rocknix" displayName="${subset.splashscreen.rocknix}" />
 		<include name="anbernic" displayName="${subset.splashscreen.anbernic}" />
 		<include name="disabled" displayName="${subset.splashscreen.disabled}" />
+	
+	</subset>
+
+	<subset name="systemlogos"
+	
+		displayName="${subset.systemlogos}"
+		
+	>
+
+		<include			name="yes"						displayName="${subset.systemlogos.yes}"						/>
+		<include			name="no"						displayName="${subset.systemlogos.no}"						/>	
 	
 	</subset>
 

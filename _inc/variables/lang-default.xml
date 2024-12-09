@@ -22,6 +22,10 @@
 		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
 
+		<subset.systemlogos>show system logos on gamelists</subset.systemlogos>
+		<subset.systemlogos.yes>yes</subset.systemlogos.yes>
+		<subset.systemlogos.no>no</subset.systemlogos.no>
+
 		<subset.gamecount>show game count</subset.gamecount>
 		<subset.gamecount.yes>yes</subset.gamecount.yes>
 		<subset.gamecount.no>no</subset.gamecount.no>
