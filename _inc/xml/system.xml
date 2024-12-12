@@ -16,8 +16,15 @@
 			pos="0.5 0.5"
 			size="1.1 1"
 			logoSize="0.60 0.36"
-			maxLogoCount="2"
 			
+		/>
+
+		<carousel ifSubset="systemlogoeffects:enabled" name="systemcarousel"
+			maxLogoCount="2"
+		/>
+
+		<carousel ifSubset="systemlogoeffects:disabled" name="systemcarousel"
+			maxLogoCount="1"
 		/>
 
 		<text name="systemInfo"
@@ -31,7 +38,7 @@
 		>
 			<visible ifSubset="gamecount:no">false</visible>
 			<storyboard>		
-				<animation property="opacity" from="0" to="1" duration="100" mode="easeIn" />		
+				<animation property="opacity" from="0" to="1" duration="200" mode="easeIn" />		
 			</storyboard>
 			
 		</text>

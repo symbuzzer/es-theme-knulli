@@ -9,11 +9,11 @@
     <variables>
 		
 
-		<v.themeVersion>2.1.0</v.themeVersion>
+		<v.themeVersion>2.2.0</v.themeVersion>
 
-		<v.allViews>system,grid,basic,detailed</v.allViews>
-		<v.allGamelists>grid,basic,detailed</v.allGamelists>
-		<v.textGamelists>basic,detailed</v.textGamelists>
+		<v.allViews>system,grid,basic,detailed,detailed_2</v.allViews>
+		<v.allGamelists>grid,basic,detailed,detailed_2</v.allGamelists>
+		<v.textGamelists>basic,detailed,detailed_2</v.textGamelists>
 
 		<v.line.hc>1 / ${screen.height}</v.line.hc>
 		<v.line.h>2 / ${screen.height}</v.line.h>
@@ -92,7 +92,9 @@
 
     </variables>
 
-	<view name="grid,basic,detailed"></view>
+	<view name="basic,detailed"></view>
+	<customView name="detailed_2"></customView>
+	<view name="grid"></view>
 
 	<subset name="themeColors"
 	
@@ -124,14 +126,36 @@
 	
 	</subset>
 
+	<subset name="systemlogoeffects"
+	
+		displayName="${subset.systemlogoeffects}"
+		
+	>
+
+		<include name="enabled" displayName="${subset.systemlogoeffects.enabled}" />
+		<include name="disabled" displayName="${subset.systemlogoeffects.disabled}" />	
+	
+	</subset>
+
+	<subset name="disableVideos"
+	
+		displayName="${subset.disableVideos}"
+		
+	>
+
+		<include name="no" displayName="${subset.disableVideos.no}" />	
+		<include name="yes" displayName="${subset.disableVideos.yes}" />
+	
+	</subset>
+
 	<subset name="systemlogos"
 	
 		displayName="${subset.systemlogos}"
 		
 	>
 
-		<include			name="yes"						displayName="${subset.systemlogos.yes}"						/>
-		<include			name="no"						displayName="${subset.systemlogos.no}"						/>	
+		<include name="yes" displayName="${subset.systemlogos.yes}" />
+		<include name="no" displayName="${subset.systemlogos.no}" />	
 	
 	</subset>
 
@@ -141,8 +165,8 @@
 		
 	>
 
-		<include			name="no"						displayName="${subset.gamecount.no}"						/>
-		<include			name="yes"						displayName="${subset.gamecount.yes}"						/>	
+		<include name="no" displayName="${subset.gamecount.no}" />
+		<include name="yes" displayName="${subset.gamecount.yes}" />	
 	
 	</subset>
 
@@ -152,8 +176,8 @@
 		
 	>
 
-		<include			name="yes"						displayName="${subset.batterybar.yes}"						/>	
-		<include			name="no"						displayName="${subset.batterybar.no}"						/>
+		<include name="yes" displayName="${subset.batterybar.yes}" />	
+		<include name="no" displayName="${subset.batterybar.no}" />
 	
 	</subset>
 
@@ -262,6 +286,7 @@
 	<include>./_inc/xml/system.xml</include>
 	<include>./_inc/xml/grid.xml</include>
 	<include>./_inc/xml/basic.xml</include>
-	<include>./_inc/xml/detailed.xml</include>
+	<include>./_inc/xml/detailed.xml</include>>
+	<include>./_inc/xml/detailed_2.xml</include>
 	
 </theme>

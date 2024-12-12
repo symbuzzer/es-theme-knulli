@@ -22,6 +22,14 @@
 		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
 
+		<subset.disableVideos>disable video previews on gamelists</subset.disableVideos>
+		<subset.disableVideos.yes>yes</subset.disableVideos.yes>
+		<subset.disableVideos.no>no</subset.disableVideos.no>
+
+		<subset.systemlogoeffects>system logo effects</subset.systemlogoeffects>
+		<subset.systemlogoeffects.enabled>enabled</subset.systemlogoeffects.enabled>
+		<subset.systemlogoeffects.disabled>disabled</subset.systemlogoeffects.disabled>
+
 		<subset.systemlogos>show system logos on gamelists</subset.systemlogos>
 		<subset.systemlogos.yes>yes</subset.systemlogos.yes>
 		<subset.systemlogos.no>no</subset.systemlogos.no>

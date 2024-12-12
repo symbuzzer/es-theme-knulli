@@ -111,7 +111,7 @@
 		/>
 
 
-		<video name="md_video"
+		<video ifSubset="disableVideos:no" name="md_video"
 		
 			zIndex="1000"
 			linearSmooth="true"
@@ -126,6 +126,20 @@
 			origin="0.5 1"
 			maxSize="0.50 0.450"
 			
+		/>
+
+		<image ifSubset="disableVideos:yes" name="md_boxart"
+
+			zIndex="1000"
+			linearSmooth="true"
+			saturation="0.75"
+			color="efefef"
+			pos="${v.videoMax.size}"
+			effect="none"
+			roundCorners="0.018"
+			origin="0.5 1"
+			maxSize="0.50 0.450"
+
 		/>
 
 		<image name="md_marquee"
@@ -189,26 +203,6 @@
 			backgroundColor="${c.textHeader}10"
 			lineSpacing="1.58"
 			roundCorners="0.018"
-			
-		/>
-			
-		<image name="md_kidgame,md_notkidgame"
-		
-			zIndex="900"
-			linearSmooth="true"
-			origin="0.5 0"
-			pos="0.8799479166666667 0.333"
-			path="./../parts/kid.svg"
-			maxSize="0.12 0.28"
-			color="${c.text}4d"
-			opacity="1"
-			visible="true"
-			
-		/>
-			
-		<image name="md_notkidgame"
-		
-			color="00000000"
 			
 		/>
 		
