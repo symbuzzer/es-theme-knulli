@@ -47,3 +47,6 @@
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
 - Based on "[es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic)" by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)
+- Some logos used from "[ckau-book](https://github.com/CkauNui/ckau-book)" theme by [CkauNui](https://github.com/CkauNui) *(Licensed under Attribution-NonCommercial-ShareAlike 4.0 International)*
+- Each brand of hardware and software here represented as a tribute.
+- All logos, trademarks and photos are copyright of their respective owners.
