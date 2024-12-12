@@ -6,6 +6,8 @@
 	
 	<variables>
 
+		<lang.detailed_2>detailed_2</lang.detailed_2>
+
 		<subset.themeColors>colorset</subset.themeColors>
 		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
 		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>

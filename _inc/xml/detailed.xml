@@ -16,10 +16,11 @@
 			saturation="0.75"
 			color="${c.textHeader}15"
 			colorEnd="80808080"
-			visible="true"
 
 		>
+
 			<visible ifSubset="systemlogos:no">false</visible>
+
 		</image>
 
 		<image name="frameLeft"

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<customView name="detailed_2" inherits="detailed" displayName="${lang.detailed_2}">
+
+		<image name="logo"
+		
+			visible="false"
+
+		/>
+
+		<video ifSubset="disableVideos:no" name="md_video"
+		
+			zIndex="1000"
+			linearSmooth="true"
+			saturation="0.75"
+			color="efefef"
+			pos="${v.videoMax.size}"
+			showSnapshotNoVideo="true"	
+			showSnapshotDelay="true"
+			effect="none"
+			delay="1"
+			roundCorners="0.018"
+			origin="0.5 0.75"
+			maxSize="0.5 0.5"
+			
+		/>
+
+		<image ifSubset="disableVideos:yes" name="md_boxart"
+
+			zIndex="1000"
+			linearSmooth="true"
+			saturation="0.75"
+			color="efefef"
+			pos="${v.videoMax.size}"
+			effect="none"
+			roundCorners="0.018"
+			origin="0.5 0.75"
+			maxSize="0.5 0.5"
+
+		/>
+
+		<image name="md_marquee"
+
+			visible="false"
+
+		/>
+
+
+		<text name="md_gametime"
+
+			visible="false"
+
+		/>
+
+		<text name="md_description,noDescription"
+		
+			visible="false"
+		/>
+		
+	</customView>
+
+</theme>
