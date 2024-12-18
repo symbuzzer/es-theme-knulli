@@ -21,30 +21,32 @@
 - Tested successfully on different screen sized devices and hdmi connections
 - The theme file structure has been made easier and more understandable for other users and developers
 - You can view the theme version information in the theme settings
+
 ## LINKS
 - [Preview images](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/README.md)
 - [Changelog](https://github.com/symbuzzer/es-theme-knulli/blob/main/CHANGELOG.md)
 - [What is next?](https://github.com/symbuzzer/es-theme-knulli/blob/main/ROADMAP.md)
 - [Download](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip)
+
 ## HOW TO INSTALL
   *Note: This theme comes pre-installed on latest Knulli public release (20241204). Please check USER INTERFACE SETTINGS > THEME SET menu for checkinf if pre-installed or not.*
-- On your console, open MAIN MENU > UPDATES & DOWNLOADS > THEMES
-- Find "Knulli" and install from there
+- On your console, open ```MAIN MENU > UPDATES & DOWNLOADS > THEMES```
+- Find ```Knulli``` and install from there
 
 ## HOW TO SELECT THE THEME
-- Select es-theme-knulli from USER INTERFACE SETTINGS > THEME SET menu
+- Select ```es-theme-knulli``` from ```USER INTERFACE SETTINGS > THEME SET``` menu
 - Go back and wait to refreshing system
 
 ## HOW TO UPDATE
 ### A) If pre-installed with Knulli
 *Note: Due Batocera's theme folder prioty preferences, you should use a 3rd party tool named "[ETK Tool](https://github.com/symbuzzer/etk_tool)" also developed by me*
 - Download [latest es-theme-knulli-updater](https://github.com/symbuzzer/etk_tool/releases/latest/download/es-theme-knulli-updater.sh)
-- Copy ES-THEME-KNULLI-UPDATER.SH to ROMS/TOOLS folder as a game rom
-- From Knulli, refresh gamelist and run ES-THEME-KNULLI-UPDATER from TOOLS collection
+- Copy ```es-theme-knulli-updater.sh``` to ```roms/tools``` folder as a game rom
+- From Knulli, refresh gamelist and run ```es-theme-knulli-updater``` from ```TOOLS``` collection
 - It will update itself if needed
 ### B) If installed from official store
-- On your console, open MAIN MENU > UPDATES & DOWNLOADS > THEMES
-- Go Installed tab and select Knulli > Update
+- On your console, open ```MAIN MENU > UPDATES & DOWNLOADS > THEMES```
+- Go Installed tab and select ```Knulli > Update```
 
 ## SUGGESTED MINIMAL SCREENSCRAPER SETTINGS
 - Source: ScreenScraper
