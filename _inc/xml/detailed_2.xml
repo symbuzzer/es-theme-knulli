@@ -18,14 +18,14 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			pos="${v.video2.pos}"
 			showSnapshotNoVideo="true"	
 			showSnapshotDelay="true"
 			effect="none"
 			delay="1"
 			roundCorners="0.018"
-			origin="0.5 0.75"
-			maxSize="0.5 0.6"
+			origin="0.5 0.5"
+			maxSize="${v.frameRight.size}"
+			pos="${v.frameRight.pos}"
 			
 		/>
 
@@ -35,11 +35,11 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			pos="${v.boxart.pos}"
 			effect="none"
 			roundCorners="0.018"
-			origin="0.5 0.75"
-			maxSize="0.5 0.75"
+			origin="0.5 0.5"
+			maxSize="${v.frameRight.size}"
+			pos="${v.frameRight.pos}"
 
 		/>
 
