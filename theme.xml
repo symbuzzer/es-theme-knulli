@@ -67,8 +67,14 @@
 		<v.gameTime.size ifHelpPrompts="true">0.053</v.gameTime.size>
 		<v.gameTime.size ifHelpPrompts="false">0.100</v.gameTime.size>
 
-		<v.videoMax.size ifHelpPrompts="true">0.705 0.65</v.videoMax.size>
-		<v.videoMax.size ifHelpPrompts="false">0.705 0.70</v.videoMax.size>
+		<v.video.pos ifHelpPrompts="true">0.705 0.65</v.video.pos>
+		<v.video.pos ifHelpPrompts="false">0.705 0.70</v.video.pos>
+
+		<v.video2.pos ifHelpPrompts="true">0.705 0.653</v.video2.pos>
+		<v.video2.pos ifHelpPrompts="false">0.705 0.683</v.video2.pos>
+
+		<v.boxart.pos ifHelpPrompts="true">0.705 0.690</v.boxart.pos>
+		<v.boxart.pos ifHelpPrompts="false">0.705 0.720</v.boxart.pos>
 
 		<v.marqueeMax.size ifHelpPrompts="true">0.50 0.08</v.marqueeMax.size>
 		<v.marqueeMax.size ifHelpPrompts="false">0.50 0.12</v.marqueeMax.size>

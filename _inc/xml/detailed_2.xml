@@ -6,7 +6,7 @@
 	
 	<customView name="detailed_2" inherits="detailed" displayName="${lang.detailed_2}">
 
-		<image name="logo"
+		<image ifSubset="systemlogos:no" name="logo"
 		
 			visible="false"
 
@@ -18,14 +18,14 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			pos="${v.videoMax.size}"
+			pos="${v.video2.pos}"
 			showSnapshotNoVideo="true"	
 			showSnapshotDelay="true"
 			effect="none"
 			delay="1"
 			roundCorners="0.018"
 			origin="0.5 0.75"
-			maxSize="0.5 0.5"
+			maxSize="0.5 0.6"
 			
 		/>
 
@@ -35,11 +35,11 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			pos="${v.videoMax.size}"
+			pos="${v.boxart.pos}"
 			effect="none"
 			roundCorners="0.018"
 			origin="0.5 0.75"
-			maxSize="0.5 0.5"
+			maxSize="0.5 0.75"
 
 		/>
 
