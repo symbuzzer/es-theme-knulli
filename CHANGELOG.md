@@ -1,3 +1,11 @@
+# v2.2.0
+- Added new detailed_2 view
+- Added disable video option for all gamelist views
+- Added disable system animations and reflection option
+- Added missing aleck64 and alice32 system logos
+- Fixed splash screen image resolutions for different sceen sizes
+- Fixed code structure on some xml files
+
 # v2.1.0
 - Added show or hide system logo on game lists
 
