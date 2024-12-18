@@ -75,8 +75,13 @@
 			autoLayoutSelectedZoom="1.15"
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
-			showVideoAtDelay="500"
 			scrollSound="./../parts/scroll.wav"
+
+		/>
+
+		<imagegrid ifSubset="disableVideos:no" name="gamegrid"
+
+			showVideoAtDelay="500"
 
 		/>
 
@@ -158,13 +163,9 @@
 		>
 		
 			<storyboard
-			
 				repeat="forever"
-				
 			>
-			
-                <animation		property="opacity"			from="0.1"			to="0.9"				duration="250"			mode="easeInOut"		autoreverse="true"		/>
-				
+				<animation property="opacity" from="0.1" to="0.9" duration="250" mode="easeInOut" autoreverse="true" />
 			</storyboard>		
 
 		</image>

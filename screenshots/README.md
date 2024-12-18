@@ -1,6 +1,6 @@
 ![](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/system.png?raw=true)
 ![](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/detailed.png?raw=true)
+![](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/detailed_2.png?raw=true)
 ![](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/grid.png?raw=true)
 ![](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/basic.png?raw=true)
-![](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/settings.png?raw=true)
 ![](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/themesettings.png?raw=true)

@@ -9,11 +9,11 @@
     <variables>
 		
 
-		<v.themeVersion>2.1.0</v.themeVersion>
+		<v.themeVersion>2.2.0</v.themeVersion>
 
-		<v.allViews>system,grid,basic,detailed</v.allViews>
-		<v.allGamelists>grid,basic,detailed</v.allGamelists>
-		<v.textGamelists>basic,detailed</v.textGamelists>
+		<v.allViews>system,grid,basic,detailed,detailed_2</v.allViews>
+		<v.allGamelists>grid,basic,detailed,detailed_2</v.allGamelists>
+		<v.textGamelists>basic,detailed,detailed_2</v.textGamelists>
 
 		<v.line.hc>1 / ${screen.height}</v.line.hc>
 		<v.line.h>2 / ${screen.height}</v.line.h>
@@ -67,8 +67,8 @@
 		<v.gameTime.size ifHelpPrompts="true">0.053</v.gameTime.size>
 		<v.gameTime.size ifHelpPrompts="false">0.100</v.gameTime.size>
 
-		<v.videoMax.size ifHelpPrompts="true">0.705 0.65</v.videoMax.size>
-		<v.videoMax.size ifHelpPrompts="false">0.705 0.70</v.videoMax.size>
+		<v.video.pos ifHelpPrompts="true">0.705 0.65</v.video.pos>
+		<v.video.pos ifHelpPrompts="false">0.705 0.70</v.video.pos>
 
 		<v.marqueeMax.size ifHelpPrompts="true">0.50 0.08</v.marqueeMax.size>
 		<v.marqueeMax.size ifHelpPrompts="false">0.50 0.12</v.marqueeMax.size>
@@ -92,7 +92,9 @@
 
     </variables>
 
-	<view name="grid,basic,detailed"></view>
+	<view name="basic,detailed"></view>
+	<customView name="detailed_2"></customView>
+	<view name="grid"></view>
 
 	<subset name="themeColors"
 	
@@ -101,8 +103,7 @@
 	>
 
 		<include name="knulli" displayName="${subset.themeColors.knulli}" >./_inc/variables/themeColors-knulli.xml</include>	
-		<include name="batocera" displayName="${subset.themeColors.batocera}" >./_inc/variables/themeColors-batocera.xml</include>	
-		<include name="rocknix" displayName="${subset.themeColors.rocknix}" >./_inc/variables/themeColors-rocknix.xml</include>	
+		<include name="batocera" displayName="${subset.themeColors.batocera}" >./_inc/variables/themeColors-batocera.xml</include>
 		<include name="anbernic" displayName="${subset.themeColors.anbernic}" >./_inc/variables/themeColors-anbernic.xml</include>
 	
 	</subset>
@@ -118,9 +119,30 @@
 		<include name="knulli" displayName="${subset.splashscreen.knulli}" />
 		<include name="knulli_firefly" displayName="${subset.splashscreen.knulli_firefly}" />
 		<include name="batocera" displayName="${subset.splashscreen.batocera}" />
-		<include name="rocknix" displayName="${subset.splashscreen.rocknix}" />
 		<include name="anbernic" displayName="${subset.splashscreen.anbernic}" />
 		<include name="disabled" displayName="${subset.splashscreen.disabled}" />
+	
+	</subset>
+
+	<subset name="systemlogoeffects"
+	
+		displayName="${subset.systemlogoeffects}"
+		
+	>
+
+		<include name="enabled" displayName="${subset.systemlogoeffects.enabled}" />
+		<include name="disabled" displayName="${subset.systemlogoeffects.disabled}" />	
+	
+	</subset>
+
+	<subset name="disableVideos"
+	
+		displayName="${subset.disableVideos}"
+		
+	>
+
+		<include name="no" displayName="${subset.disableVideos.no}" />	
+		<include name="yes" displayName="${subset.disableVideos.yes}" />
 	
 	</subset>
 
@@ -130,8 +152,8 @@
 		
 	>
 
-		<include			name="yes"						displayName="${subset.systemlogos.yes}"						/>
-		<include			name="no"						displayName="${subset.systemlogos.no}"						/>	
+		<include name="yes" displayName="${subset.systemlogos.yes}" />
+		<include name="no" displayName="${subset.systemlogos.no}" />	
 	
 	</subset>
 
@@ -141,8 +163,8 @@
 		
 	>
 
-		<include			name="no"						displayName="${subset.gamecount.no}"						/>
-		<include			name="yes"						displayName="${subset.gamecount.yes}"						/>	
+		<include name="no" displayName="${subset.gamecount.no}" />
+		<include name="yes" displayName="${subset.gamecount.yes}" />	
 	
 	</subset>
 
@@ -152,8 +174,8 @@
 		
 	>
 
-		<include			name="yes"						displayName="${subset.batterybar.yes}"						/>	
-		<include			name="no"						displayName="${subset.batterybar.no}"						/>
+		<include name="yes" displayName="${subset.batterybar.yes}" />	
+		<include name="no" displayName="${subset.batterybar.no}" />
 	
 	</subset>
 
@@ -262,6 +284,7 @@
 	<include>./_inc/xml/system.xml</include>
 	<include>./_inc/xml/grid.xml</include>
 	<include>./_inc/xml/basic.xml</include>
-	<include>./_inc/xml/detailed.xml</include>
+	<include>./_inc/xml/detailed.xml</include>>
+	<include>./_inc/xml/detailed_2.xml</include>
 	
 </theme>

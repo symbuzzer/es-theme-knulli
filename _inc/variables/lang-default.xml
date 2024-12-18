@@ -6,10 +6,11 @@
 	
 	<variables>
 
+		<lang.detailed_2>detailed_2</lang.detailed_2>
+
 		<subset.themeColors>colorset</subset.themeColors>
 		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
 		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
-		<subset.themeColors.rocknix>rocknix</subset.themeColors.rocknix>
 		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
 		<subset.splashscreen>splashscreen</subset.splashscreen>
@@ -18,9 +19,16 @@
 		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
 		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
 		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
-		<subset.splashscreen.rocknix>rocknix</subset.splashscreen.rocknix>
 		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
+
+		<subset.disableVideos>disable video previews on gamelists</subset.disableVideos>
+		<subset.disableVideos.yes>yes</subset.disableVideos.yes>
+		<subset.disableVideos.no>no</subset.disableVideos.no>
+
+		<subset.systemlogoeffects>system logo effects</subset.systemlogoeffects>
+		<subset.systemlogoeffects.enabled>enabled</subset.systemlogoeffects.enabled>
+		<subset.systemlogoeffects.disabled>disabled</subset.systemlogoeffects.disabled>
 
 		<subset.systemlogos>show system logos on gamelists</subset.systemlogos>
 		<subset.systemlogos.yes>yes</subset.systemlogos.yes>

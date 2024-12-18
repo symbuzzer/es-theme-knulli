@@ -36,14 +36,6 @@
     			path="./_inc/parts/splash/batocera.png"
 		/>
 
-		<image ifSubset="splashscreen:colorset,themeColors:rocknix" name="background"
-    			path="./_inc/parts/splash/rocknix.png"
-		/>
-
-		<image ifSubset="splashscreen:rocknix" name="background"
-    			path="./_inc/parts/splash/rocknix.png"
-		/>
-
 		<image ifSubset="splashscreen:colorset,themeColors:anbernic" name="background"
     			path="./_inc/parts/splash/anbernic.png"
 		/>
