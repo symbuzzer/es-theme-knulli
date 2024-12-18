@@ -11,7 +11,6 @@
 		<subset.themeColors>colorset</subset.themeColors>
 		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
 		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
-		<subset.themeColors.rocknix>rocknix</subset.themeColors.rocknix>
 		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
 		<subset.splashscreen>splashscreen</subset.splashscreen>
@@ -20,7 +19,6 @@
 		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
 		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
 		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
-		<subset.splashscreen.rocknix>rocknix</subset.splashscreen.rocknix>
 		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
 

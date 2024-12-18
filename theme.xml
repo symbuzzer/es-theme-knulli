@@ -109,8 +109,7 @@
 	>
 
 		<include name="knulli" displayName="${subset.themeColors.knulli}" >./_inc/variables/themeColors-knulli.xml</include>	
-		<include name="batocera" displayName="${subset.themeColors.batocera}" >./_inc/variables/themeColors-batocera.xml</include>	
-		<include name="rocknix" displayName="${subset.themeColors.rocknix}" >./_inc/variables/themeColors-rocknix.xml</include>	
+		<include name="batocera" displayName="${subset.themeColors.batocera}" >./_inc/variables/themeColors-batocera.xml</include>
 		<include name="anbernic" displayName="${subset.themeColors.anbernic}" >./_inc/variables/themeColors-anbernic.xml</include>
 	
 	</subset>
@@ -126,7 +125,6 @@
 		<include name="knulli" displayName="${subset.splashscreen.knulli}" />
 		<include name="knulli_firefly" displayName="${subset.splashscreen.knulli_firefly}" />
 		<include name="batocera" displayName="${subset.splashscreen.batocera}" />
-		<include name="rocknix" displayName="${subset.splashscreen.rocknix}" />
 		<include name="anbernic" displayName="${subset.splashscreen.anbernic}" />
 		<include name="disabled" displayName="${subset.splashscreen.disabled}" />
 	

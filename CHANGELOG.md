@@ -4,6 +4,7 @@
 - Added disable system animations and reflection option
 - Added missing aleck64 and alice32 system logos
 - Fixed splash screen image resolutions for different sceen sizes
+- Removed Rocknix releated things
 - Fixed code structure on some xml files
 
 # v2.1.0

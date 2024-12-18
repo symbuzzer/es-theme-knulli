@@ -1,6 +1,6 @@
 # es-theme-knulli
 ## FEATURES
-- Designed entirely for Knulli and Rocknix (only H700 devices)
+- Designed entirely for Knulli
 - Unlike other ES themes, texts are made more readable and images are more visible on small screens
 - Aimed to be as simple and fast as possible. For this reason, it has been simplified considerably from the es-theme-basic on which it is based. The size of the theme has been reduced by 2/3
 - Instead of specifying separate parameters for high and low resolutions, fixed parameters were used directly, making the theme both faster and less resource consuming
@@ -13,11 +13,10 @@
 - Added new detailed_2 view
 - Added disable video option for all gamelist views
 - Added disable system animations and reflection option
-- Knulli, Batocera, Rocknix and Anbernic colorsets are available. This makes the interface look more integrated with the system used
-- There is a feature to change and disable splashscreen. You can manually select any of the Knulli, Batocera, Rocknix or Anbernic images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
+- Knulli, Batocera and Anbernic colorsets are available. This makes the interface look more integrated with the system used
+- There is a feature to change and disable splashscreen. You can manually select any of the Knulli, Batocera or Anbernic images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
 - Added feature to automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
 - Added some Knulli specific assets and features, such as the Emulators folder and its system image
-- Added some Rocknix specific assets and features, such as the Music folder and its system image
 - Added ability to hide help bar completely from ES settings
 - Tested successfully on different screen sized devices and hdmi connections
 - The theme file structure has been made easier and more understandable for other users and developers
@@ -28,7 +27,7 @@
 - [What is next?](https://github.com/symbuzzer/es-theme-knulli/blob/main/ROADMAP.md)
 - [Download](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip)
 ## HOW TO INSTALL
-  *Note: This theme comes pre-installed on latest Knulli public release (20241204) and some Rocknix for H700 builds. Please check USER INTERFACE SETTINGS > THEME SET menu for checkinf if pre-installed or not.*
+  *Note: This theme comes pre-installed on latest Knulli public release (20241204). Please check USER INTERFACE SETTINGS > THEME SET menu for checkinf if pre-installed or not.*
 - On your console, open MAIN MENU > UPDATES & DOWNLOADS > THEMES
 - Find "Knulli" and install from there
 
