@@ -44,6 +44,14 @@
 - On your console, open MAIN MENU > UPDATES & DOWNLOADS > THEMES
 - Go Installed tab and select Knulli > Update
 
+## SUGGESTED MINIMAL SCREENSCRAPER SETTINGS
+- Source: ScreenScraper
+- Image source: Box 2D
+- Box source: Box 2D
+- Logo source: Wheel
+- Overwrite medias: Enabled
+- Scrape for video: Enabled
+
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
 - Based on "[es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic)" by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)
