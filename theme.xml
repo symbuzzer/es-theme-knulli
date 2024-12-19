@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme defaultView="grid">
+<theme defaultView="detailed_2">
 
 <formatVersion>7</formatVersion>
 
@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.2.0</v.themeVersion>
+		<v.themeVersion>2.3.0</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed,detailed_2</v.allViews>
 		<v.allGamelists>grid,basic,detailed,detailed_2</v.allGamelists>
@@ -146,14 +146,14 @@
 	
 	</subset>
 
-	<subset name="systemlogos"
+	<subset name="systemlogosongamelists"
 	
-		displayName="${subset.systemlogos}"
+		displayName="${subset.systemlogosongamelists}"
 		
 	>
 
-		<include name="yes" displayName="${subset.systemlogos.yes}" />
-		<include name="no" displayName="${subset.systemlogos.no}" />	
+		<include name="yes" displayName="${subset.systemlogosongamelists.yes}" />
+		<include name="no" displayName="${subset.systemlogosongamelists.no}" />	
 	
 	</subset>
 
@@ -165,6 +165,18 @@
 
 		<include name="no" displayName="${subset.gamecount.no}" />
 		<include name="yes" displayName="${subset.gamecount.yes}" />	
+	
+	</subset>
+
+	<subset name="region"
+	
+		displayName="${subset.region}"
+		
+	>
+	
+		<include name="eu" displayName="${subset.region.eu}" />
+		<include name="us" displayName="${subset.region.us}" />
+		<include name="jp" displayName="${subset.region.jp}" />
 	
 	</subset>
 

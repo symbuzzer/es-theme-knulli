@@ -1,3 +1,9 @@
+# v2.3.0
+- Added region options for system logos
+- Added necassary system logos for region options
+- Changed default game list to Detailed_2 (from Grid)
+- Fixed some variabled due make things more understandable
+
 # v2.2.0
 - Added new detailed_2 view
 - Added disable video option for all gamelist views

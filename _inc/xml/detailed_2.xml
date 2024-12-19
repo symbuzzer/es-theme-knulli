@@ -6,7 +6,7 @@
 	
 	<customView name="detailed_2" inherits="detailed" displayName="${lang.detailed_2}">
 
-		<image ifSubset="systemlogos:no" name="logo"
+		<image ifSubset="systemlogosongamelists:no" name="logo"
 		
 			visible="false"
 

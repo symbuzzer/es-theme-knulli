@@ -12,10 +12,35 @@
 			zIndex="1000"
 			saturation="1.2"
 		
+		/>
+
+		<image name="logo"
+
+			ifSubset="region:eu"
+
 		>
 		
 			<path>./../../_inc/logos/${p.custom}/${system.theme}/logo.png</path>
-			<path>./../../_inc/logos/${p.custom}/${system.theme}/logo.svg</path>
+			
+		</image>
+
+		<image name="logo"
+
+			ifSubset="region:us"
+
+		>
+		
+			<path>./../../_inc/logos/${p.custom}/${system.theme}/us/logo.png</path>
+			
+		</image>
+
+		<image name="logo"
+
+			ifSubset="region:jp"
+
+		>
+		
+			<path>./../../_inc/logos/${p.custom}/${system.theme}/jp/logo.png</path>
 			
 		</image>
 

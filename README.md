@@ -7,6 +7,7 @@
 - Unlike many ES themes, the clock is displayed accurately on small screen devices
 - Unlike many ES themes, the problem of text overlapping in the menus has been minimized
 - Menu and navigation sounds available
+- Has region option for system logos
 - Added the ability to display only the battery percentage and hide the battery bar, which is not available in ES Settings
 - Added the ability to show or hide game counts for per system
 - Added show or hide system logo on game lists

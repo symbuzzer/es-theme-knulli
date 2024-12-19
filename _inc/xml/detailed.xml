@@ -19,7 +19,7 @@
 
 		>
 
-			<visible ifSubset="systemlogos:no">false</visible>
+			<visible ifSubset="systemlogosongamelists:no">false</visible>
 
 		</image>
 

@@ -30,9 +30,14 @@
 		<subset.systemlogoeffects.enabled>enabled</subset.systemlogoeffects.enabled>
 		<subset.systemlogoeffects.disabled>disabled</subset.systemlogoeffects.disabled>
 
-		<subset.systemlogos>show system logos on gamelists</subset.systemlogos>
-		<subset.systemlogos.yes>yes</subset.systemlogos.yes>
-		<subset.systemlogos.no>no</subset.systemlogos.no>
+		<subset.systemlogosongamelists>show system logos on gamelists</subset.systemlogosongamelists>
+		<subset.systemlogosongamelists.yes>yes</subset.systemlogosongamelists.yes>
+		<subset.systemlogosongamelists.no>no</subset.systemlogosongamelists.no>
+
+		<subset.region>region</subset.region>
+		<subset.region.eu>eu</subset.region.eu>
+		<subset.region.us>us</subset.region.us>
+		<subset.region.jp>jp</subset.region.jp>
 
 		<subset.gamecount>show game count</subset.gamecount>
 		<subset.gamecount.yes>yes</subset.gamecount.yes>
