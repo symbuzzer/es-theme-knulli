@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.3.2</v.themeVersion>
+		<v.themeVersion>2.3.3</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed,detailed_2</v.allViews>
 		<v.allGamelists>grid,basic,detailed,detailed_2</v.allGamelists>
@@ -138,6 +138,7 @@
 	<subset name="disableVideos"
 	
 		displayName="${subset.disableVideos}"
+		appliesTo="${v.allViews}"
 		
 	>
 
@@ -149,6 +150,7 @@
 	<subset name="systemlogosongamelists"
 	
 		displayName="${subset.systemlogosongamelists}"
+		appliesTo="${v.allViews}"
 		
 	>
 
@@ -171,7 +173,6 @@
 	<subset name="region"
 	
 		displayName="${subset.region}"
-		appliesTo="${v.allViews}"
 		
 	>
 	
