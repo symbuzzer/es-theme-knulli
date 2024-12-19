@@ -7,6 +7,7 @@
 - Unlike many ES themes, the clock is displayed accurately on small screen devices
 - Unlike many ES themes, the problem of text overlapping in the menus has been minimized
 - Menu and navigation sounds available
+- Has region option for system logos
 - Added the ability to display only the battery percentage and hide the battery bar, which is not available in ES Settings
 - Added the ability to show or hide game counts for per system
 - Added show or hide system logo on game lists
@@ -55,6 +56,13 @@
 - Logo source: Wheel
 - Overwrite medias: Enabled
 - Scrape for video: Enabled
+
+## VERSIONING
+With the addition of the beta branch, the versioning system has been changed since v2.3.x to ensure that etk_tool works smoothly and beta testers can update and provide feedback more easily.  
+
+Now, from the version information in the form of vX.Y.Z; X represents major updates, Y represents minor new additions and bug fixes. Z is unimportant for non-beta testers. So don't worry about Z appearing as x in the changelog or elsewhere.  
+
+Both Emulation Station's own theme store and etk_tool will already download the most up-to-date theme for you.  
 
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)

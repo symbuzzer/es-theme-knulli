@@ -4,7 +4,7 @@
 
 	<formatVersion>7</formatVersion>
 	
-	<view name="system,grid,basic,detailed">
+	<view name="system,basic,detailed,grid">
 	
 		<image name="logo"
 		
@@ -12,10 +12,38 @@
 			zIndex="1000"
 			saturation="1.2"
 		
+		/>
+		
+		<image name="logo"
+		
+			ifSubset="systemRegion:eu"
+			
 		>
 		
-			<path>./../../_inc/logos/${p.custom}/${system.theme}/logo.png</path>
-			<path>./../../_inc/logos/${p.custom}/${system.theme}/logo.svg</path>
+			<path>./../../_inc/logos/${system.theme}/logo.png</path>
+		
+		</image>
+		
+		<image name="logo"
+		
+			ifSubset="systemRegion:us"
+			
+		>
+		
+			<path>./../../_inc/logos/${system.theme}/logo.png</path>
+			<path>./../../_inc/logos/${system.theme}/us/logo.png</path>
+
+			
+		</image>
+		
+		<image name="logo"
+		
+			ifSubset="systemRegion:jp"
+			
+		>
+		
+			<path>./../../_inc/logos/${system.theme}/logo.png</path>
+			<path>./../../_inc/logos/${system.theme}/jp/logo.png</path>
 			
 		</image>
 
@@ -148,7 +176,7 @@
 	
 	</view>
 
-	<view name="grid,basic,detailed">
+	<view name="basic,detailed,grid">
 	
 		<image name="logo"
 		

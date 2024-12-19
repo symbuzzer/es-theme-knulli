@@ -18,7 +18,7 @@
 			colorEnd="80808080"
 
 		>
-			<visible ifSubset="systemlogos:no">false</visible>
+			<visible ifSubset="systemlogosongamelists:no">false</visible>
 		</image>
 
 		<image name="frame"

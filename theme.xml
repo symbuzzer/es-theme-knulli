@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme defaultView="grid">
+<theme defaultView="detailed_2">
 
 <formatVersion>7</formatVersion>
 
@@ -9,11 +9,14 @@
     <variables>
 		
 
-		<v.themeVersion>2.2.0</v.themeVersion>
+		<v.themeVersion>2.3.10</v.themeVersion>
 
-		<v.allViews>system,grid,basic,detailed,detailed_2</v.allViews>
-		<v.allGamelists>grid,basic,detailed,detailed_2</v.allGamelists>
+		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
+		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
+		<v.videoGamelists>detailed,detailed_2,grid</v.videoGamelists>
+		<v.detailedGamelists>detailed,detailed_2</v.detailedGamelists>
 		<v.textGamelists>basic,detailed,detailed_2</v.textGamelists>
+		<v.systemView>system</v.systemView>
 
 		<v.line.hc>1 / ${screen.height}</v.line.hc>
 		<v.line.h>2 / ${screen.height}</v.line.h>
@@ -127,6 +130,7 @@
 	<subset name="systemlogoeffects"
 	
 		displayName="${subset.systemlogoeffects}"
+		appliesTo="${v.systemView}"
 		
 	>
 
@@ -135,9 +139,22 @@
 	
 	</subset>
 
+	<subset name="gamecount"
+	
+		displayName="${subset.gamecount}"
+		appliesTo="${v.systemView}"
+		
+	>
+
+		<include name="no" displayName="${subset.gamecount.no}" />
+		<include name="yes" displayName="${subset.gamecount.yes}" />	
+	
+	</subset>
+
 	<subset name="disableVideos"
 	
 		displayName="${subset.disableVideos}"
+		appliesTo="${v.videoGamelists}"
 		
 	>
 
@@ -146,25 +163,27 @@
 	
 	</subset>
 
-	<subset name="systemlogos"
+	<subset name="systemlogosongamelists"
 	
-		displayName="${subset.systemlogos}"
+		displayName="${subset.systemlogosongamelists}"
+		appliesTo="${v.allGamelists}"
 		
 	>
 
-		<include name="yes" displayName="${subset.systemlogos.yes}" />
-		<include name="no" displayName="${subset.systemlogos.no}" />	
+		<include name="yes" displayName="${subset.systemlogosongamelists.yes}" />
+		<include name="no" displayName="${subset.systemlogosongamelists.no}" />	
 	
 	</subset>
 
-	<subset name="gamecount"
+	<subset name="systemRegion"
 	
-		displayName="${subset.gamecount}"
+		displayName="${subset.systemRegion}"
 		
 	>
-
-		<include name="no" displayName="${subset.gamecount.no}" />
-		<include name="yes" displayName="${subset.gamecount.yes}" />	
+	
+		<include name="eu" displayName="${subset.systemRegion.eu}" />
+		<include name="us" displayName="${subset.systemRegion.us}" />
+		<include name="jp" displayName="${subset.systemRegion.jp}" />
 	
 	</subset>
 
