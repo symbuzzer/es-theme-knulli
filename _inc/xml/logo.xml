@@ -14,31 +14,19 @@
 		
 		/>
 
-		<image name="logo"
-
-			ifSubset="region:eu"
-
-		>
+		<image ifSubset="region:eu" name="logo">
 		
 			<path>./../../_inc/logos/${p.custom}/${system.theme}/logo.png</path>
 			
 		</image>
 
-		<image name="logo"
-
-			ifSubset="region:us"
-
-		>
+		<image ifSubset="region:us" name="logo">
 		
 			<path>./../../_inc/logos/${p.custom}/${system.theme}/us/logo.png</path>
 			
 		</image>
 
-		<image name="logo"
-
-			ifSubset="region:jp"
-
-		>
+		<image ifSubset="region:jp" name="logo">
 		
 			<path>./../../_inc/logos/${p.custom}/${system.theme}/jp/logo.png</path>
 			
