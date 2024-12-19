@@ -9,13 +9,14 @@
     <variables>
 		
 
-		<v.themeVersion>2.3.6</v.themeVersion>
+		<v.themeVersion>2.3.7</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
 		<v.videoGamelists>detailed,detailed_2,grid</v.videoGamelists>
 		<v.detailedGamelists>detailed,detailed_2</v.detailedGamelists>
 		<v.textGamelists>basic,detailed,detailed_2</v.textGamelists>
+		<v.systemView>basic,detailed,detailed_2</v.systemView>
 
 		<v.line.hc>1 / ${screen.height}</v.line.hc>
 		<v.line.h>2 / ${screen.height}</v.line.h>
@@ -129,6 +130,7 @@
 	<subset name="systemlogoeffects"
 	
 		displayName="${subset.systemlogoeffects}"
+		appliesTo="${v.systemView}"
 		
 	>
 
@@ -164,6 +166,7 @@
 	<subset name="gamecount"
 	
 		displayName="${subset.gamecount}"
+		appliesTo="${v.systemView}"
 		
 	>
 
