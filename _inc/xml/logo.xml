@@ -16,19 +16,19 @@
 
 		<image ifSubset="region:eu" name="logo">
 		
-			<path>./../../_inc/logos/${p.custom}/${system.theme}/logo.png</path>
+			<path>./../../${system.theme}/logo.png</path>
 			
 		</image>
 
 		<image ifSubset="region:us" name="logo">
 		
-			<path>./../../_inc/logos/${p.custom}/${system.theme}/us/logo.png</path>
+			<path>./../../${system.theme}/us/logo.png</path>
 			
 		</image>
 
 		<image ifSubset="region:jp" name="logo">
 		
-			<path>./../../_inc/logos/${p.custom}/${system.theme}/jp/logo.png</path>
+			<path>./../../${system.theme}/jp/logo.png</path>
 			
 		</image>
 

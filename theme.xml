@@ -9,10 +9,12 @@
     <variables>
 		
 
-		<v.themeVersion>2.3.3</v.themeVersion>
+		<v.themeVersion>2.3.4</v.themeVersion>
 
 		<v.allViews>system,grid,basic,detailed,detailed_2</v.allViews>
 		<v.allGamelists>grid,basic,detailed,detailed_2</v.allGamelists>
+		<v.videoGamelists>grid,detailed,detailed_2</v.videoGamelists>
+		<v.detailedGamelists>detailed,detailed_2</v.detailedGamelists>
 		<v.textGamelists>basic,detailed,detailed_2</v.textGamelists>
 
 		<v.line.hc>1 / ${screen.height}</v.line.hc>
@@ -138,7 +140,7 @@
 	<subset name="disableVideos"
 	
 		displayName="${subset.disableVideos}"
-		appliesTo="${v.allViews}"
+		appliesTo="${v.videoGamelists}"
 		
 	>
 
@@ -150,7 +152,7 @@
 	<subset name="systemlogosongamelists"
 	
 		displayName="${subset.systemlogosongamelists}"
-		appliesTo="${v.allViews}"
+		appliesTo="${v.allGamelists}"
 		
 	>
 
