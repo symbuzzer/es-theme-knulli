@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.3.9</v.themeVersion>
+		<v.themeVersion>2.3.10</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -204,7 +204,7 @@
 		
 	>
 	
-
+		<include name="${v.themeVersion}" />
 	
 	</subset>
 

@@ -1,11 +1,11 @@
-# v2.3.0
+# v2.3.x
 - Added region options for system logos
-- Added necassary system logos for region options
 - Changed default game list to Detailed_2 (from Grid)
 - Fixed some variabled due make things more understandable
 - Added missing Recording and Sega System SP logo
 - Removed unnecassary background images
 - Theme options categorized
+- Switched to new versioning system
 
 # v2.2.0
 - Added new detailed_2 view

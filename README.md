@@ -57,6 +57,11 @@
 - Overwrite medias: Enabled
 - Scrape for video: Enabled
 
+## VERSIONING
+With the addition of the beta branch, the versioning system has been changed since v2.3.x to ensure that etk_tool works smoothly and beta testers can update and provide feedback more easily.  
+Now, from the version information in the form of vX.Y.Z; X represents major updates, Y represents minor new additions and bug fixes. Z is unimportant for non-beta testers. So don't worry about Z appearing as x in the changelog or elsewhere.  
+Both Emulation Station's own theme store and etk_tool will already download the most up-to-date theme for you.  
+
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
 - Based on "[es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic)" by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)
