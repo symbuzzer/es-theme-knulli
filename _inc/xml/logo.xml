@@ -4,7 +4,7 @@
 
 	<formatVersion>7</formatVersion>
 	
-	<view name="system,grid,basic,detailed">
+	<view name="system,basic,detailed,grid">
 	
 		<image name="logo"
 		
@@ -16,7 +16,7 @@
 		
 		<image name="logo"
 		
-			ifSubset="region:eu"
+			ifSubset="systemRegion:eu"
 			
 		>
 		
@@ -26,7 +26,7 @@
 		
 		<image name="logo"
 		
-			ifSubset="region:us"
+			ifSubset="systemRegion:us"
 			
 		>
 		
@@ -38,7 +38,7 @@
 		
 		<image name="logo"
 		
-			ifSubset="region:jp"
+			ifSubset="systemRegion:jp"
 			
 		>
 		
@@ -176,7 +176,7 @@
 	
 	</view>
 
-	<view name="grid,basic,detailed">
+	<view name="basic,detailed,grid">
 	
 		<image name="logo"
 		

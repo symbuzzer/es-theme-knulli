@@ -34,10 +34,10 @@
 		<subset.systemlogosongamelists.yes>yes</subset.systemlogosongamelists.yes>
 		<subset.systemlogosongamelists.no>no</subset.systemlogosongamelists.no>
 
-		<subset.region>region</subset.region>
-		<subset.region.eu>eu</subset.region.eu>
-		<subset.region.us>us</subset.region.us>
-		<subset.region.jp>jp</subset.region.jp>
+		<subset.systemRegion>region</subset.systemRegion>
+		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
+		<subset.systemRegion.us>us</subset.systemRegion.us>
+		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
 
 		<subset.gamecount>show game count</subset.gamecount>
 		<subset.gamecount.yes>yes</subset.gamecount.yes>

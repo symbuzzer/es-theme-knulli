@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.3.8</v.themeVersion>
+		<v.themeVersion>2.3.9</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -139,6 +139,18 @@
 	
 	</subset>
 
+	<subset name="gamecount"
+	
+		displayName="${subset.gamecount}"
+		appliesTo="${v.systemView}"
+		
+	>
+
+		<include name="no" displayName="${subset.gamecount.no}" />
+		<include name="yes" displayName="${subset.gamecount.yes}" />	
+	
+	</subset>
+
 	<subset name="disableVideos"
 	
 		displayName="${subset.disableVideos}"
@@ -163,27 +175,15 @@
 	
 	</subset>
 
-	<subset name="gamecount"
+	<subset name="systemRegion"
 	
-		displayName="${subset.gamecount}"
-		appliesTo="${v.systemView}"
-		
-	>
-
-		<include name="no" displayName="${subset.gamecount.no}" />
-		<include name="yes" displayName="${subset.gamecount.yes}" />	
-	
-	</subset>
-
-	<subset name="region"
-	
-		displayName="${subset.region}"
+		displayName="${subset.systemRegion}"
 		
 	>
 	
-		<include name="eu" displayName="${subset.region.eu}" />
-		<include name="us" displayName="${subset.region.us}" />
-		<include name="jp" displayName="${subset.region.jp}" />
+		<include name="eu" displayName="${subset.systemRegion.eu}" />
+		<include name="us" displayName="${subset.systemRegion.us}" />
+		<include name="jp" displayName="${subset.systemRegion.jp}" />
 	
 	</subset>
 
@@ -204,7 +204,7 @@
 		
 	>
 	
-		<include name="${v.themeVersion}" />
+
 	
 	</subset>
 
