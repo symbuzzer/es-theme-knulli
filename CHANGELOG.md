@@ -1,3 +1,6 @@
+# v2.4.x
+- Fixed knulli splashscreen asset
+
 # v2.3.x
 - Added region options for system logos
 - Changed default game list to Detailed_2 (from Grid)
