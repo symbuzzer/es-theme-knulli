@@ -41,12 +41,6 @@
 			</storyboard>
 			
 		</text>
-
-		<text ifSubset="slideType:vertical" name="systemInfo"
-
-			pos="${p.gamecounttext2}"
-
-		/>
 		
 	</view>
 
