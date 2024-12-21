@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.5.19</v.themeVersion>
+		<v.themeVersion>2.5.20</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
