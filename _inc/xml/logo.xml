@@ -71,7 +71,7 @@
 
 		<control ifSubset="slideType:vertical" name="logo,logoText"
 		
-			scale="0.5"
+			scale="1"
 			
 		/>
 			
