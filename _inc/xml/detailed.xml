@@ -168,7 +168,7 @@
 			origin="1 0.5"
 			fontSize="0.028"
 			size="0.3 0.06"
-			offsetY="${v.gameTime.size}"
+			offsetY="${v.playTime.size}"
 			color="${c.text}ef"
 			backgroundColor="${c.textHeader}10"
 			lineSpacing="1.58"
