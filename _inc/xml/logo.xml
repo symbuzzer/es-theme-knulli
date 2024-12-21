@@ -68,6 +68,43 @@
 			reflexion="0.05 0"
 			
 		/>
+
+		<control ifSubset="slideType:vertical" name="logo,logoText"
+		
+			scale="0.4"
+			
+		>
+			
+			<storyboard
+			
+				event="scroll"
+				
+			>
+			
+				<animation property="scale" from="0.40"	 to="0.40" duration="1" mode="linear"												/>
+
+				<animation property="offsetX" from="0" to="0" duration="1" mode="linear"												/>
+
+				<animation property="rotation" from="0" to="0" duration="1" mode="linear"												/>
+				
+			</storyboard>
+			
+			<storyboard
+			
+				event="deactivate"
+				
+			>
+			
+				<animation property="scale" from="1" to="0.40" duration="100" mode="linear"												/>
+
+				<animation property="offsetX" from="0" to="0" duration="1" mode="linear"												/>
+
+				<animation property="rotation" from="0" to="0" duration="1" mode="linear"												/>
+				
+			</storyboard>
+			
+		</control>
+
 			
 		<control ifSubset="systemlogoeffects:enabled" name="logo,logoText"
 		
