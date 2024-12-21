@@ -69,7 +69,7 @@
 			
 		/>
 			
-		<control ifSubset="systemlogoeffects:enabled" name="logo,logoText"
+		<control ifSubset="systemlogoeffects:enabled,slideType:horizontal" name="logo,logoText"
 		
 			scale="0.40"
 			
