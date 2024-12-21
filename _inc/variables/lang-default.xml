@@ -8,6 +8,10 @@
 
 		<lang.detailed_2>detailed_2</lang.detailed_2>
 
+		<subset.slideType>system scroll type</subset.slideType>
+		<subset.slideType.horizontal>horizontal</subset.slideType.horizontal>
+		<subset.slideType.vertical>vertical</subset.slideType.vertical>
+
 		<subset.themeColors>colorset</subset.themeColors>
 		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
 		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>

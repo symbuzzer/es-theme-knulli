@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.5.29</v.themeVersion>
+		<v.themeVersion>2.5.30</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -98,6 +98,17 @@
 	<view name="basic,detailed"></view>
 	<customView name="detailed_2"></customView>
 	<view name="grid"></view>
+
+	<subset name="slideType"
+	
+		displayName="${subset.slideType}"
+		
+	>
+
+		<include name="horizontal" displayName="${subset.slideType.horizontal}" />
+		<include name="vertical" displayName="${subset.slideType.vertical}" />	
+	
+	</subset>
 
 	<subset name="themeColors"
 	
