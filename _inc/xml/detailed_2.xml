@@ -50,10 +50,11 @@
 		/>
 
 
-		<text name="md_gametime"
+		<text ifSubset="playTimeEnabled:yes" name="md_gametime"
 
 			origin="1 0.5"
                         pos="0.975 0.05"
+			backgroundColor="${c.textHeader}50"
 
 		/>
 

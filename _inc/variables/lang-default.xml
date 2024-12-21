@@ -26,6 +26,10 @@
 		<subset.disableVideos.yes>yes</subset.disableVideos.yes>
 		<subset.disableVideos.no>no</subset.disableVideos.no>
 
+		<subset.playTimeEnabled>show play time on detailed, detailed_2</subset.playTimeEnabled>
+		<subset.playTimeEnabled.yes>yes</subset.playTimeEnabled.yes>
+		<subset.playTimeEnabled.no>no</subset.playTimeEnabled.no>
+
 		<subset.systemlogoeffects>system logo effects</subset.systemlogoeffects>
 		<subset.systemlogoeffects.enabled>enabled</subset.systemlogoeffects.enabled>
 		<subset.systemlogoeffects.disabled>disabled</subset.systemlogoeffects.disabled>

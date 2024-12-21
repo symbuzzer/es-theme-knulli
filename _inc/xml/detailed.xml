@@ -154,7 +154,7 @@
 		/>
 
 
-		<text name="md_gametime"
+		<text ifSubset="playTimeEnabled:yes" name="md_gametime"
 
 			extra="true"
 			zIndex="1001"

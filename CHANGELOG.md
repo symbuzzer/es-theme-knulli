@@ -1,5 +1,6 @@
 # v2.5.x
 - Help icons centered
+- Added show/hide play time on detailed and detailed_2 views
 
 # v2.4.x
 - Fixed knulli splashscreen asset
