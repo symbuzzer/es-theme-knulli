@@ -14,9 +14,9 @@
 			origin="0.5 0.5"
 			pos="0.5 0.5"
 			size="1 1"
-			logoSize="0.9 0.9"
+			logoSize="0.85 0.85"
 			maxLogoCount="1"
-			logoScale="1.2"
+			logoScale="1"
 			
 		/>
 
