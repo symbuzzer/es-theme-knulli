@@ -16,12 +16,12 @@
 			size="1.1 1"
 			logoSize="0.65 0.50"
 			maxLogoCount="1"
+			logoScale="1.2"
 			
 		/>
 
 		<carousel ifSubset="slideType:vertical" name="systemcarousel"
 			type="vertical_wheel"
-			logoScale="1.4"
 		/>
 
 
