@@ -71,23 +71,9 @@
 
 		<control ifSubset="slideType:vertical" name="logo,logoText"
 		
-			scale="0.4"
+			scale="1"
 			
 		>
-			
-			<storyboard
-			
-				event="scroll"
-				
-			>
-			
-				<animation property="scale" from="0.40"	 to="0.40" duration="1" mode="linear"												/>
-
-				<animation property="offsetX" from="0" to="0" duration="1" mode="linear"												/>
-
-				<animation property="rotation" from="0" to="0" duration="1" mode="linear"												/>
-				
-			</storyboard>
 			
 			<storyboard
 			
@@ -95,7 +81,7 @@
 				
 			>
 			
-				<animation property="scale" from="1" to="0.40" duration="100" mode="linear"												/>
+				<animation property="scale" from="1" to="1" duration="100" mode="linear"												/>
 
 				<animation property="offsetX" from="0" to="0" duration="1" mode="linear"												/>
 
