@@ -68,6 +68,12 @@
 			reflexion="0.05 0"
 			
 		/>
+
+		<control ifSubset="slideType:vertical" name="logo,logoText"
+		
+			scale="0.40"
+
+		</control>
 			
 		<control ifSubset="systemlogoeffects:enabled" name="logo,logoText"
 		
