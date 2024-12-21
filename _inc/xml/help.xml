@@ -4,7 +4,7 @@
 
 	<formatVersion>7</formatVersion>
 	
-	<view name="menu,system,basic,detailed,grid">
+	<view name="system,basic,detailed,grid">
 	
 		<helpsystem name="help"
 		

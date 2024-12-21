@@ -52,7 +52,9 @@
 
 		<text name="md_gametime"
 
-			visible="false"
+			visible="true"
+			origin="0 0.5"
+                        pos="0.97 0.1"
 
 		/>
 

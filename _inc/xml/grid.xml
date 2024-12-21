@@ -157,7 +157,6 @@
 			pos="0.964 0.899"
 			path="./../parts/hidden.svg"
 			maxSize="0.02 0.02"
-			color="${c.yellow}"
 			opacity="0.9"
 					
 		>
