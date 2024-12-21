@@ -67,7 +67,7 @@ Both Emulation Station's own theme store and etk_tool will already download the 
 ## BECOME BETA TESTER
 The theme is constantly updated and new features are added. If you want to try new features before the official store version or without waiting for a custom firmware update, you can become a beta tester for free.  
 
-To do this, you need to share the 32-digit code in the userdata/system/machine-id file with the developer via the OD-Commander application in the TOOLS collection on your device. Then you can automatically update beta versions with the ETK Tool application.
+To do this, you need to share the 32-digit code in the ```userdata/system/machine-id``` file with the developer via the ```OD-Commander``` application in the ```TOOLS``` collection on your device. Then you can automatically update beta versions with the ```ETK Tool``` application.
 
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
