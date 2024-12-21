@@ -1,3 +1,6 @@
+# v2.5.x
+- Help icons centered
+
 # v2.4.x
 - Fixed knulli splashscreen asset
 
