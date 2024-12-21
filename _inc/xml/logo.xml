@@ -80,8 +80,6 @@
 				event="deactivate"
 				
 			>
-			
-				<animation property="scale" from="1" to="1" duration="100" mode="linear"												/>
 
 				<animation property="offsetX" from="0" to="0" duration="1" mode="linear"												/>
 
@@ -94,7 +92,7 @@
 			
 		<control ifSubset="systemlogoeffects:enabled" name="logo,logoText"
 		
-			scale="0.4"
+			scale="1"
 			
 		>
 			
@@ -104,8 +102,6 @@
 				repeatAt="100"
 				
 			>
-			
-				<animation property="scale" from="0.40" to="1" duration="100" mode="linear"												/>
 
 				<animation property="offsetX" from="-0.005" to="-0.005" duration="100" mode="linear"											/>
 
@@ -172,8 +168,6 @@
 				event="scroll"
 				
 			>
-			
-				<animation property="scale" from="0.40"	 to="0.40" duration="1" mode="linear"												/>
 
 				<animation property="offsetX" from="0" to="0" duration="1" mode="linear"												/>
 
@@ -186,8 +180,6 @@
 				event="deactivate"
 				
 			>
-			
-				<animation property="scale" from="1" to="0.40" duration="100" mode="linear"												/>
 
 				<animation property="offsetX" from="0" to="0" duration="1" mode="linear"												/>
 
