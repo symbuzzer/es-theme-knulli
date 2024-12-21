@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.5.51</v.themeVersion>
+		<v.themeVersion>2.5.52</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -193,8 +193,8 @@
 		
 	>
 
-		<include name="yes" displayName="${subset.systemlogosongamelists.yes}" />
 		<include name="no" displayName="${subset.systemlogosongamelists.no}" />	
+		<include name="yes" displayName="${subset.systemlogosongamelists.yes}" />
 	
 	</subset>
 
