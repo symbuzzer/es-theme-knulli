@@ -1,6 +1,9 @@
 # v2.5.x
-- Added show/hide play time on detailed view
-- Edited some theme options strings due make things more understandable
+- Added vertical system scrolling option
+- Made system logos larger
+- Added option to show/hide play time in detail view
+- Changed some theme options strings to make things clearer
+- Set default setting to off for showing system logos in game lists
 
 # v2.4.x
 - Fixed knulli splashscreen asset
