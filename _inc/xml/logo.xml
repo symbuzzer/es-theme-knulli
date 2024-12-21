@@ -73,7 +73,7 @@
 		
 			scale="0.40"
 
-		</control>
+		/>
 			
 		<control ifSubset="systemlogoeffects:enabled" name="logo,logoText"
 		
