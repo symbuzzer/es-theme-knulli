@@ -8,6 +8,10 @@
 
 		<lang.detailed_2>detailed_2</lang.detailed_2>
 
+		<subset.slideType>system scroll type</subset.slideType>
+		<subset.slideType.horizontal>horizontal</subset.slideType.horizontal>
+		<subset.slideType.vertical>vertical</subset.slideType.vertical>
+
 		<subset.themeColors>colorset</subset.themeColors>
 		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
 		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
@@ -22,15 +26,19 @@
 		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
 
-		<subset.disableVideos>disable video previews on gamelists</subset.disableVideos>
+		<subset.disableVideos>disable video previews on</subset.disableVideos>
 		<subset.disableVideos.yes>yes</subset.disableVideos.yes>
 		<subset.disableVideos.no>no</subset.disableVideos.no>
 
-		<subset.systemlogoeffects>system logo effects</subset.systemlogoeffects>
+		<subset.playTimeEnabled>show play time on</subset.playTimeEnabled>
+		<subset.playTimeEnabled.yes>yes</subset.playTimeEnabled.yes>
+		<subset.playTimeEnabled.no>no</subset.playTimeEnabled.no>
+
+		<subset.systemlogoeffects>logo effects on</subset.systemlogoeffects>
 		<subset.systemlogoeffects.enabled>enabled</subset.systemlogoeffects.enabled>
 		<subset.systemlogoeffects.disabled>disabled</subset.systemlogoeffects.disabled>
 
-		<subset.systemlogosongamelists>show system logos on gamelists</subset.systemlogosongamelists>
+		<subset.systemlogosongamelists>show system logos on</subset.systemlogosongamelists>
 		<subset.systemlogosongamelists.yes>yes</subset.systemlogosongamelists.yes>
 		<subset.systemlogosongamelists.no>no</subset.systemlogosongamelists.no>
 
@@ -39,7 +47,7 @@
 		<subset.systemRegion.us>us</subset.systemRegion.us>
 		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
 
-		<subset.gamecount>show game count</subset.gamecount>
+		<subset.gamecount>show game count on</subset.gamecount>
 		<subset.gamecount.yes>yes</subset.gamecount.yes>
 		<subset.gamecount.no>no</subset.gamecount.no>
 

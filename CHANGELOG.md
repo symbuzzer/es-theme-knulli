@@ -1,10 +1,17 @@
+# v2.5.x
+- Added vertical system scrolling option
+- Made system logos larger
+- Added option to show/hide play time in detail view
+- Changed some theme options strings to make things clearer
+- Set default setting to off for showing system logos in game lists
+
 # v2.4.x
 - Fixed knulli splashscreen asset
 
 # v2.3.x
 - Added region options for system logos
 - Changed default game list to Detailed_2 (from Grid)
-- Fixed some variabled due make things more understandable
+- Fixed some variables due make things more understandable
 - Added missing Recording and Sega System SP logo
 - Removed unnecassary background images
 - Theme options categorized

@@ -50,7 +50,7 @@
 		/>
 
 
-		<text name="md_gametime"
+		<text ifSubset="playTimeEnabled:yes" name="md_gametime"
 
 			visible="false"
 
@@ -59,6 +59,7 @@
 		<text name="md_description,noDescription"
 		
 			visible="false"
+
 		/>
 		
 	</customView>

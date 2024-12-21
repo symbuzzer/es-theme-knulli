@@ -64,6 +64,11 @@ Now, from the version information in the form of vX.Y.Z; X represents major upda
 
 Both Emulation Station's own theme store and etk_tool will already download the most up-to-date theme for you.  
 
+## BECOME BETA TESTER
+The theme is constantly updated and new features are added. If you want to try new features before the official store version or without waiting for a custom firmware update, you can become a beta tester for free.  
+
+To do this, you need to share the 32-digit code in the ```userdata/system/machine-id``` file with the developer via the ```OD-Commander``` application in the ```TOOLS``` collection on your device. Then you can automatically update beta versions with the ```ETK Tool``` application.
+
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
 - Based on "[es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic)" by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)

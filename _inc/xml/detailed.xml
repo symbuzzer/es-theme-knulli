@@ -154,7 +154,7 @@
 		/>
 
 
-		<text name="md_gametime"
+		<text ifSubset="playTimeEnabled:yes" name="md_gametime"
 
 			extra="true"
 			zIndex="1001"
@@ -168,7 +168,7 @@
 			origin="1 0.5"
 			fontSize="0.028"
 			size="0.3 0.06"
-			offsetY="${v.gameTime.size}"
+			offsetY="${v.playTime.size}"
 			color="${c.text}ef"
 			backgroundColor="${c.textHeader}10"
 			lineSpacing="1.58"
@@ -215,7 +215,6 @@
 			pos="0.964 0.899"
 			path="./../parts/hidden.svg"
 			maxSize="0.02 0.02"
-			color="${c.yellow}"
 			opacity="0.9"
 			visible="true"
 					

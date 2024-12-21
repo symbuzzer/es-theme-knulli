@@ -82,7 +82,7 @@
 	  
 		</stackpanel>
 
-		<stackpanel name="systemClockPanel" orientation="horizontal" separator="4" size="0.58 0.045" pos="0 0">
+		<stackpanel name="systemClockPanel" orientation="horizontal" size="0.58 0.045" pos="0 0">
 
 
 			<clock name="system-clock"
