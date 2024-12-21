@@ -1,6 +1,6 @@
 # v2.5.x
-- Help icons centered
 - Added show/hide play time on detailed and detailed_2 views
+- Edited some theme options strings due make things more understandable
 
 # v2.4.x
 - Fixed knulli splashscreen asset
@@ -8,7 +8,7 @@
 # v2.3.x
 - Added region options for system logos
 - Changed default game list to Detailed_2 (from Grid)
-- Fixed some variabled due make things more understandable
+- Fixed some variables due make things more understandable
 - Added missing Recording and Sega System SP logo
 - Removed unnecassary background images
 - Theme options categorized
