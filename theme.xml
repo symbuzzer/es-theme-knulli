@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.5.40</v.themeVersion>
+		<v.themeVersion>2.5.42</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -86,8 +86,8 @@
 		<p.gamecounttext ifHelpPrompts="true">0 0.85</p.gamecounttext>
 		<p.gamecounttext ifHelpPrompts="false">0 0.90</p.gamecounttext>
 
-		<p.gamecounttext2 ifHelpPrompts="true">0.40 0.85</p.gamecounttext2>
-		<p.gamecounttext2 ifHelpPrompts="false">0.40 0.90</p.gamecounttext2>
+		<p.gamecounttext2 ifHelpPrompts="true">0.35 0.85</p.gamecounttext2>
+		<p.gamecounttext2 ifHelpPrompts="false">0.35 0.90</p.gamecounttext2>
 
 		<v.gridAutoLayout if="${screen.width} &lt;= '641'">3 2</v.gridAutoLayout>
 		<v.gridAutoLayout if="${screen.width} &gt; '641' &amp;&amp; ${screen.width} &lt;= '721'">3 3</v.gridAutoLayout>

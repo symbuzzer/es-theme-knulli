@@ -68,10 +68,16 @@
 			reflexion="0.05 0"
 			
 		/>
-			
-		<control ifSubset="systemlogoeffects:enabled,slideType:horizontal" name="logo,logoText"
+
+		<control ifSubset="slideType:vertical" name="logo,logoText"
 		
-			scale="0.40"
+			scale="0.5"
+			
+		/>
+			
+		<control ifSubset="systemlogoeffects:enabled" name="logo,logoText"
+		
+			scale="0.4"
 			
 		>
 			
