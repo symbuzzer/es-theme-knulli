@@ -21,7 +21,7 @@
 
 		<carousel ifSubset="slideType:vertical" name="systemcarousel"
 			type="vertical_wheel"
-			maxLogoCount="3"
+			logoScale="1.4"
 		/>
 
 
