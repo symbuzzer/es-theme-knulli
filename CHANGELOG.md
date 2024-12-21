@@ -1,7 +1,7 @@
 # v2.5.x
 - Added vertical system scrolling option
 - Made system logos larger
-- Added option to show/hide play time in detail view
+- Added option to show/hide play time in detailed view
 - Changed some theme options strings to make things clearer
 - Set default setting to off for showing system logos in game lists
 
