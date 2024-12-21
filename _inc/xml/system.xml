@@ -7,7 +7,8 @@
 	<view name="system">
 
 		<carousel name="systemcarousel"
-		
+			
+			type="vertical_wheel"
 			zIndex="1000"
 			color="00000000"
 			defaultTransition="fade &amp; slide"

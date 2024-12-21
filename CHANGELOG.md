@@ -1,5 +1,5 @@
 # v2.5.x
-- Added show/hide play time on detailed and detailed_2 views
+- Added show/hide play time on detailed view
 - Edited some theme options strings due make things more understandable
 
 # v2.4.x

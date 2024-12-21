@@ -52,16 +52,14 @@
 
 		<text ifSubset="playTimeEnabled:yes" name="md_gametime"
 
-			origin="1 1"
-                        pos="0.970 0.875"
-			color="${c.text}"
-			backgroundColor="#162021"
+			visible="false"
 
 		/>
 
 		<text name="md_description,noDescription"
 		
 			visible="false"
+
 		/>
 		
 	</customView>
