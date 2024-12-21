@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.5.13</v.themeVersion>
+		<v.themeVersion>2.5.14</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -339,9 +339,7 @@
 	</view>
 
 	<include>./_inc/xml/menu.xml</include>
-	<include>./_inc/xml/help.xml</include>
 	<include>./_inc/xml/batteryIndicator.xml</include>
-	<include>./_inc/xml/controllerActivity.xml</include>
 	<include>./_inc/xml/logo.xml</include>
 	<include>./_inc/xml/system.xml</include>
 	<include>./_inc/xml/grid.xml</include>
