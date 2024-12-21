@@ -3,6 +3,8 @@
 <theme>
 
 	<formatVersion>7</formatVersion>
+
+	<helpsystem name="help"/>
 	
 	<customView name="detailed_2" inherits="detailed" displayName="${lang.detailed_2}">
 
@@ -52,9 +54,8 @@
 
 		<text name="md_gametime"
 
-			visible="true"
 			origin="0 0.5"
-                        pos="0.97 0.1"
+                        pos="0.92 0.1"
 
 		/>
 
