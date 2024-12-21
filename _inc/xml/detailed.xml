@@ -6,6 +6,8 @@
 	
 	<view name="detailed">
 
+		<helpsystem name="help"/>
+
 		<image name="logo"
 		
 			zIndex="601"
