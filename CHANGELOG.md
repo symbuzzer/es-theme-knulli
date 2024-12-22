@@ -1,3 +1,5 @@
+# v2.6.x
+
 # v2.5.x
 - Added vertical system scrolling option
 - Made system logos larger
