@@ -1,4 +1,5 @@
 # v2.6.x
+- Removed reflection system animation due new verical system view
 
 # v2.5.x
 - Added vertical system scrolling option

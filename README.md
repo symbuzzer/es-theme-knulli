@@ -14,7 +14,7 @@
 - Added show or hide system logos on game lists
 - Added new detailed_2 view
 - Added disable video option for all gamelist views
-- Added disable system animations and reflection option
+- Added disable system animations option
 - Knulli, Batocera and Anbernic colorsets are available. This makes the interface look more integrated with the system used
 - There is a feature to change and disable splashscreen. You can manually select any of the Knulli, Batocera or Anbernic images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
 - Added feature to automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work

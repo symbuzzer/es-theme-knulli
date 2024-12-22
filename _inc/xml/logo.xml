@@ -63,12 +63,6 @@
 			
 		/>
 
-		<image ifSubset="systemlogoeffects:enabled" name="logo"
-		
-			reflexion="0.05 0.02"
-			
-		/>
-
 		<control ifSubset="slideType:vertical" name="logo,logoText"
 		
 			scale="1"
