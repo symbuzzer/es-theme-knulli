@@ -6,18 +6,19 @@
 - Instead of specifying separate parameters for high and low resolutions, fixed parameters were used directly, making the theme both faster and less resource consuming
 - Unlike many ES themes, the clock is displayed accurately on small screen devices
 - Unlike many ES themes, the problem of text overlapping in the menus has been minimized
+- Has horizontal and vertical system views
 - Menu and navigation sounds available
 - Has region option for system logos
 - Added the ability to display only the battery percentage and hide the battery bar, which is not available in ES Settings
 - Added the ability to show or hide game counts for per system
-- Added show or hide system logo on game lists
+- Added show or hide system logos on game lists
 - Added new detailed_2 view
 - Added disable video option for all gamelist views
-- Added disable system animations and reflection option
+- Added disable system animations option
 - Knulli, Batocera and Anbernic colorsets are available. This makes the interface look more integrated with the system used
 - There is a feature to change and disable splashscreen. You can manually select any of the Knulli, Batocera or Anbernic images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
 - Added feature to automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
-- Added some Knulli specific assets and features, such as the Emulators folder and its system image
+- Added some Knulli specific assets and features, such as the Emulators, Reordings etc. folders and their system image
 - Added ability to hide help bar completely from ES settings
 - Tested successfully on different screen sized devices and hdmi connections
 - The theme file structure has been made easier and more understandable for other users and developers
