@@ -26,6 +26,14 @@
 		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
 
+		<subset.helpIcons>help buttons</subset.helpIcons>
+		<subset.helpIcons.default>generic</subset.helpIcons.default>
+		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
+		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
+		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
+		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
+		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
+
 		<subset.disableVideos>disable video previews on</subset.disableVideos>
 		<subset.disableVideos.yes>yes</subset.disableVideos.yes>
 		<subset.disableVideos.no>no</subset.disableVideos.no>

@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.6.3</v.themeVersion>
+		<v.themeVersion>2.7.1</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -138,6 +138,21 @@
 	
 	</subset>
 
+	<subset name="helpIcons"
+	
+		displayName="${subset.helpIcons}"
+		
+	>
+	
+		<include name="default" displayName="${subset.helpIcons.default}" />
+		<include name="psx" displayName="${subset.helpIcons.psxIcons}" />
+		<include name="snes" displayName="${subset.helpIcons.snes}" />
+		<include name="snesAlt" displayName="${subset.helpIcons.snesAlt}" />
+		<include name="xbox" displayName="${subset.helpIcons.xbox}" />
+		<include name="xboxOne" displayName="${subset.helpIcons.xboxOne}" />
+	
+	</subset>
+
 	<subset name="systemlogoeffects"
 	
 		displayName="${subset.systemlogoeffects}"
@@ -256,13 +271,28 @@
 			textColor="${c.text}"
 			origin="0 0.5"
 			pos="0.0104 0.975"
-			iconColor="${c.textHeader}"
 			glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
 			fontSize="0.034"
+			iconColor="${c.text}"
+			iconUpDown="./_inc/parts/help/${v.helpIcons}/updown.png"
+			iconLeftRight="./_inc/parts/help/${v.helpIcons}/leftright.png"
+			iconUpDownLeftRight="./_inc/parts/help/${v.helpIcons}/all.png"
+			iconA="./_inc/parts/help/${v.helpIcons}/a.png"
+			iconB="./_inc/parts/help/${v.helpIcons}/b.png"
+			iconX="./_inc/parts/help/${v.helpIcons}/x.png"
+			iconY="./_inc/parts/help/${v.helpIcons}/y.png"
+			iconL="./_inc/parts/help/${v.helpIcons}/l.png"
+			iconR="./_inc/parts/help/${v.helpIcons}/r.png"
+			iconStart="./_inc/parts/help/${v.helpIcons}/start.png"
+			iconSelect="./_inc/parts/help/${v.helpIcons}/select.png"
 
-		/>
+		>
+
+			<iconColor ifSubset="helpIcons:default">${c.textHeader}</iconColor>
+		
+		</helpsystem>
 	
 		<image name="hide"
 		
