@@ -1,3 +1,7 @@
+# v2.7.x
+- Added help icon options for various consoles
+- Fixed TurboGrafx-CD
+
 # v2.6.x
 - Removed reflection system animation due new verical system view
 
