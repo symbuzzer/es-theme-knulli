@@ -30,7 +30,7 @@
 			zIndex="1000"
 			backgroundColor="00000000"
 			color="${c.text}"
-			pos="${p.gamecounttext}"
+			pos="${v.gamecounttext}"
 			fontPath="./../fonts/${f.def}"
             		fontSize="0.04"
 		>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<view name="menu,system,basic,detailed,grid">
+	
+		<helpsystem name="help"
+		
+			textColor="${c.text}"
+			origin="0 0.5"
+			pos="0.0104 0.975"
+			glowColor="${c.glowColor}"
+			glowOffset="2"
+			glowSize="1"
+			fontSize="0.034"
+			iconColor="${c.text}"
+			iconUpDown="./_inc/parts/help/${v.helpIconFolder}/updown.png"
+			iconLeftRight="./_inc/parts/help/${v.helpIconFolder}/leftright.png"
+			iconUpDownLeftRight="./_inc/parts/help/${v.helpIconFolder}/all.png"
+			iconA="./_inc/parts/help/${v.helpIconFolder}/a.png"
+			iconB="./_inc/parts/help/${v.helpIconFolder}/b.png"
+			iconX="./_inc/parts/help/${v.helpIconFolder}/x.png"
+			iconY="./_inc/parts/help/${v.helpIconFolder}/y.png"
+			iconL="./_inc/parts/help/${v.helpIconFolder}/l.png"
+			iconR="./_inc/parts/help/${v.helpIconFolder}/r.png"
+			iconStart="./_inc/parts/help/${v.helpIconFolder}/start.png"
+			iconSelect="./_inc/parts/help/${v.helpIconFolder}/select.png"
+
+		>
+
+			<iconColor ifSubset="helpIcons:default">${c.textHeader}</iconColor>
+		
+		</helpsystem>
+	
+	</view>
+
+</theme>

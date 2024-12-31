@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.7.2</v.themeVersion>
+		<v.themeVersion>2.7.3</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -83,13 +83,20 @@
 		<v.lines ifHelpPrompts="true">11</v.lines>
 		<v.lines ifHelpPrompts="false">12</v.lines>
 
-		<p.gamecounttext ifHelpPrompts="true">0 0.85</p.gamecounttext>
-		<p.gamecounttext ifHelpPrompts="false">0 0.90</p.gamecounttext>
+		<v.gamecounttext ifHelpPrompts="true">0 0.85</v.gamecounttext>
+		<v.gamecounttext ifHelpPrompts="false">0 0.90</v.gamecounttext>
 
 		<v.gridAutoLayout if="${screen.width} &lt;= '641'">3 2</v.gridAutoLayout>
 		<v.gridAutoLayout if="${screen.width} &gt; '641' &amp;&amp; ${screen.width} &lt;= '721'">3 3</v.gridAutoLayout>
 		<v.gridAutoLayout if="${screen.width} &gt; '721' &amp;&amp; ${screen.width} &lt;= '1281'">4 2</v.gridAutoLayout>
 		<v.gridAutoLayout if="${screen.width} &gt; '1281'">5 3</v.gridAutoLayout>
+
+		<v.helpIconFolder ifSubset="helpIcons:psx">psx</v.helpIconFolder>
+		<v.helpIconFolder ifSubset="helpIcons:snes">snes</v.helpIconFolder>
+		<v.helpIconFolder ifSubset="helpIcons:snesAlt">snesAlt</v.helpIconFolder>
+		<v.helpIconFolder ifSubset="helpIcons:xbox">xbox</v.helpIconFolder>
+		<v.helpIconFolder ifSubset="helpIcons:xboxOne">xboxOne</v.helpIconFolder>
+		<v.helpIconFolder ifSubset="helpIcons:default"></v.helpIconFolder>
 		
 		<f.def>ubuntu.ttf</f.def>
 
@@ -145,7 +152,7 @@
 	>
 	
 		<include name="default" displayName="${subset.helpIcons.default}" />
-		<include name="psx" displayName="${subset.helpIcons.psxIcons}" />
+		<include name="psx" displayName="${subset.helpIcons.psx}" />
 		<include name="snes" displayName="${subset.helpIcons.snes}" />
 		<include name="snesAlt" displayName="${subset.helpIcons.snesAlt}" />
 		<include name="xbox" displayName="${subset.helpIcons.xbox}" />
@@ -265,34 +272,6 @@
 	</view>
 
 	<view name="system,menu,basic,detailed,grid">
-
-		<helpsystem name="help"
-		
-			textColor="${c.text}"
-			origin="0 0.5"
-			pos="0.0104 0.975"
-			glowColor="${c.glowColor}"
-			glowOffset="2"
-			glowSize="1"
-			fontSize="0.034"
-			iconColor="${c.text}"
-			iconUpDown="./_inc/parts/help/${v.helpIcons}/updown.png"
-			iconLeftRight="./_inc/parts/help/${v.helpIcons}/leftright.png"
-			iconUpDownLeftRight="./_inc/parts/help/${v.helpIcons}/all.png"
-			iconA="./_inc/parts/help/${v.helpIcons}/a.png"
-			iconB="./_inc/parts/help/${v.helpIcons}/b.png"
-			iconX="./_inc/parts/help/${v.helpIcons}/x.png"
-			iconY="./_inc/parts/help/${v.helpIcons}/y.png"
-			iconL="./_inc/parts/help/${v.helpIcons}/l.png"
-			iconR="./_inc/parts/help/${v.helpIcons}/r.png"
-			iconStart="./_inc/parts/help/${v.helpIcons}/start.png"
-			iconSelect="./_inc/parts/help/${v.helpIcons}/select.png"
-
-		>
-
-			<iconColor ifSubset="helpIcons:default">${c.textHeader}</iconColor>
-		
-		</helpsystem>
 	
 		<image name="hide"
 		
@@ -381,6 +360,7 @@
 
 	<include>./_inc/xml/menu.xml</include>
 	<include>./_inc/xml/batteryIndicator.xml</include>
+	<include>./_inc/xml/help.xml</include>
 	<include>./_inc/xml/logo.xml</include>
 	<include>./_inc/xml/system.xml</include>
 	<include>./_inc/xml/grid.xml</include>

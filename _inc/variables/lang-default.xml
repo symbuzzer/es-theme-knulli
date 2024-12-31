@@ -27,7 +27,7 @@
 		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
 
 		<subset.helpIcons>help buttons</subset.helpIcons>
-		<subset.helpIcons.default>generic</subset.helpIcons.default>
+		<subset.helpIcons.default>default</subset.helpIcons.default>
 		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
 		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
 		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
