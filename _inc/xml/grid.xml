@@ -72,14 +72,14 @@
 			scrollbarColor="${c.textHeader}"
 			scrollbarCorner="0.9"
 			scrollbarSize="${v.line.hc}"
-			autoLayoutSelectedZoom="1.15"
+			autoLayoutSelectedZoom="1.1"
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
 			scrollSound="./../parts/scroll.wav"
 
 		/>
 
-		<imagegrid ifSubset="disableVideos:no" name="gamegrid"
+		<imagegrid ifSubset="videoPreviews:enabled" name="gamegrid"
 
 			showVideoAtDelay="500"
 
@@ -106,6 +106,29 @@
 			imageColor="ffffff"
 			
 		/>
+
+		<text name="gridtile"
+		
+			fontPath="./../fonts/${f.def}"
+			fontSize="0.032"
+			color="${c.text}"
+			alignment="center"
+			
+		>
+
+			<visible ifSubset="gridGameName:no">false</visible>
+
+		</text>
+
+		<text name="gridtile:selected"
+		
+			color="${c.textHeader}"
+			
+		>
+
+			<visible ifSubset="gridGameName:no">false</visible>
+
+		</text>
 
 		<image name="gridtile.favorite"
 		

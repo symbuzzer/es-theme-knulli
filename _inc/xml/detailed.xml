@@ -112,7 +112,7 @@
 		/>
 
 
-		<video ifSubset="disableVideos:no" name="md_video"
+		<video ifSubset="videoPreviews:enabled" name="md_video"
 		
 			zIndex="1000"
 			linearSmooth="true"
@@ -129,7 +129,7 @@
 			
 		/>
 
-		<image ifSubset="disableVideos:yes" name="md_boxart"
+		<image ifSubset="videoPreviews:disabled" name="md_boxart"
 
 			zIndex="1000"
 			linearSmooth="true"

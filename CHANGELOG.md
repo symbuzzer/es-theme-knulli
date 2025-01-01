@@ -1,3 +1,6 @@
+# v2.10.x
+- Added show game name option for grid view
+
 # v2.9.x
 - Resized these system logos: commodorecdtv, gameboycolor2players, megaduck, necsupergrafx, sharpxl
 - Fixed system logo issues on vertical view

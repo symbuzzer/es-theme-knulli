@@ -34,9 +34,9 @@
 		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
 		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
 
-		<subset.disableVideos>disable video previews on</subset.disableVideos>
-		<subset.disableVideos.yes>yes</subset.disableVideos.yes>
-		<subset.disableVideos.no>no</subset.disableVideos.no>
+		<subset.videoPreviews>video previews on</subset.videoPreviews>
+		<subset.videoPreviews.enabled>enabled</subset.videoPreviews.enabled>
+		<subset.videoPreviews.disabled>disabled</subset.videoPreviews.disabled>
 
 		<subset.playTimeEnabled>show play time on</subset.playTimeEnabled>
 		<subset.playTimeEnabled.yes>yes</subset.playTimeEnabled.yes>
@@ -49,6 +49,10 @@
 		<subset.systemlogosongamelists>show system logos on</subset.systemlogosongamelists>
 		<subset.systemlogosongamelists.yes>yes</subset.systemlogosongamelists.yes>
 		<subset.systemlogosongamelists.no>no</subset.systemlogosongamelists.no>
+
+		<subset.gridGameName>show game names on</subset.gridGameName>
+		<subset.gridGameName.yes>yes</subset.gridGameName.yes>
+		<subset.gridGameName.no>no</subset.gridGameName.no>
 
 		<subset.systemRegion>region</subset.systemRegion>
 		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
