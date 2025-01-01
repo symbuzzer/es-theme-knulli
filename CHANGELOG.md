@@ -1,3 +1,6 @@
+# v2.8.x
+- Added MPV system logo for upcoming MPV app
+
 # v2.7.x
 - Added help icon options for various consoles
 - Fixed TurboGrafx-CD system logo issue
