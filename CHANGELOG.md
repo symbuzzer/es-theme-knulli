@@ -1,3 +1,7 @@
+# v2.9.x
+- Resized these system logos: commodorecdtv, gameboycolor2players, megaduck, necsupergrafx, sharpxl
+- Added missing commanderx16 system logo
+
 # v2.8.x
 - Added MPV system logo for upcoming MPV app
 
