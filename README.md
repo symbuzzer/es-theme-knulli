@@ -6,7 +6,7 @@
 - Instead of specifying separate parameters for high and low resolutions, fixed parameters were used directly, making the theme both faster and less resource consuming
 - Unlike many ES themes, the clock is displayed accurately on small screen devices
 - Unlike many ES themes, the problem of text overlapping in the menus has been minimized
-- Has horizontal and vertical system views
+- Has horizontal and vertical system and grid views
 - Menu and navigation sounds available
 - Has region option for system logos
 - Added the ability to display only the battery percentage and hide the battery bar, which is not available in ES Settings
