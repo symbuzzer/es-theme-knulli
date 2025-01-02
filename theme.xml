@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.10.3</v.themeVersion>
+		<v.themeVersion>2.10.4</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -181,8 +181,8 @@
 		
 	>
 
-		<include name="disabled" displayName="${subset.videoPreviews.disabled}" />	
-		<include name="enabled" displayName="${subset.videoPreviews.enabled}" />
+		<include name="enabled" displayName="${subset.videoPreviews.enabled}" />	
+		<include name="disabled" displayName="${subset.videoPreviews.disabled}" />
 	
 	</subset>
 
