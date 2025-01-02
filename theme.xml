@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.10.4</v.themeVersion>
+		<v.themeVersion>2.10.5</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -98,7 +98,7 @@
 		<v.helpIconFolder ifSubset="helpIcons:xboxOne">xboxOne</v.helpIconFolder>
 		<v.helpIconFolder ifSubset="helpIcons:default"></v.helpIconFolder>
 
-		<v.ScrollBar>0.01</v.ScrollBar>
+		<v.ScrollBar>0.008</v.ScrollBar>
 		
 		<f.def>ubuntu.ttf</f.def>
 
