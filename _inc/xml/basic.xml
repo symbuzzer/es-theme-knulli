@@ -78,7 +78,6 @@
 			fontPath="./../fonts/${f.def}"
 			fontSize="0.036"
                         horizontalMargin="0.01"
-			forceUppercase="false"
 			scrollSound="./../parts/scroll.wav"
 			lines="${l.lines}"
 			scrollbarColor="${c.textHeader}"
