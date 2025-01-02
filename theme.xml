@@ -98,7 +98,7 @@
 		<v.helpIconFolder ifSubset="helpIcons:xboxOne">xboxOne</v.helpIconFolder>
 		<v.helpIconFolder ifSubset="helpIcons:default"></v.helpIconFolder>
 
-		<v.ScrollBar>0.0015</v.ScrollBar>
+		<v.ScrollBar>0.01</v.ScrollBar>
 		
 		<f.def>ubuntu.ttf</f.def>
 
