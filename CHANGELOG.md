@@ -1,5 +1,8 @@
 # v2.10.x
 - Added show game name option for grid view
+- Now scroll type option changes scrolling direction both system view and grid view
+- Fixed scrollbar issue in grid view when selected horizontal scroll type
+- Game description scrolling in detailed view has been speed up
 
 # v2.9.x
 - Resized these system logos: commodorecdtv, gameboycolor2players, megaduck, necsupergrafx, sharpxl

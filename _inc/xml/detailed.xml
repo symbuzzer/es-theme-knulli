@@ -106,7 +106,7 @@
 			lines ="${l.lines}"
 			scrollbarColor="${c.textHeader}"
 			scrollbarCorner="0.9"
-			scrollbarSize="${v.line.hc}"
+			scrollbarSize="${v.ScrollBar}"
 			scrollbarAlignment="innerright"
 			
 		/>
@@ -204,6 +204,8 @@
 			backgroundColor="${c.textHeader}10"
 			lineSpacing="1.58"
 			roundCorners="0.018"
+			autoScrollDelay="1000"
+			autoScrollSpeed="50"
 			
 		/>
 		

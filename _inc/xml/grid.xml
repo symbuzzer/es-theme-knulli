@@ -71,11 +71,20 @@
 			centerSelection="false"
 			scrollbarColor="${c.textHeader}"
 			scrollbarCorner="0.9"
-			scrollbarSize="${v.line.hc}"
-			autoLayoutSelectedZoom="1.1"
+			scrollbarSize="${v.ScrollBar}"
+			autoLayoutSelectedZoom="1.2"
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
 			scrollSound="./../parts/scroll.wav"
+			scrollLoop="true"
+
+		/>
+
+		<imagegrid ifSubset="slideType:horizontal" name="gamegrid"
+
+			scrollDirection="horizontal"
+			scrollbarAlignment="bottom"
+
 
 		/>
 
@@ -110,9 +119,11 @@
 		<text name="gridtile"
 		
 			fontPath="./../fonts/${f.def}"
-			fontSize="0.032"
+			fontSize="0.030"
 			color="${c.text}"
 			alignment="center"
+			singleLineScroll="true"
+			autoScrollDelay="0"
 			
 		>
 
@@ -136,6 +147,8 @@
 			pos="0 0"
 			maxSize="0.2 0.2"
 			origin="0.5 0.5"
+			horizontalAlignment="left"
+			verticalAlignment="top"
 			
 		/>
 
