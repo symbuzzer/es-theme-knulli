@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.10.7</v.themeVersion>
+		<v.themeVersion>2.10.8</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -116,6 +116,7 @@
 
 		<include name="horizontal" displayName="${subset.slideType.horizontal}" />
 		<include name="vertical" displayName="${subset.slideType.vertical}" />	
+		<include name="verticalwheel" displayName="${subset.slideType.verticalwheel}" />
 	
 	</subset>
 
