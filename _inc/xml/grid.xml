@@ -72,7 +72,7 @@
 			scrollbarColor="${c.textHeader}"
 			scrollbarCorner="0.9"
 			scrollbarSize="${v.ScrollBar}"
-			autoLayoutSelectedZoom="1.2"
+			autoLayoutSelectedZoom="1.05"
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
 			scrollSound="./../parts/scroll.wav"
@@ -84,7 +84,7 @@
 
 			scrollDirection="horizontal"
 			scrollbarAlignment="bottom"
-
+		        scrollbarSize="${v.ScrollBar}"
 
 		/>
 
