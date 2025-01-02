@@ -76,7 +76,6 @@
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
 			scrollSound="./../parts/scroll.wav"
-			scrollLoop="true"
 
 		/>
 
