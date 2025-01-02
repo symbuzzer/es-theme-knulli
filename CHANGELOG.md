@@ -4,6 +4,7 @@
 - Fixed scrollbar issue in grid view when selected horizontal scroll type
 - Game description scrolling in detailed view has been speed up
 - Enabled looping lists from end to start
+- Added vertical (not vertical wheel) scroll type for system view
 
 # v2.9.x
 - Resized these system logos: commodorecdtv, gameboycolor2players, megaduck, necsupergrafx, sharpxl
