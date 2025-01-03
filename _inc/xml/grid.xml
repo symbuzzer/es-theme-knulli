@@ -18,7 +18,9 @@
 			colorEnd="80808080"
 
 		>
+
 			<visible ifSubset="systemlogosongamelists:no">false</visible>
+
 		</image>
 
 		<image name="frame"
@@ -63,9 +65,9 @@
 		
 			zIndex="1001"
 			pos="0.025 0.075"
-			size="${v.frame.size}"
+			size="${v.gamelistGrid.size}"
 			margin="0.02 0.02"
-			padding="0.025 0.025 0.025 0.025"
+			padding="0.02 0.02 0.02 0.02"
 			autoLayout="${v.gridAutoLayout}"
 			animateSelection="true"
 			centerSelection="false"
@@ -82,8 +84,7 @@
 		<imagegrid ifSubset="slideType:horizontal" name="gamegrid"
 
 			scrollDirection="horizontal"
-			scrollbarAlignment="bottom"
-		        scrollbarSize="${v.ScrollBar}"
+			scrollbarSize="${v.ScrollBar2}"
 
 		/>
 
