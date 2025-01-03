@@ -105,7 +105,6 @@
 			fontSize="0.036"
 			lines ="${l.lines}"
 			scrollbarColor="${c.textHeader}"
-			scrollbarCorner="0.9"
 			scrollbarSize="${v.ScrollBar}"
 			scrollbarAlignment="innerright"
 			

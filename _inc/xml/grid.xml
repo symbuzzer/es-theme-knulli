@@ -72,7 +72,6 @@
 			animateSelection="true"
 			centerSelection="false"
 			scrollbarColor="${c.textHeader}"
-			scrollbarCorner="0.9"
 			scrollbarSize="${v.ScrollBar}"
 			autoLayoutSelectedZoom="1.01"
 			scrollbarAlignment="right"
