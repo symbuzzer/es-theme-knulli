@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.9.2</v.themeVersion>
+		<v.themeVersion>2.10.11</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -63,6 +63,8 @@
 		<v.gamelistDetailed.size ifHelpPrompts="false">0.39 0.90</v.gamelistDetailed.size>
 		<v.gamelistBasic.size ifHelpPrompts="true">0.95 0.85</v.gamelistBasic.size>
 		<v.gamelistBasic.size ifHelpPrompts="false">0.95 0.90</v.gamelistBasic.size>
+		<v.gamelistGrid.size ifHelpPrompts="true">0.95 0.85</v.gamelistGrid.size>
+		<v.gamelistGrid.size ifHelpPrompts="false">0.95 0.90</v.gamelistGrid.size>
 
 		<v.gameDescription.size ifHelpPrompts="true">0.113</v.gameDescription.size>
 		<v.gameDescription.size ifHelpPrompts="false">0.160</v.gameDescription.size>
@@ -83,8 +85,8 @@
 		<v.lines ifHelpPrompts="true">11</v.lines>
 		<v.lines ifHelpPrompts="false">12</v.lines>
 
-		<v.gamecounttext ifHelpPrompts="true">0 0.85</v.gamecounttext>
-		<v.gamecounttext ifHelpPrompts="false">0 0.90</v.gamecounttext>
+		<v.gamecounttext ifHelpPrompts="true">0 0.87</v.gamecounttext>
+		<v.gamecounttext ifHelpPrompts="false">0 0.92</v.gamecounttext>
 
 		<v.gridAutoLayout if="${screen.width} &lt;= '641'">3 2</v.gridAutoLayout>
 		<v.gridAutoLayout if="${screen.width} &gt; '641' &amp;&amp; ${screen.width} &lt;= '721'">3 3</v.gridAutoLayout>
@@ -97,6 +99,9 @@
 		<v.helpIconFolder ifSubset="helpIcons:xbox">xbox</v.helpIconFolder>
 		<v.helpIconFolder ifSubset="helpIcons:xboxOne">xboxOne</v.helpIconFolder>
 		<v.helpIconFolder ifSubset="helpIcons:default"></v.helpIconFolder>
+
+		<v.ScrollBar>0.0035</v.ScrollBar>
+		<v.ScrollBar2>0.0045</v.ScrollBar2>
 		
 		<f.def>ubuntu.ttf</f.def>
 
@@ -114,6 +119,7 @@
 
 		<include name="horizontal" displayName="${subset.slideType.horizontal}" />
 		<include name="vertical" displayName="${subset.slideType.vertical}" />	
+		<include name="verticalwheel" displayName="${subset.slideType.verticalwheel}" />
 	
 	</subset>
 
@@ -172,6 +178,18 @@
 	
 	</subset>
 
+	<subset name="videoPreviews"
+	
+		displayName="${subset.videoPreviews}"
+		appliesTo="${v.videoGamelists}"
+		
+	>
+
+		<include name="enabled" displayName="${subset.videoPreviews.enabled}" />	
+		<include name="disabled" displayName="${subset.videoPreviews.disabled}" />
+	
+	</subset>
+
 	<subset name="gamecount"
 	
 		displayName="${subset.gamecount}"
@@ -184,18 +202,6 @@
 	
 	</subset>
 
-	<subset name="disableVideos"
-	
-		displayName="${subset.disableVideos}"
-		appliesTo="${v.videoGamelists}"
-		
-	>
-
-		<include name="no" displayName="${subset.disableVideos.no}" />	
-		<include name="yes" displayName="${subset.disableVideos.yes}" />
-	
-	</subset>
-
 	<subset name="playTimeEnabled"
 	
 		displayName="${subset.playTimeEnabled}"
@@ -205,6 +211,18 @@
 
 		<include name="yes" displayName="${subset.playTimeEnabled.yes}" />	
 		<include name="no" displayName="${subset.playTimeEnabled.no}" />
+	
+	</subset>
+
+	<subset name="gridGameName"
+	
+		displayName="${subset.gridGameName}"
+		appliesTo="grid"
+		
+	>
+	
+		<include name="no" displayName="${subset.gridGameName.no}" />
+		<include name="yes" displayName="${subset.gridGameName.yes}" />
 	
 	</subset>
 

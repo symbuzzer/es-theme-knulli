@@ -105,14 +105,13 @@
 			fontSize="0.036"
 			lines ="${l.lines}"
 			scrollbarColor="${c.textHeader}"
-			scrollbarCorner="0.9"
-			scrollbarSize="${v.line.hc}"
+			scrollbarSize="${v.ScrollBar}"
 			scrollbarAlignment="innerright"
 			
 		/>
 
 
-		<video ifSubset="disableVideos:no" name="md_video"
+		<video ifSubset="videoPreviews:enabled" name="md_video"
 		
 			zIndex="1000"
 			linearSmooth="true"
@@ -129,7 +128,7 @@
 			
 		/>
 
-		<image ifSubset="disableVideos:yes" name="md_boxart"
+		<image ifSubset="videoPreviews:disabled" name="md_boxart"
 
 			zIndex="1000"
 			linearSmooth="true"
@@ -158,7 +157,7 @@
 
 			extra="true"
 			zIndex="1001"
-			alignment="center"
+			alignment="right"
 			verticalAlignment="top"
 			fontPath="./../fonts/${f.def}"
                         pos="0.953 0.65"
@@ -167,7 +166,7 @@
 			glowSize="1"
 			origin="1 0.5"
 			fontSize="0.028"
-			size="0.3 0.06"
+			size="0.5 0.06"
 			offsetY="${v.playTime.size}"
 			color="${c.text}ef"
 			backgroundColor="${c.textHeader}10"
@@ -204,6 +203,8 @@
 			backgroundColor="${c.textHeader}10"
 			lineSpacing="1.58"
 			roundCorners="0.018"
+			autoScrollDelay="1000"
+			autoScrollSpeed="50"
 			
 		/>
 		

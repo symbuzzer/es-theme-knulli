@@ -18,7 +18,9 @@
 			colorEnd="80808080"
 
 		>
+
 			<visible ifSubset="systemlogosongamelists:no">false</visible>
+
 		</image>
 
 		<image name="frame"
@@ -63,23 +65,29 @@
 		
 			zIndex="1001"
 			pos="0.025 0.075"
-			size="${v.frame.size}"
+			size="${v.gamelistGrid.size}"
 			margin="0.02 0.02"
-			padding="0.025 0.025 0.025 0.025"
+			padding="0.02 0.02 0.02 0.02"
 			autoLayout="${v.gridAutoLayout}"
-			animateSelection="false"
+			animateSelection="true"
 			centerSelection="false"
 			scrollbarColor="${c.textHeader}"
-			scrollbarCorner="0.9"
-			scrollbarSize="${v.line.hc}"
-			autoLayoutSelectedZoom="1.15"
+			scrollbarSize="${v.ScrollBar}"
+			autoLayoutSelectedZoom="1.01"
 			scrollbarAlignment="right"
 			imageSource="thumbnail"
 			scrollSound="./../parts/scroll.wav"
 
 		/>
 
-		<imagegrid ifSubset="disableVideos:no" name="gamegrid"
+		<imagegrid ifSubset="slideType:horizontal" name="gamegrid"
+
+			scrollDirection="horizontal"
+			scrollbarSize="${v.ScrollBar2}"
+
+		/>
+
+		<imagegrid ifSubset="videoPreviews:enabled" name="gamegrid"
 
 			showVideoAtDelay="500"
 
@@ -107,12 +115,39 @@
 			
 		/>
 
+		<text name="gridtile"
+		
+			fontPath="./../fonts/${f.def}"
+			fontSize="0.034"
+			color="${c.text}"
+			alignment="center"
+			singleLineScroll="true"
+			autoScrollDelay="0"
+			
+		>
+
+			<visible ifSubset="gridGameName:no">false</visible>
+
+		</text>
+
+		<text name="gridtile:selected"
+		
+			color="${c.textHeader}"
+			
+		>
+
+			<visible ifSubset="gridGameName:no">false</visible>
+
+		</text>
+
 		<image name="gridtile.favorite"
 		
 			path="./../parts/favorite.png"
 			pos="0 0"
 			maxSize="0.2 0.2"
 			origin="0.5 0.5"
+			horizontalAlignment="left"
+			verticalAlignment="top"
 			
 		/>
 

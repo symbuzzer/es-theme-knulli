@@ -14,14 +14,18 @@
 			origin="0.5 0.5"
 			pos="0.5 0.5"
 			size="1 1"
-			logoSize="0.95 0.65"
+			logoSize="0.90 0.60"
 			maxLogoCount="1"
 			logoScale="1"
 			
 		/>
 
-		<carousel ifSubset="slideType:vertical" name="systemcarousel"
+		<carousel ifSubset="slideType:verticalwheel" name="systemcarousel"
 			type="vertical_wheel"
+		/>
+
+		<carousel ifSubset="slideType:vertical" name="systemcarousel"
+			type="vertical"
 		/>
 
 

@@ -18,7 +18,9 @@
 			colorEnd="80808080"
 
 		>
+
 			<visible ifSubset="systemlogosongamelists:no">false</visible>
+
 		</image>
 
 
@@ -76,12 +78,10 @@
 			fontPath="./../fonts/${f.def}"
 			fontSize="0.036"
                         horizontalMargin="0.01"
-			forceUppercase="false"
 			scrollSound="./../parts/scroll.wav"
 			lines="${l.lines}"
 			scrollbarColor="${c.textHeader}"
-			scrollbarCorner="0.9"
-			scrollbarSize="${v.line.hc}"
+			scrollbarSize="${v.ScrollBar}"
 			scrollbarAlignment="innerright"
 			
 		/>
