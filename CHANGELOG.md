@@ -1,3 +1,6 @@
+# v2.11.x
+- Replaced NEOGEO system logo
+
 # v2.10.x
 - Added show game name option for grid view
 - Now scroll type option changes scrolling direction both system view and grid view
