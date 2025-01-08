@@ -9,7 +9,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.11.2</v.themeVersion>
+		<v.themeVersion>2.12.4</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -381,9 +381,9 @@
 	<include>./_inc/xml/help.xml</include>
 	<include>./_inc/xml/logo.xml</include>
 	<include>./_inc/xml/system.xml</include>
-	<include>./_inc/xml/grid.xml</include>
 	<include>./_inc/xml/basic.xml</include>
 	<include>./_inc/xml/detailed.xml</include>>
 	<include>./_inc/xml/detailed_2.xml</include>
+	<include>./_inc/xml/grid.xml</include>
 	
 </theme>
