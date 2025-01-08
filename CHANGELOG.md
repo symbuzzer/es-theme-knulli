@@ -1,6 +1,7 @@
 # v2.12.x
 - Removed shaders
 - Removed unused controller activities
+- Fixed resources fot gamelist icons
 - Fixed extra text colors on gamelists
 
 # v2.11.x
