@@ -120,6 +120,7 @@
 			fontPath="./../fonts/${f.def}"
 			fontSize="0.034"
 			color="${c.text}"
+			extraTextColor="${c.textHeader}"
 			alignment="center"
 			singleLineScroll="true"
 			autoScrollDelay="0"

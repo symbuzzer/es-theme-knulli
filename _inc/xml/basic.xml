@@ -70,7 +70,7 @@
 			selectedColor="${c.selected}"
 			primaryColor="${c.text}"
 			secondaryColor="${c.text}"
-			extraTextColor="${c.text}"
+			extraTextColor="${c.textHeader}"
 			extraTextSelectedColor="${c.selected}"
 			selectorColor="${c.menuSelector}"	  		
 			selectorColorEnd="${ce.menuSelector}"	  		
