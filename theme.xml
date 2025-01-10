@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.13.6</v.themeVersion>
+		<v.themeVersion>2.13.7</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -224,6 +224,18 @@
 	
 		<include name="no" displayName="${subset.gridGameName.no}" />
 		<include name="yes" displayName="${subset.gridGameName.yes}" />
+	
+	</subset>
+
+	<subset name="scrollSpeed"
+	
+		displayName="${subset.scrollSpeed}"
+		appliesTo="detailed"
+		
+	>
+
+		<include name="normal" displayName="${subset.scrollSpeed.normal}" />	
+		<include name="fast" displayName="${subset.scrollSpeed.fast}" />
 	
 	</subset>
 

@@ -68,6 +68,10 @@
 		<subset.batterybar.yes>evet</subset.batterybar.yes>
 		<subset.batterybar.no>hayır</subset.batterybar.no>
 
+		<subset.scrollSpeed>açıklama kaydırma hızı</subset.scrollSpeed>
+		<subset.scrollSpeed.normal>normal</subset.scrollSpeed.normal>
+		<subset.scrollSpeed.fast>hızlı</subset.scrollSpeed.fast>
+
 		<subset.themeVersionString>tema versİyonu</subset.themeVersionString>
 
 		<lang.elements>öğeler</lang.elements>

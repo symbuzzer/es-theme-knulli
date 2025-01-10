@@ -68,6 +68,10 @@
 		<subset.batterybar.yes>oui</subset.batterybar.yes>
 		<subset.batterybar.no>non</subset.batterybar.no>
 
+		<subset.scrollSpeed>vitesse de défilement de la description</subset.scrollSpeed>
+		<subset.scrollSpeed.normal>normale</subset.scrollSpeed.normal>
+		<subset.scrollSpeed.fast>rapide</subset.scrollSpeed.fast>
+
 		<subset.themeVersionString>vesion du theme</subset.themeVersionString>
 
 		<lang.elements>elements</lang.elements>

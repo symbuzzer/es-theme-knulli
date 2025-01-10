@@ -2,6 +2,7 @@
 - Changed some system logos
 - Added multi-language support for options
 - Added Turkish and French translations
+- Added scroll speed option for game description on detailed view
 
 # v2.12.x
 - Removed shaders
