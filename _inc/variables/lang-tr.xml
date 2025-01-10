@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<lang.detailed_2>detaylı_2</lang.detailed_2>
+
+		<subset.slideType>kaydırma türü</subset.slideType>
+		<subset.slideType.horizontal>yatay</subset.slideType.horizontal>
+		<subset.slideType.vertical>dikey</subset.slideType.vertical>
+		<subset.slideType.verticalwheel>dikey çember</subset.slideType.verticalwheel>
+
+		<subset.themeColors>tema rengi</subset.themeColors>
+		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
+		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
+		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
+
+		<subset.splashscreen>yükleme ekranı imajı</subset.splashscreen>
+		<subset.splashscreen.colorset>otomatik (tema rengine göre)</subset.splashscreen.colorset>
+		<subset.splashscreen.default>varsayılan</subset.splashscreen.default>
+		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
+		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
+		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
+		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
+		<subset.splashscreen.disabled>kapalı</subset.splashscreen.disabled>
+
+		<subset.helpIcons>yardım butonları</subset.helpIcons>
+		<subset.helpIcons.default>varsayılan</subset.helpIcons.default>
+		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
+		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
+		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
+		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
+		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
+
+		<subset.videoPreviews>video önizlemeleri</subset.videoPreviews>
+		<subset.videoPreviews.enabled>aktif</subset.videoPreviews.enabled>
+		<subset.videoPreviews.disabled>pasif</subset.videoPreviews.disabled>
+
+		<subset.playTimeEnabled>oynama süresini göster</subset.playTimeEnabled>
+		<subset.playTimeEnabled.yes>evet</subset.playTimeEnabled.yes>
+		<subset.playTimeEnabled.no>hayır</subset.playTimeEnabled.no>
+
+		<subset.systemlogoeffects>logo efektleri</subset.systemlogoeffects>
+		<subset.systemlogoeffects.enabled>aktif</subset.systemlogoeffects.enabled>
+		<subset.systemlogoeffects.disabled>pasif</subset.systemlogoeffects.disabled>
+
+		<subset.systemlogosongamelists>sistem logolarını göster</subset.systemlogosongamelists>
+		<subset.systemlogosongamelists.yes>evet</subset.systemlogosongamelists.yes>
+		<subset.systemlogosongamelists.no>hayır</subset.systemlogosongamelists.no>
+
+		<subset.gridGameName>oyun isimlerini göster</subset.gridGameName>
+		<subset.gridGameName.yes>evet</subset.gridGameName.yes>
+		<subset.gridGameName.no>hayır</subset.gridGameName.no>
+
+		<subset.systemRegion>bölge</subset.systemRegion>
+		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
+		<subset.systemRegion.us>us</subset.systemRegion.us>
+		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
+
+		<subset.gamecount>oyun sayısını göster</subset.gamecount>
+		<subset.gamecount.yes>evet</subset.gamecount.yes>
+		<subset.gamecount.no>hayır</subset.gamecount.no>
+
+		<subset.batterybar>batarya simgesini göster</subset.batterybar>
+		<subset.batterybar.yes>evet</subset.batterybar.yes>
+		<subset.batterybar.no>hayır</subset.batterybar.no>
+
+		<subset.themeVersionString>tema versiyonu</subset.themeVersionString>
+
+		<lang.elements>öğeler</lang.elements>
+		<lang.favorites>favoriler</lang.favorites>
+		<lang.favoritesReplacement>bütün favorileriniz burada bulabilirsiniz</lang.favoritesReplacement>
+		<lang.played>oynanan</lang.played>
+		<lang.mostPlayed>en çok oynanan</lang.mostPlayed>
+		<lang.lastPlayedDate>son oynama</lang.lastPlayedDate>
+		<lang.at> </lang.at>
+
+		<lang.developedBy>geliştiren</lang.developedBy>
+		<lang.publiedIn>yayınlayan</lang.publiedIn>
+		<lang.developedAndPubliedIn>geliştirildiği ve yayınlandığı yer</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>geliştiren ve yayınlayanlar</lang.developedAndPubliedBy>
+		<lang.publied>geliştirildi</lang.publied>
+		<lang.by>tarafından</lang.by>
+		<lang.and>ve</lang.and>
+		<lang.noRating>puan yok</lang.noRating>
+		<lang.neverPlayed>oynanmadı</lang.neverPlayed>
+		<lang.gamePlayers>oyuncu sayısı</lang.gamePlayers>
+		<lang.timesPlayed>oynanma sayısı</lang.timesPlayed>
+		<lang.lastPlayed>son oynanma</lang.lastPlayed>
+		<lang.releasedIn>yayınlandığı yer</lang.releasedIn>
+		<lang.released>yayınlanma</lang.released>
+
+<!-- Use upper and lower case ponctuation -->
+
+		<lang.noDesc>Üzgünüm, bu oyun için bir açıklama bulunamadı. Bunun için kazımayı veya gamelist.xml dosyasını düzenlemeyi deneyebilirsiniz.</lang.noDesc>
+	
+	</variables>
+
+</theme>

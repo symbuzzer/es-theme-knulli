@@ -5,11 +5,12 @@
 <formatVersion>7</formatVersion>
 
 	<include>./_inc/variables/lang-default.xml</include>
+	<include>./_inc/variables/lang-${lang}.xml</include>
 
     <variables>
 		
 
-		<v.themeVersion>2.13.1</v.themeVersion>
+		<v.themeVersion>2.13.2</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>

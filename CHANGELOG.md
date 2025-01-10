@@ -1,5 +1,6 @@
 # v2.13.x
 - Changed some system logos
+- Added multi-language support for options
 
 # v2.12.x
 - Removed shaders
