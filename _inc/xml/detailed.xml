@@ -203,10 +203,15 @@
 			backgroundColor="${c.textHeader}10"
 			lineSpacing="1.58"
 			roundCorners="0.018"
-			autoScrollDelay="1000"
-			autoScrollSpeed="50"
 			
-		/>
+		>
+
+			<autoScrollDelay ifSubset="scrollSpeed:normal">1000</autoScrollDelay>
+			<autoScrollDelay ifSubset="scrollSpeed:fast">800</autoScrollDelay>
+			<autoScrollSpeed ifSubset="scrollSpeed:normal">50</autoScrollSpeed>
+			<autoScrollSpeed ifSubset="scrollSpeed:fast">20</autoScrollSpeed>
+
+                </text>
 		
 		<image name="md_hidden"
 		

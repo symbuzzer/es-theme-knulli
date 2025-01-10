@@ -68,6 +68,10 @@
 		<subset.batterybar.yes>yes</subset.batterybar.yes>
 		<subset.batterybar.no>no</subset.batterybar.no>
 
+		<subset.scrollSpeed>description scroll speed on</subset.scrollSpeed>
+		<subset.scrollSpeed.normal>normal</subset.scrollSpeed.normal>
+		<subset.scrollSpeed.fast>fast</subset.scrollSpeed.fast>
+
 		<subset.themeVersionString>theme version</subset.themeVersionString>
 
 		<lang.elements>items</lang.elements>

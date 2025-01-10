@@ -1,4 +1,6 @@
 # es-theme-knulli
+Community theme developed without arrogance...
+
 ## FEATURES
 - Designed entirely for Knulli
 - Unlike other ES themes, texts are made more readable and images are more visible on small screens
@@ -14,11 +16,12 @@
 - Added show or hide system logos on game lists
 - Added new detailed_2 view
 - Added disable video option for all gamelist views
+- Has scroll speed option for game description for detailed view
 - Added disable system animations option
 - Knulli, Batocera and Anbernic colorsets are available. This makes the interface look more integrated with the system used
 - There is a feature to change and disable splashscreen. You can manually select any of the Knulli, Batocera or Anbernic images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
 - Added feature to automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
-- Added some Knulli specific assets and features, such as the Emulators, Reordings etc. folders and their system image
+- Added some Knulli specific assets and features, such as the Emulators, Recordings etc. folders and their system image
 - Added ability to hide help bar completely from ES settings
 - Tested successfully on different screen sized devices and hdmi connections
 - The theme file structure has been made easier and more understandable for other users and developers
@@ -76,3 +79,4 @@ To do this, you need to share the 32-digit code in the ```userdata/system/machin
 - Some logos used from "[ckau-book](https://github.com/CkauNui/ckau-book)" theme by [CkauNui](https://github.com/CkauNui) *(Licensed under Attribution-NonCommercial-ShareAlike 4.0 International)*
 - Each brand of hardware and software here represented as a tribute.
 - All logos, trademarks and photos are copyright of their respective owners.
+- FR translator: k_thod

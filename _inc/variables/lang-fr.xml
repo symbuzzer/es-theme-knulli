@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<lang.detailed_2>vue detaillée_2</lang.detailed_2>
+
+		<subset.slideType>type de defilement</subset.slideType>
+		<subset.slideType.horizontal>horizontale</subset.slideType.horizontal>
+		<subset.slideType.vertical>verticale</subset.slideType.vertical>
+		<subset.slideType.verticalwheel>roue verticale</subset.slideType.verticalwheel>
+
+		<subset.themeColors>couleur de theme</subset.themeColors>
+		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
+		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
+		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
+
+		<subset.splashscreen>écran de démarrage</subset.splashscreen>
+		<subset.splashscreen.colorset>auto (depuis la couleur de theme)</subset.splashscreen.colorset>
+		<subset.splashscreen.default>defaut</subset.splashscreen.default>
+		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
+		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
+		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
+		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
+		<subset.splashscreen.disabled>desactivé</subset.splashscreen.disabled>
+
+		<subset.helpIcons>icône d'aide</subset.helpIcons>
+		<subset.helpIcons.default>defaut</subset.helpIcons.default>
+		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
+		<subset.helpIcons.snes>snes - super nintendo</subset.helpIcons.snes>
+		<subset.helpIcons.snesAlt>snes - super nintendo (alt)</subset.helpIcons.snesAlt>
+		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
+		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
+
+		<subset.videoPreviews>aperçus vidéo</subset.videoPreviews>
+		<subset.videoPreviews.enabled>activé</subset.videoPreviews.enabled>
+		<subset.videoPreviews.disabled>desactivé</subset.videoPreviews.disabled>
+
+		<subset.playTimeEnabled>afficher le temps de jeu</subset.playTimeEnabled>
+		<subset.playTimeEnabled.yes>oui</subset.playTimeEnabled.yes>
+		<subset.playTimeEnabled.no>non</subset.playTimeEnabled.no>
+
+		<subset.systemlogoeffects>effets de logo</subset.systemlogoeffects>
+		<subset.systemlogoeffects.enabled>activé</subset.systemlogoeffects.enabled>
+		<subset.systemlogoeffects.disabled>desactivé</subset.systemlogoeffects.disabled>
+
+		<subset.systemlogosongamelists>afficher les logos des systèmes</subset.systemlogosongamelists>
+		<subset.systemlogosongamelists.yes>yes</subset.systemlogosongamelists.yes>
+		<subset.systemlogosongamelists.no>no</subset.systemlogosongamelists.no>
+
+		<subset.gridGameName>afficher les noms des jeux</subset.gridGameName>
+		<subset.gridGameName.yes>oui</subset.gridGameName.yes>
+		<subset.gridGameName.no>non</subset.gridGameName.no>
+
+		<subset.systemRegion>region</subset.systemRegion>
+		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
+		<subset.systemRegion.us>us</subset.systemRegion.us>
+		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
+
+		<subset.gamecount>afficher le nombre de jeux</subset.gamecount>
+		<subset.gamecount.yes>oui</subset.gamecount.yes>
+		<subset.gamecount.no>non</subset.gamecount.no>
+
+		<subset.batterybar>afficher la barre de batterie</subset.batterybar>
+		<subset.batterybar.yes>oui</subset.batterybar.yes>
+		<subset.batterybar.no>non</subset.batterybar.no>
+
+		<subset.scrollSpeed>vitesse de défilement de la description</subset.scrollSpeed>
+		<subset.scrollSpeed.normal>normale</subset.scrollSpeed.normal>
+		<subset.scrollSpeed.fast>rapide</subset.scrollSpeed.fast>
+
+		<subset.themeVersionString>vesion du theme</subset.themeVersionString>
+
+		<lang.elements>elements</lang.elements>
+		<lang.favorites>favoris</lang.favorites>
+		<lang.favoritesReplacement>trouvez tout vos favoris ici</lang.favoritesReplacement>
+		<lang.played>lancés</lang.played>
+		<lang.mostPlayed>le plus lancé</lang.mostPlayed>
+		<lang.lastPlayedDate>dernier lancement</lang.lastPlayedDate>
+		<lang.at>a</lang.at>
+
+		<lang.developedBy>développé par</lang.developedBy>
+		<lang.publiedIn>publié dans</lang.publiedIn>
+		<lang.developedAndPubliedIn>développé et publié dans</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>développé et publié par</lang.developedAndPubliedBy>
+		<lang.publied>publié</lang.publied>
+		<lang.by>par</lang.by>
+		<lang.and>et</lang.and>
+		<lang.noRating>pas de note</lang.noRating>
+		<lang.neverPlayed>jamais lancé</lang.neverPlayed>
+		<lang.gamePlayers>nombre de joueurs</lang.gamePlayers>
+		<lang.timesPlayed>temps de jeu</lang.timesPlayed>
+		<lang.lastPlayed>derniere fois</lang.lastPlayed>
+		<lang.releasedIn>publié dans</lang.releasedIn>
+		<lang.released>publié</lang.released>
+
+<!-- Use upper and lower case ponctuation -->
+
+		<lang.noDesc>Désolé, aucune description n'a été trouvée pour ce fichier. Vous pouvez essayer de le telecharcher ou de modifier manuellement le fichier gamelist.xml.</lang.noDesc>
+	</variables>
+
+</theme>
