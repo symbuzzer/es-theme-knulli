@@ -18,7 +18,7 @@
 		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
 		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
-		<subset.splashscreen>yükleme ekranı imajı</subset.splashscreen>
+		<subset.splashscreen>yükleme ekranı resmi</subset.splashscreen>
 		<subset.splashscreen.colorset>otomatik (tema rengine göre)</subset.splashscreen.colorset>
 		<subset.splashscreen.default>varsayılan</subset.splashscreen.default>
 		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
@@ -43,7 +43,7 @@
 		<subset.playTimeEnabled.yes>evet</subset.playTimeEnabled.yes>
 		<subset.playTimeEnabled.no>hayır</subset.playTimeEnabled.no>
 
-		<subset.systemlogoeffects>logo efektleri</subset.systemlogoeffects>
+		<subset.systemlogoeffects>sistem logo efektleri</subset.systemlogoeffects>
 		<subset.systemlogoeffects.enabled>aktif</subset.systemlogoeffects.enabled>
 		<subset.systemlogoeffects.disabled>pasif</subset.systemlogoeffects.disabled>
 
