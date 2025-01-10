@@ -1,3 +1,6 @@
+# v2.13.x
+- Changed some system logos
+
 # v2.12.x
 - Removed shaders
 - Removed unused controller activities
