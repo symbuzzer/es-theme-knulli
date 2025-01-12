@@ -23,6 +23,7 @@ Community theme developed without arrogance...
 - Added feature to automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
 - Added some Knulli specific assets and features, such as the Emulators, Recordings etc. folders and their system image
 - Added ability to hide help bar completely from ES settings
+- Support for multiple languages
 - Tested successfully on different screen sized devices and hdmi connections
 - The theme file structure has been made easier and more understandable for other users and developers
 - You can view the theme version information in the theme settings
@@ -73,10 +74,14 @@ The theme is constantly updated and new features are added. If you want to try n
 
 To do this, you need to share the 32-digit code in the ```userdata/system/machine-id``` file with the developer via the ```OD-Commander``` application in the ```TOOLS``` collection on your device. Then you can automatically update beta versions with the ```ETK Tool``` application.
 
+## TRANSLATORS
+- FR: k_thod
+- PL: dooshpastesh
+- ES: Murky_Solution6886
+
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
 - Based on "[es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic)" by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)
 - Some logos used from "[ckau-book](https://github.com/CkauNui/ckau-book)" theme by [CkauNui](https://github.com/CkauNui) *(Licensed under Attribution-NonCommercial-ShareAlike 4.0 International)*
 - Each brand of hardware and software here represented as a tribute.
 - All logos, trademarks and photos are copyright of their respective owners.
-- FR translator: k_thod

@@ -1,3 +1,6 @@
+# v2.14.x
+- Added Polish and Spanish translation
+
 # v2.13.x
 - Changed some system logos
 - Added multi-language support for options
