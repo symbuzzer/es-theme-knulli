@@ -79,4 +79,4 @@ To do this, you need to share the 32-digit code in the ```userdata/system/machin
 - Some logos used from "[ckau-book](https://github.com/CkauNui/ckau-book)" theme by [CkauNui](https://github.com/CkauNui) *(Licensed under Attribution-NonCommercial-ShareAlike 4.0 International)*
 - Each brand of hardware and software here represented as a tribute.
 - All logos, trademarks and photos are copyright of their respective owners.
-- FR translator: k_thod PL translator: dooshpastesh
+- FR translator: k_thod - PL translator: dooshpastesh - ES translator: Murky_Solution6886
