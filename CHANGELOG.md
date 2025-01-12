@@ -1,5 +1,5 @@
 # v2.14.x
-- Added Polish translation
+- Added Polish and Spanish translation
 
 # v2.13.x
 - Changed some system logos
