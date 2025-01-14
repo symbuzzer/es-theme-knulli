@@ -1,5 +1,8 @@
+# v2.15.x
+- Added Hungarian translation
+
 # v2.14.x
-- Added Polish and Spanish translation
+- Added Polish and Spanish translations
 
 # v2.13.x
 - Changed some system logos
