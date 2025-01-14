@@ -1,3 +1,7 @@
+# v2.16.x
+- Updated French translation
+- Replaced Ports system logo
+
 # v2.15.x
 - Added Hungarian translation
 
