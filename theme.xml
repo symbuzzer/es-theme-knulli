@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.14.4</v.themeVersion>
+		<v.themeVersion>2.15.1</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
