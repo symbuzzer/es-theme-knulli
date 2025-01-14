@@ -6,7 +6,7 @@
 	
 	<variables>
 
-		<lang.detailed_2>vue detaillée_2</lang.detailed_2>
+		<lang.detailed_2>detaillé_2</lang.detailed_2>
 
 		<subset.slideType>type de defilement</subset.slideType>
 		<subset.slideType.horizontal>horizontale</subset.slideType.horizontal>
@@ -19,7 +19,7 @@
 		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
 		<subset.splashscreen>écran de démarrage</subset.splashscreen>
-		<subset.splashscreen.colorset>auto (depuis la couleur de theme)</subset.splashscreen.colorset>
+		<subset.splashscreen.colorset>auto</subset.splashscreen.colorset>
 		<subset.splashscreen.default>defaut</subset.splashscreen.default>
 		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
 		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
@@ -48,8 +48,8 @@
 		<subset.systemlogoeffects.disabled>desactivé</subset.systemlogoeffects.disabled>
 
 		<subset.systemlogosongamelists>afficher les logos des systèmes</subset.systemlogosongamelists>
-		<subset.systemlogosongamelists.yes>yes</subset.systemlogosongamelists.yes>
-		<subset.systemlogosongamelists.no>no</subset.systemlogosongamelists.no>
+		<subset.systemlogosongamelists.yes>oui</subset.systemlogosongamelists.yes>
+		<subset.systemlogosongamelists.no>non</subset.systemlogosongamelists.no>
 
 		<subset.gridGameName>afficher les noms des jeux</subset.gridGameName>
 		<subset.gridGameName.yes>oui</subset.gridGameName.yes>
@@ -68,7 +68,7 @@
 		<subset.batterybar.yes>oui</subset.batterybar.yes>
 		<subset.batterybar.no>non</subset.batterybar.no>
 
-		<subset.scrollSpeed>vitesse de défilement de la description</subset.scrollSpeed>
+		<subset.scrollSpeed>vitesse de défilement de la descr.</subset.scrollSpeed>
 		<subset.scrollSpeed.normal>normale</subset.scrollSpeed.normal>
 		<subset.scrollSpeed.fast>rapide</subset.scrollSpeed.fast>
 
