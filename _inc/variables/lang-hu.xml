@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<lang.detailed_2>detailed_2</lang.detailed_2>
+
+		<subset.slideType>görgetés típus</subset.slideType>
+		<subset.slideType.horizontal>vízszintes</subset.slideType.horizontal>
+		<subset.slideType.vertical>függőleges</subset.slideType.vertical>
+		<subset.slideType.verticalwheel>függőleges kerék</subset.slideType.verticalwheel>
+
+		<subset.themeColors>színkészlet</subset.themeColors>
+		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
+		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
+		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
+
+		<subset.splashscreen>nyitóképernyő</subset.splashscreen>
+		<subset.splashscreen.colorset>automatikus (a színkészletből)</subset.splashscreen.colorset>
+		<subset.splashscreen.default>alapértelmezett</subset.splashscreen.default>
+		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
+		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
+		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
+		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
+		<subset.splashscreen.disabled>kikapcsolva</subset.splashscreen.disabled>
+
+		<subset.helpIcons>segítség gombok</subset.helpIcons>
+		<subset.helpIcons.default>alapértelmezett</subset.helpIcons.default>
+		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
+		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
+		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
+		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
+		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
+
+		<subset.videoPreviews>videó előnézet bekapcsolva</subset.videoPreviews>
+		<subset.videoPreviews.enabled>bekapcsolva</subset.videoPreviews.enabled>
+		<subset.videoPreviews.disabled>kikapcsolva</subset.videoPreviews.disabled>
+
+		<subset.playTimeEnabled>mutassa a játékidőt</subset.playTimeEnabled>
+		<subset.playTimeEnabled.yes>igen</subset.playTimeEnabled.yes>
+		<subset.playTimeEnabled.no>nem</subset.playTimeEnabled.no>
+
+		<subset.systemlogoeffects>logó effektek</subset.systemlogoeffects>
+		<subset.systemlogoeffects.enabled>bekapcsolva</subset.systemlogoeffects.enabled>
+		<subset.systemlogoeffects.disabled>kikapcsolva</subset.systemlogoeffects.disabled>
+
+		<subset.systemlogosongamelists>rendszer logó mutatása</subset.systemlogosongamelists>
+		<subset.systemlogosongamelists.yes>igen</subset.systemlogosongamelists.yes>
+		<subset.systemlogosongamelists.no>nem</subset.systemlogosongamelists.no>
+
+		<subset.gridGameName>játéknév mutatása</subset.gridGameName>
+		<subset.gridGameName.yes>igen</subset.gridGameName.yes>
+		<subset.gridGameName.no>nem</subset.gridGameName.no>
+
+		<subset.systemRegion>régió</subset.systemRegion>
+		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
+		<subset.systemRegion.us>us</subset.systemRegion.us>
+		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
+
+		<subset.gamecount>mutassa a játékszámot</subset.gamecount>
+		<subset.gamecount.yes>igen</subset.gamecount.yes>
+		<subset.gamecount.no>nem</subset.gamecount.no>
+
+		<subset.batterybar>akkumulátor ikon megjelenítése</subset.batterybar>
+		<subset.batterybar.yes>nem</subset.batterybar.yes>
+		<subset.batterybar.no>igen</subset.batterybar.no>
+
+		<subset.scrollSpeed>a leírásgördítés sebessége</subset.scrollSpeed>
+		<subset.scrollSpeed.normal>normális</subset.scrollSpeed.normal>
+		<subset.scrollSpeed.fast>gyors</subset.scrollSpeed.fast>
+
+		<subset.themeVersionString>téma verzió</subset.themeVersionString>
+
+		<lang.elements>tételek</lang.elements>
+		<lang.favorites>kedvencek</lang.favorites>
+		<lang.favoritesReplacement>itt találod az összes kedvenced</lang.favoritesReplacement>
+		<lang.played>elindítva</lang.played>
+		<lang.mostPlayed>legtöbbször játszott</lang.mostPlayed>
+		<lang.lastPlayedDate>legutóbb játszott</lang.lastPlayedDate>
+		<lang.at>at</lang.at>
+
+		<lang.developedBy>fejlesztette</lang.developedBy>
+		<lang.publiedIn>publikálva</lang.publiedIn>
+		<lang.developedAndPubliedIn>fejlesztve és publikálva</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>fejlesztette és pubklikálta</lang.developedAndPubliedBy>
+		<lang.publied>publikálva</lang.publied>
+		<lang.by>by</lang.by>
+		<lang.and>és</lang.and>
+		<lang.noRating>nincs értékelés</lang.noRating>
+		<lang.neverPlayed>sohasem volt elindítva</lang.neverPlayed>
+		<lang.gamePlayers>játékosok száma</lang.gamePlayers>
+		<lang.timesPlayed>hányszor játszott</lang.timesPlayed>
+		<lang.lastPlayed>utolsó játékalkalom</lang.lastPlayed>
+		<lang.releasedIn>kiadva</lang.releasedIn>
+		<lang.released>kiadva</lang.released>
+
+<!-- Use upper and lower case ponctuation -->
+
+		<lang.noDesc>Sajnálom, ehhez a fájlhoz nem található leírás. Megpróbálhatod scrapelni vagy manuálisan szerkeszteni a gamelist.xml fájlt.</lang.noDesc>
+	
+	</variables>
+
+</theme>
