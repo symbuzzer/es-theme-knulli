@@ -1,3 +1,6 @@
+# v2.17.x
+- Added Portuguese and Brazilian translations
+
 # v2.16.x
 - Updated French translation
 - Replaced Ports system logo
