@@ -79,6 +79,8 @@ To do this, you need to share the 32-digit code in the ```userdata/system/machin
 - PL: dooshpastesh
 - ES: Murky_Solution6886
 - HU: cosmos_hu
+- BR: Revolt250
+- PT: Revolt250
 
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
