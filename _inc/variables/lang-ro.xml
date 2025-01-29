@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<lang.detailed_2>detaliat_2</lang.detailed_2>
+
+		<subset.slideType>tip parcurgere</subset.slideType>
+		<subset.slideType.horizontal>orizontal</subset.slideType.horizontal>
+		<subset.slideType.vertical>vertical</subset.slideType.vertical>
+		<subset.slideType.verticalwheel>roata verticala</subset.slideType.verticalwheel>
+
+		<subset.themeColors>set de culori</subset.themeColors>
+		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
+		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
+		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
+
+		<subset.splashscreen>ecran de start</subset.splashscreen>
+		<subset.splashscreen.colorset>automat (din set de culori)</subset.splashscreen.colorset>
+		<subset.splashscreen.default>implicit</subset.splashscreen.default>
+		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
+		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
+		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
+		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
+		<subset.splashscreen.disabled>dezactivat</subset.splashscreen.disabled>
+
+		<subset.helpIcons>butoane de ajutor</subset.helpIcons>
+		<subset.helpIcons.default>implicit</subset.helpIcons.default>
+		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
+		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
+		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
+		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
+		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
+
+		<subset.videoPreviews>previzualizare video</subset.videoPreviews>
+		<subset.videoPreviews.enabled>activat</subset.videoPreviews.enabled>
+		<subset.videoPreviews.disabled>dezactivat</subset.videoPreviews.disabled>
+
+		<subset.playTimeEnabled>afiseaza timpul de joc</subset.playTimeEnabled>
+		<subset.playTimeEnabled.yes>da</subset.playTimeEnabled.yes>
+		<subset.playTimeEnabled.no>nu</subset.playTimeEnabled.no>
+
+		<subset.systemlogoeffects>efecte sigla</subset.systemlogoeffects>
+		<subset.systemlogoeffects.enabled>activat</subset.systemlogoeffects.enabled>
+		<subset.systemlogoeffects.disabled>dezactivat</subset.systemlogoeffects.disabled>
+
+		<subset.systemlogosongamelists>afiseaza sigla sistemului</subset.systemlogosongamelists>
+		<subset.systemlogosongamelists.yes>da</subset.systemlogosongamelists.yes>
+		<subset.systemlogosongamelists.no>nu</subset.systemlogosongamelists.no>
+
+		<subset.gridGameName>afiseaza numele jocurilor</subset.gridGameName>
+		<subset.gridGameName.yes>da</subset.gridGameName.yes>
+		<subset.gridGameName.no>nu</subset.gridGameName.no>
+
+		<subset.systemRegion>regiune</subset.systemRegion>
+		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
+		<subset.systemRegion.us>us</subset.systemRegion.us>
+		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
+
+		<subset.gamecount>afiseaza contor de joc</subset.gamecount>
+		<subset.gamecount.yes>da</subset.gamecount.yes>
+		<subset.gamecount.no>nu</subset.gamecount.no>
+
+		<subset.batterybar>afiseaza bara bateriei</subset.batterybar>
+		<subset.batterybar.yes>da</subset.batterybar.yes>
+		<subset.batterybar.no>nu</subset.batterybar.no>
+
+		<subset.scrollSpeed>viteza de defilare a descrierii</subset.scrollSpeed>
+		<subset.scrollSpeed.normal>normal</subset.scrollSpeed.normal>
+		<subset.scrollSpeed.fast>rapid</subset.scrollSpeed.fast>
+
+		<subset.themeVersionString>versiunea temei</subset.themeVersionString>
+
+		<lang.elements>elemente</lang.elements>
+		<lang.favorites>favorite</lang.favorites>
+		<lang.favoritesReplacement>gasiti toate preferatele aici</lang.favoritesReplacement>
+		<lang.played>jucate</lang.played>
+		<lang.mostPlayed>cele mai jucate</lang.mostPlayed>
+		<lang.lastPlayedDate>jucat ultima data</lang.lastPlayedDate>
+		<lang.at>la</lang.at>
+
+		<lang.developedBy>dezvoltat de</lang.developedBy>
+		<lang.publiedIn>publicat in</lang.publiedIn>
+		<lang.developedAndPubliedIn>dezvoltat si publicat in</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>dezvoltat si publicat de</lang.developedAndPubliedBy>
+		<lang.publied>publicat</lang.publied>
+		<lang.by>de</lang.by>
+		<lang.and>si</lang.and>
+		<lang.noRating>fara recenzii</lang.noRating>
+		<lang.neverPlayed>niciodata jucat</lang.neverPlayed>
+		<lang.gamePlayers>numar de jucatori</lang.gamePlayers>
+		<lang.timesPlayed>ori jucate</lang.timesPlayed>
+		<lang.lastPlayed>ultima data</lang.lastPlayed>
+		<lang.releasedIn>publicat in</lang.releasedIn>
+		<lang.released>publicat</lang.released>
+
+<!-- Use upper and lower case ponctuation -->
+
+		<lang.noDesc>Ne pare rau, nu a fost gasita nici o descriere pentru acest fisier. Puteti incerca sa cautati sau sa editati manual fisierul gamelist.xml.</lang.noDesc>
+	
+	</variables>
+
+</theme>
