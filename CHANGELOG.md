@@ -1,3 +1,6 @@
+# v2.18.x
+- Added Romanian translation
+
 # v2.17.x
 - Added Portuguese and Brazilian translations
 
