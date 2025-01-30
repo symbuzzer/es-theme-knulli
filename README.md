@@ -32,7 +32,7 @@ Community theme developed without arrogance...
 - [Preview images](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/README.md)
 - [Changelog](https://github.com/symbuzzer/es-theme-knulli/blob/main/CHANGELOG.md)
 - [What is next?](https://github.com/symbuzzer/es-theme-knulli/blob/main/ROADMAP.md)
-- [Download](https://github.com/symbuzzer/es-theme-knulli/releases/latest/download/es-theme-knulli.zip)
+- [Download](https://github.com/symbuzzer/es-theme-knulli/archive/refs/heads/main.zip)
 
 ## HOW TO INSTALL
   *Note: This theme comes pre-installed on latest Knulli public release (20241204). Please check USER INTERFACE SETTINGS > THEME SET menu for checkinf if pre-installed or not.*
