@@ -1,3 +1,8 @@
+# v2.19.x
+- Changed 32X and GameGear system logos for different regions
+- Updated Turkish translation
+- Re-designed some theme settings items
+
 # v2.18.x
 - Added Romanian translation
 
