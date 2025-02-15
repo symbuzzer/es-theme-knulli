@@ -4,6 +4,7 @@
 - Added reflection effect to system view again
 - Added rating stars to detailed view
 - Removed some unused strings from all language files
+- Removed vertical wheel scroll type due a lot of conflicts
 
 # v2.19.x
 - Changed 32X and GameGear system logos for different regions

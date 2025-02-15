@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>3.0.1</v.themeVersion>
+		<v.themeVersion>3.0.2</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -120,7 +120,6 @@
 
 		<include name="horizontal" displayName="${subset.slideType.horizontal}" />
 		<include name="vertical" displayName="${subset.slideType.vertical}" />	
-		<include name="verticalwheel" displayName="${subset.slideType.verticalwheel}" />
 	
 	</subset>
 

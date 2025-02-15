@@ -13,7 +13,6 @@
 		<subset.slideType>typ przewijania</subset.slideType>
 		<subset.slideType.horizontal>pionowy</subset.slideType.horizontal>
 		<subset.slideType.vertical>poziomy</subset.slideType.vertical>
-		<subset.slideType.verticalwheel>pionowa karuzela</subset.slideType.verticalwheel>
 
 		<subset.themeColors>paleta kolorów</subset.themeColors>
 
