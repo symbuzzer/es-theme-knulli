@@ -18,8 +18,8 @@ Community theme developed without arrogance...
 - Added disable video option for all gamelist views
 - Has scroll speed option for game description for detailed view
 - Added disable system animations option
-- Knulli, Batocera and Anbernic colorsets are available. This makes the interface look more integrated with the system used
-- There is a feature to change and disable splashscreen. You can manually select any of the Knulli, Batocera or Anbernic images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
+- Knulli, Batocera, Anbernic, Rocknix and Powkiddy colorsets are available. This makes the interface look more integrated with the system used
+- There is a feature to change and disable splashscreen. You can manually select any of the Knulli, Batocera, Anbernic, Rocknix or Powkiddy images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
 - Added feature to automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
 - Added some Knulli specific assets and features, such as the Emulators, Recordings etc. folders and their system image
 - Added ability to hide help bar completely from ES settings

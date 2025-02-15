@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>2.19.1</v.themeVersion>
+		<v.themeVersion>3.0.1</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -114,6 +114,7 @@
 	<subset name="slideType"
 	
 		displayName="${subset.slideType}"
+		appliesTo="${subset.system}"
 		
 	>
 
@@ -123,15 +124,29 @@
 	
 	</subset>
 
+	<subset name="slideTypeGrid"
+	
+		displayName="${subset.slideType}"
+		appliesTo="grid"
+		
+	>
+
+		<include name="horizontal" displayName="${subset.slideType.horizontal}" />
+		<include name="vertical" displayName="${subset.slideType.vertical}" />	
+	
+	</subset>
+
 	<subset name="themeColors"
 	
 		displayName="${subset.themeColors}"
 		
 	>
 
-		<include name="knulli" displayName="${subset.themeColors.knulli}" >./_inc/variables/themeColors-knulli.xml</include>	
-		<include name="batocera" displayName="${subset.themeColors.batocera}" >./_inc/variables/themeColors-batocera.xml</include>
-		<include name="anbernic" displayName="${subset.themeColors.anbernic}" >./_inc/variables/themeColors-anbernic.xml</include>
+		<include name="knulli" displayName="knulli" >./_inc/variables/themeColors-knulli.xml</include>
+		<include name="batocera" displayName="batocera" >./_inc/variables/themeColors-batocera.xml</include>
+		<include name="rocknix" displayName="rocknix" >./_inc/variables/themeColors-rocknix.xml</include>
+		<include name="anbernic" displayName="anbernic" >./_inc/variables/themeColors-anbernic.xml</include>
+		<include name="powkiddy" displayName="powkiddy" >./_inc/variables/themeColors-powkiddy.xml</include>
 	
 	</subset>
 
@@ -143,10 +158,12 @@
 	
 		<include name="colorset" displayName="${subset.splashscreen.colorset}" />
 		<include name="default" displayName="${subset.splashscreen.default}" />
-		<include name="knulli" displayName="${subset.splashscreen.knulli}" />
-		<include name="knulli_firefly" displayName="${subset.splashscreen.knulli_firefly}" />
-		<include name="batocera" displayName="${subset.splashscreen.batocera}" />
-		<include name="anbernic" displayName="${subset.splashscreen.anbernic}" />
+		<include name="knulli" displayName="knulli" />
+		<include name="knulli_firefly" displayName="knulli_firefly" />
+		<include name="batocera" displayName="batocera" />
+		<include name="rocknix" displayName="rocknix" />
+		<include name="anbernic" displayName="anbernic" />
+		<include name="powkiddy" displayName="powkiddy" />
 		<include name="disabled" displayName="${subset.splashscreen.disabled}" />
 	
 	</subset>
@@ -169,11 +186,24 @@
 	<subset name="systemlogoeffects"
 	
 		displayName="${subset.systemlogoeffects}"
+		appliesTo="${subset.system}"
 		
 	>
 
 		<include name="enabled" displayName="${subset.systemlogoeffects.enabled}" />
 		<include name="disabled" displayName="${subset.systemlogoeffects.disabled}" />	
+	
+	</subset>
+
+	<subset name="gamecount"
+	
+		displayName="${subset.gamecount}"
+		appliesTo="${subset.system}"
+		
+	>
+
+		<include name="no" displayName="${subset.gamecount.no}" />
+		<include name="yes" displayName="${subset.gamecount.yes}" />	
 	
 	</subset>
 
@@ -189,26 +219,15 @@
 	
 	</subset>
 
-	<subset name="gamecount"
+	<subset name="gameDetailedInfoEnabled"
 	
-		displayName="${subset.gamecount}"
-		
-	>
-
-		<include name="no" displayName="${subset.gamecount.no}" />
-		<include name="yes" displayName="${subset.gamecount.yes}" />	
-	
-	</subset>
-
-	<subset name="playTimeEnabled"
-	
-		displayName="${subset.playTimeEnabled}"
+		displayName="${subset.gameDetailedInfoEnabled}"
 		appliesTo="detailed"
 		
 	>
 
-		<include name="yes" displayName="${subset.playTimeEnabled.yes}" />	
-		<include name="no" displayName="${subset.playTimeEnabled.no}" />
+		<include name="yes" displayName="${subset.gameDetailedInfoEnabled.yes}" />	
+		<include name="no" displayName="${subset.gameDetailedInfoEnabled.no}" />
 	
 	</subset>
 
@@ -254,9 +273,9 @@
 		
 	>
 	
-		<include name="eu" displayName="${subset.systemRegion.eu}" />
-		<include name="us" displayName="${subset.systemRegion.us}" />
-		<include name="jp" displayName="${subset.systemRegion.jp}" />
+		<include name="eu" displayName="eu" />
+		<include name="us" displayName="us" />
+		<include name="jp" displayName="jp" />
 	
 	</subset>
 

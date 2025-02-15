@@ -8,23 +8,18 @@
 
 		<lang.detailed_2>detaylandırılmış_2</lang.detailed_2>
 
+		<subset.system>sİstem</subset.system>
+
 		<subset.slideType>kaydırma türü</subset.slideType>
 		<subset.slideType.horizontal>yatay</subset.slideType.horizontal>
 		<subset.slideType.vertical>dİkey</subset.slideType.vertical>
 		<subset.slideType.verticalwheel>dİkey çember</subset.slideType.verticalwheel>
 
 		<subset.themeColors>tema rengİ</subset.themeColors>
-		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
-		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
-		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
 		<subset.splashscreen>yükleme ekranı resmİ</subset.splashscreen>
 		<subset.splashscreen.colorset>otomatik (tema rengine göre)</subset.splashscreen.colorset>
 		<subset.splashscreen.default>varsayılan</subset.splashscreen.default>
-		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
-		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
-		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
-		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>kapalı</subset.splashscreen.disabled>
 
 		<subset.helpIcons>yardım butonları</subset.helpIcons>
@@ -39,9 +34,9 @@
 		<subset.videoPreviews.enabled>aktİf</subset.videoPreviews.enabled>
 		<subset.videoPreviews.disabled>pasİf</subset.videoPreviews.disabled>
 
-		<subset.playTimeEnabled>oynama süresİnİ göster</subset.playTimeEnabled>
-		<subset.playTimeEnabled.yes>evet</subset.playTimeEnabled.yes>
-		<subset.playTimeEnabled.no>hayır</subset.playTimeEnabled.no>
+		<subset.gameDetailedInfoEnabled>puanlama ve oynama süresİnİ göster</subset.gameDetailedInfoEnabled>
+		<subset.gameDetailedInfoEnabled.yes>evet</subset.gameDetailedInfoEnabled.yes>
+		<subset.gameDetailedInfoEnabled.no>hayır</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>sistem logo efektlerİ</subset.systemlogoeffects>
 		<subset.systemlogoeffects.enabled>aktİf</subset.systemlogoeffects.enabled>
@@ -56,9 +51,6 @@
 		<subset.gridGameName.no>hayır</subset.gridGameName.no>
 
 		<subset.systemRegion>bölge</subset.systemRegion>
-		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
-		<subset.systemRegion.us>us</subset.systemRegion.us>
-		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
 
 		<subset.gamecount>oyun sayısını göster</subset.gamecount>
 		<subset.gamecount.yes>evet</subset.gamecount.yes>

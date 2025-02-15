@@ -8,23 +8,18 @@
 
 		<lang.detailed_2>részletes_2</lang.detailed_2>
 
+		<subset.system>rendszer</subset.system>
+
 		<subset.slideType>görgetés típus</subset.slideType>
 		<subset.slideType.horizontal>vízszintes</subset.slideType.horizontal>
 		<subset.slideType.vertical>függőleges</subset.slideType.vertical>
 		<subset.slideType.verticalwheel>függőleges kerék</subset.slideType.verticalwheel>
 
 		<subset.themeColors>színkészlet</subset.themeColors>
-		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
-		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
-		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
 		<subset.splashscreen>nyitóképernyő</subset.splashscreen>
 		<subset.splashscreen.colorset>automatikus (a színkészletből)</subset.splashscreen.colorset>
 		<subset.splashscreen.default>alapértelmezett</subset.splashscreen.default>
-		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
-		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
-		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
-		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>kikapcsolva</subset.splashscreen.disabled>
 
 		<subset.helpIcons>segítség gombok</subset.helpIcons>
@@ -39,9 +34,9 @@
 		<subset.videoPreviews.enabled>bekapcsolva</subset.videoPreviews.enabled>
 		<subset.videoPreviews.disabled>kikapcsolva</subset.videoPreviews.disabled>
 
-		<subset.playTimeEnabled>mutassa a játékidőt</subset.playTimeEnabled>
-		<subset.playTimeEnabled.yes>igen</subset.playTimeEnabled.yes>
-		<subset.playTimeEnabled.no>nem</subset.playTimeEnabled.no>
+		<subset.gameDetailedInfoEnabled>mutassa értékelése és játékidőt</subset.gameDetailedInfoEnabled>
+		<subset.gameDetailedInfoEnabled.yes>igen</subset.gameDetailedInfoEnabled.yes>
+		<subset.gameDetailedInfoEnabled.no>nem</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>logó effektek</subset.systemlogoeffects>
 		<subset.systemlogoeffects.enabled>bekapcsolva</subset.systemlogoeffects.enabled>
@@ -56,9 +51,6 @@
 		<subset.gridGameName.no>nem</subset.gridGameName.no>
 
 		<subset.systemRegion>régió</subset.systemRegion>
-		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
-		<subset.systemRegion.us>us</subset.systemRegion.us>
-		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
 
 		<subset.gamecount>mutassa a játékszámot</subset.gamecount>
 		<subset.gamecount.yes>igen</subset.gamecount.yes>

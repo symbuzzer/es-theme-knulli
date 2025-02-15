@@ -1,3 +1,10 @@
+# v3.0.x
+- Added Rocknix and Powkiddy splashes and colorsets
+- System and Grid scroll type settings are separated
+- Added reflection effect to system view again
+- Added rating stars to detailed view
+- Removed some unused strings from all language files
+
 # v2.19.x
 - Changed 32X and GameGear system logos for different regions
 - Updated Turkish translation

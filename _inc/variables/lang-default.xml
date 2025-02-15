@@ -8,23 +8,18 @@
 
 		<lang.detailed_2>detailed_2</lang.detailed_2>
 
-		<subset.slideType>scroll type</subset.slideType>
+		<subset.system>system</subset.system>
+
+		<subset.slideType>scroll type on</subset.slideType>
 		<subset.slideType.horizontal>horizontal</subset.slideType.horizontal>
 		<subset.slideType.vertical>vertical</subset.slideType.vertical>
 		<subset.slideType.verticalwheel>vertical wheel</subset.slideType.verticalwheel>
 
 		<subset.themeColors>colorset</subset.themeColors>
-		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
-		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
-		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
 		<subset.splashscreen>splashscreen</subset.splashscreen>
 		<subset.splashscreen.colorset>auto (from colorset)</subset.splashscreen.colorset>
 		<subset.splashscreen.default>default</subset.splashscreen.default>
-		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
-		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
-		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
-		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
 
 		<subset.helpIcons>help buttons</subset.helpIcons>
@@ -39,9 +34,9 @@
 		<subset.videoPreviews.enabled>enabled</subset.videoPreviews.enabled>
 		<subset.videoPreviews.disabled>disabled</subset.videoPreviews.disabled>
 
-		<subset.playTimeEnabled>show play time on</subset.playTimeEnabled>
-		<subset.playTimeEnabled.yes>yes</subset.playTimeEnabled.yes>
-		<subset.playTimeEnabled.no>no</subset.playTimeEnabled.no>
+		<subset.gameDetailedInfoEnabled>show rating and play time on</subset.gameDetailedInfoEnabled>
+		<subset.gameDetailedInfoEnabled.yes>yes</subset.gameDetailedInfoEnabled.yes>
+		<subset.gameDetailedInfoEnabled.no>no</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>logo effects on</subset.systemlogoeffects>
 		<subset.systemlogoeffects.enabled>enabled</subset.systemlogoeffects.enabled>
@@ -56,9 +51,6 @@
 		<subset.gridGameName.no>no</subset.gridGameName.no>
 
 		<subset.systemRegion>region</subset.systemRegion>
-		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
-		<subset.systemRegion.us>us</subset.systemRegion.us>
-		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
 
 		<subset.gamecount>show game count on</subset.gamecount>
 		<subset.gamecount.yes>yes</subset.gamecount.yes>

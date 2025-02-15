@@ -36,12 +36,28 @@
     			path="./_inc/parts/splash/batocera.png"
 		/>
 
+		<image ifSubset="splashscreen:colorset,themeColors:rocknix" name="background"
+    			path="./_inc/parts/splash/rocknix.png"
+		/>
+
+		<image ifSubset="splashscreen:rocknix" name="background"
+    			path="./_inc/parts/splash/rocknix.png"
+		/>
+
 		<image ifSubset="splashscreen:colorset,themeColors:anbernic" name="background"
     			path="./_inc/parts/splash/anbernic.png"
 		/>
 
 		<image ifSubset="splashscreen:anbernic" name="background"
     			path="./_inc/parts/splash/anbernic.png"
+		/>
+
+		<image ifSubset="splashscreen:colorset,themeColors:powkiddy" name="background"
+    			path="./_inc/parts/splash/powkiddy.png"
+		/>
+
+		<image ifSubset="splashscreen:powkiddy" name="background"
+    			path="./_inc/parts/splash/powkiddy.png"
 		/>
 
 		<image name="progressbar:active"

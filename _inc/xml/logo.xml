@@ -13,6 +13,12 @@
 			saturation="1.2"
 		
 		/>
+
+		<image ifSubset="systemlogoeffects:enabled" name="logo"
+		
+			reflexion="0.05 0"
+		
+		/>
 		
 		<image name="logo"
 		

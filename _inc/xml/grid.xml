@@ -80,7 +80,7 @@
 
 		/>
 
-		<imagegrid ifSubset="slideType:horizontal" name="gamegrid"
+		<imagegrid ifSubset="slideTypeGrid:horizontal" name="gamegrid"
 
 			scrollDirection="horizontal"
 			scrollbarSize="${v.ScrollBar2}"

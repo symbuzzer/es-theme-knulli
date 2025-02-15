@@ -8,23 +8,18 @@
 
 		<lang.detailed_2>detaliat_2</lang.detailed_2>
 
+		<subset.sistem>system</subset.system>
+
 		<subset.slideType>tip parcurgere</subset.slideType>
 		<subset.slideType.horizontal>orizontal</subset.slideType.horizontal>
 		<subset.slideType.vertical>vertical</subset.slideType.vertical>
 		<subset.slideType.verticalwheel>roata verticala</subset.slideType.verticalwheel>
 
 		<subset.themeColors>set de culori</subset.themeColors>
-		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
-		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
-		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
 		<subset.splashscreen>ecran de start</subset.splashscreen>
 		<subset.splashscreen.colorset>automat (din set de culori)</subset.splashscreen.colorset>
 		<subset.splashscreen.default>implicit</subset.splashscreen.default>
-		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
-		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
-		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
-		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>dezactivat</subset.splashscreen.disabled>
 
 		<subset.helpIcons>butoane de ajutor</subset.helpIcons>
@@ -39,9 +34,9 @@
 		<subset.videoPreviews.enabled>activat</subset.videoPreviews.enabled>
 		<subset.videoPreviews.disabled>dezactivat</subset.videoPreviews.disabled>
 
-		<subset.playTimeEnabled>afiseaza timpul de joc</subset.playTimeEnabled>
-		<subset.playTimeEnabled.yes>da</subset.playTimeEnabled.yes>
-		<subset.playTimeEnabled.no>nu</subset.playTimeEnabled.no>
+		<subset.gameDetailedInfoEnabled>afiseaza evaluarea și timpul de joacă</subset.gameDetailedInfoEnabled>
+		<subset.gameDetailedInfoEnabled.yes>da</subset.gameDetailedInfoEnabled.yes>
+		<subset.gameDetailedInfoEnabled.no>nu</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>efecte sigla</subset.systemlogoeffects>
 		<subset.systemlogoeffects.enabled>activat</subset.systemlogoeffects.enabled>
@@ -56,9 +51,6 @@
 		<subset.gridGameName.no>nu</subset.gridGameName.no>
 
 		<subset.systemRegion>regiune</subset.systemRegion>
-		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
-		<subset.systemRegion.us>us</subset.systemRegion.us>
-		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
 
 		<subset.gamecount>afiseaza contor de joc</subset.gamecount>
 		<subset.gamecount.yes>da</subset.gamecount.yes>

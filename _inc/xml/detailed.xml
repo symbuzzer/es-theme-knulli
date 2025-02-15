@@ -153,7 +153,7 @@
 		/>
 
 
-		<text ifSubset="playTimeEnabled:yes" name="md_gametime"
+		<text ifSubset="gameDetailedInfoEnabled:yes" name="md_gametime"
 
 			extra="true"
 			zIndex="1001"
@@ -173,6 +173,43 @@
 			lineSpacing="1.58"
 			roundCorners="0.018"
 
+		/>
+
+		<text ifSubset="gameDetailedInfoEnabled:yes" name="gameRating"
+		
+			extra="true"
+			visible="{game:rating} ? 1 : 0"
+			
+		>
+			<text> {game:stars}</text>
+
+		</text>
+		
+		<text ifSubset="gameDetailedInfoEnabled:yes" name="gameNorating"
+		
+			extra="true"
+			visible="{game:rating} ? 0 : 1"
+			
+		>
+			<text> ${lang.noRating}</text>
+
+		</text>
+
+		
+		<text ifSubset="gameDetailedInfoEnabled:yes" name="gameRating,gameNorating"
+
+			extra="true"
+			zIndex="1001"
+			alignment="left"
+			verticalAlignment="top"
+			fontPath="./../fonts/${f.def}"
+			size="0.5 0.06"
+			fontSize="0.028"
+			color="${c.text}ef"
+			x="0.45"
+			y="0.63"
+			offsetY="${v.playTime.size}"
+			
 		/>
 			
 		<text name="noDescription"

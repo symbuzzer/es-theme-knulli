@@ -8,23 +8,18 @@
 
 		<lang.detailed_2>szczegółowy_2</lang.detailed_2>
 
+		<subset.system>system</subset.system>
+
 		<subset.slideType>typ przewijania</subset.slideType>
 		<subset.slideType.horizontal>pionowy</subset.slideType.horizontal>
 		<subset.slideType.vertical>poziomy</subset.slideType.vertical>
 		<subset.slideType.verticalwheel>pionowa karuzela</subset.slideType.verticalwheel>
 
 		<subset.themeColors>paleta kolorów</subset.themeColors>
-		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
-		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
-		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
 		<subset.splashscreen>splashscreen</subset.splashscreen>
 		<subset.splashscreen.colorset>auto (z palety kolorów)</subset.splashscreen.colorset>
 		<subset.splashscreen.default>domyślny</subset.splashscreen.default>
-		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
-		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
-		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
-		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>wyłączony</subset.splashscreen.disabled>
 
 		<subset.helpIcons>przyciski nawigacyjne</subset.helpIcons>
@@ -39,9 +34,9 @@
 		<subset.videoPreviews.enabled>włączony</subset.videoPreviews.enabled>
 		<subset.videoPreviews.disabled>wyłączony</subset.videoPreviews.disabled>
 
-		<subset.playTimeEnabled>pokazuj czas gry</subset.playTimeEnabled>
-		<subset.playTimeEnabled.yes>tak</subset.playTimeEnabled.yes>
-		<subset.playTimeEnabled.no>nie</subset.playTimeEnabled.no>
+		<subset.gameDetailedInfoEnabled>pokazuj ocenę i czas gry</subset.gameDetailedInfoEnabled>
+		<subset.gameDetailedInfoEnabled.yes>tak</subset.gameDetailedInfoEnabled.yes>
+		<subset.gameDetailedInfoEnabled.no>nie</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>efekty logo</subset.systemlogoeffects>
 		<subset.systemlogoeffects.enabled>włączone</subset.systemlogoeffects.enabled>
@@ -56,9 +51,6 @@
 		<subset.gridGameName.no>nie</subset.gridGameName.no>
 
 		<subset.systemRegion>region</subset.systemRegion>
-		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
-		<subset.systemRegion.us>us</subset.systemRegion.us>
-		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
 
 		<subset.gamecount>pokazuj licznik gier</subset.gamecount>
 		<subset.gamecount.yes>tak</subset.gamecount.yes>

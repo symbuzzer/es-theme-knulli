@@ -8,23 +8,18 @@
 
 		<lang.detailed_2>detaillé_2</lang.detailed_2>
 
+		<subset.system>système</subset.system>
+
 		<subset.slideType>type de defilement</subset.slideType>
 		<subset.slideType.horizontal>horizontale</subset.slideType.horizontal>
 		<subset.slideType.vertical>verticale</subset.slideType.vertical>
 		<subset.slideType.verticalwheel>roue verticale</subset.slideType.verticalwheel>
 
 		<subset.themeColors>couleur de theme</subset.themeColors>
-		<subset.themeColors.knulli>knulli</subset.themeColors.knulli>
-		<subset.themeColors.batocera>batocera</subset.themeColors.batocera>
-		<subset.themeColors.anbernic>anbernic</subset.themeColors.anbernic>
 
 		<subset.splashscreen>écran de démarrage</subset.splashscreen>
 		<subset.splashscreen.colorset>auto</subset.splashscreen.colorset>
 		<subset.splashscreen.default>defaut</subset.splashscreen.default>
-		<subset.splashscreen.knulli>knulli</subset.splashscreen.knulli>
-		<subset.splashscreen.knulli_firefly>knulli firefly</subset.splashscreen.knulli_firefly>
-		<subset.splashscreen.batocera>batocera</subset.splashscreen.batocera>
-		<subset.splashscreen.anbernic>anbernic</subset.splashscreen.anbernic>
 		<subset.splashscreen.disabled>desactivé</subset.splashscreen.disabled>
 
 		<subset.helpIcons>icône d'aide</subset.helpIcons>
@@ -39,9 +34,9 @@
 		<subset.videoPreviews.enabled>activé</subset.videoPreviews.enabled>
 		<subset.videoPreviews.disabled>desactivé</subset.videoPreviews.disabled>
 
-		<subset.playTimeEnabled>afficher le temps de jeu</subset.playTimeEnabled>
-		<subset.playTimeEnabled.yes>oui</subset.playTimeEnabled.yes>
-		<subset.playTimeEnabled.no>non</subset.playTimeEnabled.no>
+		<subset.gameDetailedInfoEnabled>afficher la note et le temps de jeu</subset.gameDetailedInfoEnabled>
+		<subset.gameDetailedInfoEnabled.yes>oui</subset.gameDetailedInfoEnabled.yes>
+		<subset.gameDetailedInfoEnabled.no>non</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>effets de logo</subset.systemlogoeffects>
 		<subset.systemlogoeffects.enabled>activé</subset.systemlogoeffects.enabled>
@@ -56,9 +51,6 @@
 		<subset.gridGameName.no>non</subset.gridGameName.no>
 
 		<subset.systemRegion>region</subset.systemRegion>
-		<subset.systemRegion.eu>eu</subset.systemRegion.eu>
-		<subset.systemRegion.us>us</subset.systemRegion.us>
-		<subset.systemRegion.jp>jp</subset.systemRegion.jp>
 
 		<subset.gamecount>afficher le nombre de jeux</subset.gamecount>
 		<subset.gamecount.yes>oui</subset.gamecount.yes>
