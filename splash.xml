@@ -60,6 +60,14 @@
     			path="./_inc/parts/splash/powkiddy.png"
 		/>
 
+		<image ifSubset="splashscreen:colorset,themeColors:miyoo" name="background"
+    			path="./_inc/parts/splash/miyoo.png"
+		/>
+
+		<image ifSubset="splashscreen:miyoo" name="background"
+    			path="./_inc/parts/splash/miyoo.png"
+		/>
+
 		<image name="progressbar:active"
 
 			color="FFFFFF"

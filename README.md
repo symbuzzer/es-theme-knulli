@@ -1,32 +1,36 @@
 # es-theme-knulli
 Community theme developed without arrogance...
 
-## FEATURES
+## DESIGN FEATURES
 - Designed entirely for Knulli
 - Unlike other ES themes, texts are made more readable and images are more visible on small screens
 - Aimed to be as simple and fast as possible. For this reason, it has been simplified considerably from the es-theme-basic on which it is based. The size of the theme has been reduced by 2/3
-- Instead of specifying separate parameters for high and low resolutions, fixed parameters were used directly, making the theme both faster and less resource consuming
+- Instead of specifying separate parameters for high and low screen resolutions; fixed parameters were used directly, making the theme both faster and less resource consuming
 - Unlike many ES themes, the clock is displayed accurately on small screen devices
 - Unlike many ES themes, the problem of text overlapping in the menus has been minimized
-- Has horizontal and vertical system and grid views
-- Menu and navigation sounds available
-- Has region option for system logos
-- Added the ability to display only the battery percentage and hide the battery bar, which is not available in ES Settings
-- Added the ability to show or hide game counts for per system
-- Added show or hide system logos on game lists
-- Added new detailed_2 view
-- Added disable video option for all gamelist views
-- Has scroll speed option for game description for detailed view
-- Added disable system animations option
-- Knulli, Batocera, Anbernic, Rocknix and Powkiddy colorsets are available. This makes the interface look more integrated with the system used
-- There is a feature to change and disable splashscreen. You can manually select any of the Knulli, Batocera, Anbernic, Rocknix or Powkiddy images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
-- Added feature to automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
 - Added some Knulli specific assets and features, such as the Emulators, Recordings etc. folders and their system image
-- Added ability to hide help bar completely from ES settings
-- Support for multiple languages
 - Tested successfully on different screen sized devices and hdmi connections
 - The theme file structure has been made easier and more understandable for other users and developers
-- You can view the theme version information in the theme settings
+
+## THEME FEATURES
+- Horizontal and vertical system and grid views
+- Menu and navigation sounds
+- EU, USA and JP regions
+- New detailed_2 view
+- Knulli, Batocera, Anbernic, Rocknix, Powkiddy and Miyoo colorsets
+- Change and disable splashscreen. You can manually select any of the Knulli, Batocera, Anbernic, Rocknix, Powkiddy or Miyoo images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
+- Automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
+- Display only the battery percentage and hide the battery bar, which is not available in ES Settings
+- Show or hide game counts for per system
+- Show or hide system logos on game lists
+- Show or hide rating and play tine on detailed view
+- Show or hide game names one grid view
+- Disable video option for all gamelist views
+- Scroll speed option for game description for detailed view
+- Disable system animations option
+- Hide help bar completely from ES settings
+- Multi-language
+- Theme version information in the theme settings
 
 ## LINKS
 - [Preview images](https://github.com/symbuzzer/es-theme-knulli/blob/main/screenshots/README.md)
@@ -35,7 +39,7 @@ Community theme developed without arrogance...
 - [Download](https://github.com/symbuzzer/es-theme-knulli/archive/refs/heads/main.zip)
 
 ## HOW TO INSTALL
-  *Note: This theme comes pre-installed on latest Knulli public release (20241204). Please check USER INTERFACE SETTINGS > THEME SET menu for checkinf if pre-installed or not.*
+  *Note: This theme comes pre-installed on latest Knulli public release (20241204). Please check USER INTERFACE SETTINGS > THEME SET menu for checkinf if pre-installed or not. If it is already pre-installed, skip these steps and see [HOW TO UPDATE](https://github.com/symbuzzer/es-theme-knulli#a-if-pre-installed-with-knulli) section above.*
 - On your console, open ```MAIN MENU > UPDATES & DOWNLOADS > THEMES```
 - Find ```Knulli``` and install from there
 
@@ -67,10 +71,10 @@ With the addition of the beta branch, the versioning system has been changed sin
 
 Now, from the version information in the form of vX.Y.Z; X represents major updates, Y represents minor new additions and bug fixes. Z is unimportant for non-beta testers. So don't worry about Z appearing as x in the changelog or elsewhere.  
 
-Both Emulation Station's own theme store and etk_tool will already download the most up-to-date theme for you.  
+Both Batoceras's own theme store and etk_tool will already download the most up-to-date theme for you.  
 
 ## BECOME BETA TESTER
-The theme is constantly updated and new features are added. If you want to try new features before the official store version or without waiting for a custom firmware update, you can become a beta tester for free.  
+The theme is constantly updated and new features are added. If you want to try new features before the official store version or without waiting for a custom firmware update, you can become a beta tester for free. This is for Knulli users only.  
 
 To do this, you need to share the 32-digit code in the ```userdata/system/machine-id``` file with the developer via the ```OD-Commander``` application in the ```TOOLS``` collection on your device. Then you can automatically update beta versions with the ```ETK Tool``` application.
 

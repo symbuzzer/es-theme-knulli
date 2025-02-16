@@ -1,3 +1,6 @@
+# v3.1.x
+- Added Miyoo splash and colorset
+
 # v3.0.x
 - Added Rocknix and Powkiddy splashes and colorsets
 - System and Grid scroll type settings are separated

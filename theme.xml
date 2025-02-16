@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>3.0.2</v.themeVersion>
+		<v.themeVersion>3.1.1</v.themeVersion>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -146,6 +146,7 @@
 		<include name="rocknix" displayName="rocknix" >./_inc/variables/themeColors-rocknix.xml</include>
 		<include name="anbernic" displayName="anbernic" >./_inc/variables/themeColors-anbernic.xml</include>
 		<include name="powkiddy" displayName="powkiddy" >./_inc/variables/themeColors-powkiddy.xml</include>
+		<include name="miyoo" displayName="miyoo" >./_inc/variables/themeColors-miyoo.xml</include>
 	
 	</subset>
 
@@ -163,6 +164,7 @@
 		<include name="rocknix" displayName="rocknix" />
 		<include name="anbernic" displayName="anbernic" />
 		<include name="powkiddy" displayName="powkiddy" />
+		<include name="miyoo" displayName="miyoo" />
 		<include name="disabled" displayName="${subset.splashscreen.disabled}" />
 	
 	</subset>
