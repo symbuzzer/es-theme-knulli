@@ -17,8 +17,8 @@ Community theme developed without arrogance...
 - Menu and navigation sounds
 - EU, USA and JP regions
 - New detailed_2 view
-- Knulli, Batocera, Anbernic, Rocknix, Powkiddy and Miyoo colorsets
-- Change and disable splashscreen. You can manually select any of the Knulli, Batocera, Anbernic, Rocknix, Powkiddy or Miyoo images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
+- Knulli, Batocera, Anbernic, Rocknix, Powkiddy, Miyoo and Trimui colorsets
+- Change and disable splashscreen. You can manually select any of the Knulli, Batocera, Anbernic, Rocknix, Powkiddy, Miyoo or Trimui images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
 - Automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
 - Display only the battery percentage and hide the battery bar, which is not available in ES Settings
 - Show or hide game counts for per system

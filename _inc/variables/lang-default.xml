@@ -6,62 +6,50 @@
 	
 	<variables>
 
+		<subset.options.default>default</subset.options.default>
+
+		<subset.options.yes>yes</subset.options.yes>
+		<subset.options.no>no</subset.options.no>
+
+		<subset.options.enabled>disabled</subset.options.enabled>
+		<subset.options.disabled>disabled</subset.options.disabled>
+
+		<subset.options.horizontal>horizontal</subset.options.horizontal>
+		<subset.options.vertical>vertical</subset.options.vertical>
+
+		<subset.options.normal>normal</subset.options.normal>
+		<subset.options.fast>fast</subset.options.fast>
+
 		<lang.detailed_2>detailed_2</lang.detailed_2>
 
 		<subset.system>system</subset.system>
 
 		<subset.slideType>scroll type on</subset.slideType>
-		<subset.slideType.horizontal>horizontal</subset.slideType.horizontal>
-		<subset.slideType.vertical>vertical</subset.slideType.vertical>
 
 		<subset.themeColors>colorset</subset.themeColors>
 
 		<subset.splashscreen>splashscreen</subset.splashscreen>
 		<subset.splashscreen.colorset>auto (from colorset)</subset.splashscreen.colorset>
-		<subset.splashscreen.default>default</subset.splashscreen.default>
-		<subset.splashscreen.disabled>disabled</subset.splashscreen.disabled>
 
 		<subset.helpIcons>help buttons</subset.helpIcons>
-		<subset.helpIcons.default>default</subset.helpIcons.default>
-		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
-		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
-		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
-		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
-		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
 
 		<subset.videoPreviews>video previews on</subset.videoPreviews>
-		<subset.videoPreviews.enabled>enabled</subset.videoPreviews.enabled>
-		<subset.videoPreviews.disabled>disabled</subset.videoPreviews.disabled>
 
 		<subset.gameDetailedInfoEnabled>show rating and play time on</subset.gameDetailedInfoEnabled>
-		<subset.gameDetailedInfoEnabled.yes>yes</subset.gameDetailedInfoEnabled.yes>
-		<subset.gameDetailedInfoEnabled.no>no</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>logo effects on</subset.systemlogoeffects>
-		<subset.systemlogoeffects.enabled>enabled</subset.systemlogoeffects.enabled>
-		<subset.systemlogoeffects.disabled>disabled</subset.systemlogoeffects.disabled>
 
 		<subset.systemlogosongamelists>show system logos on</subset.systemlogosongamelists>
-		<subset.systemlogosongamelists.yes>yes</subset.systemlogosongamelists.yes>
-		<subset.systemlogosongamelists.no>no</subset.systemlogosongamelists.no>
 
 		<subset.gridGameName>show game names on</subset.gridGameName>
-		<subset.gridGameName.yes>yes</subset.gridGameName.yes>
-		<subset.gridGameName.no>no</subset.gridGameName.no>
 
 		<subset.systemRegion>region</subset.systemRegion>
 
 		<subset.gamecount>show game count on</subset.gamecount>
-		<subset.gamecount.yes>yes</subset.gamecount.yes>
-		<subset.gamecount.no>no</subset.gamecount.no>
 
 		<subset.batterybar>show batterybar</subset.batterybar>
-		<subset.batterybar.yes>yes</subset.batterybar.yes>
-		<subset.batterybar.no>no</subset.batterybar.no>
 
 		<subset.scrollSpeed>description scroll speed on</subset.scrollSpeed>
-		<subset.scrollSpeed.normal>normal</subset.scrollSpeed.normal>
-		<subset.scrollSpeed.fast>fast</subset.scrollSpeed.fast>
 
 		<subset.themeVersionString>theme version</subset.themeVersionString>
 

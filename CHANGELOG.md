@@ -1,3 +1,9 @@
+# v3.2.x
+- Added Trimui splash and colorset
+- Fixed some strings
+- Simplified theme strings
+- Updated all translates with new theme strings
+
 # v3.1.x
 - Added Miyoo splash and colorset
 

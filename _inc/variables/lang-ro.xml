@@ -6,62 +6,50 @@
 	
 	<variables>
 
+		<subset.options.default>implicit</subset.splashscreen.default>
+
+		<subset.options.yes>da</subset.options.yes>
+		<subset.options.no>nu</subset.options.no>
+
+		<subset.options.enabled>activat</subset.options.enabled>
+		<subset.options.disabled>dezactivat</subset.options.disabled>
+
+		<subset.options.horizontal>orizontal</subset.options.horizontal>
+		<subset.options.vertical>vertical</subset.options.vertical>
+
+		<subset.options.normal>normal</subset.options.normal>
+		<subset.options.fast>rapid</subset.options.fast>
+
 		<lang.detailed_2>detaliat_2</lang.detailed_2>
 
 		<subset.sistem>system</subset.system>
 
 		<subset.slideType>tip parcurgere</subset.slideType>
-		<subset.slideType.horizontal>orizontal</subset.slideType.horizontal>
-		<subset.slideType.vertical>vertical</subset.slideType.vertical>
 
 		<subset.themeColors>set de culori</subset.themeColors>
 
 		<subset.splashscreen>ecran de start</subset.splashscreen>
 		<subset.splashscreen.colorset>automat (din set de culori)</subset.splashscreen.colorset>
-		<subset.splashscreen.default>implicit</subset.splashscreen.default>
-		<subset.splashscreen.disabled>dezactivat</subset.splashscreen.disabled>
 
 		<subset.helpIcons>butoane de ajutor</subset.helpIcons>
-		<subset.helpIcons.default>implicit</subset.helpIcons.default>
-		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
-		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
-		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
-		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
-		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
 
 		<subset.videoPreviews>previzualizare video</subset.videoPreviews>
-		<subset.videoPreviews.enabled>activat</subset.videoPreviews.enabled>
-		<subset.videoPreviews.disabled>dezactivat</subset.videoPreviews.disabled>
 
 		<subset.gameDetailedInfoEnabled>afiseaza evaluarea și timpul de joacă</subset.gameDetailedInfoEnabled>
-		<subset.gameDetailedInfoEnabled.yes>da</subset.gameDetailedInfoEnabled.yes>
-		<subset.gameDetailedInfoEnabled.no>nu</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>efecte sigla</subset.systemlogoeffects>
-		<subset.systemlogoeffects.enabled>activat</subset.systemlogoeffects.enabled>
-		<subset.systemlogoeffects.disabled>dezactivat</subset.systemlogoeffects.disabled>
 
 		<subset.systemlogosongamelists>afiseaza sigla sistemului</subset.systemlogosongamelists>
-		<subset.systemlogosongamelists.yes>da</subset.systemlogosongamelists.yes>
-		<subset.systemlogosongamelists.no>nu</subset.systemlogosongamelists.no>
 
 		<subset.gridGameName>afiseaza numele jocurilor</subset.gridGameName>
-		<subset.gridGameName.yes>da</subset.gridGameName.yes>
-		<subset.gridGameName.no>nu</subset.gridGameName.no>
 
 		<subset.systemRegion>regiune</subset.systemRegion>
 
 		<subset.gamecount>afiseaza contor de joc</subset.gamecount>
-		<subset.gamecount.yes>da</subset.gamecount.yes>
-		<subset.gamecount.no>nu</subset.gamecount.no>
 
 		<subset.batterybar>afiseaza bara bateriei</subset.batterybar>
-		<subset.batterybar.yes>da</subset.batterybar.yes>
-		<subset.batterybar.no>nu</subset.batterybar.no>
 
 		<subset.scrollSpeed>viteza de defilare a descrierii</subset.scrollSpeed>
-		<subset.scrollSpeed.normal>normal</subset.scrollSpeed.normal>
-		<subset.scrollSpeed.fast>rapid</subset.scrollSpeed.fast>
 
 		<subset.themeVersionString>versiunea temei</subset.themeVersionString>
 

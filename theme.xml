@@ -10,7 +10,9 @@
     <variables>
 		
 
-		<v.themeVersion>3.1.1</v.themeVersion>
+		<v.themeVersion>3.2.1</v.themeVersion>
+		<v.themeAuthor>by Ali BEYAZ (github.com/symbuzzer)</v.themeAuthor>
+
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -118,8 +120,8 @@
 		
 	>
 
-		<include name="horizontal" displayName="${subset.slideType.horizontal}" />
-		<include name="vertical" displayName="${subset.slideType.vertical}" />	
+		<include name="horizontal" displayName="${subset.options.horizontal}" />
+		<include name="vertical" displayName="${subset.options.vertical}" />	
 	
 	</subset>
 
@@ -130,8 +132,8 @@
 		
 	>
 
-		<include name="horizontal" displayName="${subset.slideType.horizontal}" />
-		<include name="vertical" displayName="${subset.slideType.vertical}" />	
+		<include name="horizontal" displayName="${subset.options.horizontal}" />
+		<include name="vertical" displayName="${subset.options.vertical}" />	
 	
 	</subset>
 
@@ -147,6 +149,7 @@
 		<include name="anbernic" displayName="anbernic" >./_inc/variables/themeColors-anbernic.xml</include>
 		<include name="powkiddy" displayName="powkiddy" >./_inc/variables/themeColors-powkiddy.xml</include>
 		<include name="miyoo" displayName="miyoo" >./_inc/variables/themeColors-miyoo.xml</include>
+		<include name="trimui" displayName="trimui" >./_inc/variables/themeColors-trimui.xml</include>
 	
 	</subset>
 
@@ -157,15 +160,16 @@
 	>
 	
 		<include name="colorset" displayName="${subset.splashscreen.colorset}" />
-		<include name="default" displayName="${subset.splashscreen.default}" />
+		<include name="default" displayName="${subset.options.default}" />
 		<include name="knulli" displayName="knulli" />
-		<include name="knulli_firefly" displayName="knulli_firefly" />
+		<include name="knulli_firefly" displayName="knulli firefly" />
 		<include name="batocera" displayName="batocera" />
 		<include name="rocknix" displayName="rocknix" />
 		<include name="anbernic" displayName="anbernic" />
 		<include name="powkiddy" displayName="powkiddy" />
 		<include name="miyoo" displayName="miyoo" />
-		<include name="disabled" displayName="${subset.splashscreen.disabled}" />
+		<include name="trimui" displayName="trimui" />
+		<include name="disabled" displayName="${subset.options.disabled}" />
 	
 	</subset>
 
@@ -175,12 +179,12 @@
 		
 	>
 	
-		<include name="default" displayName="${subset.helpIcons.default}" />
-		<include name="psx" displayName="${subset.helpIcons.psx}" />
-		<include name="snes" displayName="${subset.helpIcons.snes}" />
-		<include name="snesAlt" displayName="${subset.helpIcons.snesAlt}" />
-		<include name="xbox" displayName="${subset.helpIcons.xbox}" />
-		<include name="xboxOne" displayName="${subset.helpIcons.xboxOne}" />
+		<include name="default" displayName="${subset.options.default}" />
+		<include name="psx" displayName="psx" />
+		<include name="snes" displayName="snes - super famicom" />
+		<include name="snesAlt" displayName="snes - super famicom (alt)" />
+		<include name="xbox" displayName="xbox" />
+		<include name="xboxOne" displayName="xbox one" />
 	
 	</subset>
 
@@ -191,8 +195,8 @@
 		
 	>
 
-		<include name="enabled" displayName="${subset.systemlogoeffects.enabled}" />
-		<include name="disabled" displayName="${subset.systemlogoeffects.disabled}" />	
+		<include name="enabled" displayName="${subset.options.enabled}" />
+		<include name="disabled" displayName="${subset.options.disabled}" />	
 	
 	</subset>
 
@@ -203,8 +207,8 @@
 		
 	>
 
-		<include name="no" displayName="${subset.gamecount.no}" />
-		<include name="yes" displayName="${subset.gamecount.yes}" />	
+		<include name="no" displayName="${subset.options.no}" />
+		<include name="yes" displayName="${subset.options.yes}" />	
 	
 	</subset>
 
@@ -215,8 +219,8 @@
 		
 	>
 
-		<include name="enabled" displayName="${subset.videoPreviews.enabled}" />	
-		<include name="disabled" displayName="${subset.videoPreviews.disabled}" />
+		<include name="enabled" displayName="${subset.options.enabled}" />	
+		<include name="disabled" displayName="${subset.options.disabled}" />
 	
 	</subset>
 
@@ -227,8 +231,8 @@
 		
 	>
 
-		<include name="yes" displayName="${subset.gameDetailedInfoEnabled.yes}" />	
-		<include name="no" displayName="${subset.gameDetailedInfoEnabled.no}" />
+		<include name="yes" displayName="${subset.options.yes}" />	
+		<include name="no" displayName="${subset.options.no}" />
 	
 	</subset>
 
@@ -239,8 +243,8 @@
 		
 	>
 	
-		<include name="no" displayName="${subset.gridGameName.no}" />
-		<include name="yes" displayName="${subset.gridGameName.yes}" />
+		<include name="no" displayName="${subset.options.no}" />
+		<include name="yes" displayName="${subset.options.yes}" />
 	
 	</subset>
 
@@ -251,8 +255,8 @@
 		
 	>
 
-		<include name="normal" displayName="${subset.scrollSpeed.normal}" />	
-		<include name="fast" displayName="${subset.scrollSpeed.fast}" />
+		<include name="normal" displayName="${subset.options.normal}" />	
+		<include name="fast" displayName="${subset.options.fast}" />
 	
 	</subset>
 
@@ -263,8 +267,8 @@
 		
 	>
 
-		<include name="no" displayName="${subset.systemlogosongamelists.no}" />	
-		<include name="yes" displayName="${subset.systemlogosongamelists.yes}" />
+		<include name="no" displayName="${subset.options.no}" />	
+		<include name="yes" displayName="${subset.options.yes}" />
 	
 	</subset>
 
@@ -286,14 +290,15 @@
 		
 	>
 
-		<include name="yes" displayName="${subset.batterybar.yes}" />	
-		<include name="no" displayName="${subset.batterybar.no}" />
+		<include name="yes" displayName="${subset.options.yes}" />	
+		<include name="no" displayName="${subset.options.no}" />
 	
 	</subset>
 
 	<subset name="version"
 	
 		displayName="${subset.themeVersionString}"
+		appliesTo="${v.themeAuthor}"
 		
 	>
 	

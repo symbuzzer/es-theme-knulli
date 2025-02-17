@@ -6,62 +6,50 @@
 	
 	<variables>
 
+		<subset.options.default>alapértelmezett</subset.options.default>
+
+		<subset.options.yes>igen</subset.options.yes>
+		<subset.options.no>nem</subset.options.no>
+
+		<subset.options.enabled>bekapcsolva</subset.options.enabled>
+		<subset.options.disabled>kikapcsolva</subset.options.disabled>
+
+		<subset.options.horizontal>vízszintes</subset.options.horizontal>
+		<subset.options.vertical>függőleges</subset.options.vertical>
+
+		<subset.options.normal>normális</subset.options.normal>
+		<subset.options.fast>gyors</subset.options.fast>
+
 		<lang.detailed_2>részletes_2</lang.detailed_2>
 
 		<subset.system>rendszer</subset.system>
 
 		<subset.slideType>görgetés típus</subset.slideType>
-		<subset.slideType.horizontal>vízszintes</subset.slideType.horizontal>
-		<subset.slideType.vertical>függőleges</subset.slideType.vertical>
 
 		<subset.themeColors>színkészlet</subset.themeColors>
 
 		<subset.splashscreen>nyitóképernyő</subset.splashscreen>
 		<subset.splashscreen.colorset>automatikus (a színkészletből)</subset.splashscreen.colorset>
-		<subset.splashscreen.default>alapértelmezett</subset.splashscreen.default>
-		<subset.splashscreen.disabled>kikapcsolva</subset.splashscreen.disabled>
 
 		<subset.helpIcons>segítség gombok</subset.helpIcons>
-		<subset.helpIcons.default>alapértelmezett</subset.helpIcons.default>
-		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
-		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
-		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
-		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
-		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
 
 		<subset.videoPreviews>videó előnézet bekapcsolva</subset.videoPreviews>
-		<subset.videoPreviews.enabled>bekapcsolva</subset.videoPreviews.enabled>
-		<subset.videoPreviews.disabled>kikapcsolva</subset.videoPreviews.disabled>
 
 		<subset.gameDetailedInfoEnabled>mutassa értékelése és játékidőt</subset.gameDetailedInfoEnabled>
-		<subset.gameDetailedInfoEnabled.yes>igen</subset.gameDetailedInfoEnabled.yes>
-		<subset.gameDetailedInfoEnabled.no>nem</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>logó effektek</subset.systemlogoeffects>
-		<subset.systemlogoeffects.enabled>bekapcsolva</subset.systemlogoeffects.enabled>
-		<subset.systemlogoeffects.disabled>kikapcsolva</subset.systemlogoeffects.disabled>
 
 		<subset.systemlogosongamelists>rendszer logó mutatása</subset.systemlogosongamelists>
-		<subset.systemlogosongamelists.yes>igen</subset.systemlogosongamelists.yes>
-		<subset.systemlogosongamelists.no>nem</subset.systemlogosongamelists.no>
 
 		<subset.gridGameName>játéknév mutatása</subset.gridGameName>
-		<subset.gridGameName.yes>igen</subset.gridGameName.yes>
-		<subset.gridGameName.no>nem</subset.gridGameName.no>
 
 		<subset.systemRegion>régió</subset.systemRegion>
 
 		<subset.gamecount>mutassa a játékszámot</subset.gamecount>
-		<subset.gamecount.yes>igen</subset.gamecount.yes>
-		<subset.gamecount.no>nem</subset.gamecount.no>
 
 		<subset.batterybar>akkumulátor ikon megjelenítése</subset.batterybar>
-		<subset.batterybar.yes>nem</subset.batterybar.yes>
-		<subset.batterybar.no>igen</subset.batterybar.no>
 
 		<subset.scrollSpeed>a leírásgördítés sebessége</subset.scrollSpeed>
-		<subset.scrollSpeed.normal>normális</subset.scrollSpeed.normal>
-		<subset.scrollSpeed.fast>gyors</subset.scrollSpeed.fast>
 
 		<subset.themeVersionString>téma verzió</subset.themeVersionString>
 

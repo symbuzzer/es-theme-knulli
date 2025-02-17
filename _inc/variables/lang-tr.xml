@@ -6,62 +6,51 @@
 	
 	<variables>
 
+		<subset.options.default>varsayılan</subset.options.default>
+
+		<subset.options.yes>evet</subset.options.yes>
+		<subset.options.no>hayır</subset.options.no>
+
+		<subset.options.enabled>aktİf</subset.options.enabled>
+		<subset.options.disabled>pasİf</subset.options.disabled>
+
+		<subset.options.horizontal>yatay</subset.options.horizontal>
+		<subset.options.vertical>dİkey</subset.options.vertical>
+
+		<subset.options.normal>normal</subset.options.normal>
+		<subset.options.fast>hızlı</subset.options.fast>
+
 		<lang.detailed_2>detaylandırılmış_2</lang.detailed_2>
 
 		<subset.system>sİstem</subset.system>
 
 		<subset.slideType>kaydırma türü</subset.slideType>
-		<subset.slideType.horizontal>yatay</subset.slideType.horizontal>
-		<subset.slideType.vertical>dİkey</subset.slideType.vertical>
 
 		<subset.themeColors>tema rengİ</subset.themeColors>
 
 		<subset.splashscreen>yükleme ekranı resmİ</subset.splashscreen>
 		<subset.splashscreen.colorset>otomatik (tema rengine göre)</subset.splashscreen.colorset>
-		<subset.splashscreen.default>varsayılan</subset.splashscreen.default>
-		<subset.splashscreen.disabled>kapalı</subset.splashscreen.disabled>
+
 
 		<subset.helpIcons>yardım butonları</subset.helpIcons>
-		<subset.helpIcons.default>varsayılan</subset.helpIcons.default>
-		<subset.helpIcons.psx>psx</subset.helpIcons.psx>
-		<subset.helpIcons.snes>snes - super famicom</subset.helpIcons.snes>
-		<subset.helpIcons.snesAlt>snes - super famicom (alt)</subset.helpIcons.snesAlt>
-		<subset.helpIcons.xbox>xbox</subset.helpIcons.xbox>
-		<subset.helpIcons.xboxOne>xbox one</subset.helpIcons.xboxOne>
 
 		<subset.videoPreviews>video önİzlemelerİ</subset.videoPreviews>
-		<subset.videoPreviews.enabled>aktİf</subset.videoPreviews.enabled>
-		<subset.videoPreviews.disabled>pasİf</subset.videoPreviews.disabled>
 
 		<subset.gameDetailedInfoEnabled>puanlama ve oynama süresİnİ göster</subset.gameDetailedInfoEnabled>
-		<subset.gameDetailedInfoEnabled.yes>evet</subset.gameDetailedInfoEnabled.yes>
-		<subset.gameDetailedInfoEnabled.no>hayır</subset.gameDetailedInfoEnabled.no>
 
 		<subset.systemlogoeffects>sistem logo efektlerİ</subset.systemlogoeffects>
-		<subset.systemlogoeffects.enabled>aktİf</subset.systemlogoeffects.enabled>
-		<subset.systemlogoeffects.disabled>pasİf</subset.systemlogoeffects.disabled>
 
 		<subset.systemlogosongamelists>sİstem logolarını göster</subset.systemlogosongamelists>
-		<subset.systemlogosongamelists.yes>evet</subset.systemlogosongamelists.yes>
-		<subset.systemlogosongamelists.no>hayır</subset.systemlogosongamelists.no>
 
 		<subset.gridGameName>oyun İsİmlerİnİ göster</subset.gridGameName>
-		<subset.gridGameName.yes>evet</subset.gridGameName.yes>
-		<subset.gridGameName.no>hayır</subset.gridGameName.no>
 
 		<subset.systemRegion>bölge</subset.systemRegion>
 
 		<subset.gamecount>oyun sayısını göster</subset.gamecount>
-		<subset.gamecount.yes>evet</subset.gamecount.yes>
-		<subset.gamecount.no>hayır</subset.gamecount.no>
 
 		<subset.batterybar>batarya sİmgesİnİ göster</subset.batterybar>
-		<subset.batterybar.yes>evet</subset.batterybar.yes>
-		<subset.batterybar.no>hayır</subset.batterybar.no>
 
 		<subset.scrollSpeed>açıklama kaydırma hızı</subset.scrollSpeed>
-		<subset.scrollSpeed.normal>normal</subset.scrollSpeed.normal>
-		<subset.scrollSpeed.fast>hızlı</subset.scrollSpeed.fast>
 
 		<subset.themeVersionString>tema versİyonu</subset.themeVersionString>
 

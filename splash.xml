@@ -68,6 +68,14 @@
     			path="./_inc/parts/splash/miyoo.png"
 		/>
 
+		<image ifSubset="splashscreen:colorset,themeColors:trimui" name="background"
+    			path="./_inc/parts/splash/trimui.png"
+		/>
+
+		<image ifSubset="splashscreen:trimui" name="background"
+    			path="./_inc/parts/splash/trimui.png"
+		/>
+
 		<image name="progressbar:active"
 
 			color="FFFFFF"
