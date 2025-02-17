@@ -3,6 +3,7 @@
 - Fixed some strings
 - Simplified theme strings
 - Updated all translates with new theme strings
+- Added theme author's github to version info
 
 # v3.1.x
 - Added Miyoo splash and colorset
