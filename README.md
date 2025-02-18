@@ -23,11 +23,11 @@ Community theme developed without arrogance...
 - Display only the battery percentage and hide the battery bar, which is not available in ES Settings
 - Show or hide game counts for per system
 - Show or hide system logos on game lists
-- Show or hide rating and play tine on detailed view
+- Show or hide rating and play time on detailed view
 - Show or hide game names one grid view
-- Disable video option for all gamelist views
-- Scroll speed option for game description for detailed view
-- Disable system animations option
+- Disable video preview option for all gamelist views
+- Scroll speed option for game description on detailed view
+- Disable system animations
 - Hide help bar completely from ES settings
 - Multi-language
 - Theme version information in the theme settings
