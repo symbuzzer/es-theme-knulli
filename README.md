@@ -1,6 +1,13 @@
 # es-theme-knulli
 Community theme developed without arrogance...
 
+## PHILOSOPHY
+Unfortunately, toxic statements such as "if you don't like it, do it yourself", "if you want to change it, code it yourself", "if you want to solve the bug, there is no one stopping you from doing it", "you are free to add the feature you want yourself" are increasing day by day in many open source communities.
+
+Moreover, such stupid comments are made "arrogantly" against people who obviously have no coding knowledge, who have reported bugs or made feature requests in good faith.
+
+Here, es-theme-knulli is here to overcome this. This is your and the community's theme. I wanted to create a project where all the requests requested so far were definitely tried to be added. Because it bothered me a lot to see that even the smallest requests of many people were rejected and these requests were ignored. This is exactly where I started...
+
 ## DESIGN FEATURES
 - Designed entirely for Knulli
 - Unlike other ES themes, texts are made more readable and images are more visible on small screens
