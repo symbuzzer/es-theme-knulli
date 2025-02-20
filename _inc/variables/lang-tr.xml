@@ -29,12 +29,12 @@
 		<subset.themeColors>tema rengİ</subset.themeColors>
 
 		<subset.splashscreen>yükleme ekranı resmİ</subset.splashscreen>
-		<subset.splashscreen.colorset>otomatik (tema rengine göre)</subset.splashscreen.colorset>
+		<subset.splashscreen.colorset>otomatİk (tema rengİne göre)</subset.splashscreen.colorset>
 
 
 		<subset.helpIcons>yardım butonları</subset.helpIcons>
 
-		<subset.videoPreviews>video önİzlemelerİ</subset.videoPreviews>
+		<subset.videoPreviews>vİdeo önİzlemelerİ</subset.videoPreviews>
 
 		<subset.gameDetailedInfoEnabled>puanlama ve oynama süresİnİ göster</subset.gameDetailedInfoEnabled>
 
