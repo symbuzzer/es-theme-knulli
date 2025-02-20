@@ -1,3 +1,8 @@
+# v3.3.x
+- Added Russian translation
+- Renamed detailed_2 to detailed 2
+- Restored Ports system logo
+
 # v3.2.x
 - Added Trimui splash and colorset
 - Fixed some strings

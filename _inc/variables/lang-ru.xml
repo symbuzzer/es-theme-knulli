@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<subset.options.default>стандартные</subset.options.default>
+
+		<subset.options.yes>да</subset.options.yes>
+		<subset.options.no>нет</subset.options.no>
+
+		<subset.options.enabled>включен</subset.options.enabled>
+		<subset.options.disabled>выключен</subset.options.disabled>
+
+		<subset.options.horizontal>горизонтальная</subset.options.horizontal>
+		<subset.options.vertical>вертикальная</subset.options.vertical>
+
+		<subset.options.normal>нормальная</subset.options.normal>
+		<subset.options.fast>быстро</subset.options.fast>
+
+		<lang.detailed_2>детализировано 2</lang.detailed_2>
+
+		<subset.system>системы</subset.system>
+
+		<subset.slideType>тип перелистывания</subset.slideType>
+
+		<subset.themeColors>набору цветов</subset.themeColors>
+
+		<subset.splashscreen>обложке</subset.splashscreen>
+		<subset.splashscreen.colorset>авто (по набору цветов)</subset.splashscreen.colorset>
+
+		<subset.helpIcons>кнопки помощи</subset.helpIcons>
+
+		<subset.videoPreviews>видео превью</subset.videoPreviews>
+
+		<subset.gameDetailedInfoEnabled>рейтинг и время в игре</subset.gameDetailedInfoEnabled>
+
+		<subset.systemlogoeffects>эффекты на лого</subset.systemlogoeffects>
+
+		<subset.systemlogosongamelists>показывать лого систем</subset.systemlogosongamelists>
+
+		<subset.gridGameName>показывать названия игр</subset.gridGameName>
+
+		<subset.systemRegion>регион</subset.systemRegion>
+
+		<subset.gamecount>показывать номер игры по пор.</subset.gamecount>
+
+		<subset.batterybar>показывать батарею</subset.batterybar>
+
+		<subset.scrollSpeed>скорость пролистывания описания</subset.scrollSpeed>
+
+		<subset.themeVersionString>версия темы</subset.themeVersionString>
+
+		<lang.elements>предметы</lang.elements>
+		<lang.favorites>избранное</lang.favorites>
+		<lang.favoritesReplacement>здесь все что вы пометили избранным</lang.favoritesReplacement>
+		<lang.played>запущенные</lang.played>
+		<lang.mostPlayed>часто запускаемые</lang.mostPlayed>
+		<lang.lastPlayedDate>последнее запущенное</lang.lastPlayedDate>
+		<lang.at>в</lang.at>
+
+		<lang.developedBy>разработано</lang.developedBy>
+		<lang.publiedIn>издано в</lang.publiedIn>
+		<lang.developedAndPubliedIn>разработано и издано в</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>разработано и издано</lang.developedAndPubliedBy>
+		<lang.publied>издано</lang.publied>
+		<lang.by> </lang.by> 
+		<lang.and>и</lang.and>
+		<lang.noRating>без оценки</lang.noRating>
+		<lang.neverPlayed>ни разу не запущенные</lang.neverPlayed>
+		<lang.gamePlayers>количество игроков</lang.gamePlayers>
+		<lang.timesPlayed>раз запущено</lang.timesPlayed>
+		<lang.lastPlayed>последняя запущенная</lang.lastPlayed>
+		<lang.releasedIn>выпущена в</lang.releasedIn>
+		<lang.released>выпущена</lang.released>
+
+<!-- Use upper and lower case ponctuation -->
+
+		<lang.noDesc>Извините, для этого файла нет описания. Вы можете использовать Scrape или вручную вписать в файл gamelist.xml</lang.noDesc>
+
+	</variables>
+
+</theme>

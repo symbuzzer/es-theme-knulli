@@ -23,7 +23,7 @@ Here, es-theme-knulli is here to overcome this. This is your and the community's
 - Horizontal and vertical system and grid views
 - Menu and navigation sounds
 - EU, USA and JP regions
-- New detailed_2 view
+- New detailed 2 gamelist view
 - Knulli, Batocera, Anbernic, Rocknix, Powkiddy, Miyoo and Trimui colorsets
 - Change and disable splashscreen. You can manually select any of the Knulli, Batocera, Anbernic, Rocknix, Powkiddy, Miyoo or Trimui images. When set to automatic, the splash screen automatically changes according to the colorset setting. When disabled, the text is centered and becomes larger
 - Automatically change the grid view according to the screen resolution on HDMI connections. This will allow you to see more games during HDMI connection. The grid setting must be automatic for this to work
@@ -93,6 +93,7 @@ To do this, you need to share the 32-digit code in the ```userdata/system/machin
 - BR: Revolt250
 - PT: Revolt250
 - RO: lvpvbeats
+- RU: Mailes764
 
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
