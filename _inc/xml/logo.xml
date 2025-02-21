@@ -60,7 +60,7 @@
 		<text name="logoText"
 		
 			fontPath="./../fonts/${f.def}"
-			fontSize="0.2"
+			fontSize="0.17"
 			color="${c.text}"
                         glowColor="${c.glowColor}"
 			glowOffset="2"
@@ -71,7 +71,7 @@
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
-			reflexion="0.05 0"
+			reflexion="0.02 0"
 		
 		/>
 
