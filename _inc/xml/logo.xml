@@ -60,13 +60,19 @@
 		<text name="logoText"
 		
 			fontPath="./../fonts/${f.def}"
-			fontSize="0.06"
+			fontSize="0.17"
 			color="${c.text}"
                         glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
 			forceUppercase="true"
 
+		/>
+
+		<text ifSubset="systemlogoeffects:enabled" name="logoText"
+		
+			reflexion="0.02 0"
+		
 		/>
 
 		<control ifSubset="slideType:vertical" name="logo,logoText"
