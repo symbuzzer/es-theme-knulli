@@ -65,8 +65,8 @@
                         glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
+			forceUppercase="true"
 
-			
 		/>
 
 		<control ifSubset="slideType:vertical" name="logo,logoText"
