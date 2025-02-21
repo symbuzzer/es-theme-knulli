@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<subset.options.default>default</subset.options.default>
+
+		<subset.options.yes>si</subset.options.yes>
+		<subset.options.no>no</subset.options.no>
+
+		<subset.options.enabled>attivo</subset.options.enabled>
+		<subset.options.disabled>disattivato</subset.options.disabled>
+
+		<subset.options.horizontal>orizzontale</subset.options.horizontal>
+		<subset.options.vertical>verticale</subset.options.vertical>
+
+		<subset.options.normal>normale</subset.options.normal>
+		<subset.options.fast>veloce</subset.options.fast>
+
+		<lang.detailed_2>dettagliato 2</lang.detailed_2>
+
+		<subset.system>sistema</subset.system>
+
+		<subset.slideType>tipo di scorrimento attivo</subset.slideType>
+
+		<subset.themeColors>colore del tema</subset.themeColors>
+
+		<subset.splashscreen>schermata di avvio</subset.splashscreen>
+		<subset.splashscreen.colorset>automatico (dal colore del tema)</subset.splashscreen.colorset>
+
+		<subset.helpIcons>icone di aiuto</subset.helpIcons>
+
+		<subset.videoPreviews>anteprima video</subset.videoPreviews>
+
+		<subset.gameDetailedInfoEnabled>mostra valutazione e tempo di gioco</subset.gameDetailedInfoEnabled>
+
+		<subset.systemlogoeffects>effetti logo attivi</subset.systemlogoeffects>
+
+		<subset.systemlogosongamelists>mostra logo del sistema</subset.systemlogosongamelists>
+
+		<subset.gridGameName>mostra nome dei giochi</subset.gridGameName>
+
+		<subset.systemRegion>regione</subset.systemRegion>
+
+		<subset.gamecount>mostra numero di giochi</subset.gamecount>
+
+		<subset.batterybar>mostra icona batteria</subset.batterybar>
+
+		<subset.scrollSpeed>velocità scorrimento descrizione</subset.scrollSpeed>
+
+		<subset.themeVersionString>versione del tema</subset.themeVersionString>
+
+		<lang.elements>elementi</lang.elements>
+		<lang.favorites>preferiti</lang.favorites>
+		<lang.favoritesReplacement>trova i tuoi preferiti qui</lang.favoritesReplacement>
+		<lang.played>giocati</lang.played>
+		<lang.mostPlayed>più giocati</lang.mostPlayed>
+		<lang.lastPlayedDate>giocati di recente</lang.lastPlayedDate>
+		<lang.at>alle</lang.at>
+
+		<lang.developedBy>sviluppato da</lang.developedBy>
+		<lang.publiedIn>pubblicato in</lang.publiedIn>
+		<lang.developedAndPubliedIn>sviluppato e pubblicato in</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>sviluppato e pubblicato da</lang.developedAndPubliedBy>
+		<lang.publied>pubblicato</lang.publied>
+		<lang.by>da</lang.by>
+		<lang.and>e</lang.and>
+		<lang.noRating>nessuna valutazione</lang.noRating>
+		<lang.neverPlayed>mai giocato</lang.neverPlayed>
+		<lang.gamePlayers>numero di giocatori</lang.gamePlayers>
+		<lang.timesPlayed>sessioni di gioco</lang.timesPlayed>
+		<lang.lastPlayed>giocati di recente</lang.lastPlayed>
+		<lang.releasedIn>rilasciato in</lang.releasedIn>
+		<lang.released>rilasciato</lang.released>
+
+<!-- Use upper and lower case ponctuation -->
+
+		<lang.noDesc>Ci dispiace ma non è stata trovata nessuna descrizione per questo file. Puoi provare a fare lo scraping e ottenerla automaticamente o modificare manualmente il file gamelist.xml.</lang.noDesc>
+	
+	</variables>
+
+</theme>

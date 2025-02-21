@@ -1,3 +1,7 @@
+# v3.4.x
+- Added Italian translation
+- Fixed some Turkish strings
+
 # v3.3.x
 - Added Russian translation
 - Renamed detailed_2 to detailed 2
