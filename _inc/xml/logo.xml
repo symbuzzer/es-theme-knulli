@@ -60,7 +60,7 @@
 		<text name="logoText"
 		
 			fontPath="./../fonts/${f.def}"
-			fontSize="1"
+			fontSize="0.3"
 			color="${c.text}"
                         glowColor="${c.glowColor}"
 			glowOffset="2"
