@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>3.5.7</v.themeVersion>
+		<v.themeVersion>3.6.1</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 
@@ -132,8 +132,8 @@
 		
 	>
 
-		<include name="horizontal" displayName="${subset.options.horizontal}" />
-		<include name="vertical" displayName="${subset.options.vertical}" />	
+		<include name="vertical" displayName="${subset.options.vertical}" />
+		<include name="horizontal" displayName="${subset.options.horizontal}" />	
 	
 	</subset>
 
@@ -255,8 +255,8 @@
 		
 	>
 
-		<include name="normal" displayName="${subset.options.normal}" />	
 		<include name="fast" displayName="${subset.options.fast}" />
+		<include name="normal" displayName="${subset.options.normal}" />	
 	
 	</subset>
 
@@ -267,8 +267,8 @@
 		
 	>
 
-		<include name="no" displayName="${subset.options.no}" />	
 		<include name="yes" displayName="${subset.options.yes}" />
+		<include name="no" displayName="${subset.options.no}" />	
 	
 	</subset>
 

@@ -1,3 +1,6 @@
+# v3.6.x
+- Changed some default settings
+
 # v3.5.x
 - Changed default gamelist view from detailed 2 to detailed
 - Fixed an issue about system logo texts when system logo is not available
