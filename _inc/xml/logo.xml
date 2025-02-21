@@ -71,7 +71,7 @@
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
-			reflexion="0.02 0"
+			reflexion="0.01 0"
 		
 		/>
 
