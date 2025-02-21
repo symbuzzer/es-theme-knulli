@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme defaultView="detailed_2">
+<theme defaultView="detailed">
 
 <formatVersion>7</formatVersion>
 
@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>3.5.6</v.themeVersion>
+		<v.themeVersion>3.5.7</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 
