@@ -1,8 +1,8 @@
 # v3.7.x
-- Centered help buttons
 - Adjusted menu scrollbar size and colors
 - Removed top and bottom bars due simplicity
 - Redesigned detailed view
+- Fixed some issues on detailed 2 view
 
 # v3.6.x
 - Changed some default settings

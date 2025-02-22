@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>3.7.19</v.themeVersion>
+		<v.themeVersion>3.7.20</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
@@ -70,6 +70,9 @@
 
 		<v.playTime.size ifHelpPrompts="true">0.053</v.playTime.size>
 		<v.playTime.size ifHelpPrompts="false">0.100</v.playTime.size>
+
+		<v.boxart.pos ifHelpPrompts="true">0.705 0.625</v.boxart.pos>
+		<v.boxart.pos ifHelpPrompts="false">0.705 0.65</v.boxart.pos>
 
 		<v.video.pos ifHelpPrompts="true">0.705 0.625</v.video.pos>
 		<v.video.pos ifHelpPrompts="false">0.705 0.65</v.video.pos>
