@@ -124,7 +124,7 @@
 			delay="1"
 			roundCorners="0.018"
 			origin="0.5 1"
-			maxSize="0.50 0.450"
+			maxSize="0.50 0.50"
 			
 		/>
 
@@ -138,20 +138,9 @@
 			effect="none"
 			roundCorners="0.018"
 			origin="0.5 1"
-			maxSize="0.50 0.450"
+			maxSize="0.50 0.50"
 
 		/>
-
-		<image name="md_marquee"
-
-			zIndex="1001"
-			linearSmooth="true"
-			saturation="1.1"
-			pos="0.70 0.10"
-			maxSize="${v.marqueeMax.size}"
-			origin="0.5 0"
-		/>
-
 
 		<text ifSubset="gameDetailedInfoEnabled:yes" name="md_gametime"
 
