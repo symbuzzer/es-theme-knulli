@@ -1,9 +1,12 @@
 # v3.7.x
 - Adjusted menu scrollbar size and colors
+- Adjusted volume bar colors
 - Removed top and bottom bars due simplicity
 - Redesigned detailed view
 - Removed show/hide rating and play time option on detailed view
 - Fixed some issues on detailed 2 view
+- Changed font
+- Changed font name variable with global one
 
 # v3.6.x
 - Changed some default settings
