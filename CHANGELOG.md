@@ -1,3 +1,6 @@
+# v4.2.x
+- Fixed critical bug in some theme settings
+
 # v4.1.x
 - Adjusted menu scrollbar size and colors
 - Adjusted volume bar colors
