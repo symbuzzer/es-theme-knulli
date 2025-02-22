@@ -11,7 +11,7 @@
 			textColor="${c.text}"
 			origin="0.5 0.5"
 			pos="0.5 0.975"
-			fontSize="0.0285"
+			fontSize="0.029"
 			iconColor="${c.text}"
 			iconUpDown="./_inc/parts/help/${v.helpIconFolder}/updown.png"
 			iconLeftRight="./_inc/parts/help/${v.helpIconFolder}/leftright.png"
