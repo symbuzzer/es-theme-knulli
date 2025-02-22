@@ -23,29 +23,6 @@
 
 		</image>
 
-		<text name="logoText"
-		
-			zIndex="601"
-			fontPath="./../fonts/${f.defbold}"
-			fontSize="0.15"
-			forceUppercase="true"
-			glowOffset="4"
-			glowSize="2"
-			glowColor="${c.glowColor}"
-			linearSmooth="false"
-			origin="0.5 0.5"
-			maxSize="${v.frame.size}"
-			pos="${v.frame.pos}"
-			saturation="0.55"
-			color="${c.textHeader}ee"
-
-		>
-
-			<visible ifSubset="systemlogosongamelists:no">false</visible>
-
-		</text>
-
-
 		<image name="frame"
 		
 			extra="true"
