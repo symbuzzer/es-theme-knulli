@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>3.7.24</v.themeVersion>
+		<v.themeVersion>3.7.25</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
@@ -218,18 +218,6 @@
 
 		<include name="enabled" displayName="${subset.options.enabled}" />	
 		<include name="disabled" displayName="${subset.options.disabled}" />
-	
-	</subset>
-
-	<subset name="gameDetailedInfoEnabled"
-	
-		displayName="${subset.gameDetailedInfoEnabled}"
-		appliesTo="detailed"
-		
-	>
-
-		<include name="yes" displayName="${subset.options.yes}" />	
-		<include name="no" displayName="${subset.options.no}" />
 	
 	</subset>
 

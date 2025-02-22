@@ -142,7 +142,7 @@
 
 		/>
 
-		<text ifSubset="gameDetailedInfoEnabled:yes" name="md_gametime"
+		<text name="md_gametime"
 
 			extra="true"
 			zIndex="1001"
@@ -161,7 +161,7 @@
 
 		/>
 
-		<text ifSubset="gameDetailedInfoEnabled:yes" name="gameRating"
+		<text name="gameRating"
 		
 			extra="true"
 			visible="{game:rating} ? 1 : 0"
@@ -171,7 +171,7 @@
 
 		</text>
 		
-		<text ifSubset="gameDetailedInfoEnabled:yes" name="gameNorating"
+		<text name="gameNorating"
 		
 			extra="true"
 			visible="{game:rating} ? 0 : 1"
@@ -182,7 +182,7 @@
 		</text>
 
 		
-		<text ifSubset="gameDetailedInfoEnabled:yes" name="gameRating,gameNorating"
+		<text name="gameRating,gameNorating"
 
 			extra="true"
 			zIndex="1001"

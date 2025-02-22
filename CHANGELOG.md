@@ -2,6 +2,7 @@
 - Adjusted menu scrollbar size and colors
 - Removed top and bottom bars due simplicity
 - Redesigned detailed view
+- Removed show/hide rating and play time option on detailed view
 - Fixed some issues on detailed 2 view
 
 # v3.6.x
