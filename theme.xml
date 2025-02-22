@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>4.1.3</v.themeVersion>
+		<v.themeVersion>4.1.4</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
@@ -103,6 +103,7 @@
 		<v.ScrollBar2>0.0045</v.ScrollBar2>
 		
 		<f.def>font.ttf</f.def>
+		<f.defbold>font-bold.ttf</f.defbold>
 
     </variables>
 

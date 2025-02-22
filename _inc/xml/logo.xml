@@ -59,9 +59,9 @@
 		
 		<text name="logoText"
 		
-			fontPath="./../fonts/${f.def}"
+			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
-			color="${c.textHeader}10"
+			color="${c.textHeader}"
 			forceUppercase="true"
 
 		/>
