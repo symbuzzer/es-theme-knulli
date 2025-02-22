@@ -14,7 +14,7 @@
 			glowColor="${c.glowColor}"
 			glowOffset="2"
 			glowSize="1"
-			fontSize="0.034"
+			fontSize="0.030"
 			iconColor="${c.text}"
 			iconUpDown="./_inc/parts/help/${v.helpIconFolder}/updown.png"
 			iconLeftRight="./_inc/parts/help/${v.helpIconFolder}/leftright.png"
