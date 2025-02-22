@@ -39,6 +39,7 @@
 		
 			fontPath="./../fonts/${f.def}"
 			fontSize="0.028"
+			color="${c.text}"
 			
 		/>
 

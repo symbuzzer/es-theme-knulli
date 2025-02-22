@@ -67,7 +67,7 @@ Here, es-theme-knulli is here to overcome this. This is your and the community's
 
 ## SUGGESTED MINIMAL SCREENSCRAPER SETTINGS
 - Source: ScreenScraper
-- Image source: Box 2D
+- Image source: None
 - Box source: Box 2D
 - Logo source: Wheel
 - Overwrite medias: Enabled
