@@ -1,3 +1,7 @@
+# v3.7.x
+- Centered help buttons
+- Adjusted menu scrollbar size and colors
+
 # v3.6.x
 - Changed some default settings
 

@@ -10,9 +10,8 @@
     <variables>
 		
 
-		<v.themeVersion>3.6.1</v.themeVersion>
+		<v.themeVersion>3.7.1</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
-
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
 		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
@@ -24,8 +23,6 @@
 		<v.line.h>2 / ${screen.height}</v.line.h>
 		<v.line.w>2 / ${screen.width}</v.line.w>
 		<v.line4.w>4 / ${screen.width}</v.line4.w>
-
-		<v.lineScroll>1 / ${screen.width}</v.lineScroll>
 
 		<v.frame.x>0.5</v.frame.x>
 		<v.frameLeft.x>0.22</v.frameLeft.x>

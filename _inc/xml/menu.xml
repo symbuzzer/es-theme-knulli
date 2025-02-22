@@ -55,14 +55,14 @@
 
 		<menuBackground name="menubg"
 		
-			color="${c.menubg}ff"
+			color="${c.menubg}"
 			cornerSize="34 34"
-			scrollbarColor="${c.scroll}"
 			scrollbarCorner="0.5"
-			scrollbarSize="${v.lineScroll}"
-			scrollbarAlignment="innerright"
 			roundCorners="0.018"
 			path="./../parts/menu/frame.png"
+			scrollbarColor="${c.textHeader}"
+			scrollbarSize="${v.ScrollBar}"
+			scrollbarAlignment="innerright"
 			
 		/>
 
