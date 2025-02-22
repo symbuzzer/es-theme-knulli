@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>3.7.6</v.themeVersion>
+		<v.themeVersion>3.7.7</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
@@ -377,32 +377,6 @@
 			y="0.5"
 			color="${c.main}80"
 			colorEnd="${c.main}00"
-		
-		/>
-	
-		<image name="barUp"
-		
-			zIndex="2000"
-			path="./_inc/parts/white.png"
-			size="1.2 0.04"
-			color="${c.main}80"
-			h="0.05"
-			extra="true"
-			origin="0.5 0"
-			pos="0.5 0"
-		
-		/>
-		
-		<image name="barDown"
-			ifHelpPrompts="true"
-			zIndex="2000"
-			path="./_inc/parts/white.png"
-			size="1.2 0.04"
-			color="${c.main}80"
-			h="0.05"
-			extra="true"
-			origin="0.5 1"
-			pos="0.5 1"
 		
 		/>
 	
