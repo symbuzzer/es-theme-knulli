@@ -37,8 +37,7 @@
 			maxSize="${v.frame.size}"
 			pos="${v.frame.pos}"
 			saturation="0.55"
-			color="${c.textHeader}15"
-			colorEnd="80808080"
+			color="${c.textHeader}ee"
 
 		>
 
