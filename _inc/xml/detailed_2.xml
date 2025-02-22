@@ -43,14 +43,13 @@
 
 		/>
 
-		<image name="md_marquee"
+		<text name="md_gametime"
 
 			visible="false"
 
 		/>
 
-
-		<text ifSubset="playTimeEnabled:yes" name="md_gametime"
+		<text name="gameRating,gameNorating"
 
 			visible="false"
 
