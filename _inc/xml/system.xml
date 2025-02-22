@@ -24,13 +24,6 @@
 			type="vertical"
 		/>
 
-		<text name="logoText"
-		
-			extra="true"
-			text="${lang.logoText}"
-			
-		</text>
-
 		<text name="systemInfo"
 			
 			zIndex="1000"
