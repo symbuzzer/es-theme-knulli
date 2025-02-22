@@ -63,12 +63,15 @@
 			fontSize="0.15"
 			color="${c.textHeader}"
 			forceUppercase="true"
+			glowOffset="4"
+			glowSize="2"
+			glowColor="${c.glowColor}"
 
 		/>
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
-			reflexion="0.01 0"
+			reflexion="0.05 0"
 		
 		/>
 
