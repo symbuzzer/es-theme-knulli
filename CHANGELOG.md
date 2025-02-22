@@ -1,4 +1,4 @@
-# v3.7.x
+# v4.1.x
 - Adjusted menu scrollbar size and colors
 - Adjusted volume bar colors
 - Removed top and bottom bars due simplicity
