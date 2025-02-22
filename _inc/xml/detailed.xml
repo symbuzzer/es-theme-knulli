@@ -124,7 +124,7 @@
 			delay="1"
 			roundCorners="0.018"
 			origin="0.5 1"
-			maxSize="0.50 0.50"
+			maxSize="0.50 0.60"
 			
 		/>
 
@@ -138,7 +138,7 @@
 			effect="none"
 			roundCorners="0.018"
 			origin="0.5 1"
-			maxSize="0.50 0.50"
+			maxSize="0.50 0.60"
 
 		/>
 
@@ -150,9 +150,6 @@
 			verticalAlignment="top"
 			fontPath="./../fonts/${f.def}"
                         pos="0.953 0.65"
-                        glowColor="${c.glowColor}"
-			glowOffset="2"
-			glowSize="1"
 			origin="1 0.5"
 			fontSize="0.028"
 			size="0.5 0.06"
@@ -192,9 +189,6 @@
 			alignment="left"
 			verticalAlignment="top"
 			fontPath="./../fonts/${f.def}"
-                        glowColor="${c.glowColor}"
-			glowOffset="2"
-			glowSize="1"
 			size="0.5 0.06"
 			fontSize="0.028"
 			color="${c.text}ef"
