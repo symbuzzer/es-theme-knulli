@@ -61,10 +61,7 @@
 		
 			fontPath="./../fonts/${f.def}"
 			fontSize="0.15"
-			color="${c.text}"
-                        glowColor="${c.glowColor}"
-			glowOffset="2"
-			glowSize="1"
+			color="${c.textHeader}10"
 			forceUppercase="true"
 
 		/>

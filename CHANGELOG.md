@@ -7,6 +7,9 @@
 - Fixed some issues on detailed 2 view
 - Changed font
 - Changed font name variable with global one
+- Changed scroll sound
+- Fixed description text issue when gamelist is empty
+- Removed a lot of unofficial system logos due simplicity
 
 # v3.6.x
 - Changed some default settings

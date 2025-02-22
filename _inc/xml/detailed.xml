@@ -203,6 +203,7 @@
 			extra="true"		
 			text="${lang.noDesc}"
 			visible="empty({game:desc})"
+			autoScroll="vertical"
 
 		/>
 
@@ -214,9 +215,6 @@
 			verticalAlignment="top"
                         pos="0.4526041666666667 0.6148148148148148"
                         size="0.3322916666666667 0.2851851851851852"
-                        glowColor="${c.glowColor}"
-			glowOffset="2"
-			glowSize="1"
 			fontSize="0.030"
 			size="0.5 0.18"
 			offsetY="${v.gameDescription.size}"
