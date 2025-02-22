@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>3.7.21</v.themeVersion>
+		<v.themeVersion>3.7.22</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
@@ -74,8 +74,8 @@
 		<v.boxart.pos ifHelpPrompts="true">0.705 0.625</v.boxart.pos>
 		<v.boxart.pos ifHelpPrompts="false">0.705 0.65</v.boxart.pos>
 
-		<v.video.pos ifHelpPrompts="true">0.705 0.625</v.video.pos>
-		<v.video.pos ifHelpPrompts="false">0.705 0.65</v.video.pos>
+		<v.video.pos ifHelpPrompts="true">0.705 0.35</v.video.pos>
+		<v.video.pos ifHelpPrompts="false">0.705 0.375</v.video.pos>
 
 		<c.text>ffffff</c.text>
 		<c.selected>000000</c.selected>
