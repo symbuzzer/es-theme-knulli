@@ -124,7 +124,7 @@
 			delay="1"
 			roundCorners="0.018"
 			origin="0.5 1"
-			maxSize="0.50 0.60"
+			maxSize="0.40 0.50"
 			
 		/>
 
@@ -138,7 +138,7 @@
 			effect="none"
 			roundCorners="0.018"
 			origin="0.5 1"
-			maxSize="0.50 0.60"
+			maxSize="0.50 0.50"
 
 		/>
 
@@ -192,6 +192,7 @@
 			size="0.5 0.06"
 			fontSize="0.028"
 			color="${c.text}ef"
+			backgroundColor="${c.textHeader}10"
                         pos="0.45 0.621"
 			offsetY="${v.playTime.size}"
 			

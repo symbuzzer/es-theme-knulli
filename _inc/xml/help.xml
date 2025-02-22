@@ -10,8 +10,8 @@
 		
 			textColor="${c.text}"
 			origin="0 0.5"
-			pos="0.01 0.975"
-			fontSize="0.032"
+			pos="0 0.975"
+			fontSize="0.034"
 			iconColor="${c.text}"
 			iconUpDown="./_inc/parts/help/${v.helpIconFolder}/updown.png"
 			iconLeftRight="./_inc/parts/help/${v.helpIconFolder}/leftright.png"
