@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>3.7.4</v.themeVersion>
+		<v.themeVersion>3.7.5</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
@@ -385,7 +385,7 @@
 			zIndex="2000"
 			path="./_inc/parts/white.png"
 			size="1.2 0.04"
-			color="${c.menubg}"
+			color="${c.frame}80"
 			h="0.05"
 			extra="true"
 			origin="0.5 0"
@@ -398,7 +398,7 @@
 			zIndex="2000"
 			path="./_inc/parts/white.png"
 			size="1.2 0.04"
-			color="${c.menubg}"
+			color="${c.frame}80"
 			h="0.05"
 			extra="true"
 			origin="0.5 1"
