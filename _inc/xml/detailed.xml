@@ -201,7 +201,7 @@
 
 			zIndex="1001"
 			origin="0.5 0.5"
-			pos="0.75 0.025"
+			pos="0.70 0.025"
 			fontSize="0.035"
 			fontPath="./../fonts/${f.def}"
 			color="${c.text}ef"
@@ -282,16 +282,7 @@
 			
 		/>
 
-		<text name="noDescription"
-			
-			extra="true"		
-			text="${lang.noDesc}"
-			visible="empty({game:desc})"
-			autoScroll="vertical"
-
-		/>
-
-		<text name="md_description,noDescription"
+		<text name="md_description"
 		
 			extra="true"
 			zIndex="1001"
