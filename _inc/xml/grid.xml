@@ -14,9 +14,9 @@
 			fontSize="0.035"
 			fontPath="./../fonts/${f.def}"
 			color="${c.text}ef"
-			alignment="left"
+			alignment="center"
 			singleLineScroll="true"
-			w="0.55"
+			w="0.60"
 			autoScroll="horizontal"
 			autoScrollDelay="0.01"
 		/>
