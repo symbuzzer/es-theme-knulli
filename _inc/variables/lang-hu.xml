@@ -39,8 +39,6 @@
 
 		<subset.systemlogosongamelists>rendszer logó mutatása</subset.systemlogosongamelists>
 
-		<subset.gridGameName>játéknév mutatása</subset.gridGameName>
-
 		<subset.systemRegion>régió</subset.systemRegion>
 
 		<subset.gamecount>mutassa a játékszámot</subset.gamecount>

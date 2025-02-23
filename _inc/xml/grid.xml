@@ -6,6 +6,22 @@
 	
 	<view name="grid">
 
+		<text name="md_name"
+
+			zIndex="1001"
+			origin="0.5 0.5"
+			pos="0.50 0.025"
+			size="1.5"
+			fontSize="0.035"
+			fontPath="./../fonts/${f.def}"
+			color="${c.text}ef"
+			alignment="center"
+			singleLineScroll="true"
+			w="0.35"
+			autoScroll="horizontal"
+			autoScrollDelay="0.01"
+		/>
+
 		<image name="logo"
 		
 			zIndex="601"
@@ -22,6 +38,25 @@
 			<visible ifSubset="systemlogosongamelists:no">false</visible>
 
 		</image>
+
+		<text name="logoText"
+
+			zIndex="601"
+			linearSmooth="false"
+			origin="0.5 0.5"
+			maxSize="${v.frame.size}"
+			pos="${v.frame.pos}"
+			saturation="0.75"
+			fontSize="0.15"
+			fontPath="./../fonts/${f.def}"
+			color="${c.textHeader}15"
+			colorEnd="80808080"
+
+		>
+
+			<visible ifSubset="systemlogosongamelists:no">false</visible>
+
+		</text>
 
 		<image name="frame"
 		
@@ -114,32 +149,6 @@
 			imageColor="ffffff"
 			
 		/>
-
-		<text name="gridtile"
-		
-			fontPath="./../fonts/${f.def}"
-			fontSize="0.034"
-			color="${c.text}"
-			extraTextColor="${c.textHeader}"
-			alignment="center"
-			singleLineScroll="true"
-			autoScrollDelay="0"
-			
-		>
-
-			<visible ifSubset="gridGameName:no">false</visible>
-
-		</text>
-
-		<text name="gridtile:selected"
-		
-			color="${c.textHeader}"
-			
-		>
-
-			<visible ifSubset="gridGameName:no">false</visible>
-
-		</text>
 
 		<image name="gridtile.favorite"
 		
