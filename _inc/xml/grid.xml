@@ -128,6 +128,7 @@
 		>
 
 			<visible ifSubset="gridGameName:no">false</visible>
+			<visible ifSubset="gridGameName:topscreen">false</visible>
 
 		</text>
 
@@ -138,8 +139,53 @@
 		>
 
 			<visible ifSubset="gridGameName:no">false</visible>
+			<visible ifSubset="gridGameName:topscreen">false</visible>
 
 		</text>
+
+		<!-- game name-->
+		<text name="md_name">
+			<origin>0.5 0.5</origin>
+			<pos>0.55 0.025</pos>
+			<size>1</size>
+			<fontSize>0.025</fontSize>
+			<fontPath>"./../fonts/${f.def}"</fontPath>
+			<alignment>left</alignment>
+			<singleLineScroll>true</singleLineScroll>
+			<w>0.35</w>
+			<autoScroll>horizontal</autoScroll>
+			<autoScrollDelay>0.01</autoScrollDelay>
+			<zIndex>5000</zIndex>
+			<visible ifSubset="gridGameName:no">false</visible>
+			<visible ifSubset="gridGameName:pergame">false</visible>
+		</text>
+		<!-- release date-->
+		<datetime name="md_releasedate">
+			<origin>0.5 0.5</origin>
+			<pos>0.16 0.025</pos>
+			<size>0.1 0.035</size>
+			<fontSize>0.025</fontSize>
+			<fontPath>"./../fonts/${f.def}"</fontPath>
+			<format>%Y</format>
+			<color>dddddd</color>
+			<alignment>right</alignment>
+			<zIndex>5000</zIndex>
+			<visible ifSubset="gridGameName:no">false</visible>
+			<visible ifSubset="gridGameName:pergame">false</visible>
+		</datetime>
+		<!-- rating-->
+		<rating name="md_rating">
+			<origin>0.5 0.5</origin>
+			<pos>0.25 0.025</pos>
+			<size>0.05 0.03</size>
+			<color>FFFF00</color>
+			<unfilledColor>808080</unfilledColor>
+			<unfilledPath>:/star_filled.svg</unfilledPath>
+			<horizontalAlignment>left</horizontalAlignment>
+			<zIndex>5000</zIndex>
+			<visible ifSubset="gridGameName:no">false</visible>
+			<visible ifSubset="gridGameName:pergame">false</visible>
+		</rating>
 
 		<image name="gridtile.favorite"
 		

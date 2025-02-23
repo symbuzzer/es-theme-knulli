@@ -230,7 +230,8 @@
 	>
 	
 		<include name="no" displayName="${subset.options.no}" />
-		<include name="yes" displayName="${subset.options.yes}" />
+		<include name="pergame" displayName="${subset.options.pergame}" />
+		<include name="topscreen" displayName="${subset.options.topscreen}" />
 	
 	</subset>
 

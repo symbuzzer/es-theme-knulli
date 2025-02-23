@@ -11,6 +11,9 @@
 		<subset.options.yes>yes</subset.options.yes>
 		<subset.options.no>no</subset.options.no>
 
+		<subset.options.pergame>pergame</subset.options.pergame>
+		<subset.options.topscreen>topscreen</subset.options.topscreen>
+
 		<subset.options.enabled>enabled</subset.options.enabled>
 		<subset.options.disabled>disabled</subset.options.disabled>
 
