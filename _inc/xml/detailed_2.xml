@@ -43,18 +43,6 @@
 
 		/>
 
-		<text name="md_gametime"
-
-			visible="false"
-
-		/>
-
-		<text name="gameRating,gameNorating"
-
-			visible="false"
-
-		/>
-
 		<text name="md_description,noDescription"
 		
 			visible="false"
