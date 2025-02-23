@@ -1,5 +1,8 @@
 # v5.1.x
 - Added show system logo on game list feature for collections without system logo
+- Changed default gamelist view from detailed to grid
+- Redesigned grid view
+- Removed unnecessary options for grid view
 
 # v4.2.x
 - Fixed critical bug in some theme settings
