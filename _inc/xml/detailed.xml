@@ -32,7 +32,7 @@
 			pos="${v.frame.pos}"
 			saturation="0.75"
 			fontSize="0.15"
-			fontPath="./../fonts/${f.def}"
+			fontPath="./../fonts/${f.defbold}"
 			color="${c.textHeader}15"
 			colorEnd="80808080"
 

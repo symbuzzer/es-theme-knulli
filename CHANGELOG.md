@@ -1,3 +1,6 @@
+# v5.1.x
+- Added show system logo on game list feature for collections without system logo
+
 # v4.2.x
 - Fixed critical bug in some theme settings
 
