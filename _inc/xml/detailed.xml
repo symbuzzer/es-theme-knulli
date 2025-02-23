@@ -35,6 +35,7 @@
 			fontPath="./../fonts/${f.defbold}"
 			color="${c.textHeader}15"
 			colorEnd="80808080"
+			forceUppercase="true"
 
 		>
 
