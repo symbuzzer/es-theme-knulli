@@ -39,8 +39,6 @@
 
 		<subset.systemlogosongamelists>afficher les logos des systèmes</subset.systemlogosongamelists>
 
-		<subset.gridGameName>afficher les noms des jeux</subset.gridGameName>
-
 		<subset.systemRegion>region</subset.systemRegion>
 
 		<subset.gamecount>afficher le nombre de jeux</subset.gamecount>

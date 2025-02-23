@@ -39,8 +39,6 @@
 
 		<subset.systemlogosongamelists>show system logos on</subset.systemlogosongamelists>
 
-		<subset.gridGameName>show game names on</subset.gridGameName>
-
 		<subset.systemRegion>region</subset.systemRegion>
 
 		<subset.gamecount>show game count on</subset.gamecount>

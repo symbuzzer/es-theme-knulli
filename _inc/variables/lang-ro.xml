@@ -39,8 +39,6 @@
 
 		<subset.systemlogosongamelists>afiseaza sigla sistemului</subset.systemlogosongamelists>
 
-		<subset.gridGameName>afiseaza numele jocurilor</subset.gridGameName>
-
 		<subset.systemRegion>regiune</subset.systemRegion>
 
 		<subset.gamecount>afiseaza contor de joc</subset.gamecount>

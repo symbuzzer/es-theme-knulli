@@ -23,6 +23,26 @@
 
 		</image>
 
+		<text name="logoText"
+
+			zIndex="601"
+			linearSmooth="false"
+			origin="0.5 0.5"
+			maxSize="${v.frame.size}"
+			pos="${v.frame.pos}"
+			saturation="0.75"
+			fontSize="0.15"
+			fontPath="./../fonts/${f.defbold}"
+			color="${c.textHeader}15"
+			colorEnd="80808080"
+			forceUppercase="true"
+
+		>
+
+			<visible ifSubset="systemlogosongamelists:no">false</visible>
+
+		</text>
+
 		<image name="frameLeft"
 		
 			extra="true"
@@ -144,20 +164,17 @@
 
 		<text name="md_gametime"
 
-			extra="true"
 			zIndex="1001"
-			alignment="right"
-			verticalAlignment="top"
+			origin="0.5 0.5"
+			pos="0.70 0.025"
+			fontSize="0.035"
 			fontPath="./../fonts/${f.def}"
-                        pos="0.953 0.65"
-			origin="1 0.5"
-			fontSize="0.028"
-			size="0.5 0.06"
-			offsetY="${v.playTime.size}"
 			color="${c.text}ef"
-			backgroundColor="${c.textHeader}08"
-			lineSpacing="1.58"
-			roundCorners="0.018"
+			alignment="center"
+			singleLineScroll="true"
+			w="0.20"
+			autoScroll="horizontal"
+			autoScrollDelay="0.01"
 
 		/>
 
@@ -167,7 +184,7 @@
 			visible="{game:rating} ? 1 : 0"
 			
 		>
-			<text> {game:stars}</text>
+			<text>{game:stars}</text>
 
 		</text>
 		
@@ -177,7 +194,7 @@
 			visible="{game:rating} ? 0 : 1"
 			
 		>
-			<text> ${lang.noRating}</text>
+			<text>${lang.noRating}</text>
 
 		</text>
 
@@ -186,18 +203,50 @@
 
 			extra="true"
 			zIndex="1001"
-			alignment="left"
-			verticalAlignment="top"
+			origin="0.5 0.5"
+			pos="0.50 0.025"
+			fontSize="0.035"
 			fontPath="./../fonts/${f.def}"
-			size="0.5 0.06"
-			fontSize="0.028"
 			color="${c.text}ef"
-			backgroundColor="${c.textHeader}08"
-                        pos="0.45 0.621"
-			offsetY="${v.playTime.size}"
+			alignment="center"
+			singleLineScroll="true"
+			w="0.20"
+			autoScroll="horizontal"
+			autoScrollDelay="0.01"
 			
 		/>
+		
+		<text name="gameLastplayed"
+
+			text="elapsed({game:lastplayed})"
+			visible="({game:playcount}) &gt; 0 ? 1 : 0"
 			
+		/>
+
+		<text name="gameNoLastplayed"
+
+			text="${lang.neverPlayed}"
+			visible="({game:playcount}) == 0 ? 1 : 0"
+			
+		/>
+
+		<text name="gameLastplayed,gameNoLastplayed"
+
+			extra="true"
+			zIndex="1001"
+			origin="0.5 0.5"
+			pos="0.30 0.025"
+			fontSize="0.035"
+			fontPath="./../fonts/${f.def}"
+			color="${c.text}ef"
+			alignment="center"
+			singleLineScroll="true"
+			w="0.20"
+			autoScroll="horizontal"
+			autoScrollDelay="0.01"
+			
+		/>
+
 		<text name="noDescription"
 			
 			extra="true"		
@@ -213,12 +262,9 @@
 			zIndex="1001"
 			alignment="left"
 			verticalAlignment="top"
-                        pos="0.4526041666666667 0.6148148148148148"
-                        size="0.3322916666666667 0.2851851851851852"
+                        pos="0.455 ${v.gameDescription.y}"
 			fontSize="0.030"
-			size="0.5 0.18"
-			offsetY="${v.gameDescription.size}"
-			y="0.62"
+			size="0.5 0.22"
 			fontPath="./../fonts/${f.def}"
 			color="${c.text}ef"
 			backgroundColor="${c.textHeader}10"
