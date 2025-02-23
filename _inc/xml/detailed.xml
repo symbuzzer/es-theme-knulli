@@ -296,6 +296,7 @@
 			backgroundColor="${c.textHeader}10"
 			lineSpacing="1.58"
 			roundCorners="0.018"
+			visible="!empty({game:desc})"
 			
 		>
 
