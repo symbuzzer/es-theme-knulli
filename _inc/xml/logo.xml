@@ -70,7 +70,6 @@
 			singleLineScroll="true"
 			autoScroll="horizontal"
 			autoScrollDelay="0.01"
-			lineSpacing="0"
 
 		/>
 
