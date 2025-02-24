@@ -63,7 +63,8 @@
 			singleLineScroll="true"
 			autoScroll="horizontal"
 			autoScrollDelay="0.01"
-			w="1"
+			w="0.60"
+			alignment="center"
 
 		/>
 
@@ -75,7 +76,7 @@
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
-			reflexion="0.1 0"
+			reflexion="1 1"
 		
 		/>
 
