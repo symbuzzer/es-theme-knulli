@@ -63,6 +63,7 @@
 			singleLineScroll="true"
 			autoScroll="horizontal"
 			alignment="center"
+			size="0.90 0.60"
 
 		/>
 
