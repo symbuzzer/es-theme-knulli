@@ -69,6 +69,7 @@
 			singleLineScroll="true"
 			autoScroll="horizontal"
 			autoScrollDelay="0.01"
+			maxSize="0.90 0.60"
 
 		/>
 
