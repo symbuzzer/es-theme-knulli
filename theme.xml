@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>5.4.5</v.themeVersion>
+		<v.themeVersion>5.4.6</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
