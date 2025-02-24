@@ -72,6 +72,27 @@
 			reflexion="0.05 0"
 		
 		/>
+
+		
+		<control ifSubset="slideType:vertical" name="logo,logoText"
+		
+			scale="1"
+			
+		>
+			
+			<storyboard
+			
+				event="deactivate"
+				
+			>
+
+				<animation property="offsetX" from="0" to="0" duration="1" mode="linear"												/>
+
+				<animation property="rotation" from="0" to="0" duration="1" mode="linear"												/>
+				
+			</storyboard>
+			
+		</control>
 			
 		<control ifSubset="systemlogoeffects:enabled" name="logo,logoText"
 		
