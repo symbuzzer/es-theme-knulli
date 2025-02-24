@@ -66,6 +66,9 @@
 			glowOffset="4"
 			glowSize="2"
 			glowColor="${c.glowColor}"
+			singleLineScroll="true"
+			autoScroll="horizontal"
+			autoScrollDelay="0.01"
 
 		/>
 
