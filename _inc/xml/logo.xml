@@ -68,14 +68,14 @@
 			glowColor="${c.glowColor}"
 			singleLineScroll="true"
 			autoScroll="horizontal"
-			autoScrollDelay="0.01"
+			autoScrollDelay="0"
 			autoScrollSpeed="50"
 
 		/>
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
-			reflexion="0.05 1"
+			reflexion="0.05 0"
 		
 		/>
 
