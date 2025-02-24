@@ -63,17 +63,10 @@
 			singleLineScroll="true"
 			autoScroll="horizontal"
 			alignment="center"
-			size="0.90 0.60"
 
 		/>
 
-		<image ifSubset="systemlogoeffects:enabled" name="logo"
-		
-			reflexion="0.05 0"
-		
-		/>
-
-		<image ifSubset="systemlogoeffects:enabled" name="logoText"
+		<image ifSubset="systemlogoeffects:enabled" name="logo,logoText"
 		
 			reflexion="0.05 0"
 		
