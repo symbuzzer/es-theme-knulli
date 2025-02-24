@@ -1,3 +1,6 @@
+# v5.3.1
+- Fixed long collection name srolling issue on system view
+
 # v5.2.x
 - Changed default gamelist view from grid to detailed 2
 
