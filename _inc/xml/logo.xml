@@ -52,7 +52,10 @@
 	<view name="system">
 		
 		<text name="logoText"
-		
+			
+			linearSmooth="true"
+			zIndex="1000"
+			saturation="1.2"
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
 			color="${c.textHeader}"
@@ -62,44 +65,15 @@
 			glowColor="${c.glowColor}"
 			singleLineScroll="true"
 			autoScroll="horizontal"
-			autoScrollDelay="0.01"
-			w="0.60"
 			alignment="center"
 
 		/>
 
-		<image ifSubset="systemlogoeffects:enabled" name="logo"
+		<image ifSubset="systemlogoeffects:enabled" name="logo,logoText"
 		
 			reflexion="0.05 0"
 		
 		/>
-
-		<text ifSubset="systemlogoeffects:enabled" name="logoText"
-		
-			reflexion="1 1"
-		
-		/>
-
-		<control ifSubset="slideType:vertical" name="logo,logoText"
-		
-			scale="1"
-			
-		>
-			
-			<storyboard
-			
-				event="deactivate"
-				
-			>
-
-				<animation property="offsetX" from="0" to="0" duration="1" mode="linear"												/>
-
-				<animation property="rotation" from="0" to="0" duration="1" mode="linear"												/>
-				
-			</storyboard>
-			
-		</control>
-
 			
 		<control ifSubset="systemlogoeffects:enabled" name="logo,logoText"
 		
