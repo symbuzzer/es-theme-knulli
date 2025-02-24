@@ -53,9 +53,6 @@
 		
 		<text name="logoText"
 			
-			linearSmooth="true"
-			zIndex="1000"
-			saturation="1.2"
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
 			color="${c.textHeader}"
