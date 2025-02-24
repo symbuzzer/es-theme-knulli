@@ -66,10 +66,7 @@
 			glowOffset="4"
 			glowSize="2"
 			glowColor="${c.glowColor}"
-			singleLineScroll="true"
-			autoScroll="horizontal"
-			autoScrollDelay="0"
-			autoScrollSpeed="50"
+			autoScale="true"
 
 		/>
 
