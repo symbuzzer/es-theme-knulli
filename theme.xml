@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme defaultView="grid">
+<theme defaultView="detailed_2">
 
 <formatVersion>7</formatVersion>
 
@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>5.1.12</v.themeVersion>
+		<v.themeVersion>5.2.1</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
