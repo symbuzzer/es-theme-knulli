@@ -1,3 +1,6 @@
+# v5.2.x
+- Changed default gamelist view from grid to detailed 2
+
 # v5.1.x
 - Redesigned grid, detailed and detailed 2 views
 - Added show system logo on game list feature for collections without system logo
