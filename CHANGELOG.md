@@ -1,7 +1,7 @@
 # v5.4.x
 - Fixed reflection issue on system view
 
-# v5.3.1
+# v5.3.x
 - Fixed long collection name srolling issue on system view
 
 # v5.2.x
