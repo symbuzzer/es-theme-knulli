@@ -1,3 +1,6 @@
+# v5.5.x
+- Fixed not scrolling system names issue on all game views
+
 # v5.4.x
 - Fixed reflection issue on system view
 
