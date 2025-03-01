@@ -51,7 +51,6 @@
 			color="${c.textHeader}15"
 			colorEnd="80808080"
 			forceUppercase="true"
-			alignment="left"
 			singleLineScroll="true"
 			autoScroll="horizontal"
 			autoScrollDelay="0"
