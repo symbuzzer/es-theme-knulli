@@ -57,6 +57,11 @@
 		<lang.mostPlayed>en çok oynanan</lang.mostPlayed>
 		<lang.lastPlayedDate>son oynama</lang.lastPlayedDate>
 		<lang.at> </lang.at>
+		
+		<lang.tools>araçlar</lang.tools>
+		<lang.ports>portlar</lang.ports>
+		<lang.system.favorites>favoriler</lang.system.favorites>
+			
 
 		<lang.developedBy>geliştiren</lang.developedBy>
 		<lang.publiedIn>yayınlayan</lang.publiedIn>
