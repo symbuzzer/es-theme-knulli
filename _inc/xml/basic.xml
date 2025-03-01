@@ -38,7 +38,7 @@
 			forceUppercase="true"
 			singleLineScroll="true"
 			autoScroll="horizontal"
-			autoScrollDelay="0"
+			autoScrollDelay="0.01"
 
 		>
 
