@@ -52,6 +52,10 @@
 			<path>./../../_inc/logos/${system.theme}/jp/logo.png</path>
 			
 		</image>
+
+	</view>
+	
+	<view name="system">
 		
 		<text name="logoText"
 		
@@ -74,10 +78,6 @@
 			reflexion="0.05 0"
 		
 		/>
-
-	</view>
-	
-	<view name="system">
 
 		<control ifSubset="slideType:vertical" name="logo,logoText"
 		
