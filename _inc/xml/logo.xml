@@ -71,7 +71,13 @@
 			autoScroll="horizontal"
 			autoScrollDelay="0"
 
-		/>
+		>
+
+			<text if="${system.name} == 'favorites'">${lang.favoritesReplacement}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
+
+		</text>
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
