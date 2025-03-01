@@ -28,7 +28,7 @@
 			zIndex="601"
 			linearSmooth="false"
 			origin="0.5 0.5"
-			maxSize="${v.frame.size}"
+			maxSize="0.90 0.70"
 			pos="${v.frame.pos}"
 			saturation="0.75"
 			fontSize="0.15"
