@@ -51,7 +51,7 @@
 
 		<lang.elements>предметы</lang.elements>
 		<lang.favorites>избранное</lang.favorites>
-		<lang.favoritesReplacement>здесь все что вы пометили избранным</lang.favoritesReplacement>
+		<lang.favoritesReplacement>избранное</lang.favoritesReplacement>
 		<lang.played>запущенные</lang.played>
 		<lang.mostPlayed>часто запускаемые</lang.mostPlayed>
 		<lang.lastPlayedDate>последнее запущенное</lang.lastPlayedDate>

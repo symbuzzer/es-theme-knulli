@@ -59,6 +59,7 @@
 		
 		<text name="logoText"
 		
+			text="${system.name}"
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
 			color="${c.textHeader}"
@@ -73,7 +74,7 @@
 
 		>
 
-			<text if="${system.name} == 'favorites'">${lang.favoritesReplacement}</text>
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
 			<text if="${system.name} == 'ports'">${lang.ports}</text>
 			<text if="${system.name} == 'tools'">${lang.tools}</text>
 

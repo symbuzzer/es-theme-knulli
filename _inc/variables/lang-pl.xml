@@ -50,13 +50,13 @@
 
 		<subset.themeVersionString>wersja motywu</subset.themeVersionString>
 
-		<lang.elements>items</lang.elements>
+		<lang.elements>rzeczy</lang.elements>
 		<lang.favorites>ulubione</lang.favorites>
-		<lang.favoritesReplacement>find all your favorites here</lang.favoritesReplacement>
-		<lang.played>launched</lang.played>
-		<lang.mostPlayed>most launched</lang.mostPlayed>
-		<lang.lastPlayedDate>last launch</lang.lastPlayedDate>
-		<lang.at>at</lang.at>
+		<lang.favoritesReplacement>ulubione</lang.favoritesReplacement>
+		<lang.played>wystrzelony</lang.played>
+		<lang.mostPlayed>najczęściej uruchamiane</lang.mostPlayed>
+		<lang.lastPlayedDate>ostatnie uruchomienie</lang.lastPlayedDate>
+		<lang.at> </lang.at>
 
 		<lang.developedBy>stworzony przez</lang.developedBy>
 		<lang.publiedIn>opublikowany</lang.publiedIn>

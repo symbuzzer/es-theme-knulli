@@ -1,3 +1,8 @@
+# v5.7.x
+- Added DE, CN and JP translates
+- Fixed PL translate
+- Fixed some strings on all translates
+
 # v5.6.x
 - 2nd attempt to fix not scrolling system names issue on all game views
 

@@ -51,7 +51,7 @@
 
 		<lang.elements>items</lang.elements>
 		<lang.favorites>favorites</lang.favorites>
-		<lang.favoritesReplacement>find all your favorites here</lang.favoritesReplacement>
+		<lang.favoritesReplacement>favorites</lang.favoritesReplacement>
 		<lang.played>launched</lang.played>
 		<lang.mostPlayed>most launched</lang.mostPlayed>
 		<lang.lastPlayedDate>last launch</lang.lastPlayedDate>

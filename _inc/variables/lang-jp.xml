@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<subset.options.default>デフォルト</subset.options.default>
+
+		<subset.options.yes>はい</subset.options.yes>
+		<subset.options.no>いいえ</subset.options.no>
+
+		<subset.options.enabled>有効</subset.options.enabled>
+		<subset.options.disabled>無効</subset.options.disabled>
+
+		<subset.options.horizontal>水平</subset.options.horizontal>
+		<subset.options.vertical>垂直</subset.options.vertical>
+
+		<subset.options.normal>通常</subset.options.normal>
+		<subset.options.fast>速い</subset.options.fast>
+
+		<lang.detailed_2>詳細 2</lang.detailed_2>
+
+		<subset.system>システム</subset.system>
+
+		<subset.slideType>スクロールタイプオン</subset.slideType>
+
+		<subset.themeColors>カラーテーマ</subset.themeColors>
+
+		<subset.splashscreen>スプラッシュスクリーン</subset.splashscreen>
+		<subset.splashscreen.colorset>自動 (カラーテーマから取得)</subset.splashscreen.colorset>
+
+		<subset.helpIcons>ヘルプボタン</subset.helpIcons>
+
+		<subset.videoPreviews>ビデオプレビューオン</subset.videoPreviews>
+
+		<subset.systemlogoeffects>ロゴエフェクトオン</subset.systemlogoeffects>
+
+		<subset.systemlogosongamelists>ゲームリストにシステムロゴを表示</subset.systemlogosongamelists>
+
+		<subset.systemRegion>地域</subset.systemRegion>
+
+		<subset.gamecount>ゲーム数を表示</subset.gamecount>
+
+		<subset.batterybar>バッテリーバーを表示</subset.batterybar>
+
+		<subset.scrollSpeed>説明スクロール速度</subset.scrollSpeed>
+
+		<subset.themeVersionString>テーマバージョン</subset.themeVersionString>
+
+		<lang.elements>項目</lang.elements>
+		<lang.favorites>お気に入り</lang.favorites>
+		<lang.favoritesReplacement>お気に入り</lang.favoritesReplacement>
+		<lang.played>起動済み</lang.played>
+		<lang.mostPlayed>最も起動した</lang.mostPlayed>
+		<lang.lastPlayedDate>最後に起動</lang.lastPlayedDate>
+		<lang.at>時</lang.at>
+
+		<lang.developedBy>開発者</lang.developedBy>
+		<lang.publiedIn>公開年</lang.publiedIn>
+		<lang.developedAndPubliedIn>開発・公開年</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>開発・公開者</lang.developedAndPubliedBy>
+		<lang.publied>公開</lang.publied>
+		<lang.by>作</lang.by>
+		<lang.and>と</lang.and>
+		<lang.noRating>評価なし</lang.noRating>
+		<lang.neverPlayed>未プレイ</lang.neverPlayed>
+		<lang.gamePlayers>プレイヤー数</lang.gamePlayers>
+		<lang.timesPlayed>プレイ回数</lang.timesPlayed>
+		<lang.lastPlayed>最終プレイ</lang.lastPlayed>
+		<lang.releasedIn>発売年</lang.releasedIn>
+		<lang.released>発売</lang.released>
+
+		<lang.noDesc>申し訳ありませんが、このファイルの説明が見つかりませんでした。スクレイピングを試すか、gamelist.xml ファイルを手動で編集してください。</lang.noDesc>
+	
+	</variables>
+
+</theme>

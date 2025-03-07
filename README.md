@@ -95,6 +95,9 @@ To do this, you need to share the 32-digit code in the ```userdata/system/machin
 - RO: lvpvbeats
 - RU: Mailes764
 - IT: Ernest_JP
+- DE: ChatGPT
+- CN: ChatGPT
+- JP: ChatGPT
 
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
