@@ -83,7 +83,6 @@
 	<view name="system">
 
 		<text name="logoText"
-			zIndex="601"
 			color="${c.textHeader}"
 			glowOffset="4"
 			glowSize="2"

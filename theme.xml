@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>5.7.41</v.themeVersion>
+		<v.themeVersion>5.7.42</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
@@ -359,8 +359,8 @@
 	<include>./_inc/xml/menu.xml</include>
 	<include>./_inc/xml/batteryIndicator.xml</include>
 	<include>./_inc/xml/help.xml</include>
-	<include>./_inc/xml/logo.xml</include>
 	<include>./_inc/xml/system.xml</include>
+	<include>./_inc/xml/logo.xml</include>
 	<include>./_inc/xml/basic.xml</include>
 	<include>./_inc/xml/detailed.xml</include>>
 	<include>./_inc/xml/detailed_2.xml</include>
