@@ -2,9 +2,22 @@
 
 <theme>
 
+	<include>./_inc/variables/lang-default.xml</include>
+	<include>./_inc/variables/lang-${lang}.xml</include>
+
 	<formatVersion>7</formatVersion>
 	
 	<view name="system">
+
+		<text name="logoText">
+
+			zIndex="0"
+
+		/>
+
+			<visible>false</visible>
+
+		</text>
 
 		<carousel name="systemcarousel"
 			
