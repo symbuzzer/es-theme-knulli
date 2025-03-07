@@ -9,11 +9,7 @@
 	
 	<view name="system">
 
-		<text name="logoText">
-
-			zIndex="0"
-
-		/>
+		<text name="logoText"></text>
 
 		<carousel name="systemcarousel"
 			
