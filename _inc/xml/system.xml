@@ -8,6 +8,21 @@
 	
 	<view name="system">
 
+		<text name="logoText"
+		
+			color="${c.textHeader}"
+			glowOffset="4"
+			glowSize="2"
+			glowColor="${c.glowColor}"
+
+		/>
+
+		<text ifSubset="systemlogoeffects:enabled" name="logoText"
+		
+			reflexion="0.05 0"
+		
+		/>
+
 		<carousel name="systemcarousel"
 			
 			zIndex="1000"
