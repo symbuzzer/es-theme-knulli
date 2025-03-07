@@ -80,21 +80,6 @@
 	
 	<view name="system">
 
-		<text name="logoText"
-			zIndex="1000"
-			color="${c.textHeader}"
-			glowOffset="4"
-			glowSize="2"
-			glowColor="${c.glowColor}"
-
-		/>
-
-		<text ifSubset="systemlogoeffects:enabled" name="logoText"
-		
-			reflexion="0.05 0"
-		
-		/>
-
 		<carousel name="systemcarousel"
 			
 			zIndex="1000"
@@ -111,6 +96,21 @@
 
 		<carousel ifSubset="slideType:vertical" name="systemcarousel"
 			type="vertical"
+		/>
+
+		<text name="logoText"
+			zIndex="1000"
+			color="${c.textHeader}"
+			glowOffset="4"
+			glowSize="2"
+			glowColor="${c.glowColor}"
+
+		/>
+
+		<text ifSubset="systemlogoeffects:enabled" name="logoText"
+		
+			reflexion="0.05 0"
+		
 		/>
 
 		<control ifSubset="slideType:vertical" name="logo,logoText"
