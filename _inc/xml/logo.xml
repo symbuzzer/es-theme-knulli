@@ -104,9 +104,9 @@
 			glowSize="2"
 			glowColor="${c.glowColor}"
 
-		>
+		/>
 
-			<text>${system.name}</text>
+			<text>${system.fullName}</text>
 
 		</text>
 
