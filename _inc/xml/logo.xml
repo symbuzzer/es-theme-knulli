@@ -60,11 +60,7 @@
 		
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
-			color="${c.textHeader}"
 			forceUppercase="true"
-			glowOffset="4"
-			glowSize="2"
-			glowColor="${c.glowColor}"
 			alignment="center"
 			singleLineScroll="true"
 			autoScroll="horizontal"
@@ -81,6 +77,15 @@
 	</view>
 	
 	<view name="system">
+
+		<text name="logoText"
+		
+			color="${c.textHeader}"
+			glowOffset="4"
+			glowSize="2"
+			glowColor="${c.glowColor}"
+
+		/>
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
