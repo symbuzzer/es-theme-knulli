@@ -69,10 +69,10 @@
 
 		>
 
-			<text>${system.fullName}</text>
-			<text if="${system.fullName} == 'favorites'">${lang.favorites}</text>
-			<text if="${system.fullName} == 'ports'">${lang.ports}</text>
-			<text if="${system.fullName} == 'tools'">${lang.tools}</text>
+			<text>${system.name}</text>
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
 
 		</text>
 
