@@ -35,6 +35,17 @@
 		<text name="system-name">
 
 			extra="true"
+			fontPath="./../fonts/${f.defbold}"
+			fontSize="0.15"
+			forceUppercase="true"
+			alignment="center"
+			singleLineScroll="true"
+			autoScroll="horizontal"
+			autoScrollDelay="0"
+			color="${c.textHeader}"
+			glowOffset="4"
+			glowSize="2"
+			glowColor="${c.glowColor}"
 
 		>
 			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
