@@ -79,7 +79,7 @@
 			type="vertical"
 		/>
 
-		<text name="system_name"
+		<text name="logoText"
 
 			zIndex="1001"
 			text="${system.fullName}"
@@ -95,7 +95,7 @@
 			autoScrollDelay="0.01"
 		/>
 
-		<text name="logoText"
+		<text name="logoText2"
 
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
