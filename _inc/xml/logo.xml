@@ -8,6 +8,24 @@
 	<include>./_inc/variables/lang-${lang}.xml</include>
 	
 	<view name="system,basic,detailed,grid">
+
+		<text name="logoText"
+		
+			fontPath="./../fonts/${f.defbold}"
+			fontSize="0.15"
+			forceUppercase="true"
+			alignment="center"
+			singleLineScroll="true"
+			autoScroll="horizontal"
+			autoScrollDelay="0"
+
+		>
+
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
+
+		</text>
 	
 		<image name="logo"
 		
@@ -59,24 +77,6 @@
 			<path>./../../_inc/logos/${system.theme}/jp/logo.png</path>
 			
 		</image>
-
-		<text name="logoText"
-		
-			fontPath="./../fonts/${f.defbold}"
-			fontSize="0.15"
-			forceUppercase="true"
-			alignment="center"
-			singleLineScroll="true"
-			autoScroll="horizontal"
-			autoScrollDelay="0"
-
-		>
-
-			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
-			<text if="${system.name} == 'ports'">${lang.ports}</text>
-			<text if="${system.name} == 'tools'">${lang.tools}</text>
-
-		</text>
 
 	</view>
 	
