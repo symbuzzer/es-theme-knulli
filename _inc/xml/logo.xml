@@ -92,7 +92,7 @@
 			autoScroll="horizontal"
 			autoScrollDelay="0"
 			zIndex="1000"
-			color="${c.textHeader}"
+			color="${c.text}"
 			glowOffset="4"
 			glowSize="2"
 			glowColor="${c.glowColor}"
