@@ -120,7 +120,7 @@
 		
 		/>
 
-		<control ifSubset="slideType:vertical" name="logo,logoText"
+		<control ifSubset="slideType:vertical" name="logo,system.infos.name"
 		
 			scale="1"
 			
@@ -141,7 +141,7 @@
 		</control>
 
 			
-		<control ifSubset="systemlogoeffects:enabled" name="logo,logoText"
+		<control ifSubset="systemlogoeffects:enabled" name="logo,system.infos.name"
 		
 			scale="1"
 			
