@@ -21,7 +21,7 @@
          <type>horizontal</type>
          <defaultTransition>fade & slide</defaultTransition>
          <scrollSound>./../parts/scroll.wav</scrollSound>
-         <zIndex>2</zIndex>
+         <zIndex>1000</zIndex>
       </carousel>
 
       <text name="system-name" extra="true">
