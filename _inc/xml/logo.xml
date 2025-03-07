@@ -67,13 +67,7 @@
 			autoScroll="horizontal"
 			autoScrollDelay="0"
 
-		>
-
-			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
-			<text if="${system.name} == 'ports'">${lang.ports}</text>
-			<text if="${system.name} == 'tools'">${lang.tools}</text>
-
-		</text>
+		/>
 
 	</view>
 	
@@ -276,7 +270,13 @@
 			color="${c.textHeader}15"
 			colorEnd="80808080"
 
-		/>
+		>
+
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
+
+		</text>
 		
 	</view>
 	
