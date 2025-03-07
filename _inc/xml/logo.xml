@@ -79,11 +79,11 @@
 			type="vertical"
 		/>
 
-		<text name="logoText"
+		<text name="logoText">
 
-			visible="false"
+			<visible>false</visible>
 
-		/>
+		</text>
 
 		<text name="system.infos.name"
 		
