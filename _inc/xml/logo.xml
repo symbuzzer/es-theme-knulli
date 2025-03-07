@@ -82,6 +82,15 @@
 	
 	<view name="system">
 
+		<text name="logoText"
+		
+			color="${c.textHeader}"
+			glowOffset="4"
+			glowSize="2"
+			glowColor="${c.glowColor}"
+
+		/>
+
 		<control ifSubset="slideType:vertical" name="logo,logoText"
 		
 			scale="1"

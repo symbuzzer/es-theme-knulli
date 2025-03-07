@@ -8,14 +8,13 @@
 	
 	<view name="system">
 
-		<text name="logoText"
-		
-			color="${c.textHeader}"
-			glowOffset="4"
-			glowSize="2"
-			glowColor="${c.glowColor}"
+		<text name="logoText">
 
-		/>
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
+
+		</text>
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
