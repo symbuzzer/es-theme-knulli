@@ -81,7 +81,9 @@
 
 		<text name="logoText"
 		
-
+			origin="0.5 0.5"
+			pos="0.5 0.5"
+			size="1 1"
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
 			forceUppercase="true"
@@ -272,7 +274,11 @@
 			autoScroll="horizontal"
 			autoScrollDelay="0"
 
-		/>
+		>
+
+			<visible>!exists({system:image})</visible>
+
+		</text>
 		
 	</view>
 	

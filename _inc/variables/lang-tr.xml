@@ -50,11 +50,8 @@
 
 		<subset.themeVersionString>tema versİyonu</subset.themeVersionString>
 
-		<lang.favorites>favorİler</lang.favorites>
-		<lang.tools>araçlar</lang.tools>
-		<lang.ports>portlar</lang.ports>
-
 		<lang.elements>öğeler</lang.elements>
+		<lang.favorites>favorİler</lang.favorites>
 		<lang.favoritesReplacement>favoriler</lang.favoritesReplacement>
 		<lang.played>oynanan</lang.played>
 		<lang.mostPlayed>en çok oynanan</lang.mostPlayed>
