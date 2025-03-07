@@ -5,24 +5,6 @@
 	<formatVersion>7</formatVersion>
 	
 	<view name="system,basic,detailed,grid">
-
-		<text name="logoText"
-		
-			fontPath="./../fonts/${f.defbold}"
-			fontSize="0.15"
-			forceUppercase="true"
-			alignment="center"
-			singleLineScroll="true"
-			autoScroll="horizontal"
-			autoScrollDelay="0"
-
-		>
-
-			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
-			<text if="${system.name} == 'ports'">${lang.ports}</text>
-			<text if="${system.name} == 'tools'">${lang.tools}</text>
-
-		</text>
 	
 		<image name="logo"
 		
@@ -75,11 +57,30 @@
 			
 		</image>
 
+		<text name="logoText"
+		
+			fontPath="./../fonts/${f.defbold}"
+			fontSize="0.15"
+			forceUppercase="true"
+			alignment="center"
+			singleLineScroll="true"
+			autoScroll="horizontal"
+			autoScrollDelay="0"
+
+		>
+
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
+
+		</text>
+
 	</view>
 	
 	<view name="system">
 
 		<text name="logoText"
+			zIndex="1000"
 			color="${c.textHeader}"
 			glowOffset="4"
 			glowSize="2"
