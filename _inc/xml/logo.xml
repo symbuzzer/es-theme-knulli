@@ -97,9 +97,9 @@
 		>
 
 			<visible>!exists({system:image})</visible>
-			<text if="${logoText} == 'favorites'">${lang.favorites}</text>
-			<text if="${logoText} == 'ports'">${lang.ports}</text>
-			<text if="${logoText} == 'tools'">${lang.tools}</text>
+			<text if="${system.fullName} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.fullName} == 'ports'">${lang.ports}</text>
+			<text if="${system.fullName} == 'tools'">${lang.tools}</text>
 
 		</text>
 
