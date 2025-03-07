@@ -3,9 +3,6 @@
 <theme>
 
 	<formatVersion>7</formatVersion>
-
-	<include>./_inc/variables/lang-default.xml</include>
-	<include>./_inc/variables/lang-${lang}.xml</include>
 	
 	<view name="system,basic,detailed,grid">
 	
@@ -219,6 +216,34 @@
 			pos="0.5 0.12625"
 			
 		/>
+
+		<text name="logoText"
+		
+
+			size="0.90 0.70"
+			pos="${v.frame.pos}"
+			saturation="0.75"
+			linearSmooth="false"
+			origin="0.5 0.5"
+			fontPath="./../fonts/${f.defbold}"
+			fontSize="0.15"
+			color="${c.textHeader}"
+			forceUppercase="true"
+			glowOffset="4"
+			glowSize="2"
+			glowColor="${c.glowColor}"
+			alignment="left"
+			singleLineScroll="true"
+			autoScroll="horizontal"
+			autoScrollDelay="0"
+
+		>
+
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
+
+		</text>
 		
 	</view>
 	
