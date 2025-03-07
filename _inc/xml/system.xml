@@ -11,15 +11,16 @@
       </text>
 
       <carousel name="systemcarousel">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
          <size>1 1</size>
+         <logoSize>0.90 0.70</logoSize>
          <logoScale>1</logoScale>
          <maxLogoCount>1</maxLogoCount>
          <color>00000000</color>
          <type>horizontal</type>
          <defaultTransition>fade & slide</defaultTransition>
-         <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
+         <scrollSound>./../parts/scroll.wav</scrollSound>
          <zIndex>2</zIndex>
       </carousel>
 
