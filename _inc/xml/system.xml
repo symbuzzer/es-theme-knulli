@@ -8,6 +8,12 @@
 	
 	<view name="system">
 
+		<text name="logoText">
+
+			<visible>false</visible>
+
+		</text>
+
 		<carousel name="systemcarousel"
 			
 			zIndex="1000"
