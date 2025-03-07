@@ -6,11 +6,6 @@
 	
 	<view name="system">
 
-<text pos="0.5 0.5" size="1 1" fontSize="0.05" color="FF0000" alignment="center">
-    SABİT METİN TESTİ
-</text>
-
-
 		<carousel name="systemcarousel"
 			
 			zIndex="1000"
@@ -24,7 +19,16 @@
 			logoScale="1"
 			itemTransitions="animate"
 			
-		/>
+		>
+
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
+			<text if="${system.fullName} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.fullName} == 'ports'">${lang.ports}</text>
+			<text if="${system.fullName} == 'tools'">${lang.tools}</text>
+
+		</carousel>
 
 		<carousel ifSubset="slideType:vertical" name="systemcarousel"
 			type="vertical"
