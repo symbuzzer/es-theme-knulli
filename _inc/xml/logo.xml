@@ -100,7 +100,7 @@
 			glowOffset="4"
 			glowSize="2"
 			glowColor="${c.glowColor}"
-			visible="true"
+			text="${system.fullName}"
 
 		>
 
