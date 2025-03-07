@@ -4,41 +4,43 @@
 
 	<formatVersion>7</formatVersion>
 	
-   <view name="system">
+	<view name="system">
 
-      <text name="systemInfo,logoText">
-         <visible>false</visible>
-      </text>
+		<carousel name="systemcarousel"
+			
+			zIndex="1000"
+			color="00000000"
+			scrollSound="./../parts/scroll.wav"
+			origin="0.5 0.5"
+			pos="0.5 0.5"
+			size="1 1"
+			logoSize="0.90 0.70"
+			maxLogoCount="1"
+			logoScale="1"
+			itemTransitions="animate"
+			
+		/>
 
-      <carousel name="systemcarousel">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
-         <size>1 1</size>
-         <logoSize>0.90 0.70</logoSize>
-         <logoScale>1</logoScale>
-         <maxLogoCount>1</maxLogoCount>
-         <color>00000000</color>
-         <type>horizontal</type>
-         <defaultTransition>fade & slide</defaultTransition>
-         <scrollSound>./../parts/scroll.wav</scrollSound>
-         <zIndex>1000</zIndex>
-      </carousel>
+		<carousel ifSubset="slideType:vertical" name="systemcarousel"
+			type="vertical"
+		/>
 
-      <text name="system-name" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
-         <size>0.8 0.4</size>
-         <fontSize>0.1125</fontSize>
-         <fontPath>${fontLogo}</fontPath>
-         <forceUppercase>true</forceUppercase>
-         <alignment>center</alignment>
-         <lineSpacing>.8</lineSpacing>
-         <color>${systemLogoColor}</color>
-         <text>${system.fullName}</text>
-			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
-			<text if="${system.name} == 'ports'">${lang.ports}</text>
-			<text if="${system.name} == 'tools'">${lang.tools}</text>
-      </text>
-   </view>
+		<text name="systemInfo"
+			
+			zIndex="1000"
+			backgroundColor="00000000"
+			color="${c.text}"
+			pos="${v.gamecounttext}"
+			fontPath="./../fonts/${f.def}"
+            		fontSize="0.04"
+		>
+			<visible ifSubset="gamecount:no">false</visible>
+			<storyboard>		
+				<animation property="opacity" from="0" to="1" duration="200" mode="easeIn" />		
+			</storyboard>
+			
+		</text>
+		
+	</view>
 
 </theme>
