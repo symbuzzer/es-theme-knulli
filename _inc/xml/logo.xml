@@ -219,7 +219,6 @@
 
 		<text name="logoText"
 		
-
 			size="0.90 0.70"
 			pos="${v.frame.pos}"
 			saturation="0.75"
@@ -232,7 +231,7 @@
 			glowOffset="4"
 			glowSize="2"
 			glowColor="${c.glowColor}"
-			alignment="left"
+			alignment="center"
 			singleLineScroll="true"
 			autoScroll="horizontal"
 			autoScrollDelay="0"
