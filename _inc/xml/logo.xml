@@ -94,11 +94,7 @@
 			glowSize="2"
 			glowColor="${c.glowColor}"
 
-		>
-
-			<text>${system.fullName}</text>
-
-		</text>
+		/>
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
