@@ -81,7 +81,6 @@
 
 		<text name="logoText"
 
-			extra="true"
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
 			forceUppercase="true"
