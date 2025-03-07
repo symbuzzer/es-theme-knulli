@@ -15,7 +15,11 @@
 			zIndex="1000"
 			saturation="1.2"
 		
-		/>
+		>
+
+			<visible>exists({system:image})</visible>
+
+		</image>
 
 		<image ifSubset="systemlogoeffects:enabled" name="logo"
 		
