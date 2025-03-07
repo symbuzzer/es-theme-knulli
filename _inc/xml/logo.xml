@@ -3,6 +3,9 @@
 <theme>
 
 	<formatVersion>7</formatVersion>
+
+	<include>./_inc/variables/lang-default.xml</include>
+	<include>./_inc/variables/lang-${lang}.xml</include>
 	
 	<view name="system,basic,detailed,grid">
 	
@@ -53,10 +56,6 @@
 			
 		</image>
 
-	</view>
-	
-	<view name="system">
-		
 		<text name="logoText"
 		
 			fontPath="./../fonts/${f.defbold}"
@@ -66,7 +65,7 @@
 			glowOffset="4"
 			glowSize="2"
 			glowColor="${c.glowColor}"
-			alignment="left"
+			alignment="center"
 			singleLineScroll="true"
 			autoScroll="horizontal"
 			autoScrollDelay="0"
@@ -78,6 +77,10 @@
 			<text if="${system.name} == 'tools'">${lang.tools}</text>
 
 		</text>
+
+	</view>
+	
+	<view name="system">
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
@@ -224,23 +227,10 @@
 			saturation="0.75"
 			linearSmooth="false"
 			origin="0.5 0.5"
-			fontPath="./../fonts/${f.defbold}"
-			fontSize="0.15"
 			color="${c.textHeader}15"
 			colorEnd="80808080"
-			forceUppercase="true"
-			alignment="center"
-			singleLineScroll="true"
-			autoScroll="horizontal"
-			autoScrollDelay="0"
 
-		>
-
-			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
-			<text if="${system.name} == 'ports'">${lang.ports}</text>
-			<text if="${system.name} == 'tools'">${lang.tools}</text>
-
-		</text>
+		/>
 		
 	</view>
 	
