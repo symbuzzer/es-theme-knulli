@@ -96,6 +96,13 @@
 
 		/>
 
+			<visible>!exists({system:image})</visible>
+			<text if="${logoText} == 'favorites'">${lang.favorites}</text>
+			<text if="${logoText} == 'ports'">${lang.ports}</text>
+			<text if="${logoText} == 'tools'">${lang.tools}</text>
+
+		</text>
+
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
 			reflexion="0.05 0"
