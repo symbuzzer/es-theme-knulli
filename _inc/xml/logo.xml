@@ -9,7 +9,7 @@
 	
 	<view name="system,basic,detailed,grid">
 
-		<text name="logoText"
+		<text name="gamecarouselLogoText"
 		
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
