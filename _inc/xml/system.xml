@@ -14,7 +14,7 @@
 
 		</text>
 
-		<text name="system-name">
+		<text name="system-name"
 
 			extra="true"
 			fontPath="./../fonts/${f.defbold}"
