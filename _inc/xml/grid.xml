@@ -41,19 +41,6 @@
 		<text name="logoText"
 
 			zIndex="601"
-			linearSmooth="false"
-			origin="0.5 0.5"
-			size="0.90 0.70"
-			pos="${v.frame.pos}"
-			saturation="0.75"
-			fontSize="0.15"
-			fontPath="./../fonts/${f.defbold}"
-			color="${c.textHeader}15"
-			colorEnd="80808080"
-			forceUppercase="true"
-			singleLineScroll="true"
-			autoScroll="horizontal"
-			autoScrollDelay="0.01"
 
 		>
 
