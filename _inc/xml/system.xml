@@ -13,11 +13,9 @@
 			extra="true"
 
 		>
-			<text>${system.fullName}</text>
 			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
 			<text if="${system.name} == 'ports'">${lang.ports}</text>
 			<text if="${system.name} == 'tools'">${lang.tools}</text>
-			<visible>!exists({system:image})</visible>
 
 		</text>
 
