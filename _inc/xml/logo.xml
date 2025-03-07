@@ -89,6 +89,8 @@
 		
 			extra="true"
 			origin="0.5 0.5"
+			pos="0.5 0.5"
+			size="1 1"
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
 			forceUppercase="true"
