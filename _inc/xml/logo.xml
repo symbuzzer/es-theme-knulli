@@ -98,13 +98,15 @@
 		/>
 
 		<text name="logoText"
+
+			extra="true"
 			zIndex="1000"
 			color="${c.textHeader}"
 			glowOffset="4"
 			glowSize="2"
 			glowColor="${c.glowColor}"
 
-		/>
+		>
 
 			<text>${system.fullName}</text>
 
