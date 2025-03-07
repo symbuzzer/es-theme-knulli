@@ -43,4 +43,6 @@
 		
 	</view>
 
+	<include>./logo.xml</include>
+
 </theme>
