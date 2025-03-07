@@ -4,7 +4,7 @@
 
 	<formatVersion>7</formatVersion>
 
-	<include>logo.xml</include>
+	<include>./logo.xml</include>
 	
 	<view name="system">
 
