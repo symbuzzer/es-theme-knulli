@@ -6,6 +6,10 @@
 	
 	<view name="system">
 
+<text>${lang.favorites}</text>
+<text>${system.name}</text>
+<text if="contains(${system.name}, 'favorites')">Favoriler</text>
+
 		<carousel name="systemcarousel"
 			
 			zIndex="1000"
