@@ -59,7 +59,6 @@
 		
 		<text name="logoText"
 		
-			text="${system.name}"
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
 			color="${c.textHeader}"
