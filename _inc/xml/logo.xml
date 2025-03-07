@@ -69,7 +69,6 @@
 
 		>
 
-			<text>${system.name}</text>
 			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
 			<text if="${system.name} == 'ports'">${lang.ports}</text>
 			<text if="${system.name} == 'tools'">${lang.tools}</text>
@@ -105,7 +104,11 @@
 			glowSize="2"
 			glowColor="${c.glowColor}"
 
-		/>
+		>
+
+			<text>${system.name}</text>
+
+		</text>
 
 		<text ifSubset="systemlogoeffects:enabled" name="logoText"
 		
