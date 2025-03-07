@@ -81,9 +81,9 @@
 
 		<text name="logoText"
 
-			visible="true"
+			visible="false"
 
-		</text>
+		/>
 
 		<text name="system.infos.name"
 		
@@ -110,7 +110,7 @@
 		
 		</text>
 
-		<text ifSubset="systemlogoeffects:enabled" name="logoText"
+		<text ifSubset="systemlogoeffects:enabled" name="system.infos.name"
 		
 			reflexion="0.05 0"
 		
