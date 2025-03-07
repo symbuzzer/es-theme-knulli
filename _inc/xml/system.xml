@@ -6,9 +6,10 @@
 	
 	<view name="system">
 
-<text>${lang.favorites}</text>
-<text>${system.name}</text>
-<text if="contains(${system.name}, 'favorites')">Favoriler</text>
+<text pos="0.5 0.5" size="1 1" fontSize="0.05" color="FF0000" alignment="center">
+    SABİT METİN TESTİ
+</text>
+
 
 		<carousel name="systemcarousel"
 			
