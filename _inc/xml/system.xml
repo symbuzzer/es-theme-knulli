@@ -35,7 +35,9 @@
          <lineSpacing>.8</lineSpacing>
          <color>${systemLogoColor}</color>
          <text>${system.fullName}</text>
-         <zIndex>2</zIndex>
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
       </text>
    </view>
 
