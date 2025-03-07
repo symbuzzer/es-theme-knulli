@@ -81,6 +81,13 @@
 
 		<text name="logoText"
 
+			visible="true"
+
+		</text>
+
+		<text name="system.infos.name"
+		
+			extra="true"
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
 			forceUppercase="true"
@@ -100,30 +107,6 @@
 			<text if="${system.fullName} == 'favorites'">${lang.favorites}</text>
 			<text if="${system.fullName} == 'ports'">${lang.ports}</text>
 			<text if="${system.fullName} == 'tools'">${lang.tools}</text>
-
-		</text>
-
-		<text name="system.infos.name"
-		
-			extra="true"
-			zIndex="3000"
- 			alignment="left"
-			verticalAlignment="top"
-			origin="0.5 0.5"
-			pos="0.5 0.5"
-			w="0.975"
-			forceUppercase="true"
-			visible="true"
-			fontPath="./../fonts/${f.def}"
-			h="0.8"
-			fontSize="0.024"
-			color="${c.selected}"
-			text="${system.fullName} ${v.py} ${system.releaseYearOrNull}"
-			
-		>
-		
-			<fontSize tinyScreen="true">0.03</fontSize>
-			<offsetY tinyScreen="true">0.020</offsetY>
 		
 		</text>
 
