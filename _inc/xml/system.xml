@@ -8,17 +8,6 @@
 	
 	<view name="system">
 
-		<text name="system-name">
-
-			extra="true"
-
-		>
-			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
-			<text if="${system.name} == 'ports'">${lang.ports}</text>
-			<text if="${system.name} == 'tools'">${lang.tools}</text>
-
-		</text>
-
 		<carousel name="systemcarousel"
 			
 			zIndex="1000"
@@ -36,6 +25,17 @@
 		<carousel ifSubset="slideType:vertical" name="systemcarousel"
 			type="vertical"
 		/>
+
+		<text name="system-name">
+
+			extra="true"
+
+		>
+			<text if="${system.name} == 'favorites'">${lang.favorites}</text>
+			<text if="${system.name} == 'ports'">${lang.ports}</text>
+			<text if="${system.name} == 'tools'">${lang.tools}</text>
+
+		</text>
 
 		<text name="systemInfo"
 			
