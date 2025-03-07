@@ -1,3 +1,6 @@
+# v5.8.x
+- Restored unofficial system logos with new ones
+
 # v5.7.x
 - Added DE, CN and JP translates
 - Fixed PL translate
