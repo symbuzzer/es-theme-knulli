@@ -79,11 +79,7 @@
 			type="vertical"
 		/>
 
-		<text name="logoText">
 
-			<visible>false</visible>
-
-		</text>
 
 		<text name="system.infos.name"
 		
@@ -103,7 +99,6 @@
 			glowOffset="4"
 			glowSize="2"
 			glowColor="${c.glowColor}"
-			text="${system.fullName}"
 
 		>
 
