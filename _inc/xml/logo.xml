@@ -88,6 +88,7 @@
 		<text name="system.infos.name"
 		
 			extra="true"
+			origin="0.5 0.5"
 			fontPath="./../fonts/${f.defbold}"
 			fontSize="0.15"
 			forceUppercase="true"
