@@ -1,3 +1,7 @@
+# 5.9.x
+- Added support for different language assets for system images
+- Added Turkish assets for system images
+
 # v5.8.x
 - Restored unofficial system logos with new ones
 
