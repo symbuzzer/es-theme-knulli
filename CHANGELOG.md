@@ -1,3 +1,6 @@
+# v5.10.x
+- Fixed a critical bug when selected vertical slide for system view
+
 # v5.9.x
 - Added support for different language assets for system images
 - Added Turkish assets for system images
