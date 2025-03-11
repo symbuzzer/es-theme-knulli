@@ -95,6 +95,7 @@ To do this, you need to share the 32-digit code in the ```userdata/system/machin
 - RO: lvpvbeats
 - RU: Mailes764
 - IT: Ernest_JP
+- SV: Shiwigy
 - DE: ChatGPT
 - CN: ChatGPT
 - JP: ChatGPT
