@@ -1,3 +1,6 @@
+# v5.11.x
+- Added SV translation
+
 # v5.10.x
 - Fixed a critical bug when selected vertical slide for system view
 
