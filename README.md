@@ -10,14 +10,14 @@ Here, es-theme-knulli is here to overcome this. This is your and the community's
 
 ## DESIGN FEATURES
 - Designed entirely for Knulli
-- Thanks to "```k_thod```", more efficient use of empty spaces in the status bar has been achieved.
 - Unlike other ES themes, texts are made more readable and images are more visible on small screens
 - Aimed to be as simple and fast as possible. For this reason, it has been simplified considerably from the es-theme-basic on which it is based. The size of the theme has been reduced by 2/3
 - Instead of specifying separate parameters for high and low screen resolutions; fixed parameters were used directly, making the theme both faster and less resource consuming
-- Unlike many ES themes, the clock is displayed accurately on small screen devices
-- Unlike many ES themes, the problem of text overlapping in the menus has been minimized
+- Unlike many ES-DE themes, the clock is displayed accurately on small screen devices
+- Unlike many ES-DE themes, the problem of text overlapping in the menus has been minimized
+- Thanks to "```k_thod```", more efficient use of empty spaces in the status bar has been achieved
 - Added some Knulli specific assets and features, such as the Emulators, Recordings etc. folders and their system image
-- Tested successfully on different screen sized devices and hdmi connections
+- Tested successfully on different screen sized devices and HDMI connections
 - The theme file structure has been made easier and more understandable for other users and developers
 
 ## THEME FEATURES
