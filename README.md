@@ -9,8 +9,8 @@ Moreover, such stupid comments are made "arrogantly" against people who obviousl
 Here, es-theme-knulli is here to overcome this. This is your and the community's theme. I wanted to create a project where all the requests requested so far were definitely tried to be added. Because it bothered me a lot to see that even the smallest requests of many people were rejected and these requests were ignored. This is exactly where I started...
 
 ## DESIGN FEATURES
-- Designed entirely for Knulli
-- Unlike other ES themes, texts are made more readable and images are more visible on small screens
+- Designed entirely for [Knulli](https://github.com/knulli-cfw)
+- Unlike other ES-DE themes, texts are made more readable and images are more visible on small screens
 - Aimed to be as simple and fast as possible. For this reason, it has been simplified considerably from the es-theme-basic on which it is based. The size of the theme has been reduced by 2/3
 - Instead of specifying separate parameters for high and low screen resolutions; fixed parameters were used directly, making the theme both faster and less resource consuming
 - Unlike many ES-DE themes, the clock is displayed accurately on small screen devices
@@ -102,7 +102,7 @@ To do this, you need to share the 32-digit code in the ```userdata/system/machin
 
 ## LICENSES & CREDITS
 - [License](https://github.com/symbuzzer/es-theme-knulli/blob/main/LICENSE)
-- Based on "[es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic)" by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)
-- Some logos used from "[ckau-book](https://github.com/CkauNui/ckau-book)" theme by [CkauNui](https://github.com/CkauNui) *(Licensed under Attribution-NonCommercial-ShareAlike 4.0 International)*
+- Based on [es-theme-basic](https://github.com/lehcimcramtrebor/es-theme-basic) by [lehcimcramtrebor](https://github.com/lehcimcramtrebor)
+- Some logos used from [ckau-book](https://github.com/CkauNui/ckau-book) theme by [CkauNui](https://github.com/CkauNui) *(Licensed under Attribution-NonCommercial-ShareAlike 4.0 International)*
 - Each brand of hardware and software here represented as a tribute.
 - All logos, trademarks and photos are copyright of their respective owners.
