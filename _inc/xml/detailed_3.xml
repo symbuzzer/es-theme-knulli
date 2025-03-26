@@ -18,18 +18,17 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			showSnapshotNoVideo="true"	
-			showSnapshotDelay="true"
+			showSnapshotNoVideo="false"	
 			effect="none"
 			delay="1"
 			roundCorners="0.018"
 			origin="0.5 0.5"
 			maxSize="${v.frame.size}"
-			pos="${v.frameLeft.pos}"
+			pos="${v.frame.pos}"
 			
 		/>
 
-		<image ifSubset="videoPreviews:disabled" name="md_boxart"
+		<image name="md_boxart"
 
 			zIndex="1000"
 			linearSmooth="true"
