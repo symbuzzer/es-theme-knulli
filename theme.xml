@@ -10,14 +10,14 @@
     <variables>
 		
 
-		<v.themeVersion>5.11.1</v.themeVersion>
+		<v.themeVersion>6.1.1</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
-		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
-		<v.allGamelists>basic,detailed,detailed_2,grid</v.allGamelists>
-		<v.videoGamelists>detailed,detailed_2,grid</v.videoGamelists>
-		<v.detailedGamelists>detailed,detailed_2</v.detailedGamelists>
-		<v.textGamelists>basic,detailed,detailed_2</v.textGamelists>
+		<v.allViews>system,basic,detailed,detailed_2,detailed_3,grid</v.allViews>
+		<v.allGamelists>basic,detailed,detailed_2,detailed_3,grid</v.allGamelists>
+		<v.videoGamelists>detailed,detailed_2,detailed_3,grid</v.videoGamelists>
+		<v.detailedGamelists>detailed,detailed_2,detailed_3</v.detailedGamelists>
+		<v.textGamelists>basic,detailed,detailed_2,detailed_3</v.textGamelists>
 
 		<v.line.hc>1 / ${screen.height}</v.line.hc>
 		<v.line.h>2 / ${screen.height}</v.line.h>
@@ -105,7 +105,7 @@
     </variables>
 
 	<view name="basic,detailed"></view>
-	<customView name="detailed_2"></customView>
+	<customView name="detailed_2,detailed_3"></customView>
 	<view name="grid"></view>
 
 	<subset name="slideType"
