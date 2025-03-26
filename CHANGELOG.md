@@ -1,4 +1,4 @@
-# v6.1.1
+# v6.1.x
 - Added new detailed_3 gamelist view
 
 # v5.11.x
