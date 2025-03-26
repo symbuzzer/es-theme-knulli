@@ -1,3 +1,6 @@
+# v6.1.1
+- Added new detailed_3 gamelist view
+
 # v5.11.x
 - Added SV translation
 
