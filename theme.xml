@@ -361,8 +361,9 @@
 	<include>./_inc/xml/help.xml</include>
 	<include>./_inc/xml/logo.xml</include>
 	<include>./_inc/xml/basic.xml</include>
-	<include>./_inc/xml/detailed.xml</include>>
+	<include>./_inc/xml/detailed.xml</include>
 	<include>./_inc/xml/detailed_2.xml</include>
+	<include>./_inc/xml/detailed_3.xml</include>
 	<include>./_inc/xml/grid.xml</include>
 	
 </theme>
