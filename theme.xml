@@ -10,7 +10,7 @@
     <variables>
 		
 
-		<v.themeVersion>6.1.1</v.themeVersion>
+		<v.themeVersion>6.1.2</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,detailed_3,grid</v.allViews>
@@ -105,7 +105,8 @@
     </variables>
 
 	<view name="basic,detailed"></view>
-	<customView name="detailed_2,detailed_3"></customView>
+	<customView name="detailed_2"></customView>
+	<customView name="detailed_3"></customView>
 	<view name="grid"></view>
 
 	<subset name="slideType"
