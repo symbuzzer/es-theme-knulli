@@ -17,6 +17,8 @@
 		<subset.options.horizontal>horizontal</subset.options.horizontal>
 		<subset.options.vertical>vertical</subset.options.vertical>
 
+		<subset.options.full>tela cheia</subset.options.full>
+
 		<subset.options.normal>normal</subset.options.normal>
 		<subset.options.fast>rápida</subset.options.fast>
 
@@ -35,6 +37,8 @@
 		<subset.helpIcons>botões de ajuda</subset.helpIcons>
 
 		<subset.videoPreviews>pré-visualização de video </subset.videoPreviews>
+
+		<subset.videoSize>tamanho da pré-visualização do vídeo</subset.videoSize>
 
 		<subset.videoLatency>latência de vídeo (segundos)</subset.videoLatency>
 

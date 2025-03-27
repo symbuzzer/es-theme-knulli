@@ -17,15 +17,16 @@
 		<subset.options.horizontal>horizontal</subset.options.horizontal>
 		<subset.options.vertical>vertical</subset.options.vertical>
 
+		<subset.options.full>fullscreen</subset.options.full>
+
 		<subset.options.normal>normal</subset.options.normal>
 		<subset.options.fast>fast</subset.options.fast>
 
 		<lang.detailed_2>detailed 2</lang.detailed_2>
-		<lang.detailed_3>detailed 3</lang.detailed_3>
 
 		<subset.system>system</subset.system>
 
-		<subset.slideType>scroll type on</subset.slideType>
+		<subset.slideType>scroll type</subset.slideType>
 
 		<subset.themeColors>colorset</subset.themeColors>
 
@@ -34,21 +35,23 @@
 
 		<subset.helpIcons>help buttons</subset.helpIcons>
 
-		<subset.videoPreviews>video previews on</subset.videoPreviews>
+		<subset.videoPreviews>video previews</subset.videoPreviews>
+
+		<subset.videoSize>video preview size</subset.videoSize>
 
 		<subset.videoLatency>video preview latency (seconds)</subset.videoLatency>
 
-		<subset.systemlogoeffects>logo effects on</subset.systemlogoeffects>
+		<subset.systemlogoeffects>logo effects</subset.systemlogoeffects>
 
-		<subset.systemlogosongamelists>show system logos on</subset.systemlogosongamelists>
+		<subset.systemlogosongamelists>show system logos</subset.systemlogosongamelists>
 
 		<subset.systemRegion>region</subset.systemRegion>
 
-		<subset.gamecount>show game count on</subset.gamecount>
+		<subset.gamecount>show game count</subset.gamecount>
 
 		<subset.batterybar>show batterybar</subset.batterybar>
 
-		<subset.scrollSpeed>description scroll speed on</subset.scrollSpeed>
+		<subset.scrollSpeed>description scroll speed</subset.scrollSpeed>
 
 		<subset.themeVersionString>theme version</subset.themeVersionString>
 

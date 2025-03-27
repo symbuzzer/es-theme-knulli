@@ -1,3 +1,10 @@
+# v6.2.x
+- Removed detailed_3 gamelist view
+- detailed_2 view rewritten from scratch
+- Added option to set video preview size
+- Added system name title to basic gamelist view
+- Fixed some translations
+
 # v6.1.x
 - Added new detailed_3 gamelist view
 - Added option to set video preview latency

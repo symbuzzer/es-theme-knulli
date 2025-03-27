@@ -17,11 +17,12 @@
 		<subset.options.horizontal>horizontale</subset.slideType.horizontal>
 		<subset.options.vertical>verticale</subset.slideType.vertical>
 
+		<subset.options.full>plein écran</subset.options.full>
+
 		<subset.options.normal>normale</subset.options.normal>
 		<subset.options.fast>rapide</subset.options.fast>
 
 		<lang.detailed_2>detaillé 2</lang.detailed_2>
-		<lang.detailed_3>detaillé 3</lang.detailed_3>
 
 		<subset.system>système</subset.system>
 
@@ -35,6 +36,8 @@
 		<subset.helpIcons>icône d'aide</subset.helpIcons>
 
 		<subset.videoPreviews>aperçus vidéo</subset.videoPreviews>
+
+		<subset.videoSize>taille de l'aperçu vidéo</subset.videoSize>
 
 		<subset.videoLatency>latence vidéo (secondes)</subset.videoLatency>
 

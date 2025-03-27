@@ -17,11 +17,12 @@
 		<subset.options.horizontal>pionowy</subset.options.horizontal>
 		<subset.options.vertical>poziomy</subset.options.vertical>
 
+		<subset.options.full>pełny ekran</subset.options.full>
+
 		<subset.options.normal>normalna</subset.options.normal>
 		<subset.options.fast>szybko</subset.options.fast>
 
 		<lang.detailed_2>szczegółowy 2</lang.detailed_2>
-		<lang.detailed_3>szczegółowy 3</lang.detailed_3>
 
 		<subset.system>system</subset.system>
 
@@ -35,6 +36,8 @@
 		<subset.helpIcons>przyciski nawigacyjne</subset.helpIcons>
 
 		<subset.videoPreviews>podgląd wideo</subset.videoPreviews>
+
+		<subset.videoSize>rozmiar podglądu wideo</subset.videoSize>
 
 		<subset.videoLatency>opóźnienie wideo (sekundy)</subset.videoLatency>
 

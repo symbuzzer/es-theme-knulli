@@ -17,11 +17,12 @@
 		<subset.options.horizontal>horizontal</subset.options.horizontal>
 		<subset.options.vertical>vertical</subset.options.vertical>
 
+		<subset.options.full>ecrã inteiro</subset.options.full>
+
 		<subset.options.normal>normal</subset.options.normal>
 		<subset.options.fast>rápida</subset.options.fast>
 
 		<lang.detailed_2>detalhado 2</lang.detailed_2>
-		<lang.detailed_3>detalhado 3</lang.detailed_3>
 
 		<subset.system>sistema</subset.system>
 
@@ -35,6 +36,8 @@
 		<subset.helpIcons>botões de ajuda</subset.helpIcons>
 
 		<subset.videoPreviews>pré-visualização de video </subset.videoPreviews>
+
+		<subset.videoSize>tamanho da pré-visualização do vídeo</subset.videoSize>
 
 		<subset.videoLatency>latência de vídeo (segundos)</subset.videoLatency>
 

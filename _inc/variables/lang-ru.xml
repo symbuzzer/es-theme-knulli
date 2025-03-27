@@ -17,11 +17,12 @@
 		<subset.options.horizontal>горизонтальная</subset.options.horizontal>
 		<subset.options.vertical>вертикальная</subset.options.vertical>
 
+		<subset.options.full>Полный экран</subset.options.full>
+
 		<subset.options.normal>нормальная</subset.options.normal>
 		<subset.options.fast>быстро</subset.options.fast>
 
 		<lang.detailed_2>детализировано 2</lang.detailed_2>
-		<lang.detailed_3>детализировано 3</lang.detailed_3>
 
 		<subset.system>системы</subset.system>
 
@@ -35,6 +36,8 @@
 		<subset.helpIcons>кнопки помощи</subset.helpIcons>
 
 		<subset.videoPreviews>видео превью</subset.videoPreviews>
+
+		<subset.videoSize>размер предварительного просмотра видео</subset.videoSize>
 
 		<subset.videoLatency>Задержка видео (секунды)</subset.videoLatency>
 

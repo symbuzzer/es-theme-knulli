@@ -124,11 +124,11 @@
 		<video ifSubset="videoPreviews:enabled" name="md_video"
 		
 			zIndex="1000"
+			showSnapshotNoVideo="true"
+			showSnapshotDelay="true"	
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			showSnapshotNoVideo="true"	
-			showSnapshotDelay="true"
 			effect="none"
 			roundCorners="0.018"
 			origin="0.5 0.33"
@@ -144,8 +144,10 @@
 
 		</video>
 
-		<image ifSubset="videoPreviews:disabled" name="md_boxart"
+		<image ifSubset="videoPreviews:disabled" name="game-artwork"
 
+			extra="true"
+			path="{game:image}"
 			zIndex="1000"
 			linearSmooth="true"
 			saturation="0.75"

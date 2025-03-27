@@ -17,44 +17,47 @@
 		<subset.options.horizontal>horizontal</subset.options.horizontal>
 		<subset.options.vertical>vertikal</subset.options.vertical>
 
+		<subset.options.full>vollbild</subset.options.full>
+
 		<subset.options.normal>normal</subset.options.normal>
 		<subset.options.fast>schnell</subset.options.fast>
 
 		<lang.detailed_2>detailliert 2</lang.detailed_2>
-		<lang.detailed_3>detailliert 3</lang.detailed_3>
 
-		<subset.system>System</subset.system>
+		<subset.system>system</subset.system>
 
-		<subset.slideType>Scrolltyp ein</subset.slideType>
+		<subset.slideType>scrolltyp ein</subset.slideType>
 
-		<subset.themeColors>Farbschema</subset.themeColors>
+		<subset.themeColors>farbschema</subset.themeColors>
 
-		<subset.splashscreen>Startbildschirm</subset.splashscreen>
+		<subset.splashscreen>startbildschirm</subset.splashscreen>
 		<subset.splashscreen.colorset>automatisch (aus Farbschema)</subset.splashscreen.colorset>
 
-		<subset.helpIcons>Hilfetasten</subset.helpIcons>
+		<subset.helpIcons>hilfetasten</subset.helpIcons>
 
-		<subset.videoPreviews>Videovorschau ein</subset.videoPreviews>
+		<subset.videoPreviews>videovorschau ein</subset.videoPreviews>
 
-		<subset.videoLatency>Videoverzögerung (Sekunden)</subset.videoLatency>
+		<subset.videoSize>videovorschaugröße</subset.videoSize>
 
-		<subset.systemlogoeffects>Logoeffekte ein</subset.systemlogoeffects>
+		<subset.videoLatency>videoverzögerung (Sekunden)</subset.videoLatency>
 
-		<subset.systemlogosongamelists>Systemlogos in Spielelisten anzeigen</subset.systemlogosongamelists>
+		<subset.systemlogoeffects>logoeffekte ein</subset.systemlogoeffects>
 
-		<subset.systemRegion>Region</subset.systemRegion>
+		<subset.systemlogosongamelists>systemlogos in Spielelisten anzeigen</subset.systemlogosongamelists>
 
-		<subset.gamecount>Spielanzahl anzeigen</subset.gamecount>
+		<subset.systemRegion>region</subset.systemRegion>
 
-		<subset.batterybar>Akkustand anzeigen</subset.batterybar>
+		<subset.gamecount>spielanzahl anzeigen</subset.gamecount>
 
-		<subset.scrollSpeed>Beschreibung Scrollgeschwindigkeit</subset.scrollSpeed>
+		<subset.batterybar>akkustand anzeigen</subset.batterybar>
 
-		<subset.themeVersionString>Design-Version</subset.themeVersionString>
+		<subset.scrollSpeed>beschreibung Scrollgeschwindigkeit</subset.scrollSpeed>
 
-		<lang.elements>Elemente</lang.elements>
-		<lang.favorites>Favoriten</lang.favorites>
-		<lang.favoritesReplacement>Favoriten</lang.favoritesReplacement>
+		<subset.themeVersionString>design-Version</subset.themeVersionString>
+
+		<lang.elements>elemente</lang.elements>
+		<lang.favorites>favoriten</lang.favorites>
+		<lang.favoritesReplacement>favoriten</lang.favoritesReplacement>
 		<lang.played>gestartet</lang.played>
 		<lang.mostPlayed>am meisten gestartet</lang.mostPlayed>
 		<lang.lastPlayedDate>zuletzt gestartet</lang.lastPlayedDate>

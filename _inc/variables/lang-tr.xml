@@ -17,11 +17,12 @@
 		<subset.options.horizontal>yatay</subset.options.horizontal>
 		<subset.options.vertical>dİkey</subset.options.vertical>
 
+		<subset.options.full>tam ekran</subset.options.full>
+
 		<subset.options.normal>normal</subset.options.normal>
 		<subset.options.fast>hızlı</subset.options.fast>
 
 		<lang.detailed_2>detaylandırılmış 2</lang.detailed_2>
-		<lang.detailed_3>detaylandırılmış 3</lang.detailed_3>
 
 		<subset.system>sİstem</subset.system>
 
@@ -35,6 +36,8 @@
 		<subset.helpIcons>yardım butonları</subset.helpIcons>
 
 		<subset.videoPreviews>vİdeo önİzlemelerİ</subset.videoPreviews>
+
+		<subset.videoSize>vİdeo önİzleme boyutu</subset.videoSize>
 
 		<subset.videoLatency>vİdeo önİzleme gecİkmesİ (sanİye)</subset.videoLatency>
 

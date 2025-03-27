@@ -6,25 +6,32 @@
 	
 	<customView name="detailed_2" inherits="detailed" displayName="${lang.detailed_2}">
 
-		<image ifSubset="systemlogosongamelists:no" name="logo"
+		<video ifSubset="videoPreviews:enabled,videoSize:normal" name="md_video"
+		
+			origin="0.5 0.5"
+			maxSize="${v.frameRight.size}"
+			pos="${v.frameRight.pos}"
+			
+		/>
+		<video ifSubset="videoPreviews:disabled" name="md_video"
 		
 			visible="false"
-
+			
 		/>
 
-		<video ifSubset="videoPreviews:enabled" name="md_video"
+		<video ifSubset="videoPreviews:enabled,videoSize:full" name="game-video"
 		
+			extra="true"
+			path="{game:video}"
 			zIndex="1000"
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			showSnapshotNoVideo="true"	
-			showSnapshotDelay="true"
 			effect="none"
 			roundCorners="0.018"
 			origin="0.5 0.5"
-			maxSize="${v.frameRight.size}"
-			pos="${v.frameRight.pos}"
+			maxSize="${v.frame.size}"
+			pos="${v.frame.pos}"
 			
 		>
 
@@ -35,7 +42,13 @@
 
 		</video>
 
-		<image ifSubset="videoPreviews:disabled" name="md_boxart"
+		<video ifSubset="videoSize:full" name="md_video"
+		
+			visible="false"
+			
+		/>
+
+		<image ifSubset="videoPreviews:disabled,videoSize:normal" name="md_image"
 
 			zIndex="1000"
 			linearSmooth="true"
@@ -46,6 +59,23 @@
 			origin="0.5 0.5"
 			maxSize="${v.frameRight.size}"
 			pos="${v.frameRight.pos}"
+
+		/>
+
+		<image ifSubset="videoSize:full" name="game-artwork"
+
+			extra="true"
+			path="{game:image}"
+			zIndex="999"
+			origin="0.5 0.5"
+			maxSize="${v.frameRight.size}"
+			pos="${v.frameRight.pos}"
+
+		/>
+
+		<image ifSubset="videoPreviews:disabled,videoSize:normal" name="game-artwork"
+
+			visible="false"
 
 		/>
 

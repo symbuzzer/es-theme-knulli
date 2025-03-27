@@ -17,11 +17,12 @@
 		<subset.options.horizontal>水平</subset.options.horizontal>
 		<subset.options.vertical>垂直</subset.options.vertical>
 
+		<subset.options.full>全画面</subset.options.full>
+
 		<subset.options.normal>通常</subset.options.normal>
 		<subset.options.fast>速い</subset.options.fast>
 
 		<lang.detailed_2>詳細 2</lang.detailed_2>
-		<lang.detailed_3>詳細 3</lang.detailed_3>
 
 		<subset.system>システム</subset.system>
 
@@ -35,6 +36,8 @@
 		<subset.helpIcons>ヘルプボタン</subset.helpIcons>
 
 		<subset.videoPreviews>ビデオプレビューオン</subset.videoPreviews>
+
+		<subset.videoSize>ビデオプレビューのサイズ</subset.videoSize>
 
 		<subset.videoLatency>ビデオ遅延（秒）</subset.videoLatency>
 

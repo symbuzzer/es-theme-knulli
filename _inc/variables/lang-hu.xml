@@ -17,11 +17,12 @@
 		<subset.options.horizontal>vízszintes</subset.options.horizontal>
 		<subset.options.vertical>függőleges</subset.options.vertical>
 
+		<subset.options.full>teljes képernyő</subset.options.full>
+
 		<subset.options.normal>normális</subset.options.normal>
 		<subset.options.fast>gyors</subset.options.fast>
 
 		<lang.detailed_2>részletes 2</lang.detailed_2>
-		<lang.detailed_3>részletes 3</lang.detailed_3>
 
 		<subset.system>rendszer</subset.system>
 
@@ -35,6 +36,8 @@
 		<subset.helpIcons>segítség gombok</subset.helpIcons>
 
 		<subset.videoPreviews>videó előnézet bekapcsolva</subset.videoPreviews>
+
+		<subset.videoSize>videó előnézeti mérete</subset.videoSize>
 
 		<subset.videoLatency>videokésés (másodperc)</subset.videoLatency>
 

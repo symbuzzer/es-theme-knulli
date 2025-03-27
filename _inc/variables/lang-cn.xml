@@ -17,11 +17,12 @@
 		<subset.options.horizontal>水平</subset.options.horizontal>
 		<subset.options.vertical>垂直</subset.options.vertical>
 
+		<subset.options.full>全屏</subset.options.full>
+
 		<subset.options.normal>正常</subset.options.normal>
 		<subset.options.fast>快速</subset.options.fast>
 
 		<lang.detailed_2>详细 2</lang.detailed_2>
-		<lang.detailed_3>详细 3</lang.detailed_3>
 
 		<subset.system>系统</subset.system>
 
@@ -35,6 +36,8 @@
 		<subset.helpIcons>帮助按钮</subset.helpIcons>
 
 		<subset.videoPreviews>视频预览开启</subset.videoPreviews>
+
+		<subset.videoSize>视频预览大小</subset.videoSize>
 
 		<subset.videoLatency>视频延迟（秒）</subset.videoLatency>
 

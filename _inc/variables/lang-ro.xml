@@ -17,11 +17,12 @@
 		<subset.options.horizontal>orizontal</subset.options.horizontal>
 		<subset.options.vertical>vertical</subset.options.vertical>
 
+		<subset.options.full>ecran complet</subset.options.full>
+
 		<subset.options.normal>normal</subset.options.normal>
 		<subset.options.fast>rapid</subset.options.fast>
 
 		<lang.detailed_2>detaliat 2</lang.detailed_2>
-		<lang.detailed_3>detaliat 3</lang.detailed_3>
 
 		<subset.sistem>system</subset.system>
 
@@ -35,6 +36,8 @@
 		<subset.helpIcons>butoane de ajutor</subset.helpIcons>
 
 		<subset.videoPreviews>previzualizare video</subset.videoPreviews>
+
+		<subset.videoSize>dimensiunea previzualizării video</subset.videoSize>
 
 		<subset.videoLatency>latență video (secunde)</subset.videoLatency>
 
