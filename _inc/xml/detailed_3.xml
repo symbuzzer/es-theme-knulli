@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <theme>
 
 	<formatVersion>7</formatVersion>
 	
-	<customView name="detailed_2" inherits="detailed" displayName="${lang.detailed_2}">
+	<customView name="detailed_3" inherits="detailed" displayName="${lang.detailed_3}">
 
 		<image ifSubset="systemlogosongamelists:no" name="logo"
 		
@@ -12,19 +12,19 @@
 
 		/>
 
-		<video ifSubset="videoPreviews:enabled" name="md_video"
+		<video ifSubset="videoPreviews:enabled" name="game-video"
 		
+			extra="true"
+			path="{game:video}"
 			zIndex="1000"
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
-			showSnapshotNoVideo="true"	
-			showSnapshotDelay="true"
 			effect="none"
 			roundCorners="0.018"
 			origin="0.5 0.5"
-			maxSize="${v.frameRight.size}"
-			pos="${v.frameRight.pos}"
+			maxSize="${v.frame.size}"
+			pos="${v.frame.pos}"
 			
 		>
 
@@ -35,9 +35,11 @@
 
 		</video>
 
-		<image ifSubset="videoPreviews:disabled" name="md_boxart"
+		<image name="game-artwork"
 
-			zIndex="1000"
+			extra="true"
+			path="{game:thumbnail}"
+			zIndex="999"
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
@@ -48,6 +50,19 @@
 			pos="${v.frameRight.pos}"
 
 		/>
+
+		<video name="md_video"
+		
+			visible="false"
+			
+		/>
+
+		<image name="md_boxart"
+
+			visible="false"
+
+		/>
+
 
 		<text name="md_description,noDescription"
 		

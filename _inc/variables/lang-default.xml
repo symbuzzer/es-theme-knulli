@@ -21,6 +21,7 @@
 		<subset.options.fast>fast</subset.options.fast>
 
 		<lang.detailed_2>detailed 2</lang.detailed_2>
+		<lang.detailed_3>detailed 3</lang.detailed_3>
 
 		<subset.system>system</subset.system>
 
@@ -34,6 +35,8 @@
 		<subset.helpIcons>help buttons</subset.helpIcons>
 
 		<subset.videoPreviews>video previews on</subset.videoPreviews>
+
+		<subset.videoLatency>video preview latency (seconds)</subset.videoLatency>
 
 		<subset.systemlogoeffects>logo effects on</subset.systemlogoeffects>
 

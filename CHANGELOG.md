@@ -1,3 +1,7 @@
+# v6.1.x
+- Added new detailed_3 gamelist view
+- Added option to set video preview latency
+
 # v5.11.x
 - Added SV translation
 

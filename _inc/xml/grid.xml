@@ -163,26 +163,6 @@
 			animateColor="${c.menuSelector}"
 			animateColorTime="160"
 		/>			
-			
-		<image name="md_kidgame,md_notkidgame"
-		
-			zIndex="900"
-			linearSmooth="true"
-			origin="0.5 0"
-			pos="0.8799479166666667 0.333"
-			path="./../parts/kid.svg"
-			maxSize="0.12 0.28"
-			color="${c.text}4d"
-			opacity="1"
-			visible="false"
-			
-		/>
-			
-		<image name="md_notkidgame"
-		
-			color="00000000"
-			
-		/>
 		
 		<image name="md_hidden"
 		
