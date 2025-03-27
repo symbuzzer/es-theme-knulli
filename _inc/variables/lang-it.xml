@@ -21,6 +21,7 @@
 		<subset.options.fast>veloce</subset.options.fast>
 
 		<lang.detailed_2>dettagliato 2</lang.detailed_2>
+		<lang.detailed_3>dettagliato 3</lang.detailed_3>
 
 		<subset.system>sistema</subset.system>
 
@@ -34,6 +35,8 @@
 		<subset.helpIcons>icone di aiuto</subset.helpIcons>
 
 		<subset.videoPreviews>anteprima video</subset.videoPreviews>
+
+		<subset.videoLatency>latenza video (secondi)</subset.videoLatency>
 
 		<subset.systemlogoeffects>effetti logo attivi</subset.systemlogoeffects>
 

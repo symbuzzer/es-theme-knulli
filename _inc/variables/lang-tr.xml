@@ -21,6 +21,7 @@
 		<subset.options.fast>hızlı</subset.options.fast>
 
 		<lang.detailed_2>detaylandırılmış 2</lang.detailed_2>
+		<lang.detailed_3>detaylandırılmış 3</lang.detailed_3>
 
 		<subset.system>sİstem</subset.system>
 
@@ -31,10 +32,11 @@
 		<subset.splashscreen>yükleme ekranı resmİ</subset.splashscreen>
 		<subset.splashscreen.colorset>otomatİk (tema rengİne göre)</subset.splashscreen.colorset>
 
-
 		<subset.helpIcons>yardım butonları</subset.helpIcons>
 
 		<subset.videoPreviews>vİdeo önİzlemelerİ</subset.videoPreviews>
+
+		<subset.videoLatency>vİdeo önİzleme gecİkmesİ (sanİye)</subset.videoLatency>
 
 		<subset.systemlogoeffects>sistem logo efektlerİ</subset.systemlogoeffects>
 

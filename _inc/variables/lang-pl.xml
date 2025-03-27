@@ -21,6 +21,7 @@
 		<subset.options.fast>szybko</subset.options.fast>
 
 		<lang.detailed_2>szczegółowy 2</lang.detailed_2>
+		<lang.detailed_3>szczegółowy 3</lang.detailed_3>
 
 		<subset.system>system</subset.system>
 
@@ -35,8 +36,9 @@
 
 		<subset.videoPreviews>podgląd wideo</subset.videoPreviews>
 
-		<subset.systemlogoeffects>efekty logo</subset.systemlogoeffects>
+		<subset.videoLatency>opóźnienie wideo (sekundy)</subset.videoLatency>
 
+		<subset.systemlogoeffects>efekty logo</subset.systemlogoeffects>
 
 		<subset.systemlogosongamelists>pokazuj logo systemu</subset.systemlogosongamelists>
 

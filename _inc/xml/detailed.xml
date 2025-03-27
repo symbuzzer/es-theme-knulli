@@ -130,13 +130,19 @@
 			showSnapshotNoVideo="true"	
 			showSnapshotDelay="true"
 			effect="none"
-			delay="1"
 			roundCorners="0.018"
 			origin="0.5 0.33"
 			maxSize="0.50 0.50"
 			pos="${v.video.pos}"
 			
-		/>
+		>
+
+			<delay ifSubset="videoLatency:2">2</delay>
+			<delay ifSubset="videoLatency:5">5</delay>
+			<delay ifSubset="videoLatency:8">8</delay>
+			<delay ifSubset="videoLatency:15">15</delay>
+
+		</video>
 
 		<image ifSubset="videoPreviews:disabled" name="md_boxart"
 

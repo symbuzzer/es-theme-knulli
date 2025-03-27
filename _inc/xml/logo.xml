@@ -78,7 +78,7 @@
 			
 		/>
 
-		<carousel ifSubset="slideType:vertical" name="logoText"
+		<carousel ifSubset="slideType:vertical" name="systemcarousel"
 			type="vertical"
 		/>
 

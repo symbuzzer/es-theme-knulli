@@ -21,6 +21,7 @@
 		<subset.options.fast>acelerada</subset.options.fast>
 
 		<lang.detailed_2>detallado 2</lang.detailed_2>
+		<lang.detailed_3>detallado 3</lang.detailed_3>
 
 		<subset.system>sistema</subset.system>
 
@@ -34,6 +35,8 @@
 		<subset.helpIcons>botones de ayuda</subset.helpIcons>
 
 		<subset.videoPreviews>previsualización de video</subset.videoPreviews>
+
+		<subset.videoLatency>latencia de video (segundos)</subset.videoLatency>
 
 		<subset.systemlogoeffects>efectos de logo al iniciar</subset.systemlogoeffects>
 

@@ -1,0 +1,9 @@
+A) If pre-installed with Knulli
+- Download latest "es-theme-knulli-updater.sh" from "symbuzzer.github.io/etk"
+- Copy "es-theme-knulli-updater.sh" to "roms/tools" folder as a game rom
+- From Knulli, refresh gamelist and run "es-theme-knulli-updater" from "TOOLS" collection
+- It will update itself if needed
+
+B) If installed from official store
+- On your console, open "MAIN MENU > UPDATES & DOWNLOADS > THEMES"
+- Go Installed tab and select "Knulli > Update"

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<subset.options.default>standard</subset.options.default>
+
+		<subset.options.yes>ja</subset.options.yes>
+		<subset.options.no>nej</subset.options.no>
+
+		<subset.options.enabled>aktiverad</subset.options.enabled>
+		<subset.options.disabled>deaktiverad</subset.options.disabled>
+
+		<subset.options.horizontal>horisontell</subset.options.horizontal>
+		<subset.options.vertical>vertikal</subset.options.vertical>
+
+		<subset.options.normal>normal</subset.options.normal>
+		<subset.options.fast>snabb</subset.options.fast>
+
+		<lang.detailed_2>detaljerad 2</lang.detailed_2>
+		<lang.detailed_3>detaljerad 3</lang.detailed_3>
+
+		<subset.system>system</subset.system>
+
+		<subset.slideType>rullningstyp aktiverad</subset.slideType>
+
+		<subset.themeColors>färgschema</subset.themeColors>
+
+		<subset.splashscreen>startskärm</subset.splashscreen>
+		<subset.splashscreen.colorset>automatisk (från färgschema)</subset.splashscreen.colorset>
+
+		<subset.helpIcons>hjälpknappar</subset.helpIcons>
+
+		<subset.videoPreviews>videovisningar aktiverade</subset.videoPreviews>
+
+		<subset.videoLatency>videofördröjning (sekunder)</subset.videoLatency>
+
+		<subset.systemlogoeffects>logoeffekter aktiverade</subset.systemlogoeffects>
+
+		<subset.systemlogosongamelists>visa systemlogotyper på spel-listor</subset.systemlogosongamelists>
+
+		<subset.systemRegion>region</subset.systemRegion>
+
+		<subset.gamecount>visa antal spel</subset.gamecount>
+
+		<subset.batterybar>visa batteristatus</subset.batterybar>
+
+		<subset.scrollSpeed>beskrivningens rullhastighet aktiverad</subset.scrollSpeed>
+
+		<subset.themeVersionString>temaversion</subset.themeVersionString>
+
+		<lang.elements>objekt</lang.elements>
+		<lang.favorites>favoriter</lang.favorites>
+		<lang.favoritesReplacement>favoriter</lang.favoritesReplacement>
+		<lang.played>startad</lang.played>
+		<lang.mostPlayed>mest startad</lang.mostPlayed>
+		<lang.lastPlayedDate>senaste start</lang.lastPlayedDate>
+		<lang.at>vid</lang.at>
+
+		<lang.developedBy>utvecklad av</lang.developedBy>
+		<lang.publiedIn>publicerad i</lang.publiedIn>
+		<lang.developedAndPubliedIn>utvecklad och publicerad i</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>utvecklad och publicerad av</lang.developedAndPubliedBy>
+		<lang.publied>publicerad</lang.publied>
+		<lang.by>av</lang.by>
+		<lang.and>och</lang.and>
+		<lang.noRating>ingen betyg</lang.noRating>
+		<lang.neverPlayed>aldrig startad</lang.neverPlayed>
+		<lang.gamePlayers>antal spelare</lang.gamePlayers>
+		<lang.timesPlayed>antal gånger spelad</lang.timesPlayed>
+		<lang.lastPlayed>senaste gången</lang.lastPlayed>
+		<lang.releasedIn>släppt i</lang.releasedIn>
+		<lang.released>släppt</lang.released>
+
+		<!-- Use upper and lower case punctuation -->
+
+		<lang.noDesc>Tyvärr, ingen beskrivning för denna fil hittades. Du kan försöka hämta den eller manuellt redigera gamelist.xml-filen.</lang.noDesc>
+	
+	</variables>
+
+</theme>

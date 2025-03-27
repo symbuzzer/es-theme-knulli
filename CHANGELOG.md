@@ -1,4 +1,14 @@
-# 5.9.x
+# v6.1.x
+- Added new detailed_3 gamelist view
+- Added option to set video preview latency
+
+# v5.11.x
+- Added SV translation
+
+# v5.10.x
+- Fixed a critical bug when selected vertical slide for system view
+
+# v5.9.x
 - Added support for different language assets for system images
 - Added Turkish assets for system images
 
