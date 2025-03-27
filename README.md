@@ -33,6 +33,8 @@ Here, es-theme-knulli is here to overcome this. This is your and the community's
 - Show or hide system logos on game lists
 - Show or hide game names one grid view
 - Disable video preview option for all gamelist views
+- Set video preview size on detailed 2 gamelist view
+- Set latency for video preview on detailed and detailed 2 gamelist views
 - Scroll speed option for game description on detailed view
 - Disable system animations
 - Hide help bar completely from ES settings
