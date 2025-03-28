@@ -1,3 +1,7 @@
+# 6.3.x
+- Added separate option to show/hide system logo on basic gamelist view
+- Removed system name title from basic gamelist view due batocera's translation issues
+
 # v6.2.x
 - Removed detailed_3 gamelist view
 - detailed_2 view rewritten from scratch
