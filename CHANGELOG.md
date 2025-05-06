@@ -1,4 +1,7 @@
-# 6.3.x
+# v6.4.x
+- Added Knulli Gladiator splash image
+
+# v6.3.x
 - Added separate option to show/hide system logo on basic gamelist view
 - Removed system name title from basic gamelist view due batocera's translation issues
 
