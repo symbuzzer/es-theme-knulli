@@ -9,7 +9,7 @@
 
     <variables>
 		
-		<v.themeVersion>6.3.1</v.themeVersion>
+		<v.themeVersion>6.4.1</v.themeVersion>
 		<v.themeAuthor>github.com/symbuzzer</v.themeAuthor>
 
 		<v.allViews>system,basic,detailed,detailed_2,grid</v.allViews>
@@ -156,6 +156,7 @@
 		<include name="colorset" displayName="${subset.splashscreen.colorset}" />
 		<include name="default" displayName="${subset.options.default}" />
 		<include name="knulli" displayName="knulli" />
+		<include name="knulli_gladiator" displayName="knulli gladiator" />
 		<include name="knulli_firefly" displayName="knulli firefly" />
 		<include name="batocera" displayName="batocera" />
 		<include name="rocknix" displayName="rocknix" />
