@@ -1,3 +1,6 @@
+# v6.5.x
+- Fixed Knulli Gladiator splash image
+
 # v6.4.x
 - Added Knulli Gladiator splash image
 
