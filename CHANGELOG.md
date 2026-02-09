@@ -1,3 +1,6 @@
+# v6.6.x
+- Fixed Chinese translation
+
 # v6.5.x
 - Fixed Knulli Gladiator splash image
 
