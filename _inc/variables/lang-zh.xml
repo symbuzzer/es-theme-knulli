@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<variables>
+
+		<subset.options.default>默认</subset.options.default>
+
+		<subset.options.yes>是</subset.options.yes>
+		<subset.options.no>否</subset.options.no>
+
+		<subset.options.enabled>启用</subset.options.enabled>
+		<subset.options.disabled>禁用</subset.options.disabled>
+
+		<subset.options.horizontal>水平</subset.options.horizontal>
+		<subset.options.vertical>垂直</subset.options.vertical>
+
+		<subset.options.full>全屏</subset.options.full>
+
+		<subset.options.normal>正常</subset.options.normal>
+		<subset.options.fast>快速</subset.options.fast>
+
+		<lang.detailed_2>详细 2</lang.detailed_2>
+
+		<subset.system>系统</subset.system>
+
+		<subset.slideType>滚动类型开启</subset.slideType>
+
+		<subset.themeColors>配色方案</subset.themeColors>
+
+		<subset.splashscreen>启动画面</subset.splashscreen>
+		<subset.splashscreen.colorset>自动 (来自配色方案)</subset.splashscreen.colorset>
+
+		<subset.helpIcons>帮助按钮</subset.helpIcons>
+
+		<subset.videoPreviews>视频预览开启</subset.videoPreviews>
+
+		<subset.videoSize>视频预览大小</subset.videoSize>
+
+		<subset.videoLatency>视频延迟（秒）</subset.videoLatency>
+
+		<subset.systemlogoeffects>徽标效果开启</subset.systemlogoeffects>
+
+		<subset.systemlogosongamelists>在游戏列表中显示系统徽标</subset.systemlogosongamelists>
+
+		<subset.systemRegion>地区</subset.systemRegion>
+
+		<subset.gamecount>显示游戏数量</subset.gamecount>
+
+		<subset.batterybar>显示电池栏</subset.batterybar>
+
+		<subset.scrollSpeed>描述滚动速度</subset.scrollSpeed>
+
+		<subset.themeVersionString>主题版本</subset.themeVersionString>
+
+		<lang.elements>项目</lang.elements>
+		<lang.favorites>收藏</lang.favorites>
+		<lang.favoritesReplacement>收藏</lang.favoritesReplacement>
+		<lang.played>已启动</lang.played>
+		<lang.mostPlayed>最常启动</lang.mostPlayed>
+		<lang.lastPlayedDate>上次启动</lang.lastPlayedDate>
+		<lang.at>在</lang.at>
+
+		<lang.developedBy>开发者</lang.developedBy>
+		<lang.publiedIn>发布于</lang.publiedIn>
+		<lang.developedAndPubliedIn>开发并发布于</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>开发并发布者</lang.developedAndPubliedBy>
+		<lang.publied>已发布</lang.publied>
+		<lang.by>由</lang.by>
+		<lang.and>和</lang.and>
+		<lang.noRating>无评分</lang.noRating>
+		<lang.neverPlayed>从未玩过</lang.neverPlayed>
+		<lang.gamePlayers>玩家数量</lang.gamePlayers>
+		<lang.timesPlayed>游戏次数</lang.timesPlayed>
+		<lang.lastPlayed>上次游戏</lang.lastPlayed>
+		<lang.releasedIn>发行于</lang.releasedIn>
+		<lang.released>已发行</lang.released>
+
+		<lang.noDesc>抱歉，未找到该文件的描述。您可以尝试爬取信息或手动编辑 gamelist.xml 文件。</lang.noDesc>
+	
+	</variables>
+
+</theme>
