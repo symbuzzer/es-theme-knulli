@@ -1,3 +1,6 @@
+# v6.7.x
+- Added bennugd system logo
+
 # v6.6.x
 - Fixed Chinese translation
 
