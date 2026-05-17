@@ -24,6 +24,10 @@
     			path="./_inc/parts/splash/knulli.png"
 		/>
 
+	   	<image ifSubset="splashscreen:knulli_scarab" name="background"
+    			path="./_inc/parts/splash/knulli_scarab.png"
+		/>
+
 	   	<image ifSubset="splashscreen:knulli_gladiator" name="background"
     			path="./_inc/parts/splash/knulli_gladiator.png"
 		/>
