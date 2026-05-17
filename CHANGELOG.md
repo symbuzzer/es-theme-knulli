@@ -1,3 +1,6 @@
+# v6.8.x
+- Added Knull Scarab splash screen
+  
 # v6.7.x
 - Added bennugd system logo
 
