@@ -126,6 +126,7 @@
 			zIndex="1000"
 			showSnapshotNoVideo="true"
 			showSnapshotDelay="true"	
+			snapshotSource="image"
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
@@ -144,13 +145,19 @@
 
 		</video>
 
+		<video ifSubset="imagesource:boxart" name="md_video"
+		
+			snapshotSource="thumbnail"
+			
+		/>
+
 		<image ifSubset="videoPreviews:disabled" name="game-artwork"
 
 			extra="true"
-			path="{game:image}"
 			zIndex="1000"
 			linearSmooth="true"
 			saturation="0.75"
+			path="{game:image}"
 			color="efefef"
 			effect="none"
 			roundCorners="0.018"
@@ -158,6 +165,12 @@
 			maxSize="0.55 0.50"
 			pos="${v.boxart.pos}"
 
+		/>
+
+		<image ifSubset="imagesource:boxart" name="game-artwork"
+		
+			path="{game:thumbnail}"
+			
 		/>
 
 		<text name="md_gametime"

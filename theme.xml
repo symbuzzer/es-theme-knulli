@@ -208,6 +208,17 @@
 	
 	</subset>
 
+	<subset name="imagesource"
+	
+		displayName="${subset.imagesource}"
+		
+	>
+
+		<include name="screenshot" displayName="${subset.options.screenshot}" />
+		<include name="boxart" displayName="${subset.options.boxart}" />	
+	
+	</subset>
+
 	<subset name="videoPreviews"
 	
 		displayName="${subset.videoPreviews}"

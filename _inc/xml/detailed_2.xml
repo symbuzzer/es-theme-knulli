@@ -10,9 +10,17 @@
 		
 			origin="0.5 0.5"
 			maxSize="${v.frameRight.size}"
+			snapshotSource="image"
 			pos="${v.frameRight.pos}"
 			
 		/>
+
+		<video ifSubset="imagesource:boxart" name="md_video"
+		
+			snapshotSource="thumbnail"
+			
+		/>
+
 		<video ifSubset="videoPreviews:disabled" name="md_video"
 		
 			visible="false"
@@ -27,6 +35,7 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
+			snapshotSource="image"
 			effect="none"
 			roundCorners="0.018"
 			origin="0.5 0.5"
@@ -54,12 +63,19 @@
 			linearSmooth="true"
 			saturation="0.75"
 			color="efefef"
+			path="{game:image}"
 			effect="none"
 			roundCorners="0.018"
 			origin="0.5 0.5"
 			maxSize="${v.frameRight.size}"
 			pos="${v.frameRight.pos}"
 
+		/>
+
+		<image ifSubset="imagesource:boxart" name="md_image"
+		
+			path="{game:thumbnail}"
+			
 		/>
 
 		<image ifSubset="videoSize:full" name="game-artwork"
@@ -71,6 +87,12 @@
 			maxSize="${v.frameRight.size}"
 			pos="${v.frameRight.pos}"
 
+		/>
+
+		<image ifSubset="imagesource:boxart" name="game-artwork"
+		
+			path="{game:thumbnail}"
+			
 		/>
 
 		<image ifSubset="videoPreviews:disabled,videoSize:normal" name="game-artwork"

@@ -14,6 +14,9 @@
 		<subset.options.enabled>enabled</subset.options.enabled>
 		<subset.options.disabled>disabled</subset.options.disabled>
 
+		<subset.options.screenshot>Screenshot</subset.options.screenshot>
+		<subset.options.boxart>Boxart</subset.options.boxart>
+
 		<subset.options.horizontal>horizontal</subset.options.horizontal>
 		<subset.options.vertical>vertical</subset.options.vertical>
 
@@ -29,6 +32,8 @@
 		<subset.slideType>scroll type</subset.slideType>
 
 		<subset.themeColors>colorset</subset.themeColors>
+
+		<subset.imagesource>image source</subset.imageSource>
 
 		<subset.splashscreen>splashscreen</subset.splashscreen>
 		<subset.splashscreen.colorset>auto (from colorset)</subset.splashscreen.colorset>
