@@ -2,7 +2,7 @@
 - Added Catalan translation
 
 # v6.8.x
-- Added Knull Scarab splash screen
+- Added Knulli Scarab splash screen
   
 # v6.7.x
 - Added bennugd system logo
