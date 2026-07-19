@@ -48,7 +48,7 @@ Here, es-theme-knulli is here to overcome this. This is your and the community's
 - [Download](https://github.com/symbuzzer/es-theme-knulli/archive/refs/heads/main.zip)
 
 ## HOW TO INSTALL
-  *Note: This theme comes pre-installed on latest Knulli public release (20241204). Please check USER INTERFACE SETTINGS > THEME SET menu for checkinf if pre-installed or not. If it is already pre-installed, skip these steps and see [HOW TO UPDATE](https://github.com/symbuzzer/es-theme-knulli#a-if-pre-installed-with-knulli) section above.*
+  *Note: This theme comes pre-installed on all Knulli public release begining from 20241204. Please check USER INTERFACE SETTINGS > THEME SET menu for checking if pre-installed or not. If it is already pre-installed, skip these steps and see [HOW TO UPDATE](https://github.com/symbuzzer/es-theme-knulli#a-if-pre-installed-with-knulli) section above.*
 - On your console, open ```MAIN MENU > UPDATES & DOWNLOADS > THEMES```
 - Find ```Knulli``` and install from there
 
