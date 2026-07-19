@@ -1,3 +1,6 @@
+# v6.9.x
+- Added Catalan translation
+
 # v6.8.x
 - Added Knull Scarab splash screen
   

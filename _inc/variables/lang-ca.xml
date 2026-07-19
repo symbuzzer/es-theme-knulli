@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+	<variables>
+
+		<subset.options.default>predeterminat</subset.options.default>
+
+		<subset.options.yes>sí</subset.options.yes>
+		<subset.options.no>no</subset.options.no>
+
+		<subset.options.enabled>activat</subset.options.enabled>
+		<subset.options.disabled>desactivat</subset.options.disabled>
+
+		<subset.options.horizontal>horitzontal</subset.options.horizontal>
+		<subset.options.vertical>vertical</subset.options.vertical>
+
+		<subset.options.full>pantalla completa</subset.options.full>
+
+		<subset.options.normal>normal</subset.options.normal>
+		<subset.options.fast>ràpida</subset.options.fast>
+
+		<lang.detailed_2>detallat 2</lang.detailed_2>
+
+		<subset.system>sistema</subset.system>
+
+		<subset.slideType>tipus de desplaçament</subset.slideType>
+
+		<subset.themeColors>colors del tema</subset.themeColors>
+
+		<subset.splashscreen>pantalla d'inici</subset.splashscreen>
+		<subset.splashscreen.colorset>automàtic (colors del tema)</subset.splashscreen.colorset>
+
+		<subset.helpIcons>botons d'ajuda</subset.helpIcons>
+
+		<subset.videoPreviews>previsualitzacions de vídeo</subset.videoPreviews>
+
+		<subset.videoSize>mida de la previsualització de vídeo</subset.videoSize>
+
+		<subset.videoLatency>latència de la previsualització de vídeo (segons)</subset.videoLatency>
+
+		<subset.systemlogoeffects>efectes del logotip</subset.systemlogoeffects>
+
+		<subset.systemlogosongamelists>mostrar els logotips del sistema</subset.systemlogosongamelists>
+
+		<subset.systemRegion>regió</subset.systemRegion>
+
+		<subset.gamecount>mostrar el nombre de jocs</subset.gamecount>
+
+		<subset.batterybar>mostrar la barra de bateria</subset.batterybar>
+
+		<subset.scrollSpeed>velocitat de desplaçament de la descripció</subset.scrollSpeed>
+
+		<subset.themeVersionString>versió del tema</subset.themeVersionString>
+
+		<lang.elements>elements</lang.elements>
+		<lang.favorites>preferits</lang.favorites>
+		<lang.favoritesReplacement>preferits</lang.favoritesReplacement>
+		<lang.played>jugats</lang.played>
+		<lang.mostPlayed>més jugats</lang.mostPlayed>
+		<lang.lastPlayedDate>última partida</lang.lastPlayedDate>
+		<lang.at>a les</lang.at>
+
+		<lang.developedBy>desenvolupat per</lang.developedBy>
+		<lang.publiedIn>publicat el</lang.publiedIn>
+		<lang.developedAndPubliedIn>desenvolupat i publicat el</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>desenvolupat i publicat per</lang.developedAndPubliedBy>
+		<lang.publied>publicat</lang.publied>
+		<lang.by>per</lang.by>
+		<lang.and>i</lang.and>
+		<lang.noRating>sense valoració</lang.noRating>
+		<lang.neverPlayed>mai jugat</lang.neverPlayed>
+		<lang.gamePlayers>nombre de jugadors</lang.gamePlayers>
+		<lang.timesPlayed>vegades jugat</lang.timesPlayed>
+		<lang.lastPlayed>última vegada</lang.lastPlayed>
+		<lang.releasedIn>llançat el</lang.releasedIn>
+		<lang.released>llançament</lang.released>
+
+<!-- Use upper and lower case ponctuation -->
+
+		<lang.noDesc>No s'ha trobat cap descripció per a aquest fitxer. Pots provar d'obtenir-la amb l'scraper o editar manualment el fitxer gamelist.xml.</lang.noDesc>
+
+	</variables>
+
+</theme>
