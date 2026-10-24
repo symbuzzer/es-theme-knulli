@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+	<variables>
+
+		<subset.options.default>MẶC ĐỊNH</subset.options.default>
+
+		<subset.options.yes>CÓ</subset.options.yes>
+		<subset.options.no>KHÔNG</subset.options.no>
+
+		<subset.options.enabled>BẬT</subset.options.enabled>
+		<subset.options.disabled>TẮT</subset.options.disabled>
+
+		<subset.options.horizontal>NGANG</subset.options.horizontal>
+		<subset.options.vertical>DỌC</subset.options.vertical>
+
+		<subset.options.full>TOÀN MÀN HÌNH</subset.options.full>
+
+		<subset.options.normal>THƯỜNG</subset.options.normal>
+		<subset.options.fast>NHANH</subset.options.fast>
+
+		<lang.detailed_2>CHI TIẾT 2</lang.detailed_2>
+
+		<subset.system>HỆ MÁY</subset.system>
+
+		<subset.slideType>KIỂU CUỘN</subset.slideType>
+
+		<subset.themeColors>BỘ MÀU</subset.themeColors>
+
+		<subset.splashscreen>MÀN HÌNH CHỜ</subset.splashscreen>
+		<subset.splashscreen.colorset>TỰ ĐỘNG (THEO BỘ MÀU)</subset.splashscreen.colorset>
+
+		<subset.helpIcons>BIỂU TƯỢNG TRỢ GIÚP</subset.helpIcons>
+
+		<subset.videoPreviews>XEM TRƯỚC BẰNG VIDEO</subset.videoPreviews>
+		<subset.videoSize>KÍCH THƯỚC VIDEO XEM TRƯỚC</subset.videoSize>
+		<subset.videoLatency>ĐỘ TRỄ VIDEO (GIÂY)</subset.videoLatency>
+
+		<subset.systemlogoeffects>HIỆU ỨNG LOGO HỆ MÁY</subset.systemlogoeffects>
+		<subset.systemlogosongamelists>HIỆN LOGO HỆ MÁY</subset.systemlogosongamelists>
+
+		<subset.systemRegion>KHU VỰC</subset.systemRegion>
+
+		<subset.gamecount>HIỆN SỐ LƯỢNG GAME</subset.gamecount>
+		<subset.batterybar>HIỆN THANH PIN</subset.batterybar>
+		<subset.scrollSpeed>TỐC ĐỘ CUỘN MÔ TẢ</subset.scrollSpeed>
+
+		<subset.themeVersionString>PHIÊN BẢN THEME</subset.themeVersionString>
+
+		<lang.elements>mục</lang.elements>
+		<lang.favorites>Yêu thích</lang.favorites>
+		<lang.favoritesReplacement>Yêu thích</lang.favoritesReplacement>
+		<lang.played>Đã chơi</lang.played>
+		<lang.mostPlayed>Chơi nhiều nhất</lang.mostPlayed>
+		<lang.lastPlayedDate>Lần chơi cuối</lang.lastPlayedDate>
+		<lang.at>lúc</lang.at>
+
+		<lang.developedBy>Phát triển bởi</lang.developedBy>
+		<lang.publiedIn>Phát hành năm</lang.publiedIn>
+		<lang.developedAndPubliedIn>Phát triển và phát hành năm</lang.developedAndPubliedIn>
+		<lang.developedAndPubliedBy>Phát triển và phát hành bởi</lang.developedAndPubliedBy>
+		<lang.publied>Phát hành</lang.publied>
+		<lang.by>bởi</lang.by>
+		<lang.and>và</lang.and>
+
+		<lang.noRating>Chưa có đánh giá</lang.noRating>
+		<lang.neverPlayed>Chưa chơi bao giờ</lang.neverPlayed>
+		<lang.gamePlayers>Số người chơi</lang.gamePlayers>
+		<lang.timesPlayed>Số lần chơi</lang.timesPlayed>
+		<lang.lastPlayed>Lần chơi cuối</lang.lastPlayed>
+		<lang.releasedIn>Phát hành năm</lang.releasedIn>
+		<lang.released>Phát hành</lang.released>
+
+		<lang.noDesc>Xin lỗi, không tìm thấy mô tả cho file này. Bạn có thể thử scrape lại hoặc tự chỉnh sửa file gamelist.xml.</lang.noDesc>
+
+	</variables>
+
+</theme>
