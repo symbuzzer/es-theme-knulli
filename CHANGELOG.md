@@ -1,3 +1,6 @@
+# v6.10.x
+- Added Vietnamese translation
+
 # v6.9.x
 - Added Catalan translation
 
