@@ -99,6 +99,7 @@ To do this, you need to share the 32-digit code in the ```userdata/system/machin
 - RU: Mailes764
 - IT: Ernest_JP
 - SV: Shiwigy
+- VI: nlkcodenew
 - DE: ChatGPT
 - CN: ChatGPT
 - JP: ChatGPT
